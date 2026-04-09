@@ -126,3 +126,68 @@ def clean_keywords(
     df["keywords"] = df["keywords"].apply(filter_keywords)
 
     return df
+
+
+
+def keyword_map():
+    return {
+    "ehr": "electronic health record",
+    "electronic health records": "electronic health record",
+    "archetypes": "archetype",
+    "e-health": "electronic health",
+}
+
+
+def unwanted_keywords():
+    return  {
+        "humans",
+        "reproducibility of results",
+        "retrospective studies",
+        "female",
+        "child",
+        "language",
+        "workflow",
+        "metadata",
+        "aged",
+        
+
+
+        "openehr",
+        "australia",
+        "austria",
+        "brazil",
+        "bulgaria",
+        "china",
+        "cleveland",
+        "colombia",
+        "czech republic",
+        "denmark",
+        "ecuador",
+        "europe",
+        "european countries",
+        "european union",
+        "germany",
+        "global trends",
+        "health regions",
+        "iran",
+        "ireland",
+        "japan",
+        "london",
+        "netherlands",
+        "nordic",
+        "norway",
+        "pakistan",
+        "portugal",
+        "republic of korea",
+        "romania",
+        "romanians",
+        "russia",
+        "scandinavian countries",
+        "scotland",
+        "singapore",
+        "slovenia",
+        "spain",
+        "sweden",
+        "united kingdom",
+        "united states",
+    }    
