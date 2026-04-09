@@ -2,26 +2,123 @@
 All notable changes to this project will be documented in this file.
 We use [Semantic Versioning](https://semver.org/)
 
-## v0.0.1 - 2025-07-11
 
-### Task 
+## [v2.0.0] - 2026-03-09
 
+### Added
+
+#### Bibliometric Analysis
+- Implemented integrated bibliometric indicators including:
+  - Publication output per year
+  - Compound Annual Growth Rate (CAGR)
+  - Total, mean, and median citation counts
+  - h-index calculation
+- Added collaboration metrics:
+  - International collaboration rate
+  - Country-level coverage
+- Added source coverage metrics (number of journals)
+
+
+
+#### Citation Analysis
+- Implemented normalized citation impact:
+  - Citations per year (age-adjusted)
+  - Yearly aggregation (mean and median)
+- Added dual-axis visualization combining:
+  - Publication count
+  - Normalized citation impact
+
+
+
+#### Thematic Analysis
+- Implemented thematic category distribution analysis
+- Added cross-national thematic distribution
+- Computed Shannon diversity index over time
+- Added decomposition of thematic diversity into:
+  - Richness (number of active themes)
+  - Evenness (distribution balance)
+
+
+
+#### Advanced Thematic Modeling
+- Implemented thematic strategic diagram:
+  - Keyword-based version (community detection)
+  - Category-based version (DEFA_assigned_category_v3)
+- Computed centrality and density for thematic positioning
+- Classified themes into:
+  - Motor themes
+  - Basic themes
+  - Niche themes
+  - Emerging/declining themes
+
+
+
+#### Temporal Analysis
+- Implemented temporal trends of high-frequency keywords:
+  - Normalized yearly frequencies
+  - Keyword standardization using `keyword_map`
+  - Removal of non-informative terms using `unwanted_keywords`
+- Replaced line charts with bubble chart visualization for improved interpretability
+
+
+#### Emerging Trend Detection
+- Implemented top growing keywords:
+  - Linear trend estimation (slope-based ranking)
+  - Filtering by minimum frequency and temporal presence
+- Implemented keyword burst detection using Kleinberg algorithm:
+  - Poisson-based burst modeling
+  - Multi-state burst detection
+  - Extraction of burst intervals and strengths
+  - Timeline visualization of burst periods
+
+
+
+#### Network and Structural Analysis
+- Implemented keyword co-occurrence network (VOSviewer-compatible)
+- Added three-field plot:
+  - Authors – Keywords – Journals
+  - Weighted co-occurrence relationships
+- Implemented thematic co-occurrence structures and evolution analysis
+
+
+
+#### Visualization Enhancements
+- Added stacked area chart for temporal thematic distribution
+- Improved plotting consistency and readability across all figures
+- Standardized figure export (PNG + HTML where applicable)
+- Introduced bubble charts for temporal keyword dynamics
+
+
+#### Data Processing Improvements
+- Standardized keyword normalization pipeline using:
+  - `keyword_map`
+  - `unwanted_keywords`
+- Improved data cleaning:
+  - Safe parsing of list-like fields
+  - Deduplication while preserving order
+- Ensured consistency across all analyses (keywords, categories, networks)
+
+
+
+#### Reproducibility
+- Structured analysis into modular notebook sections:
+  - Growth indicators
+  - Citation indicators
+  - Collaboration indicators
+  - Thematic analysis
+- Exported all intermediate datasets to CSV for transparency and reuse
+
+
+
+### Notes
+- Analysis covers publications up to the end of 2025
+- All metrics are based on harmonized multi-database records (PubMed, Scopus, Web of Science via OpenAlex)
+- The workflow is designed for full reproducibility and extension
+
+
+## [v1.0.0] - 2025-07-11
 
 ### Improvements
-- Add `ref-check.md` for check ref with zotero
-- Commit with research-openehr-mirror in 2025-12-11
-- Crate [phase2_graph](/phase2_graph.html)
-- Update last dashboard bi\v3
-- Write pre article: `pre-article-v1.md`
-- Write premature article: `premature-article-v1`
-- Write `study-protocol-v1.md` 
-- update `dt-bibliometric-analysis-plus-v3.ipynb` based on `data-extraction-from-abstract-v3`
-- Add `data-extraction-from-abstract-v3`
-- Add final Desision to `inclusion-decision-v7`
-- `inclusion-decision-v1` bis `inclusion-decision-v6`
-- Add `dt-bibliometric-analysis-plus.ipynb`
-- The old project is in Github [researchpool-openehr](https://github.com/mjafarpour87/researchpool-openehr/) we decide initial new projet 
+- Initial Project
 
 ### Bug Fixes
-
-

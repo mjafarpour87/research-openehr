@@ -108,7 +108,7 @@ Shakshuki E.,8,27,0.29,3.38
 "Kobayashi, S.",10,24,0.36,2.4
 "Shakshuki, E.",4,24,0.15,6.0
 "Verlinden, J.-M.",2,24,0.07,12.0
-"University of Sofia, Faculty of Mathematics and Informatics, 5 James Bourchier Blvd., Sofia.",6,24,0.22,4.0
+"University of Sofia, Faculty of Mathematics and Informatics, 5 James Bourchier Blvd., Sofia",6,24,0.22,4.0
 "Christensen, B.",3,24,0.11,8.0
 "Lezcano, L.",4,23,0.15,5.75
 "Martínez-Costa, C.",6,23,0.22,3.83
@@ -281,7 +281,7 @@ Dimitrov V.,3,12,0.11,4.0
 Tsumoto S.,1,10,0.04,10.0
 "Amin, B.",1,10,0.04,10.0
 "Martínez-Béjar, R.",1,10,0.04,10.0
-"Shimane University, School of Medicine, Department of Medical Informatics, 89-1 Enya-cho, Izumo.",1,10,0.04,10.0
+"Shimane University, School of Medicine, Department of Medical Informatics, 89-1 Enya-cho, Izumo",1,10,0.04,10.0
 "Serrano Balazote, P.",2,10,0.07,5.0
 "Hiragi, S.",2,10,0.07,5.0
 "El Helou, S.",2,10,0.07,5.0
@@ -480,7 +480,7 @@ Madhu Kumar S.D.,1,6,0.04,6.0
 "Bayrhammer, K.",1,6,0.04,6.0
 "Ouyang, D.",1,6,0.04,6.0
 "Drenkhahn, C.",1,6,0.04,6.0
-Infection Control Study Group.,1,6,0.04,6.0
+Infection Control Study Group,1,6,0.04,6.0
 "Hernando, M.",1,6,0.04,6.0
 "Adeli, H.",3,6,0.11,2.0
 "Dias, R.",1,6,0.04,6.0
@@ -519,7 +519,7 @@ Prasad S.K.,1,6,0.04,6.0
 "Taranik, M.",3,5,0.11,1.67
 "Calhau, C.",3,5,0.11,1.67
 "Hassler, M.",1,5,0.04,5.0
-HiGHmed Consortium.,1,5,0.04,5.0
+HiGHmed Consortium,1,5,0.04,5.0
 "Pedrera, M.",2,5,0.07,2.5
 "Kovatchev, P.",3,5,0.11,1.67
 "Patriarca-Almeida, J.",1,5,0.04,5.0
@@ -947,7 +947,7 @@ Vrdoljak B.,1,2,0.04,2.0
 "Dugas, M.",1,2,0.04,2.0
 "Escudero, I.",1,2,0.04,2.0
 "Escobar-Rodriguez, G.",1,2,0.04,2.0
-ELISE Study Group.,1,2,0.04,2.0
+ELISE Study Group,1,2,0.04,2.0
 "Ebbing, J.",1,2,0.04,2.0
 Eleftherakis G.,1,2,0.04,2.0
 "Yang, S.",1,2,0.04,2.0
@@ -1137,7 +1137,7 @@ Stefanidis K.,1,1,0.04,1.0
 "Taranik, MA.",1,1,0.04,1.0
 "Hilares, N.A.G.",1,1,0.04,1.0
 "Hasman, A.",1,1,0.04,1.0
-HiGHmed Infection Control Study Group.,1,1,0.04,1.0
+HiGHmed Infection Control Study Group,1,1,0.04,1.0
 "Patel, AK.",1,1,0.04,1.0
 "Moucek, R.",1,1,0.04,1.0
 "Waldstein, P.",1,1,0.04,1.0
@@ -1344,7 +1344,7 @@ Karlsen J.,1,0,0.04,0.0
 Gligor A.,1,0,0.04,0.0
 "Goemans, B.F.",1,0,0.04,0.0
 "Gomes, D.",1,0,0.04,0.0
-HiGHmed lnfection Control Study Group.,1,0,0.04,0.0
+HiGHmed lnfection Control Study Group,1,0,0.04,0.0
 "Hoving, E.W.",1,0,0.04,0.0
 "Howlett, RJ.",1,0,0.04,0.0
 "Hudson, M.M.",1,0,0.04,0.0
@@ -1579,7 +1579,7 @@ Linnes C.,1,0,0.04,0.0
 "Neto, C.",2,0,0.07,0.0
 "Nicolaus, H.",1,0,0.04,0.0
 "Nohr, C.",2,0,0.07,0.0
-None Elise Study Group.,1,0,0.04,0.0
+None Elise Study Group,1,0,0.04,0.0
 "Novaes, MD.",1,0,0.04,0.0
 "Oberhauser, R.",1,0,0.04,0.0
 "Ochoa-Zambrano, J.",1,0,0.04,0.0
