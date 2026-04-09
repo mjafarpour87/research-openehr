@@ -1,0 +1,652 @@
+{
+    "network": {
+        "items": [
+            {
+                "id": "Germany",
+                "label": "Germany",
+                "x": 0.0569,
+                "y": -1.0496
+            },
+            {
+                "id": "Portugal",
+                "label": "Portugal",
+                "x": -0.808,
+                "y": 0.1142
+            },
+            {
+                "id": "United States",
+                "label": "United States",
+                "x": -0.6675,
+                "y": -1.081
+            },
+            {
+                "id": "United Kingdom",
+                "label": "United Kingdom",
+                "x": -0.6021,
+                "y": -0.3788
+            },
+            {
+                "id": "Netherlands",
+                "label": "Netherlands",
+                "x": -1.0804,
+                "y": -0.3362
+            },
+            {
+                "id": "Austria",
+                "label": "Austria",
+                "x": -0.9816,
+                "y": -1.1116
+            },
+            {
+                "id": "Switzerland",
+                "label": "Switzerland",
+                "x": -0.4773,
+                "y": -1.0584
+            },
+            {
+                "id": "Italy",
+                "label": "Italy",
+                "x": -0.2197,
+                "y": -1.04
+            },
+            {
+                "id": "Norway",
+                "label": "Norway",
+                "x": -0.1512,
+                "y": -0.0119
+            },
+            {
+                "id": "Brazil",
+                "label": "Brazil",
+                "x": -0.1226,
+                "y": -0.6386
+            },
+            {
+                "id": "Australia",
+                "label": "Australia",
+                "x": -0.3688,
+                "y": -0.1833
+            },
+            {
+                "id": "Belgium",
+                "label": "Belgium",
+                "x": -0.5378,
+                "y": -0.1939
+            },
+            {
+                "id": "Spain",
+                "label": "Spain",
+                "x": -0.5892,
+                "y": -0.8594
+            },
+            {
+                "id": "India",
+                "label": "India",
+                "x": -0.1858,
+                "y": 0.0466
+            },
+            {
+                "id": "New Zealand",
+                "label": "New Zealand",
+                "x": -0.4201,
+                "y": -0.2162
+            },
+            {
+                "id": "Rwanda",
+                "label": "Rwanda",
+                "x": -0.312,
+                "y": -1.0396
+            },
+            {
+                "id": "Japan",
+                "label": "Japan",
+                "x": -0.856,
+                "y": -0.3508
+            },
+            {
+                "id": "Philippines",
+                "label": "Philippines",
+                "x": -0.3535,
+                "y": -0.3146
+            },
+            {
+                "id": "China",
+                "label": "China",
+                "x": -0.9659,
+                "y": -0.2587
+            },
+            {
+                "id": "Sweden",
+                "label": "Sweden",
+                "x": 0.011,
+                "y": -0.8377
+            },
+            {
+                "id": "Greece",
+                "label": "Greece",
+                "x": -1.003,
+                "y": 0.0212
+            },
+            {
+                "id": "Slovenia",
+                "label": "Slovenia",
+                "x": -0.3083,
+                "y": -0.0144
+            },
+            {
+                "id": "Israel",
+                "label": "Israel",
+                "x": -0.5538,
+                "y": -0.0653
+            },
+            {
+                "id": "Malaysia",
+                "label": "Malaysia",
+                "x": -0.8274,
+                "y": 0.1037
+            },
+            {
+                "id": "Korea",
+                "label": "Korea",
+                "x": -0.8673,
+                "y": -0.4368
+            },
+            {
+                "id": "Ireland",
+                "label": "Ireland",
+                "x": -0.7781,
+                "y": -0.2059
+            },
+            {
+                "id": "Estonia",
+                "label": "Estonia",
+                "x": -0.9559,
+                "y": -1.0534
+            },
+            {
+                "id": "Saudi Arabia",
+                "label": "Saudi Arabia",
+                "x": -0.9165,
+                "y": -0.1055
+            },
+            {
+                "id": "Egypt",
+                "label": "Egypt",
+                "x": -0.6477,
+                "y": -0.6353
+            }
+        ],
+        "links": [
+            {
+                "source_id": "Germany",
+                "target_id": "United States",
+                "strength": 1
+            },
+            {
+                "source_id": "Germany",
+                "target_id": "United Kingdom",
+                "strength": 2
+            },
+            {
+                "source_id": "Germany",
+                "target_id": "Austria",
+                "strength": 3
+            },
+            {
+                "source_id": "Germany",
+                "target_id": "Italy",
+                "strength": 1
+            },
+            {
+                "source_id": "Germany",
+                "target_id": "Brazil",
+                "strength": 2
+            },
+            {
+                "source_id": "Germany",
+                "target_id": "Spain",
+                "strength": 2
+            },
+            {
+                "source_id": "Germany",
+                "target_id": "Malaysia",
+                "strength": 1
+            },
+            {
+                "source_id": "Germany",
+                "target_id": "Estonia",
+                "strength": 1
+            },
+            {
+                "source_id": "Portugal",
+                "target_id": "United States",
+                "strength": 1
+            },
+            {
+                "source_id": "Portugal",
+                "target_id": "United Kingdom",
+                "strength": 3
+            },
+            {
+                "source_id": "Portugal",
+                "target_id": "Italy",
+                "strength": 1
+            },
+            {
+                "source_id": "Portugal",
+                "target_id": "Brazil",
+                "strength": 5
+            },
+            {
+                "source_id": "Portugal",
+                "target_id": "Australia",
+                "strength": 1
+            },
+            {
+                "source_id": "Portugal",
+                "target_id": "Spain",
+                "strength": 1
+            },
+            {
+                "source_id": "Portugal",
+                "target_id": "Sweden",
+                "strength": 2
+            },
+            {
+                "source_id": "United States",
+                "target_id": "United Kingdom",
+                "strength": 2
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Netherlands",
+                "strength": 2
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Italy",
+                "strength": 1
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Norway",
+                "strength": 2
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Brazil",
+                "strength": 3
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Australia",
+                "strength": 1
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Spain",
+                "strength": 3
+            },
+            {
+                "source_id": "United States",
+                "target_id": "New Zealand",
+                "strength": 1
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Rwanda",
+                "strength": 1
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Japan",
+                "strength": 1
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Philippines",
+                "strength": 1
+            },
+            {
+                "source_id": "United States",
+                "target_id": "China",
+                "strength": 3
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Sweden",
+                "strength": 1
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Estonia",
+                "strength": 1
+            },
+            {
+                "source_id": "United States",
+                "target_id": "Saudi Arabia",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Netherlands",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Italy",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Norway",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Brazil",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Australia",
+                "strength": 2
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Belgium",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Spain",
+                "strength": 2
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "New Zealand",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Rwanda",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Japan",
+                "strength": 2
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Philippines",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "China",
+                "strength": 1
+            },
+            {
+                "source_id": "United Kingdom",
+                "target_id": "Slovenia",
+                "strength": 1
+            },
+            {
+                "source_id": "Netherlands",
+                "target_id": "Italy",
+                "strength": 1
+            },
+            {
+                "source_id": "Netherlands",
+                "target_id": "Brazil",
+                "strength": 5
+            },
+            {
+                "source_id": "Netherlands",
+                "target_id": "Australia",
+                "strength": 2
+            },
+            {
+                "source_id": "Netherlands",
+                "target_id": "Spain",
+                "strength": 2
+            },
+            {
+                "source_id": "Netherlands",
+                "target_id": "China",
+                "strength": 7
+            },
+            {
+                "source_id": "Netherlands",
+                "target_id": "Greece",
+                "strength": 1
+            },
+            {
+                "source_id": "Netherlands",
+                "target_id": "Israel",
+                "strength": 1
+            },
+            {
+                "source_id": "Austria",
+                "target_id": "Switzerland",
+                "strength": 1
+            },
+            {
+                "source_id": "Austria",
+                "target_id": "Brazil",
+                "strength": 1
+            },
+            {
+                "source_id": "Austria",
+                "target_id": "Spain",
+                "strength": 1
+            },
+            {
+                "source_id": "Austria",
+                "target_id": "Sweden",
+                "strength": 1
+            },
+            {
+                "source_id": "Switzerland",
+                "target_id": "Brazil",
+                "strength": 1
+            },
+            {
+                "source_id": "Switzerland",
+                "target_id": "Sweden",
+                "strength": 2
+            },
+            {
+                "source_id": "Italy",
+                "target_id": "Brazil",
+                "strength": 1
+            },
+            {
+                "source_id": "Italy",
+                "target_id": "Australia",
+                "strength": 1
+            },
+            {
+                "source_id": "Italy",
+                "target_id": "Spain",
+                "strength": 2
+            },
+            {
+                "source_id": "Italy",
+                "target_id": "Greece",
+                "strength": 1
+            },
+            {
+                "source_id": "Italy",
+                "target_id": "Slovenia",
+                "strength": 1
+            },
+            {
+                "source_id": "Norway",
+                "target_id": "Spain",
+                "strength": 4
+            },
+            {
+                "source_id": "Norway",
+                "target_id": "New Zealand",
+                "strength": 1
+            },
+            {
+                "source_id": "Norway",
+                "target_id": "Rwanda",
+                "strength": 1
+            },
+            {
+                "source_id": "Norway",
+                "target_id": "Japan",
+                "strength": 1
+            },
+            {
+                "source_id": "Norway",
+                "target_id": "Philippines",
+                "strength": 1
+            },
+            {
+                "source_id": "Brazil",
+                "target_id": "Spain",
+                "strength": 1
+            },
+            {
+                "source_id": "Brazil",
+                "target_id": "Sweden",
+                "strength": 5
+            },
+            {
+                "source_id": "Brazil",
+                "target_id": "Malaysia",
+                "strength": 1
+            },
+            {
+                "source_id": "Australia",
+                "target_id": "New Zealand",
+                "strength": 2
+            },
+            {
+                "source_id": "Australia",
+                "target_id": "China",
+                "strength": 2
+            },
+            {
+                "source_id": "Belgium",
+                "target_id": "Spain",
+                "strength": 1
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "New Zealand",
+                "strength": 1
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "Rwanda",
+                "strength": 1
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "Japan",
+                "strength": 1
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "Philippines",
+                "strength": 1
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "Greece",
+                "strength": 1
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "Slovenia",
+                "strength": 1
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "Israel",
+                "strength": 2
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "Korea",
+                "strength": 1
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "Ireland",
+                "strength": 1
+            },
+            {
+                "source_id": "Spain",
+                "target_id": "Egypt",
+                "strength": 1
+            },
+            {
+                "source_id": "India",
+                "target_id": "New Zealand",
+                "strength": 1
+            },
+            {
+                "source_id": "India",
+                "target_id": "Japan",
+                "strength": 5
+            },
+            {
+                "source_id": "New Zealand",
+                "target_id": "Rwanda",
+                "strength": 1
+            },
+            {
+                "source_id": "New Zealand",
+                "target_id": "Japan",
+                "strength": 1
+            },
+            {
+                "source_id": "New Zealand",
+                "target_id": "Philippines",
+                "strength": 1
+            },
+            {
+                "source_id": "New Zealand",
+                "target_id": "China",
+                "strength": 1
+            },
+            {
+                "source_id": "Rwanda",
+                "target_id": "Japan",
+                "strength": 1
+            },
+            {
+                "source_id": "Rwanda",
+                "target_id": "Philippines",
+                "strength": 1
+            },
+            {
+                "source_id": "Japan",
+                "target_id": "Philippines",
+                "strength": 1
+            },
+            {
+                "source_id": "China",
+                "target_id": "Ireland",
+                "strength": 2
+            },
+            {
+                "source_id": "China",
+                "target_id": "Saudi Arabia",
+                "strength": 1
+            },
+            {
+                "source_id": "Korea",
+                "target_id": "Egypt",
+                "strength": 1
+            }
+        ]
+    }
+}
