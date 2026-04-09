@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 We use [Semantic Versioning](https://semver.org/)
 
 
+## Task
+
+Convert dataset fromm all data not only included and change `DATASET` function
+Remove `output/*` ffrom `.gitignore`
+Finalize `requirements.txt`
+Finalize `README.md`
+
 ## [v2.0.0] - 2026-03-09
 
 ### Added

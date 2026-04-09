@@ -194,7 +194,11 @@ cython_debug/
 .cursorindexingignore
 
 # My Configuration - Version 0.0.2
-# database/*
+database/*
+output/*
+data/dataset*.*
+
+
 dt-batch-api-call.ipynb
 dt-bibliometric-analysis.ipynb
 dt-main-lab.ipynb
@@ -204,8 +208,8 @@ dt-main-lab.ipynb
 # docs/protocol.md
 # docs/pre-article*.md
 # docs/premature-article*.md
-output/*
-# llm_template/*
+
+
 # *.jsonl
 # *.qvw
 
