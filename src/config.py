@@ -29,7 +29,7 @@ import pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 DATA_DIR = ROOT / "data"
-DATASET_FILE = DATA_DIR / "dataset2.json"
+DATASET_FILE = DATA_DIR / "dataset.json"
 OUTPUT_DIR = ROOT / "output" 
 SAVE_MODE = True
 # CLI_ALERT_POINT = 500
