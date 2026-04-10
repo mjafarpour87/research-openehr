@@ -5,10 +5,14 @@ We use [Semantic Versioning](https://semver.org/)
 
 ## Task
 
-Convert dataset fromm all data not only included and change `DATASET` function
-Remove `output/*` ffrom `.gitignore`
+
+Remove `output/*` from `.gitignore`
 Finalize `requirements.txt`
-Finalize `README.md`
+
+
+## [v2.0.1] - 2026-04-10
+- Update `README.md`
+- Update `DATASET` function
 
 ## [v2.0.0] - 2026-03-09
 

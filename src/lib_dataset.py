@@ -6,14 +6,25 @@ Version: 0.0.2
 
 from collections import Counter
 from itertools import chain
+import sys
 
 from src.config import DATA_DIR, DATASET_FILE
 from triplea.service.repository.export.dataset import read_dataset_for_analysis
 
 def DATASET():
     scimagojr_csv_file_path = DATA_DIR / 'scimagojr 2023.csv'
+    if not scimagojr_csv_file_path.exists():
+        print("We need the scimagojr information. The corresponding file does not exist.")
+        sys.exit() 
+    if not DATASET_FILE.exists():
+        print("""The dataset file is required; however, it is not publicly available.
+Due to licensing restrictions associated with certain databases, such as Scopus and Web of Science, access to this file is limited.
+Therefore, interested individuals are advised to contact the corresponding author and submit a formal request via email to obtain the dataset.""")
+        sys.exit() 
+
     df = read_dataset_for_analysis(DATASET_FILE, scimagojr_csv_file_path)
-    return df
+    filtered_df = df[df['final_inclusion_decision'] == 'Include']
+    return filtered_df
 
 
 def clean_topics(
