@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+# __pycache__/
 *.py[cod]
 *$py.class
 
@@ -195,7 +195,7 @@ cython_debug/
 
 # My Configuration - Version 0.0.2
 database/*
-output/*
+# output/*
 data/dataset*.*
 
 

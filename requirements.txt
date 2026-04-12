@@ -1,28 +1,17 @@
-git+https://github.com/EhsanBitaraf/triple-a.git
-ipykernel
-jupyter
-pandas
-matplotlib
-networkx
+# git+https://github.com/EhsanBitaraf/triple-a.git@d0ecc02
+# ipykernel
+# jupyter
+# matplotlib
+# scikit-learn
+# plotly
+# pycountry
+# kaleido
 
-openpyxl
-scikit-learn
-seaborn
-geopandas
-geodatasets
-pycountry
-folium
-plotly
-langflow
-
-# dt-bibliometric-analysis-plus.ipynb
-wordcloud
-joypy
-holoviews
-bokeh
-upsetplot
-kaleido
-statsmodels
-umap-learn
-hdbscan
-adjustText
+triplea @ git+https://github.com/EhsanBitaraf/triple-a.git@d0ecc0247385ff59d3da189decadefe4eac5d1a8
+ipykernel==7.2.0
+jupyter==1.1.1
+matplotlib==3.10.8
+scikit-learn==1.8.0
+plotly==6.7.0
+pycountry==26.2.16
+kaleido==1.2.0
