@@ -1,12 +1,3 @@
-# git+https://github.com/EhsanBitaraf/triple-a.git@d0ecc02
-# ipykernel
-# jupyter
-# matplotlib
-# scikit-learn
-# plotly
-# pycountry
-# kaleido
-
 triplea @ git+https://github.com/EhsanBitaraf/triple-a.git@d0ecc0247385ff59d3da189decadefe4eac5d1a8
 ipykernel==7.2.0
 jupyter==1.1.1

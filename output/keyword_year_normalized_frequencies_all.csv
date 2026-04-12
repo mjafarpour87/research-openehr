@@ -1,0 +1,2773 @@
+Year,Keyword,Count,Normalized_Frequency
+2002,computer systems,1,0.5
+2002,"medical records systems, computerized",1,0.5
+2002,access control,1,0.5
+2002,health,1,0.5
+2002,public key cryptography,1,0.5
+2002,records management,1,0.5
+2002,application components,1,0.5
+2002,component architectures,1,0.5
+2002,electronic health record,1,0.5
+2002,fine-grained securities,1,0.5
+2002,health information systems,1,0.5
+2002,public-key infrastructure,1,0.5
+2002,publicly available specifications,1,0.5
+2002,security requirements,1,0.5
+2002,component based,1,0.5
+2002,general aspects,1,0.5
+2002,health professionals,1,0.5
+2002,security tokens,1,0.5
+2002,interoperability,1,0.5
+2003,chronic disease,1,1.0
+2003,"decision making, computer-assisted",1,1.0
+2003,"decision support systems, clinical",1,1.0
+2003,diabetes complications,1,1.0
+2003,disease management,1,1.0
+2003,hospital information systems,1,1.0
+2003,hypertension,1,1.0
+2003,medical record linkage,1,1.0
+2003,"medical records systems, computerized",1,1.0
+2003,organizational case studies,1,1.0
+2003,practice guidelines as topic,1,1.0
+2003,software,1,1.0
+2004,"medical records systems, computerized",2,0.6666666666666666
+2004,computer communication networks,1,0.3333333333333333
+2004,"decision support systems, clinical",1,0.3333333333333333
+2004,home care services,1,0.3333333333333333
+2004,patient care team,1,0.3333333333333333
+2004,primary health care,1,0.3333333333333333
+2004,programming languages,1,0.3333333333333333
+2004,software,1,0.3333333333333333
+2004,stroke rehabilitation,1,0.3333333333333333
+2004,access to information,1,0.3333333333333333
+2004,computer security,1,0.3333333333333333
+2004,confidentiality,1,0.3333333333333333
+2004,security measures,1,0.3333333333333333
+2004,algorithms,1,0.3333333333333333
+2004,blood,1,0.3333333333333333
+2004,data acquisition,1,0.3333333333333333
+2004,decision support systems,1,0.3333333333333333
+2004,diseases,1,0.3333333333333333
+2004,hospitals,1,0.3333333333333333
+2004,mathematical models,1,0.3333333333333333
+2004,nursing,1,0.3333333333333333
+2004,nutrition,1,0.3333333333333333
+2004,occupational therapy,1,0.3333333333333333
+2004,patient treatment,1,0.3333333333333333
+2004,public policy,1,0.3333333333333333
+2004,chronic disease management (cdm),1,0.3333333333333333
+2004,early supported discharge (esd),1,0.3333333333333333
+2004,electronic health record (ehr),1,0.3333333333333333
+2004,medical benefit schedule (mbs),1,0.3333333333333333
+2004,health care,1,0.3333333333333333
+2005,"medical records systems, computerized",5,0.625
+2005,electronic health record,4,0.5
+2005,"models, theoretical",3,0.375
+2005,"databases, factual",2,0.25
+2005,software,2,0.25
+2005,information storage and retrieval,2,0.25
+2005,article,2,0.25
+2005,data analysis,2,0.25
+2005,medical information system,2,0.25
+2005,biomedical research,1,0.125
+2005,semantics,1,0.125
+2005,computer communication networks,1,0.125
+2005,communication,1,0.125
+2005,reference standards,1,0.125
+2005,computer systems,1,0.125
+2005,artificial intelligence,1,0.125
+2005,database management systems,1,0.125
+2005,"decision support systems, clinical",1,0.125
+2005,"health knowledge, attitudes, practice",1,0.125
+2005,nursing informatics,1,0.125
+2005,professional autonomy,1,0.125
+2005,user-computer interface,1,0.125
+2005,commercial phenomena,1,0.125
+2005,computer aided design,1,0.125
+2005,consultation,1,0.125
+2005,diabetes mellitus,1,0.125
+2005,electronic medical record,1,0.125
+2005,error,1,0.125
+2005,information,1,0.125
+2005,organization,1,0.125
+2005,registration,1,0.125
+2005,workshop,1,0.125
+2005,health care system,1,0.125
+2005,hospital discharge,1,0.125
+2005,medical documentation,1,0.125
+2005,patient referral,1,0.125
+2005,publication,1,0.125
+2005,standard,1,0.125
+2005,validation process,1,0.125
+2006,"medical records systems, computerized",7,0.875
+2006,computer communication networks,3,0.375
+2006,systems integration,3,0.375
+2006,information dissemination,2,0.25
+2006,computer systems,2,0.25
+2006,semantics,2,0.25
+2006,medical record linkage,2,0.25
+2006,biotechnology,1,0.125
+2006,"decision support systems, clinical",1,0.125
+2006,decision support techniques,1,0.125
+2006,"vocabulary, controlled",1,0.125
+2006,data display,1,0.125
+2006,software,1,0.125
+2006,user-computer interface,1,0.125
+2006,access to information,1,0.125
+2006,terminology as topic,1,0.125
+2006,knowledge bases,1,0.125
+2006,programming languages,1,0.125
+2006,delivery of health care,1,0.125
+2006,demography,1,0.125
+2006,hospital information systems,1,0.125
+2006,patient identification systems,1,0.125
+2006,computer security,1,0.125
+2006,database management systems,1,0.125
+2006,information storage and retrieval,1,0.125
+2006,medical informatics applications,1,0.125
+2006,registries,1,0.125
+2006,telemedicine,1,0.125
+2006,information systems,1,0.125
+2006,information theory,1,0.125
+2006,information use,1,0.125
+2006,knowledge acquisition,1,0.125
+2006,ontology,1,0.125
+2006,clinical archetypes,1,0.125
+2006,clinical information,1,0.125
+2006,electronic health record,1,0.125
+2006,health care professionals,1,0.125
+2006,information models,1,0.125
+2006,ontological approach,1,0.125
+2006,semantic integration,1,0.125
+2006,interoperability,1,0.125
+2007,"medical records systems, computerized",8,0.8
+2007,medical record linkage,3,0.3
+2007,user-computer interface,3,0.3
+2007,programming languages,3,0.3
+2007,information storage and retrieval,2,0.2
+2007,feasibility studies,2,0.2
+2007,intellectual property,2,0.2
+2007,software,2,0.2
+2007,semantics,2,0.2
+2007,computer graphics,1,0.1
+2007,data display,1,0.1
+2007,geographic information systems,1,0.1
+2007,internet,1,0.1
+2007,time,1,0.1
+2007,information systems,1,0.1
+2007,state medicine,1,0.1
+2007,hospital information systems,1,0.1
+2007,ambulatory care information systems,1,0.1
+2007,computer security,1,0.1
+2007,computer systems,1,0.1
+2007,database management systems,1,0.1
+2007,primary health care,1,0.1
+2007,registries,1,0.1
+2007,systems integration,1,0.1
+2007,access to information,1,0.1
+2007,data collection,1,0.1
+2007,"monitoring, ambulatory",1,0.1
+2007,models,1,0.1
+2007,public health,1,0.1
+2007,clinical data,1,0.1
+2007,clinical practices,1,0.1
+2007,coding system,1,0.1
+2007,e-health systems,1,0.1
+2007,ehealth,1,0.1
+2007,ehr systems,1,0.1
+2007,electronic health record,1,0.1
+2007,health informations,1,0.1
+2007,reference models,1,0.1
+2007,semantic interoperability,1,0.1
+2007,terminology system,1,0.1
+2007,interoperability,1,0.1
+2007,health care,1,0.1
+2007,hospitals,1,0.1
+2007,patient monitoring,1,0.1
+2007,electronic health records (ehr),1,0.1
+2007,enterprise application integration (eai),1,0.1
+2007,data recording,1,0.1
+2008,"medical records systems, computerized",9,0.6923076923076923
+2008,semantics,7,0.5384615384615384
+2008,medical record linkage,5,0.38461538461538464
+2008,systems integration,4,0.3076923076923077
+2008,information storage and retrieval,3,0.23076923076923078
+2008,database management systems,3,0.23076923076923078
+2008,information theory,3,0.23076923076923078
+2008,systematized nomenclature of medicine,2,0.15384615384615385
+2008,software,2,0.15384615384615385
+2008,computer security,2,0.15384615384615385
+2008,information systems,2,0.15384615384615385
+2008,"models, theoretical",2,0.15384615384615385
+2008,interoperability,2,0.15384615384615385
+2008,medical computing,2,0.15384615384615385
+2008,internet,1,0.07692307692307693
+2008,patient discharge,1,0.07692307692307693
+2008,terminology as topic,1,0.07692307692307693
+2008,biomedical research,1,0.07692307692307693
+2008,confidentiality,1,0.07692307692307693
+2008,advisory committees,1,0.07692307692307693
+2008,interdisciplinary communication,1,0.07692307692307693
+2008,peer review,1,0.07692307692307693
+2008,total quality management,1,0.07692307692307693
+2008,computer communication networks,1,0.07692307692307693
+2008,programming languages,1,0.07692307692307693
+2008,software validation,1,0.07692307692307693
+2008,unified medical language system,1,0.07692307692307693
+2008,computer simulation,1,0.07692307692307693
+2008,international cooperation,1,0.07692307692307693
+2008,pilot projects,1,0.07692307692307693
+2008,reference standards,1,0.07692307692307693
+2008,state medicine,1,0.07692307692307693
+2008,user-computer interface,1,0.07692307692307693
+2008,complementary therapies,1,0.07692307692307693
+2008,"delivery of health care, integrated",1,0.07692307692307693
+2008,medical audit,1,0.07692307692307693
+2008,hl7,1,0.07692307692307693
+2008,cen-env13606,1,0.07692307692307693
+2008,agents,1,0.07692307692307693
+2008,computer,1,0.07692307692307693
+2008,guidelines and protocols,1,0.07692307692307693
+2008,knowledge representation,1,0.07692307692307693
+2008,terminology,1,0.07692307692307693
+2008,clinical information,1,0.07692307692307693
+2008,clinical terms,1,0.07692307692307693
+2008,electronic records,1,0.07692307692307693
+2008,evolutionary refinements,1,0.07692307692307693
+2008,guidance document,1,0.07692307692307693
+2008,information models,1,0.07692307692307693
+2008,structural information,1,0.07692307692307693
+2008,ehealth,1,0.07692307692307693
+2008,semantic interoperability,1,0.07692307692307693
+2008,soa,1,0.07692307692307693
+2008,web services,1,0.07692307692307693
+2008,architectural design,1,0.07692307692307693
+2008,information services,1,0.07692307692307693
+2008,integration,1,0.07692307692307693
+2008,world wide web,1,0.07692307692307693
+2008,clinical processes,1,0.07692307692307693
+2008,electronic patient records,1,0.07692307692307693
+2008,integration platforms,1,0.07692307692307693
+2008,interoperable communications,1,0.07692307692307693
+2008,national initiatives,1,0.07692307692307693
+2008,national levels,1,0.07692307692307693
+2008,patient informations,1,0.07692307692307693
+2008,plug and plays,1,0.07692307692307693
+2008,semantic levels,1,0.07692307692307693
+2008,service-oriented architectures,1,0.07692307692307693
+2008,standards,1,0.07692307692307693
+2008,clinical archetypes,1,0.07692307692307693
+2008,electronic healthcare records,1,0.07692307692307693
+2008,ontologies,1,0.07692307692307693
+2008,owl,1,0.07692307692307693
+2008,swrl,1,0.07692307692307693
+2008,ontology,1,0.07692307692307693
+2008,philosophical aspects,1,0.07692307692307693
+2008,specifications,1,0.07692307692307693
+2008,clinical knowledges,1,0.07692307692307693
+2008,electronic health cares,1,0.07692307692307693
+2008,healthcare managements,1,0.07692307692307693
+2009,"medical records systems, computerized",13,0.6842105263157895
+2009,semantics,6,0.3157894736842105
+2009,medical record linkage,3,0.15789473684210525
+2009,program development,3,0.15789473684210525
+2009,terminology as topic,3,0.15789473684210525
+2009,electronic health record,3,0.15789473684210525
+2009,"decision support systems, clinical",2,0.10526315789473684
+2009,information storage and retrieval,2,0.10526315789473684
+2009,"infant, newborn",2,0.10526315789473684
+2009,"models, theoretical",2,0.10526315789473684
+2009,systems integration,2,0.10526315789473684
+2009,cooperative behavior,2,0.10526315789473684
+2009,feasibility studies,2,0.10526315789473684
+2009,software,2,0.10526315789473684
+2009,user-computer interface,2,0.10526315789473684
+2009,medical computing,2,0.10526315789473684
+2009,records management,2,0.10526315789473684
+2009,medical physics,2,0.10526315789473684
+2009,"quality assurance, health care",1,0.05263157894736842
+2009,drug therapy,1,0.05263157894736842
+2009,lymphoma,1,0.05263157894736842
+2009,practice guidelines as topic,1,0.05263157894736842
+2009,xerostomia,1,0.05263157894736842
+2009,apgar score,1,0.05263157894736842
+2009,access to information,1,0.05263157894736842
+2009,critical pathways,1,0.05263157894736842
+2009,health personnel,1,0.05263157894736842
+2009,professional role,1,0.05263157894736842
+2009,pilot projects,1,0.05263157894736842
+2009,subject headings,1,0.05263157894736842
+2009,computer systems,1,0.05263157894736842
+2009,"decision making, computer-assisted",1,0.05263157894736842
+2009,"decision support systems, management",1,0.05263157894736842
+2009,health information management,1,0.05263157894736842
+2009,health plan implementation,1,0.05263157894736842
+2009,information dissemination,1,0.05263157894736842
+2009,medical informatics,1,0.05263157894736842
+2009,software design,1,0.05263157894736842
+2009,data display,1,0.05263157894736842
+2009,database management systems,1,0.05263157894736842
+2009,infant care,1,0.05263157894736842
+2009,"infant, premature",1,0.05263157894736842
+2009,state medicine,1,0.05263157894736842
+2009,semantic interoperability in ehealth,1,0.05263157894736842
+2009,cen 13606,1,0.05263157894736842
+2009,archetype,1,0.05263157894736842
+2009,nlp,1,0.05263157894736842
+2009,owl,1,0.05263157894736842
+2009,snomed,1,0.05263157894736842
+2009,data processing,1,0.05263157894736842
+2009,himss,1,0.05263157894736842
+2009,hl7,1,0.05263157894736842
+2009,information system,1,0.05263157894736842
+2009,oscilloscope,1,0.05263157894736842
+2009,pqrst algorithm,1,0.05263157894736842
+2009,algorithms,1,0.05263157894736842
+2009,cathode ray oscilloscopes,1,0.05263157894736842
+2009,computer software,1,0.05263157894736842
+2009,electrocardiography,1,0.05263157894736842
+2009,electrochromic devices,1,0.05263157894736842
+2009,health care,1,0.05263157894736842
+2009,information management,1,0.05263157894736842
+2009,information systems,1,0.05263157894736842
+2009,oscillographs,1,0.05263157894736842
+2009,semiconductor storage,1,0.05263157894736842
+2009,standardization,1,0.05263157894736842
+2009,body temperature,1,0.05263157894736842
+2009,computer users,1,0.05263157894736842
+2009,diagnostic messages,1,0.05263157894736842
+2009,ecg analysis,1,0.05263157894736842
+2009,health care application,1,0.05263157894736842
+2009,java program,1,0.05263157894736842
+2009,personal health care,1,0.05263157894736842
+2009,specific diagnosis,1,0.05263157894736842
+2009,specific information,1,0.05263157894736842
+2009,standalone applications,1,0.05263157894736842
+2009,java programming language,1,0.05263157894736842
+2009,electronic health,1,0.05263157894736842
+2009,indonesian nhis,1,0.05263157894736842
+2009,integrated health post,1,0.05263157894736842
+2009,web-based,1,0.05263157894736842
+2009,application programs,1,0.05263157894736842
+2009,biomedical engineering,1,0.05263157894736842
+2009,petroleum reservoir evaluation,1,0.05263157894736842
+2009,public health,1,0.05263157894736842
+2009,telemedicine,1,0.05263157894736842
+2009,web based,1,0.05263157894736842
+2009,clinical documentation,1,0.05263157894736842
+2009,medical natural language processing,1,0.05263157894736842
+2009,semantic interoperability,1,0.05263157894736842
+2009,terminologies,1,0.05263157894736842
+2009,interoperability,1,0.05263157894736842
+2009,terminology,1,0.05263157894736842
+2009,clinical practices,1,0.05263157894736842
+2009,health professionals,1,0.05263157894736842
+2009,natural language processing,1,0.05263157894736842
+2009,semantic enrichment,1,0.05263157894736842
+2009,standardized terminologies,1,0.05263157894736842
+2009,natural language processing systems,1,0.05263157894736842
+2010,electronic health record,10,0.43478260869565216
+2010,semantics,7,0.30434782608695654
+2010,"medical records systems, computerized",5,0.21739130434782608
+2010,semantic interoperability,5,0.21739130434782608
+2010,records management,5,0.21739130434782608
+2010,information systems,4,0.17391304347826086
+2010,"models, theoretical",4,0.17391304347826086
+2010,interoperability,4,0.17391304347826086
+2010,health,4,0.17391304347826086
+2010,electronic healthcare records,4,0.17391304347826086
+2010,health care,4,0.17391304347826086
+2010,information management,3,0.13043478260869565
+2010,systems analysis,3,0.13043478260869565
+2010,in-line,3,0.13043478260869565
+2010,medical computing,3,0.13043478260869565
+2010,health records,3,0.13043478260869565
+2010,medical record linkage,2,0.08695652173913043
+2010,systems integration,2,0.08695652173913043
+2010,delivery of health care,2,0.08695652173913043
+2010,information storage and retrieval,2,0.08695652173913043
+2010,internationality,2,0.08695652173913043
+2010,terminology as topic,2,0.08695652173913043
+2010,computer communication networks,2,0.08695652173913043
+2010,programming languages,2,0.08695652173913043
+2010,software,2,0.08695652173913043
+2010,robotics,2,0.08695652173913043
+2010,archetype,2,0.08695652173913043
+2010,computer science,2,0.08695652173913043
+2010,clinical decision support system (cdss),2,0.08695652173913043
+2010,clinical guideline,2,0.08695652173913043
+2010,computer based prescribing,2,0.08695652173913043
+2010,electronic healthcare record (ehr),2,0.08695652173913043
+2010,methadone maintenance therapy (mmt),2,0.08695652173913043
+2010,artificial intelligence,2,0.08695652173913043
+2010,decision making,2,0.08695652173913043
+2010,decision theory,2,0.08695652173913043
+2010,maintenance,2,0.08695652173913043
+2010,best-practices,2,0.08695652173913043
+2010,clinical decision support systems,2,0.08695652173913043
+2010,data entries,2,0.08695652173913043
+2010,data sets,2,0.08695652173913043
+2010,decision supports,2,0.08695652173913043
+2010,information gathering,2,0.08695652173913043
+2010,methadone maintenance therapies,2,0.08695652173913043
+2010,primary care,2,0.08695652173913043
+2010,decision support systems,2,0.08695652173913043
+2010,hl7,2,0.08695652173913043
+2010,clinical trials as topic,1,0.043478260869565216
+2010,feasibility studies,1,0.043478260869565216
+2010,health level seven,1,0.043478260869565216
+2010,"decision support systems, clinical",1,0.043478260869565216
+2010,software design,1,0.043478260869565216
+2010,user-computer interface,1,0.043478260869565216
+2010,"monitoring, ambulatory",1,0.043478260869565216
+2010,practice guidelines as topic,1,0.043478260869565216
+2010,telemedicine,1,0.043478260869565216
+2010,guidelines as topic,1,0.043478260869565216
+2010,internet,1,0.043478260869565216
+2010,database management systems,1,0.043478260869565216
+2010,continuity of patient care,1,0.043478260869565216
+2010,information dissemination,1,0.043478260869565216
+2010,"models, organizational",1,0.043478260869565216
+2010,program development,1,0.043478260869565216
+2010,reference standards,1,0.043478260869565216
+2010,software validation,1,0.043478260869565216
+2010,clinical content,1,0.043478260869565216
+2010,national ehealth programs,1,0.043478260869565216
+2010,ehealth,1,0.043478260869565216
+2010,health informatics,1,0.043478260869565216
+2010,snomed-ct,1,0.043478260869565216
+2010,term binding,1,0.043478260869565216
+2010,information theory,1,0.043478260869565216
+2010,terminology,1,0.043478260869565216
+2010,owl,1,0.043478260869565216
+2010,patient treatment,1,0.043478260869565216
+2010,application models,1,0.043478260869565216
+2010,communication standards,1,0.043478260869565216
+2010,electronic patient record system,1,0.043478260869565216
+2010,evidence-based medicine,1,0.043478260869565216
+2010,generic implementation,1,0.043478260869565216
+2010,good clinical practices,1,0.043478260869565216
+2010,hospital information systems,1,0.043478260869565216
+2010,levels of abstraction,1,0.043478260869565216
+2010,medical documentation,1,0.043478260869565216
+2010,patient information,1,0.043478260869565216
+2010,quality of health care,1,0.043478260869565216
+2010,relational database,1,0.043478260869565216
+2010,semantic web applications,1,0.043478260869565216
+2010,treatment process,1,0.043478260869565216
+2010,web ontology language,1,0.043478260869565216
+2010,biomedical engineering,1,0.043478260869565216
+2010,information science,1,0.043478260869565216
+2010,clinical decision support,1,0.043478260869565216
+2010,medical algorithms,1,0.043478260869565216
+2010,medigrid,1,0.043478260869565216
+2010,ontologies,1,0.043478260869565216
+2010,phenomenology,1,0.043478260869565216
+2010,algorithms,1,0.043478260869565216
+2010,ontology,1,0.043478260869565216
+2010,information technology,1,0.043478260869565216
+2010,clinical knowledge,1,0.043478260869565216
+2010,its applications,1,0.043478260869565216
+2010,reasoners,1,0.043478260869565216
+2010,reasoning methods,1,0.043478260869565216
+2010,birds,1,0.043478260869565216
+2010,bioinformatics,1,0.043478260869565216
+2010,software prototyping,1,0.043478260869565216
+2010,healthcare environments,1,0.043478260869565216
+2010,medical fields,1,0.043478260869565216
+2010,medical information system,1,0.043478260869565216
+2010,medical software,1,0.043478260869565216
+2010,security of data,1,0.043478260869565216
+2010,open-ehr,1,0.043478260869565216
+2010,knowledge management,1,0.043478260869565216
+2010,standards,1,0.043478260869565216
+2010,conceptual mapping,1,0.043478260869565216
+2010,data type,1,0.043478260869565216
+2010,health care information system,1,0.043478260869565216
+2010,message communication,1,0.043478260869565216
+2010,child health card,1,0.043478260869565216
+2010,phr,1,0.043478260869565216
+2010,sd card,1,0.043478260869565216
+2010,distributed database systems,1,0.043478260869565216
+2010,electrical engineering,1,0.043478260869565216
+2010,hospitals,1,0.043478260869565216
+2010,community health,1,0.043478260869565216
+2010,data centers,1,0.043478260869565216
+2010,functional modules,1,0.043478260869565216
+2010,health information management,1,0.043478260869565216
+2010,health informations,1,0.043478260869565216
+2010,medical information management,1,0.043478260869565216
+2010,medical services,1,0.043478260869565216
+2010,network database,1,0.043478260869565216
+2010,patient health,1,0.043478260869565216
+2010,personal health,1,0.043478260869565216
+2010,personal health record,1,0.043478260869565216
+2010,system design,1,0.043478260869565216
+2010,system models,1,0.043478260869565216
+2010,uml modeling,1,0.043478260869565216
+2010,women's health,1,0.043478260869565216
+2010,automatized health record,1,0.043478260869565216
+2010,open ehr,1,0.043478260869565216
+2010,comparative analysis,1,0.043478260869565216
+2010,medical center,1,0.043478260869565216
+2011,electronic health record,15,0.5555555555555556
+2011,semantics,13,0.48148148148148145
+2011,medical record linkage,7,0.25925925925925924
+2011,systems integration,7,0.25925925925925924
+2011,user-computer interface,7,0.25925925925925924
+2011,"medical records systems, computerized",6,0.2222222222222222
+2011,information storage and retrieval,5,0.18518518518518517
+2011,"models, theoretical",5,0.18518518518518517
+2011,software,5,0.18518518518518517
+2011,medical informatics,5,0.18518518518518517
+2011,interoperability,5,0.18518518518518517
+2011,systematized nomenclature of medicine,4,0.14814814814814814
+2011,algorithms,4,0.14814814814814814
+2011,programming languages,4,0.14814814814814814
+2011,feasibility studies,3,0.1111111111111111
+2011,internet,3,0.1111111111111111
+2011,information systems,3,0.1111111111111111
+2011,"databases, factual",3,0.1111111111111111
+2011,knowledge representation,3,0.1111111111111111
+2011,ontology,3,0.1111111111111111
+2011,health care,3,0.1111111111111111
+2011,database management systems,2,0.07407407407407407
+2011,software design,2,0.07407407407407407
+2011,terminology as topic,2,0.07407407407407407
+2011,continuity of patient care,2,0.07407407407407407
+2011,hospital administration,2,0.07407407407407407
+2011,archetype,2,0.07407407407407407
+2011,health information systems,2,0.07407407407407407
+2011,medical information systems,2,0.07407407407407407
+2011,semantic interoperability,2,0.07407407407407407
+2011,computer science,2,0.07407407407407407
+2011,knowledge management,2,0.07407407407407407
+2011,continuity of care records,2,0.07407407407407407
+2011,health,2,0.07407407407407407
+2011,records management,2,0.07407407407407407
+2011,medical computing,2,0.07407407407407407
+2011,health behavior,1,0.037037037037037035
+2011,insurance claim reporting,1,0.037037037037037035
+2011,delivery of health care,1,0.037037037037037035
+2011,access to information,1,0.037037037037037035
+2011,computer communication networks,1,0.037037037037037035
+2011,health level seven,1,0.037037037037037035
+2011,hospital information systems,1,0.037037037037037035
+2011,patient discharge,1,0.037037037037037035
+2011,"quality assurance, health care",1,0.037037037037037035
+2011,computer graphics,1,0.037037037037037035
+2011,data display,1,0.037037037037037035
+2011,clinical protocols,1,0.037037037037037035
+2011,patient admission,1,0.037037037037037035
+2011,decision support techniques,1,0.037037037037037035
+2011,"drug therapy, computer-assisted",1,0.037037037037037035
+2011,episode of care,1,0.037037037037037035
+2011,methadone,1,0.037037037037037035
+2011,practice guidelines as topic,1,0.037037037037037035
+2011,"biomarkers, tumor",1,0.037037037037037035
+2011,biomedical research,1,0.037037037037037035
+2011,male,1,0.037037037037037035
+2011,management information systems,1,0.037037037037037035
+2011,prostatic neoplasms,1,0.037037037037037035
+2011,medical order entry systems,1,0.037037037037037035
+2011,"delivery of health care, integrated",1,0.037037037037037035
+2011,health services for the aged,1,0.037037037037037035
+2011,home care services,1,0.037037037037037035
+2011,"models, organizational",1,0.037037037037037035
+2011,organizational case studies,1,0.037037037037037035
+2011,patient care planning,1,0.037037037037037035
+2011,computer security,1,0.037037037037037035
+2011,socioeconomic factors,1,0.037037037037037035
+2011,dicom,1,0.037037037037037035
+2011,personal health record,1,0.037037037037037035
+2011,privacy,1,0.037037037037037035
+2011,security,1,0.037037037037037035
+2011,health information system,1,0.037037037037037035
+2011,medical interface adaptation,1,0.037037037037037035
+2011,user's context,1,0.037037037037037035
+2011,engineering,1,0.037037037037037035
+2011,industrial engineering,1,0.037037037037037035
+2011,adaptive interface,1,0.037037037037037035
+2011,can design,1,0.037037037037037035
+2011,patient information,1,0.037037037037037035
+2011,quality of care,1,0.037037037037037035
+2011,medical applications,1,0.037037037037037035
+2011,knowledge acquisition,1,0.037037037037037035
+2011,snomed-ct,1,0.037037037037037035
+2011,umls,1,0.037037037037037035
+2011,errors,1,0.037037037037037035
+2011,automated approach,1,0.037037037037037035
+2011,automated mapping,1,0.037037037037037035
+2011,clinical data,1,0.037037037037037035
+2011,matching methods,1,0.037037037037037035
+2011,medical errors,1,0.037037037037037035
+2011,ontology matching,1,0.037037037037037035
+2011,semantic similarity,1,0.037037037037037035
+2011,sequential combination,1,0.037037037037037035
+2011,structure-based,1,0.037037037037037035
+2011,mapping,1,0.037037037037037035
+2011,medical alert,1,0.037037037037037035
+2011,patient summary,1,0.037037037037037035
+2011,snomed ct,1,0.037037037037037035
+2011,diabetes,1,0.037037037037037035
+2011,mobile device,1,0.037037037037037035
+2011,carbohydrates,1,0.037037037037037035
+2011,cellular telephone systems,1,0.037037037037037035
+2011,glucose,1,0.037037037037037035
+2011,medical problems,1,0.037037037037037035
+2011,mobile devices,1,0.037037037037037035
+2011,blood glucose,1,0.037037037037037035
+2011,diabetes self-management,1,0.037037037037037035
+2011,diabetic patient,1,0.037037037037037035
+2011,insulin dosage,1,0.037037037037037035
+2011,interoperations,1,0.037037037037037035
+2011,lightweight ontology,1,0.037037037037037035
+2011,mobile applications,1,0.037037037037037035
+2011,physical activity,1,0.037037037037037035
+2011,smart phones,1,0.037037037037037035
+2011,systematic review,1,0.037037037037037035
+2011,clinical decision software,1,0.037037037037037035
+2011,continuity of care record (ccr),1,0.037037037037037035
+2011,home care equipment,1,0.037037037037037035
+2011,audio equipment,1,0.037037037037037035
+2011,semantic web,1,0.037037037037037035
+2011,telecommunication networks,1,0.037037037037037035
+2011,audio-visual,1,0.037037037037037035
+2011,emergency care,1,0.037037037037037035
+2011,hardware and software,1,0.037037037037037035
+2011,home care,1,0.037037037037037035
+2011,international regulations,1,0.037037037037037035
+2011,medical decision making,1,0.037037037037037035
+2011,prototype system,1,0.037037037037037035
+2011,technical interoperability,1,0.037037037037037035
+2011,terminally ill,1,0.037037037037037035
+2011,home health care,1,0.037037037037037035
+2011,clinical models,1,0.037037037037037035
+2011,ontologies,1,0.037037037037037035
+2011,equipment testing,1,0.037037037037037035
+2011,medical record,1,0.037037037037037035
+2011,decision support systems,1,0.037037037037037035
+2011,integration,1,0.037037037037037035
+2011,standards,1,0.037037037037037035
+2011,cds,1,0.037037037037037035
+2011,clinical decision support,1,0.037037037037037035
+2011,development project,1,0.037037037037037035
+2011,educational aspects,1,0.037037037037037035
+2011,literature reviews,1,0.037037037037037035
+2011,quality of health care,1,0.037037037037037035
+2011,clinical guidelines,1,0.037037037037037035
+2011,guideline representation languages,1,0.037037037037037035
+2011,knowledge modelling,1,0.037037037037037035
+2011,openehr archetypes,1,0.037037037037037035
+2011,reusable components,1,0.037037037037037035
+2011,artificial intelligence,1,0.037037037037037035
+2011,cardiology,1,0.037037037037037035
+2011,concretes,1,0.037037037037037035
+2011,modeling languages,1,0.037037037037037035
+2011,clinical guideline,1,0.037037037037037035
+2011,guideline representation language,1,0.037037037037037035
+2011,ccr,1,0.037037037037037035
+2011,certification,1,0.037037037037037035
+2011,continuity of care,1,0.037037037037037035
+2011,discharge report,1,0.037037037037037035
+2011,quality system,1,0.037037037037037035
+2011,emergency rooms,1,0.037037037037037035
+2011,user interfaces,1,0.037037037037037035
+2011,world wide web,1,0.037037037037037035
+2011,active interface,1,0.037037037037037035
+2011,emergency departments,1,0.037037037037037035
+2011,post-discharge,1,0.037037037037037035
+2011,quality features,1,0.037037037037037035
+2011,quality systems,1,0.037037037037037035
+2011,web-based system,1,0.037037037037037035
+2011,personnel testing,1,0.037037037037037035
+2012,electronic health record,23,0.71875
+2012,information storage and retrieval,7,0.21875
+2012,medical record linkage,7,0.21875
+2012,semantics,7,0.21875
+2012,medical informatics,5,0.15625
+2012,database management systems,5,0.15625
+2012,"health records, personal",4,0.125
+2012,interoperability,4,0.125
+2012,health care,4,0.125
+2012,clinical archetypes,4,0.125
+2012,semantic interoperability,4,0.125
+2012,health level seven,3,0.09375
+2012,"models, theoretical",3,0.09375
+2012,systems integration,3,0.09375
+2012,software design,3,0.09375
+2012,practice guidelines as topic,2,0.0625
+2012,quality of health care,2,0.0625
+2012,algorithms,2,0.0625
+2012,internationality,2,0.0625
+2012,user-computer interface,2,0.0625
+2012,decision making,2,0.0625
+2012,"medical records systems, computerized",2,0.0625
+2012,software,2,0.0625
+2012,archetype,2,0.0625
+2012,hl7,2,0.0625
+2012,information management,2,0.0625
+2012,specifications,2,0.0625
+2012,electronic healthcare records,2,0.0625
+2012,clinical data,2,0.0625
+2012,standards,2,0.0625
+2012,work-flows,2,0.0625
+2012,activities of daily living,1,0.03125
+2012,alzheimer disease,1,0.03125
+2012,computer communication networks,1,0.03125
+2012,home care services,1,0.03125
+2012,"monitoring, ambulatory",1,0.03125
+2012,computer literacy,1,0.03125
+2012,diabetes mellitus,1,0.03125
+2012,endocrinology,1,0.03125
+2012,feasibility studies,1,0.03125
+2012,information seeking behavior,1,0.03125
+2012,"models, organizational",1,0.03125
+2012,precision medicine,1,0.03125
+2012,"hospitals, pediatric",1,0.03125
+2012,nursing records,1,0.03125
+2012,guidelines as topic,1,0.03125
+2012,pilot projects,1,0.03125
+2012,search engine,1,0.03125
+2012,"decision support systems, clinical",1,0.03125
+2012,guideline adherence,1,0.03125
+2012,stroke,1,0.03125
+2012,data mining,1,0.03125
+2012,"quality assurance, health care",1,0.03125
+2012,knowledge management,1,0.03125
+2012,medical informatics applications,1,0.03125
+2012,systematized nomenclature of medicine,1,0.03125
+2012,internet,1,0.03125
+2012,unified medical language system,1,0.03125
+2012,visualization,1,0.03125
+2012,iso 13606,1,0.03125
+2012,interoperabilitat,1,0.03125
+2012,standardisierung,1,0.03125
+2012,datenvalidierung,1,0.03125
+2012,iso 3606,1,0.03125
+2012,data integration,1,0.03125
+2012,multi-agent system,1,0.03125
+2012,archetyp,1,0.03125
+2012,semantische interoperabilitat,1,0.03125
+2012,hl7 cda,1,0.03125
+2012,iso/en 13606,1,0.03125
+2012,electronic healthcare record,1,0.03125
+2012,openehr specifications,1,0.03125
+2012,clinical observation,1,0.03125
+2012,data interchange,1,0.03125
+2012,electronic data,1,0.03125
+2012,medical software,1,0.03125
+2012,runtime solution,1,0.03125
+2012,robotics,1,0.03125
+2012,architectural styles,1,0.03125
+2012,model-driven engineering,1,0.03125
+2012,openehr clinical archetypes,1,0.03125
+2012,software product lines,1,0.03125
+2012,architecture,1,0.03125
+2012,maintainability,1,0.03125
+2012,models,1,0.03125
+2012,network architecture,1,0.03125
+2012,software architecture,1,0.03125
+2012,architectural style,1,0.03125
+2012,architecture models,1,0.03125
+2012,development costs,1,0.03125
+2012,health care information system,1,0.03125
+2012,higher-degree,1,0.03125
+2012,model-driven architecture,1,0.03125
+2012,software product line,1,0.03125
+2012,archetype-based ehr,1,0.03125
+2012,data quality in healthcare,1,0.03125
+2012,quality-based ehr,1,0.03125
+2012,standardization in ehr,1,0.03125
+2012,database systems,1,0.03125
+2012,ehealth,1,0.03125
+2012,electronic data interchange,1,0.03125
+2012,hospital data processing,1,0.03125
+2012,knowledge based systems,1,0.03125
+2012,medical computing,1,0.03125
+2012,records management,1,0.03125
+2012,standardization,1,0.03125
+2012,data quality in healthcares,1,0.03125
+2012,conformal mapping,1,0.03125
+2012,knowledge engineering,1,0.03125
+2012,health systems,1,0.03125
+2012,mapping algorithms,1,0.03125
+2012,mapping method,1,0.03125
+2012,snomed-ct,1,0.03125
+2012,terminology,1,0.03125
+2012,fundamental tools,1,0.03125
+2012,learning contents,1,0.03125
+2012,management systems,1,0.03125
+2012,reference modeling,1,0.03125
+2012,semantic web technology,1,0.03125
+2012,tools,1,0.03125
+2012,healthcare standard,1,0.03125
+2012,ontology mapping,1,0.03125
+2012,communication,1,0.03125
+2012,mapping,1,0.03125
+2012,accurate mapping,1,0.03125
+2012,data interoperability,1,0.03125
+2012,data level,1,0.03125
+2012,ehr systems,1,0.03125
+2012,electronic health record systems,1,0.03125
+2012,health informations,1,0.03125
+2012,health-care system,1,0.03125
+2012,heterogeneous systems,1,0.03125
+2012,ontology matching,1,0.03125
+2012,semantic data,1,0.03125
+2012,semantic mapping,1,0.03125
+2012,data type,1,0.03125
+2012,information models,1,0.03125
+2012,information ontologies,1,0.03125
+2012,ontological commitment,1,0.03125
+2012,ontological foundation,1,0.03125
+2012,recent researches,1,0.03125
+2012,ontology,1,0.03125
+2012,endoscopy,1,0.03125
+2012,health information systems,1,0.03125
+2012,software maintainability,1,0.03125
+2012,xml repository,1,0.03125
+2012,web services,1,0.03125
+2012,native xml database,1,0.03125
+2012,open-source solutions,1,0.03125
+2012,open-standard specification,1,0.03125
+2012,service layers,1,0.03125
+2012,xml repositories,1,0.03125
+2012,xml,1,0.03125
+2012,csp,1,0.03125
+2012,formal methods,1,0.03125
+2012,healthcare workflows,1,0.03125
+2012,verification,1,0.03125
+2012,software engineering,1,0.03125
+2012,csp model,1,0.03125
+2012,resource-scheduling,1,0.03125
+2012,timed csp,1,0.03125
+2012,timed models,1,0.03125
+2012,biomedical equipment,1,0.03125
+2012,biosensors,1,0.03125
+2012,hospitals,1,0.03125
+2012,information systems,1,0.03125
+2012,integration,1,0.03125
+2012,clinical application,1,0.03125
+2012,core systems,1,0.03125
+2012,hospital information systems,1,0.03125
+2012,integration capability,1,0.03125
+2012,integration frameworks,1,0.03125
+2012,new components,1,0.03125
+2012,open sources,1,0.03125
+2012,open-source components,1,0.03125
+2012,proposed architectures,1,0.03125
+2012,medical applications,1,0.03125
+2012,iso/cen 13606,1,0.03125
+2012,open-source software,1,0.03125
+2012,ruby,1,0.03125
+2013,electronic health record,17,0.5
+2013,semantics,13,0.38235294117647056
+2013,health care,9,0.2647058823529412
+2013,medical record linkage,6,0.17647058823529413
+2013,software,6,0.17647058823529413
+2013,systems integration,6,0.17647058823529413
+2013,interoperability,6,0.17647058823529413
+2013,information storage and retrieval,5,0.14705882352941177
+2013,"vocabulary, controlled",5,0.14705882352941177
+2013,archetype,5,0.14705882352941177
+2013,information systems,5,0.14705882352941177
+2013,hospital data processing,5,0.14705882352941177
+2013,algorithms,4,0.11764705882352941
+2013,pervasive healthcare,4,0.11764705882352941
+2013,semantic interoperability,4,0.11764705882352941
+2013,medical computing,4,0.11764705882352941
+2013,information use,4,0.11764705882352941
+2013,programming languages,3,0.08823529411764706
+2013,artificial intelligence,3,0.08823529411764706
+2013,ubiquitous computing,3,0.08823529411764706
+2013,records management,3,0.08823529411764706
+2013,knowledge representation,3,0.08823529411764706
+2013,health information systems,2,0.058823529411764705
+2013,medical informatics,2,0.058823529411764705
+2013,"models, organizational",2,0.058823529411764705
+2013,telemedicine,2,0.058823529411764705
+2013,guidelines as topic,2,0.058823529411764705
+2013,reference standards,2,0.058823529411764705
+2013,practice guidelines as topic,2,0.058823529411764705
+2013,natural language processing,2,0.058823529411764705
+2013,male,2,0.058823529411764705
+2013,"models, theoretical",2,0.058823529411764705
+2013,health level seven,2,0.058823529411764705
+2013,user-computer interface,2,0.058823529411764705
+2013,intelligent agents,2,0.058823529411764705
+2013,electronic data interchange,2,0.058823529411764705
+2013,patient data,2,0.058823529411764705
+2013,data integration,2,0.058823529411764705
+2013,health information management,1,0.029411764705882353
+2013,needs assessment,1,0.029411764705882353
+2013,diabetes mellitus,1,0.029411764705882353
+2013,health services needs and demand,1,0.029411764705882353
+2013,information seeking behavior,1,0.029411764705882353
+2013,search engine,1,0.029411764705882353
+2013,"medical records systems, computerized",1,0.029411764705882353
+2013,data mining,1,0.029411764705882353
+2013,documentation,1,0.029411764705882353
+2013,information dissemination,1,0.029411764705882353
+2013,clinical coding,1,0.029411764705882353
+2013,child welfare,1,0.029411764705882353
+2013,"child, preschool",1,0.029411764705882353
+2013,immunization programs,1,0.029411764705882353
+2013,infant,1,0.029411764705882353
+2013,"infant, newborn",1,0.029411764705882353
+2013,mass vaccination,1,0.029411764705882353
+2013,registries,1,0.029411764705882353
+2013,sentinel surveillance,1,0.029411764705882353
+2013,genetic testing,1,0.029411764705882353
+2013,internationality,1,0.029411764705882353
+2013,terminology as topic,1,0.029411764705882353
+2013,atrial fibrillation,1,0.029411764705882353
+2013,causality,1,0.029411764705882353
+2013,comorbidity,1,0.029411764705882353
+2013,"decision support systems, clinical",1,0.029411764705882353
+2013,guideline adherence,1,0.029411764705882353
+2013,incidence,1,0.029411764705882353
+2013,risk factors,1,0.029411764705882353
+2013,stroke,1,0.029411764705882353
+2013,treatment outcome,1,0.029411764705882353
+2013,alzheimer disease,1,0.029411764705882353
+2013,"diabetes mellitus, type 2",1,0.029411764705882353
+2013,software design,1,0.029411764705882353
+2013,computer simulation,1,0.029411764705882353
+2013,benchmarking,1,0.029411764705882353
+2013,systematized nomenclature of medicine,1,0.029411764705882353
+2013,computer graphics,1,0.029411764705882353
+2013,computer storage devices,1,0.029411764705882353
+2013,data display,1,0.029411764705882353
+2013,pervasive computing,1,0.029411764705882353
+2013,eletronic health record,1,0.029411764705882353
+2013,clinical decision support system,1,0.029411764705882353
+2013,mobility,1,0.029411764705882353
+2013,domain specific language,1,0.029411764705882353
+2013,information-systems,1,0.029411764705882353
+2013,technology,1,0.029411764705882353
+2013,acceptance,1,0.029411764705882353
+2013,science,1,0.029411764705882353
+2013,openehr standard,1,0.029411764705882353
+2013,cardiology,1,0.029411764705882353
+2013,controlled experiment,1,0.029411764705882353
+2013,health-care system,1,0.029411764705882353
+2013,healthcare domains,1,0.029411764705882353
+2013,message exchanging,1,0.029411764705882353
+2013,pervasive healthcare systems,1,0.029411764705882353
+2013,proposed architectures,1,0.029411764705882353
+2013,reusable architectures,1,0.029411764705882353
+2013,common reference models,1,0.029411764705882353
+2013,emergency scenario,1,0.029411764705882353
+2013,external systems,1,0.029411764705882353
+2013,national e-health transition authorities,1,0.029411764705882353
+2013,obstetrics,1,0.029411764705882353
+2013,surveys,1,0.029411764705882353
+2013,xml,1,0.029411764705882353
+2013,deployed systems,1,0.029411764705882353
+2013,dynamic configuration,1,0.029411764705882353
+2013,experimental system,1,0.029411764705882353
+2013,indexing mechanisms,1,0.029411764705882353
+2013,inverted indices,1,0.029411764705882353
+2013,patient information,1,0.029411764705882353
+2013,service interfaces,1,0.029411764705882353
+2013,system implementation,1,0.029411764705882353
+2013,digital storage,1,0.029411764705882353
+2013,aids,1,0.029411764705882353
+2013,archetypes systems,1,0.029411764705882353
+2013,health informatics standards,1,0.029411764705882353
+2013,health information,1,0.029411764705882353
+2013,hiv,1,0.029411764705882353
+2013,diseases,1,0.029411764705882353
+2013,health informatics,1,0.029411764705882353
+2013,health informations,1,0.029411764705882353
+2013,bdi architecture,1,0.029411764705882353
+2013,information technology,1,0.029411764705882353
+2013,electronic formats,1,0.029411764705882353
+2013,information exchanges,1,0.029411764705882353
+2013,novel architecture,1,0.029411764705882353
+2013,ubiquitous computing technology,1,0.029411764705882353
+2013,context-awareness,1,0.029411764705882353
+2013,ehr (electronic health record),1,0.029411764705882353
+2013,medical sensing information,1,0.029411764705882353
+2013,mvc pattern,1,0.029411764705882353
+2013,security management,1,0.029411764705882353
+2013,equipment testing,1,0.029411764705882353
+2013,medical sensing,1,0.029411764705882353
+2013,data processing,1,0.029411764705882353
+2013,robots,1,0.029411764705882353
+2013,android platforms,1,0.029411764705882353
+2013,computer interaction,1,0.029411764705882353
+2013,medical workflows,1,0.029411764705882353
+2013,patient identification,1,0.029411764705882353
+2013,tablet computer,1,0.029411764705882353
+2013,work-flows,1,0.029411764705882353
+2013,mobile devices,1,0.029411764705882353
+2013,electronic medical records (emr),1,0.029411764705882353
+2013,health information system (his),1,0.029411764705882353
+2013,hl7,1,0.029411764705882353
+2013,ehrs,1,0.029411764705882353
+2013,openehr archetypes,1,0.029411764705882353
+2013,owl,1,0.029411764705882353
+2013,quality indicators,1,0.029411764705882353
+2013,secondary use of clinical data,1,0.029411764705882353
+2013,semantic integration,1,0.029411764705882353
+2013,sparql,1,0.029411764705882353
+2013,birds,1,0.029411764705882353
+2013,data warehouses,1,0.029411764705882353
+2013,hospitals,1,0.029411764705882353
+2013,integration,1,0.029411764705882353
+2013,natural language processing systems,1,0.029411764705882353
+2013,clinical data,1,0.029411764705882353
+2013,clinical application,1,0.029411764705882353
+2013,healthcare,1,0.029411764705882353
+2013,mobile application,1,0.029411764705882353
+2013,mobile interface,1,0.029411764705882353
+2013,user interaction,1,0.029411764705882353
+2013,application programming interfaces (api),1,0.029411764705882353
+2013,data sharing,1,0.029411764705882353
+2013,mhealth,1,0.029411764705882353
+2013,open source software,1,0.029411764705882353
+2013,mobile applications,1,0.029411764705882353
+2013,clinical research,1,0.029411764705882353
+2013,ehr document structure,1,0.029411764705882353
+2013,nosql databases,1,0.029411764705882353
+2013,query-language interfaces,1,0.029411764705882353
+2013,electronic document exchange,1,0.029411764705882353
+2013,graph databases,1,0.029411764705882353
+2013,query languages,1,0.029411764705882353
+2013,query processing,1,0.029411764705882353
+2013,relational database systems,1,0.029411764705882353
+2013,document structure,1,0.029411764705882353
+2013,language interface,1,0.029411764705882353
+2013,nosql database,1,0.029411764705882353
+2013,clinical archetypes,1,0.029411764705882353
+2013,snomed ct,1,0.029411764705882353
+2013,terminology mapping,1,0.029411764705882353
+2013,umls,1,0.029411764705882353
+2013,mapping,1,0.029411764705882353
+2013,terminology,1,0.029411764705882353
+2013,snomed-ct,1,0.029411764705882353
+2013,clinical trials,1,0.029411764705882353
+2013,medical ontologies,1,0.029411764705882353
+2013,patient data representation,1,0.029411764705882353
+2013,query generation,1,0.029411764705882353
+2013,semantic reasoning,1,0.029411764705882353
+2013,experiments,1,0.029411764705882353
+2013,clinical trial,1,0.029411764705882353
+2013,medical ontology,1,0.029411764705882353
+2013,cdss,1,0.029411764705882353
+2013,phr,1,0.029411764705882353
+2013,vmr,1,0.029411764705882353
+2013,clinical decision support,1,0.029411764705882353
+2013,clinical decision support systems,1,0.029411764705882353
+2013,personal health record,1,0.029411764705882353
+2013,service oriented frameworks,1,0.029411764705882353
+2013,usability requirements,1,0.029411764705882353
+2013,decision support systems,1,0.029411764705882353
+2013,healthcare environments,1,0.029411764705882353
+2013,healthcare record,1,0.029411764705882353
+2013,healthcare services,1,0.029411764705882353
+2013,healthcare systems,1,0.029411764705882353
+2013,information and communication technologies,1,0.029411764705882353
+2013,novel information,1,0.029411764705882353
+2014,electronic health record,21,0.6363636363636364
+2014,semantics,15,0.45454545454545453
+2014,interoperability,10,0.30303030303030304
+2014,medical record linkage,6,0.18181818181818182
+2014,biochemical engineering,6,0.18181818181818182
+2014,medical computing,6,0.18181818181818182
+2014,semantic interoperability,6,0.18181818181818182
+2014,health care,6,0.18181818181818182
+2014,information storage and retrieval,5,0.15151515151515152
+2014,natural language processing,5,0.15151515151515152
+2014,artificial intelligence,5,0.15151515151515152
+2014,archetype,5,0.15151515151515152
+2014,practice guidelines as topic,4,0.12121212121212122
+2014,information systems,4,0.12121212121212122
+2014,clinical information,4,0.12121212121212122
+2014,internationality,3,0.09090909090909091
+2014,data curation,3,0.09090909090909091
+2014,health,3,0.09090909090909091
+2014,tools,3,0.09090909090909091
+2014,hospitals,3,0.09090909090909091
+2014,clinical decision support systems,3,0.09090909090909091
+2014,electronic health record systems,3,0.09090909090909091
+2014,decision support systems,3,0.09090909090909091
+2014,health information systems,3,0.09090909090909091
+2014,digital storage,3,0.09090909090909091
+2014,health level seven,2,0.06060606060606061
+2014,systems integration,2,0.06060606060606061
+2014,knowledge bases,2,0.06060606060606061
+2014,software design,2,0.06060606060606061
+2014,"models, theoretical",2,0.06060606060606061
+2014,programming languages,2,0.06060606060606061
+2014,"vocabulary, controlled",2,0.06060606060606061
+2014,biomedical research,2,0.06060606060606061
+2014,archetype relational mapping,2,0.06060606060606061
+2014,archetype query language,2,0.06060606060606061
+2014,diagnosis,2,0.06060606060606061
+2014,hospital data processing,2,0.06060606060606061
+2014,telemedicine,2,0.06060606060606061
+2014,graphical user interfaces,2,0.06060606060606061
+2014,graphical user interfaces (gui),2,0.06060606060606061
+2014,health-care system,2,0.06060606060606061
+2014,standardization,2,0.06060606060606061
+2014,records management,2,0.06060606060606061
+2014,software architecture,2,0.06060606060606061
+2014,hl7,2,0.06060606060606061
+2014,health informatics,2,0.06060606060606061
+2014,health care providers,2,0.06060606060606061
+2014,health level 7 (hl7),2,0.06060606060606061
+2014,data integration,2,0.06060606060606061
+2014,terminology,2,0.06060606060606061
+2014,biological ontologies,1,0.030303030303030304
+2014,artifacts,1,0.030303030303030304
+2014,forms and records control,1,0.030303030303030304
+2014,records,1,0.030303030303030304
+2014,"databases, factual",1,0.030303030303030304
+2014,unified medical language system,1,0.030303030303030304
+2014,information dissemination,1,0.030303030303030304
+2014,meaningful use,1,0.030303030303030304
+2014,software,1,0.030303030303030304
+2014,feasibility studies,1,0.030303030303030304
+2014,medical informatics applications,1,0.030303030303030304
+2014,multiple sclerosis,1,0.030303030303030304
+2014,hospital communication systems,1,0.030303030303030304
+2014,"models, organizational",1,0.030303030303030304
+2014,needs assessment,1,0.030303030303030304
+2014,patient handoff,1,0.030303030303030304
+2014,patient transfer,1,0.030303030303030304
+2014,"decision making, computer-assisted",1,0.030303030303030304
+2014,guideline adherence,1,0.030303030303030304
+2014,stroke,1,0.030303030303030304
+2014,time factors,1,0.030303030303030304
+2014,guidelines as topic,1,0.030303030303030304
+2014,patient discharge summaries,1,0.030303030303030304
+2014,data collection,1,0.030303030303030304
+2014,database management systems,1,0.030303030303030304
+2014,datasets as topic,1,0.030303030303030304
+2014,prospective studies,1,0.030303030303030304
+2014,computer communication networks,1,0.030303030303030304
+2014,electrocardiography,1,0.030303030303030304
+2014,medical informatics computing,1,0.030303030303030304
+2014,"monitoring, physiologic",1,0.030303030303030304
+2014,oximetry,1,0.030303030303030304
+2014,obstetrics,1,0.030303030303030304
+2014,openehr repository,1,0.030303030303030304
+2014,data analysis,1,0.030303030303030304
+2014,knowledge extraction,1,0.030303030303030304
+2014,large-scale projects,1,0.030303030303030304
+2014,electronic patient records,1,0.030303030303030304
+2014,health records,1,0.030303030303030304
+2014,biomedical information system,1,0.030303030303030304
+2014,archetype driven modeling,1,0.030303030303030304
+2014,en13606,1,0.030303030303030304
+2014,tele-monitoring,1,0.030303030303030304
+2014,patient monitoring,1,0.030303030303030304
+2014,user interfaces,1,0.030303030303030304
+2014,diseases,1,0.030303030303030304
+2014,clinical decision support system,1,0.030303030303030304
+2014,congestive heart failure,1,0.030303030303030304
+2014,person-centric,1,0.030303030303030304
+2014,risk assessment,1,0.030303030303030304
+2014,cardiology,1,0.030303030303030304
+2014,patient treatment,1,0.030303030303030304
+2014,congestive heart failures,1,0.030303030303030304
+2014,hospital environment,1,0.030303030303030304
+2014,electronic patient record systems,1,0.030303030303030304
+2014,standardisation,1,0.030303030303030304
+2014,work practice,1,0.030303030303030304
+2014,electronic patient record,1,0.030303030303030304
+2014,electronic patient record system,1,0.030303030303030304
+2014,organisational level,1,0.030303030303030304
+2014,performance standards,1,0.030303030303030304
+2014,work practices,1,0.030303030303030304
+2014,clinical care continuity,1,0.030303030303030304
+2014,iso en13606 standard,1,0.030303030303030304
+2014,secondary research development,1,0.030303030303030304
+2014,clinical care,1,0.030303030303030304
+2014,design and implementations,1,0.030303030303030304
+2014,medical data mining,1,0.030303030303030304
+2014,secondary researches,1,0.030303030303030304
+2014,research,1,0.030303030303030304
+2014,health information system,1,0.030303030303030304
+2014,model transformation component,1,0.030303030303030304
+2014,model-driven software development,1,0.030303030303030304
+2014,high level languages,1,0.030303030303030304
+2014,mathematical models,1,0.030303030303030304
+2014,microarrays,1,0.030303030303030304
+2014,specifications,1,0.030303030303030304
+2014,architectural description languages,1,0.030303030303030304
+2014,architectural descriptions,1,0.030303030303030304
+2014,model transformation,1,0.030303030303030304
+2014,open-standard specification,1,0.030303030303030304
+2014,information use,1,0.030303030303030304
+2014,ihe,1,0.030303030303030304
+2014,interoperability health informatics standards,1,0.030303030303030304
+2014,electronic health record (ehrs),1,0.030303030303030304
+2014,health standards,1,0.030303030303030304
+2014,anonymisation,1,0.030303030303030304
+2014,electronic health care record (ehr),1,0.030303030303030304
+2014,iso/en 13606,1,0.030303030303030304
+2014,secondary use,1,0.030303030303030304
+2014,population statistics,1,0.030303030303030304
+2014,data-mining techniques,1,0.030303030303030304
+2014,demographic information,1,0.030303030303030304
+2014,electronic healthcare,1,0.030303030303030304
+2014,exchange of information,1,0.030303030303030304
+2014,data mining,1,0.030303030303030304
+2014,rdb,1,0.030303030303030304
+2014,data base,1,0.030303030303030304
+2014,doctor patient relation,1,0.030303030303030304
+2014,human,1,0.030303030303030304
+2014,human experiment,1,0.030303030303030304
+2014,machine-to-machine communications,1,0.030303030303030304
+2014,system integration,1,0.030303030303030304
+2014,automation,1,0.030303030303030304
+2014,cost reduction,1,0.030303030303030304
+2014,ehealth,1,0.030303030303030304
+2014,machine components,1,0.030303030303030304
+2014,machine-to-machine communication,1,0.030303030303030304
+2014,architecture designs,1,0.030303030303030304
+2014,ict infrastructures,1,0.030303030303030304
+2014,interconnecting device,1,0.030303030303030304
+2014,machine to machine (m2m),1,0.030303030303030304
+2014,health patient record,1,0.030303030303030304
+2014,integration,1,0.030303030303030304
+2014,multi-agent system,1,0.030303030303030304
+2014,multi agent systems,1,0.030303030303030304
+2014,societies and institutions,1,0.030303030303030304
+2014,software agents,1,0.030303030303030304
+2014,patient record,1,0.030303030303030304
+2014,sharing information,1,0.030303030303030304
+2014,surrounding environment,1,0.030303030303030304
+2014,clinical information model,1,0.030303030303030304
+2014,hl7 cda,1,0.030303030303030304
+2014,database,1,0.030303030303030304
+2014,db4o,1,0.030303030303030304
+2014,mysql,1,0.030303030303030304
+2014,database systems,1,0.030303030303030304
+2014,object-oriented databases,1,0.030303030303030304
+2014,object-relational database,1,0.030303030303030304
+2014,performance analysis,1,0.030303030303030304
+2014,performance comparison,1,0.030303030303030304
+2014,application programs,1,0.030303030303030304
+2014,knowledge management,1,0.030303030303030304
+2014,maintenance,1,0.030303030303030304
+2014,clinical terminology,1,0.030303030303030304
+2014,health-care decisions,1,0.030303030303030304
+2014,reduce costs,1,0.030303030303030304
+2014,self-maintenance,1,0.030303030303030304
+2014,software applications,1,0.030303030303030304
+2014,standards,1,0.030303030303030304
+2014,access control mechanism,1,0.030303030303030304
+2014,access control policies,1,0.030303030303030304
+2014,access control schemes,1,0.030303030303030304
+2014,decision making process,1,0.030303030303030304
+2014,semantic technologies,1,0.030303030303030304
+2014,standard requirements,1,0.030303030303030304
+2014,technological revolution,1,0.030303030303030304
+2014,access control,1,0.030303030303030304
+2014,en/iso 12967,1,0.030303030303030304
+2014,hisa,1,0.030303030303030304
+2014,rm-odp,1,0.030303030303030304
+2014,architecture,1,0.030303030303030304
+2014,information technology,1,0.030303030303030304
+2014,soa,1,0.030303030303030304
+2014,triple helix,1,0.030303030303030304
+2014,information services,1,0.030303030303030304
+2014,service oriented architecture (soa),1,0.030303030303030304
+2014,health services,1,0.030303030303030304
+2014,triple helix models,1,0.030303030303030304
+2014,triple helixes,1,0.030303030303030304
+2014,knowledge base,1,0.030303030303030304
+2014,uml,1,0.030303030303030304
+2014,biomedical engineering,1,0.030303030303030304
+2014,information theory,1,0.030303030303030304
+2014,higher-level information,1,0.030303030303030304
+2014,information modeling,1,0.030303030303030304
+2014,it supports,1,0.030303030303030304
+2014,medical data,1,0.030303030303030304
+2014,xml schemas,1,0.030303030303030304
+2014,knowledge based systems,1,0.030303030303030304
+2014,continuity of care records,1,0.030303030303030304
+2014,electronic healthcare records,1,0.030303030303030304
+2014,generic information model,1,0.030303030303030304
+2014,health care information system,1,0.030303030303030304
+2014,hospital information systems,1,0.030303030303030304
+2014,personal health care,1,0.030303030303030304
+2014,clinical research,1,0.030303030303030304
+2014,back ends,1,0.030303030303030304
+2014,data management system,1,0.030303030303030304
+2014,scalable storage,1,0.030303030303030304
+2014,information management,1,0.030303030303030304
+2015,electronic health record,31,0.7380952380952381
+2015,medical record linkage,15,0.35714285714285715
+2015,semantics,11,0.2619047619047619
+2015,"vocabulary, controlled",9,0.21428571428571427
+2015,user-computer interface,8,0.19047619047619047
+2015,information storage and retrieval,8,0.19047619047619047
+2015,medical informatics,6,0.14285714285714285
+2015,software,6,0.14285714285714285
+2015,practice guidelines as topic,6,0.14285714285714285
+2015,"models, organizational",6,0.14285714285714285
+2015,archetype,6,0.14285714285714285
+2015,interoperability,5,0.11904761904761904
+2015,guidelines as topic,4,0.09523809523809523
+2015,health information systems,4,0.09523809523809523
+2015,terminology as topic,4,0.09523809523809523
+2015,natural language processing,4,0.09523809523809523
+2015,"decision support systems, clinical",4,0.09523809523809523
+2015,internationality,4,0.09523809523809523
+2015,data mining,4,0.09523809523809523
+2015,biomedical engineering,4,0.09523809523809523
+2015,data accuracy,3,0.07142857142857142
+2015,information systems,3,0.07142857142857142
+2015,confidentiality,3,0.07142857142857142
+2015,systems integration,3,0.07142857142857142
+2015,programming languages,3,0.07142857142857142
+2015,"medical records systems, computerized",2,0.047619047619047616
+2015,delivery of health care,2,0.047619047619047616
+2015,information dissemination,2,0.047619047619047616
+2015,meaningful use,2,0.047619047619047616
+2015,common data elements,2,0.047619047619047616
+2015,"databases, factual",2,0.047619047619047616
+2015,biological ontologies,2,0.047619047619047616
+2015,internet,2,0.047619047619047616
+2015,organizational objectives,2,0.047619047619047616
+2015,"diagnosis, computer-assisted",2,0.047619047619047616
+2015,iso 13606,2,0.047619047619047616
+2015,information,2,0.047619047619047616
+2015,care,2,0.047619047619047616
+2015,ontology,2,0.047619047619047616
+2015,health care,2,0.047619047619047616
+2015,reusability,2,0.047619047619047616
+2015,clinical knowledge,2,0.047619047619047616
+2015,electronic health,2,0.047619047619047616
+2015,ehealth,2,0.047619047619047616
+2015,domain knowledge,2,0.047619047619047616
+2015,computers,1,0.023809523809523808
+2015,electronics,1,0.023809523809523808
+2015,databases as topic,1,0.023809523809523808
+2015,checklist,1,0.023809523809523808
+2015,hospital communication systems,1,0.023809523809523808
+2015,"models, theoretical",1,0.023809523809523808
+2015,patient handoff,1,0.023809523809523808
+2015,software design,1,0.023809523809523808
+2015,utilization review,1,0.023809523809523808
+2015,health policy,1,0.023809523809523808
+2015,cooperative behavior,1,0.023809523809523808
+2015,emergency medical services,1,0.023809523809523808
+2015,expert systems,1,0.023809523809523808
+2015,machine learning,1,0.023809523809523808
+2015,mobile applications,1,0.023809523809523808
+2015,wounds and injuries,1,0.023809523809523808
+2015,datasets as topic,1,0.023809523809523808
+2015,hospital information systems,1,0.023809523809523808
+2015,needs assessment,1,0.023809523809523808
+2015,adenoma,1,0.023809523809523808
+2015,pituitary neoplasms,1,0.023809523809523808
+2015,pilot projects,1,0.023809523809523808
+2015,algorithms,1,0.023809523809523808
+2015,diabetic retinopathy,1,0.023809523809523808
+2015,mass screening,1,0.023809523809523808
+2015,patient-centered care,1,0.023809523809523808
+2015,program development,1,0.023809523809523808
+2015,retina,1,0.023809523809523808
+2015,primary health care,1,0.023809523809523808
+2015,referral and consultation,1,0.023809523809523808
+2015,critical pathways,1,0.023809523809523808
+2015,"health records, personal",1,0.023809523809523808
+2015,regional health planning,1,0.023809523809523808
+2015,computer security,1,0.023809523809523808
+2015,"data interpretation, statistical",1,0.023809523809523808
+2015,forms and records control,1,0.023809523809523808
+2015,clinical alarms,1,0.023809523809523808
+2015,"monitoring, physiologic",1,0.023809523809523808
+2015,telemedicine,1,0.023809523809523808
+2015,reference values,1,0.023809523809523808
+2015,health level seven,1,0.023809523809523808
+2015,interdisciplinary communication,1,0.023809523809523808
+2015,respiration disorders,1,0.023809523809523808
+2015,symptom assessment,1,0.023809523809523808
+2015,systematized nomenclature of medicine,1,0.023809523809523808
+2015,obstetrics,1,0.023809523809523808
+2015,patient-specific modeling,1,0.023809523809523808
+2015,nursing informatics,1,0.023809523809523808
+2015,standardized nursing terminology,1,0.023809523809523808
+2015,medical history taking,1,0.023809523809523808
+2015,prescription drug misuse,1,0.023809523809523808
+2015,substance-related disorders,1,0.023809523809523808
+2015,medical informatics applications,1,0.023809523809523808
+2015,loinc,1,0.023809523809523808
+2015,lis,1,0.023809523809523808
+2015,medical data visualization,1,0.023809523809523808
+2015,standard,1,0.023809523809523808
+2015,metrics,1,0.023809523809523808
+2015,semantic web,1,0.023809523809523808
+2015,ckm,1,0.023809523809523808
+2015,mml,1,0.023809523809523808
+2015,modelling and meta-modelling in healthcare,1,0.023809523809523808
+2015,business archetypes and archetype patterns,1,0.023809523809523808
+2015,hl7 version 3: reference information model (rim),1,0.023809523809523808
+2015,openehr rm (reference model),1,0.023809523809523808
+2015,interoperability and evolution of healthcare models and software systems,1,0.023809523809523808
+2015,data standards,1,0.023809523809523808
+2015,personal health record,1,0.023809523809523808
+2015,decision support systems,1,0.023809523809523808
+2015,knowledge representation,1,0.023809523809523808
+2015,decision-support-systems,1,0.023809523809523808
+2015,practice guidelines,1,0.023809523809523808
+2015,tools,1,0.023809523809523808
+2015,architecture,1,0.023809523809523808
+2015,exchange,1,0.023809523809523808
+2015,models,1,0.023809523809523808
+2015,data interchange agent,1,0.023809523809523808
+2015,heterogeneous,1,0.023809523809523808
+2015,interoperable healthcare information system,1,0.023809523809523808
+2015,security agent,1,0.023809523809523808
+2015,service oriented architecture (soa),1,0.023809523809523808
+2015,system,1,0.023809523809523808
+2015,"electronic health record, semantic interoperability",1,0.023809523809523808
+2015,clinical information modeling,1,0.023809523809523808
+2015,systematic review,1,0.023809523809523808
+2015,clinical information model,1,0.023809523809523808
+2015,development framework,1,0.023809523809523808
+2015,openehr archetypes,1,0.023809523809523808
+2015,knowledge,1,0.023809523809523808
+2015,electroencephalography,1,0.023809523809523808
+2015,electrophysiology,1,0.023809523809523808
+2015,neuroinformatics,1,0.023809523809523808
+2015,template,1,0.023809523809523808
+2015,neurology,1,0.023809523809523808
+2015,domain description,1,0.023809523809523808
+2015,electronic health record(ehr) system,1,0.023809523809523808
+2015,reference data models,1,0.023809523809523808
+2015,auscultation,1,0.023809523809523808
+2015,digital stethoscope,1,0.023809523809523808
+2015,hl7,1,0.023809523809523808
+2015,hospitals,1,0.023809523809523808
+2015,signal processing,1,0.023809523809523808
+2015,web services,1,0.023809523809523808
+2015,hospital care,1,0.023809523809523808
+2015,integration modules,1,0.023809523809523808
+2015,legal concern,1,0.023809523809523808
+2015,patient record,1,0.023809523809523808
+2015,health informatics,1,0.023809523809523808
+2015,speech and language therapy,1,0.023809523809523808
+2015,birds,1,0.023809523809523808
+2015,digital storage,1,0.023809523809523808
+2015,health,1,0.023809523809523808
+2015,information management,1,0.023809523809523808
+2015,modeling languages,1,0.023809523809523808
+2015,ict-tools,1,0.023809523809523808
+2015,knowledge model,1,0.023809523809523808
+2015,owl ontologies,1,0.023809523809523808
+2015,supporting tool,1,0.023809523809523808
+2015,behavior change interventions,1,0.023809523809523808
+2015,bpmn2,1,0.023809523809523808
+2015,ecare,1,0.023809523809523808
+2015,interventions,1,0.023809523809523808
+2015,computation theory,1,0.023809523809523808
+2015,focusing,1,0.023809523809523808
+2015,mobile computing,1,0.023809523809523808
+2015,behavior change,1,0.023809523809523808
+2015,design,1,0.023809523809523808
+2015,health standards,1,0.023809523809523808
+2015,healthcare processes,1,0.023809523809523808
+2015,metamodels,1,0.023809523809523808
+2015,model-driven engineering,1,0.023809523809523808
+2015,management information systems,1,0.023809523809523808
+2015,standards,1,0.023809523809523808
+2015,healthcare process,1,0.023809523809523808
+2015,meta model,1,0.023809523809523808
+2015,semantic interoperability,1,0.023809523809523808
+2015,modulation,1,0.023809523809523808
+2015,standardization,1,0.023809523809523808
+2015,development process,1,0.023809523809523808
+2015,effective transmission,1,0.023809523809523808
+2015,openehr specifications,1,0.023809523809523808
+2016,electronic health record,17,0.7391304347826086
+2016,medical record linkage,6,0.2608695652173913
+2016,information storage and retrieval,5,0.21739130434782608
+2016,"models, theoretical",5,0.21739130434782608
+2016,software,5,0.21739130434782608
+2016,semantics,4,0.17391304347826086
+2016,user-computer interface,4,0.17391304347826086
+2016,programming languages,3,0.13043478260869565
+2016,interoperability,3,0.13043478260869565
+2016,database management systems,2,0.08695652173913043
+2016,information dissemination,2,0.08695652173913043
+2016,focus groups,2,0.08695652173913043
+2016,databases as topic,2,0.08695652173913043
+2016,hospital information systems,2,0.08695652173913043
+2016,organizational case studies,2,0.08695652173913043
+2016,systems integration,2,0.08695652173913043
+2016,time factors,2,0.08695652173913043
+2016,design,2,0.08695652173913043
+2016,diseases,2,0.08695652173913043
+2016,medical computing,2,0.08695652173913043
+2016,computational biology,1,0.043478260869565216
+2016,medical informatics applications,1,0.043478260869565216
+2016,cerebral palsy,1,0.043478260869565216
+2016,infant,1,0.043478260869565216
+2016,data collection,1,0.043478260869565216
+2016,"translational research, biomedical",1,0.043478260869565216
+2016,diet,1,0.043478260869565216
+2016,feedback,1,0.043478260869565216
+2016,health plan implementation,1,0.043478260869565216
+2016,practice guidelines as topic,1,0.043478260869565216
+2016,"renal insufficiency, chronic",1,0.043478260869565216
+2016,surveys and questionnaires,1,0.043478260869565216
+2016,general surgery,1,0.043478260869565216
+2016,operating room information systems,1,0.043478260869565216
+2016,datasets as topic,1,0.043478260869565216
+2016,tertiary care centers,1,0.043478260869565216
+2016,computer graphics,1,0.043478260869565216
+2016,diabetes mellitus,1,0.043478260869565216
+2016,home care services,1,0.043478260869565216
+2016,middle aged,1,0.043478260869565216
+2016,patient portals,1,0.043478260869565216
+2016,"decision support systems, clinical",1,0.043478260869565216
+2016,"medical records systems, computerized",1,0.043478260869565216
+2016,chronic disease,1,0.043478260869565216
+2016,disease,1,0.043478260869565216
+2016,prevalence,1,0.043478260869565216
+2016,registries,1,0.043478260869565216
+2016,"databases, factual",1,0.043478260869565216
+2016,health information exchange,1,0.043478260869565216
+2016,natural language processing,1,0.043478260869565216
+2016,program development,1,0.043478260869565216
+2016,systemic inflammatory response syndrome,1,0.043478260869565216
+2016,longitudinal studies,1,0.043478260869565216
+2016,medical informatics,1,0.043478260869565216
+2016,"models, organizational",1,0.043478260869565216
+2016,multilevel analysis,1,0.043478260869565216
+2016,search engine,1,0.043478260869565216
+2016,common data elements,1,0.043478260869565216
+2016,algorithms,1,0.043478260869565216
+2016,biological ontologies,1,0.043478260869565216
+2016,forms and records control,1,0.043478260869565216
+2016,internet,1,0.043478260869565216
+2016,systematized nomenclature of medicine,1,0.043478260869565216
+2016,documentation,1,0.043478260869565216
+2016,reference standards,1,0.043478260869565216
+2016,computer systems,1,0.043478260869565216
+2016,"computers, handheld",1,0.043478260869565216
+2016,emergency medical services,1,0.043478260869565216
+2016,stroke,1,0.043478260869565216
+2016,telemedicine,1,0.043478260869565216
+2016,health informatics,1,0.043478260869565216
+2016,human-computer interface,1,0.043478260869565216
+2016,properties of information systems,1,0.043478260869565216
+2016,interface,1,0.043478260869565216
+2016,usability,1,0.043478260869565216
+2016,systems,1,0.043478260869565216
+2016,adl archetype,1,0.043478260869565216
+2016,owl ontology,1,0.043478260869565216
+2016,hygehos,1,0.043478260869565216
+2016,breast-cancer,1,0.043478260869565216
+2016,archetype,1,0.043478260869565216
+2016,data disclosure,1,0.043478260869565216
+2016,data de-identification,1,0.043478260869565216
+2016,web services,1,0.043478260869565216
+2016,data privacy,1,0.043478260869565216
+2016,automated software engineering,1,0.043478260869565216
+2016,electronic health,1,0.043478260869565216
+2016,health records,1,0.043478260869565216
+2016,mobile computing,1,0.043478260869565216
+2016,ubiquitous healthcare,1,0.043478260869565216
+2016,web semantics,1,0.043478260869565216
+2016,health,1,0.043478260869565216
+2016,health care,1,0.043478260869565216
+2016,ubiquitous computing,1,0.043478260869565216
+2016,e health,1,0.043478260869565216
+2016,mobile and ubiquitous computing,1,0.043478260869565216
+2016,new information and communication technologies,1,0.043478260869565216
+2016,operational requirements,1,0.043478260869565216
+2016,semantic interoperability,1,0.043478260869565216
+2016,ubiquitous health care,1,0.043478260869565216
+2016,artificial intelligence,1,0.043478260869565216
+2016,behavioral research,1,0.043478260869565216
+2016,classification (of information),1,0.043478260869565216
+2016,data transfer,1,0.043478260869565216
+2016,decision support systems,1,0.043478260869565216
+2016,internet protocols,1,0.043478260869565216
+2016,microelectronics,1,0.043478260869565216
+2016,network architecture,1,0.043478260869565216
+2016,query languages,1,0.043478260869565216
+2016,regulatory compliance,1,0.043478260869565216
+2016,semantic web,1,0.043478260869565216
+2016,chronic conditions,1,0.043478260869565216
+2016,content and structure,1,0.043478260869565216
+2016,data transfer protocols,1,0.043478260869565216
+2016,novel architecture,1,0.043478260869565216
+2016,personal decision,1,0.043478260869565216
+2016,proposed architectures,1,0.043478260869565216
+2016,semantic web approach,1,0.043478260869565216
+2016,decision making,1,0.043478260869565216
+2017,electronic health record,25,0.5813953488372093
+2017,interoperability,7,0.16279069767441862
+2017,semantics,6,0.13953488372093023
+2017,"medical records systems, computerized",4,0.09302325581395349
+2017,archetype,4,0.09302325581395349
+2017,health,4,0.09302325581395349
+2017,health care,4,0.09302325581395349
+2017,fuzzy logic,3,0.06976744186046512
+2017,medical record linkage,3,0.06976744186046512
+2017,software,3,0.06976744186046512
+2017,reference standards,3,0.06976744186046512
+2017,information storage and retrieval,3,0.06976744186046512
+2017,practice guidelines as topic,2,0.046511627906976744
+2017,medical informatics,2,0.046511627906976744
+2017,patient compliance,2,0.046511627906976744
+2017,registries,2,0.046511627906976744
+2017,delivery of health care,2,0.046511627906976744
+2017,systems integration,2,0.046511627906976744
+2017,computer systems,2,0.046511627906976744
+2017,guidelines as topic,2,0.046511627906976744
+2017,database management systems,2,0.046511627906976744
+2017,"databases, factual",2,0.046511627906976744
+2017,pilot projects,2,0.046511627906976744
+2017,data curation,2,0.046511627906976744
+2017,"decision support systems, clinical",2,0.046511627906976744
+2017,health information interoperability,2,0.046511627906976744
+2017,hl7,2,0.046511627906976744
+2017,information infrastructure,2,0.046511627906976744
+2017,systems,2,0.046511627906976744
+2017,standardization,2,0.046511627906976744
+2017,standards,2,0.046511627906976744
+2017,ontology,2,0.046511627906976744
+2017,electronic health,2,0.046511627906976744
+2017,information systems,2,0.046511627906976744
+2017,medical computing,2,0.046511627906976744
+2017,healthcare process,2,0.046511627906976744
+2017,semantic interoperability,2,0.046511627906976744
+2017,big data,2,0.046511627906976744
+2017,electronic data interchange,2,0.046511627906976744
+2017,health informations,2,0.046511627906976744
+2017,records management,2,0.046511627906976744
+2017,expert systems,1,0.023255813953488372
+2017,quality of health care,1,0.023255813953488372
+2017,mass screening,1,0.023255813953488372
+2017,atrial fibrillation,1,0.023255813953488372
+2017,physical therapy modalities,1,0.023255813953488372
+2017,students,1,0.023255813953488372
+2017,access to information,1,0.023255813953488372
+2017,benchmarking,1,0.023255813953488372
+2017,datasets as topic,1,0.023255813953488372
+2017,information dissemination,1,0.023255813953488372
+2017,crowdsourcing,1,0.023255813953488372
+2017,peer review,1,0.023255813953488372
+2017,social media,1,0.023255813953488372
+2017,rare diseases,1,0.023255813953488372
+2017,diabetes mellitus,1,0.023255813953488372
+2017,health information exchange,1,0.023255813953488372
+2017,"infant, newborn",1,0.023255813953488372
+2017,"models, statistical",1,0.023255813953488372
+2017,mothers,1,0.023255813953488372
+2017,pregnancy,1,0.023255813953488372
+2017,ataxia,1,0.023255813953488372
+2017,biological ontologies,1,0.023255813953488372
+2017,phenotype,1,0.023255813953488372
+2017,severity of illness index,1,0.023255813953488372
+2017,terminology as topic,1,0.023255813953488372
+2017,systematized nomenclature of medicine,1,0.023255813953488372
+2017,telemedicine,1,0.023255813953488372
+2017,algorithms,1,0.023255813953488372
+2017,"models, theoretical",1,0.023255813953488372
+2017,skull neoplasms,1,0.023255813953488372
+2017,user-computer interface,1,0.023255813953488372
+2017,data collection,1,0.023255813953488372
+2017,data accuracy,1,0.023255813953488372
+2017,health services research,1,0.023255813953488372
+2017,infant,1,0.023255813953488372
+2017,maternal health services,1,0.023255813953488372
+2017,"aged, 80 and over",1,0.023255813953488372
+2017,biomedical research,1,0.023255813953488372
+2017,"fractures, bone",1,0.023255813953488372
+2017,"monitoring, ambulatory",1,0.023255813953488372
+2017,hospital information systems,1,0.023255813953488372
+2017,meaningful use,1,0.023255813953488372
+2017,"models, organizational",1,0.023255813953488372
+2017,machine learning,1,0.023255813953488372
+2017,natural language processing,1,0.023255813953488372
+2017,pathology,1,0.023255813953488372
+2017,"vocabulary, controlled",1,0.023255813953488372
+2017,surveys and questionnaires,1,0.023255813953488372
+2017,communication,1,0.023255813953488372
+2017,delphi technique,1,0.023255813953488372
+2017,health level seven,1,0.023255813953488372
+2017,guideline adherence,1,0.023255813953488372
+2017,stroke,1,0.023255813953488372
+2017,medical information,1,0.023255813953488372
+2017,medical records,1,0.023255813953488372
+2017,technical standards,1,0.023255813953488372
+2017,une/iso 13606,1,0.023255813953488372
+2017,data exchange,1,0.023255813953488372
+2017,infrastructuring,1,0.023255813953488372
+2017,standardisation,1,0.023255813953488372
+2017,user participation,1,0.023255813953488372
+2017,records,1,0.023255813953488372
+2017,design,1,0.023255813953488372
+2017,work,1,0.023255813953488372
+2017,phenotyping,1,0.023255813953488372
+2017,recruitment,1,0.023255813953488372
+2017,reference user,1,0.023255813953488372
+2017,generification,1,0.023255813953488372
+2017,component: electronic health records,1,0.023255813953488372
+2017,nutrition,1,0.023255813953488372
+2017,clinical practice guideline,1,0.023255813953488372
+2017,obesity,1,0.023255813953488372
+2017,consequences,1,0.023255813953488372
+2017,overweight,1,0.023255813953488372
+2017,paper,1,0.023255813953488372
+2017,attribute based encryption,1,0.023255813953488372
+2017,open ehr,1,0.023255813953488372
+2017,searchable encryption,1,0.023255813953488372
+2017,cryptdb,1,0.023255813953488372
+2017,cloud computing,1,0.023255813953488372
+2017,homomorphic encryption,1,0.023255813953488372
+2017,two-factor authentication,1,0.023255813953488372
+2017,access-control,1,0.023255813953488372
+2017,asthma disease,1,0.023255813953488372
+2017,generic storage,1,0.023255813953488372
+2017,entity attribute value model,1,0.023255813953488372
+2017,openehr standard,1,0.023255813953488372
+2017,usability tests,1,0.023255813953488372
+2017,archetyped interfaces,1,0.023255813953488372
+2017,user interface building tool,1,0.023255813953488372
+2017,privacy,1,0.023255813953488372
+2017,electronic health record - ehr,1,0.023255813953488372
+2017,semantic modelling,1,0.023255813953488372
+2017,clinical information repository,1,0.023255813953488372
+2017,health knowledge model,1,0.023255813953488372
+2017,cellular networks,1,0.023255813953488372
+2017,internet of things (iot),1,0.023255813953488372
+2017,machine-to-machine (m2m) communications,1,0.023255813953488372
+2017,mobile gateways (gws),1,0.023255813953488372
+2017,smartphones,1,0.023255813953488372
+2017,system performance,1,0.023255813953488372
+2017,wireless networks,1,0.023255813953488372
+2017,health-care,1,0.023255813953488372
+2017,m2m communications,1,0.023255813953488372
+2017,performance,1,0.023255813953488372
+2017,sensor,1,0.023255813953488372
+2017,internet,1,0.023255813953488372
+2017,system,1,0.023255813953488372
+2017,requirements,1,0.023255813953488372
+2017,services,1,0.023255813953488372
+2017,health information systems,1,0.023255813953488372
+2017,healthcare processes,1,0.023255813953488372
+2017,integration,1,0.023255813953488372
+2017,integration process,1,0.023255813953488372
+2017,patient information,1,0.023255813953488372
+2017,regional government,1,0.023255813953488372
+2017,applications in healthcare,1,0.023255813953488372
+2017,frameworks for big data,1,0.023255813953488372
+2017,internet architectures,1,0.023255813953488372
+2017,relational database systems,1,0.023255813953488372
+2017,cloud architectures,1,0.023255813953488372
+2017,e health,1,0.023255813953488372
+2017,internet architecture,1,0.023255813953488372
+2017,referential integrity,1,0.023255813953488372
+2017,relational database,1,0.023255813953488372
+2017,relational database management systems,1,0.023255813953488372
+2017,web service,1,0.023255813953488372
+2017,application programs,1,0.023255813953488372
+2017,information use,1,0.023255813953488372
+2017,web services,1,0.023255813953488372
+2017,websites,1,0.023255813953488372
+2017,ansi standards,1,0.023255813953488372
+2017,data standards,1,0.023255813953488372
+2017,health data,1,0.023255813953488372
+2017,information standards,1,0.023255813953488372
+2017,international healths,1,0.023255813953488372
+2017,patient health,1,0.023255813953488372
+2017,webs services,1,0.023255813953488372
+2017,adl,1,0.023255813953488372
+2017,cityehr,1,0.023255813953488372
+2017,iso13606,1,0.023255813953488372
+2017,translator,1,0.023255813953488372
+2017,digital storage,1,0.023255813953488372
+2017,hospital data processing,1,0.023255813953488372
+2017,hospitals,1,0.023255813953488372
+2017,network architecture,1,0.023255813953488372
+2017,query languages,1,0.023255813953488372
+2017,electronic health record (ehrs),1,0.023255813953488372
+2017,evolution behavior,1,0.023255813953488372
+2017,generic structure,1,0.023255813953488372
+2017,health care professionals,1,0.023255813953488372
+2017,storage structures,1,0.023255813953488372
+2017,technological development,1,0.023255813953488372
+2017,fhir,1,0.023255813953488372
+2017,semantic web,1,0.023255813953488372
+2017,method evaluation,1,0.023255813953488372
+2017,ontologies and rules,1,0.023255813953488372
+2017,semantic web rule language(swrl),1,0.023255813953488372
+2018,electronic health record,16,0.7272727272727273
+2018,semantics,6,0.2727272727272727
+2018,software,5,0.22727272727272727
+2018,"decision support systems, clinical",4,0.18181818181818182
+2018,"models, theoretical",4,0.18181818181818182
+2018,delivery of health care,3,0.13636363636363635
+2018,user-computer interface,3,0.13636363636363635
+2018,archetype,3,0.13636363636363635
+2018,genomics,2,0.09090909090909091
+2018,medical informatics applications,2,0.09090909090909091
+2018,health information interoperability,2,0.09090909090909091
+2018,database management systems,2,0.09090909090909091
+2018,information storage and retrieval,2,0.09090909090909091
+2018,medical record linkage,2,0.09090909090909091
+2018,health,2,0.09090909090909091
+2018,records,2,0.09090909090909091
+2018,big data,2,0.09090909090909091
+2018,interoperability,2,0.09090909090909091
+2018,medical computing,2,0.09090909090909091
+2018,health information systems,2,0.09090909090909091
+2018,genetic testing,1,0.045454545454545456
+2018,genetic variation,1,0.045454545454545456
+2018,"genome, human",1,0.045454545454545456
+2018,rare diseases,1,0.045454545454545456
+2018,systems integration,1,0.045454545454545456
+2018,expert systems,1,0.045454545454545456
+2018,parenteral nutrition,1,0.045454545454545456
+2018,academies and institutes,1,0.045454545454545456
+2018,biomedical research,1,0.045454545454545456
+2018,clinical governance,1,0.045454545454545456
+2018,health education,1,0.045454545454545456
+2018,search engine,1,0.045454545454545456
+2018,privacy,1,0.045454545454545456
+2018,artificial intelligence,1,0.045454545454545456
+2018,critical care,1,0.045454545454545456
+2018,decision support techniques,1,0.045454545454545456
+2018,"diagnosis, computer-assisted",1,0.045454545454545456
+2018,early diagnosis,1,0.045454545454545456
+2018,feasibility studies,1,0.045454545454545456
+2018,"intensive care units, pediatric",1,0.045454545454545456
+2018,knowledge bases,1,0.045454545454545456
+2018,predictive value of tests,1,0.045454545454545456
+2018,proof of concept study,1,0.045454545454545456
+2018,systemic inflammatory response syndrome,1,0.045454545454545456
+2018,information systems,1,0.045454545454545456
+2018,programming languages,1,0.045454545454545456
+2018,publishing,1,0.045454545454545456
+2018,data warehousing,1,0.045454545454545456
+2018,data mining,1,0.045454545454545456
+2018,computer security,1,0.045454545454545456
+2018,hospital information systems,1,0.045454545454545456
+2018,nutrigenomics,1,0.045454545454545456
+2018,quality of health care,1,0.045454545454545456
+2018,registries,1,0.045454545454545456
+2018,disease,1,0.045454545454545456
+2018,data accuracy,1,0.045454545454545456
+2018,medical informatics,1,0.045454545454545456
+2018,terminology as topic,1,0.045454545454545456
+2018,benchmarking,1,0.045454545454545456
+2018,datasets as topic,1,0.045454545454545456
+2018,eating disorders,1,0.045454545454545456
+2018,nutrition,1,0.045454545454545456
+2018,identification,1,0.045454545454545456
+2018,prevalence,1,0.045454545454545456
+2018,attitudes,1,0.045454545454545456
+2018,behavior,1,0.045454545454545456
+2018,operational templates,1,0.045454545454545456
+2018,hl7 v3/cda,1,0.045454545454545456
+2018,snomed ct interoperability,1,0.045454545454545456
+2018,ehrs,1,0.045454545454545456
+2018,analytic tools,1,0.045454545454545456
+2018,health practitioners,1,0.045454545454545456
+2018,challenges,1,0.045454545454545456
+2018,basic health unit,1,0.045454545454545456
+2018,chikungunya,1,0.045454545454545456
+2018,clinical management,1,0.045454545454545456
+2018,his,1,0.045454545454545456
+2018,electronic patient record,1,0.045454545454545456
+2018,health professionals,1,0.045454545454545456
+2018,heterogeneous systems,1,0.045454545454545456
+2018,clinical research,1,0.045454545454545456
+2018,hospital data processing,1,0.045454545454545456
+2018,information use,1,0.045454545454545456
+2018,integration,1,0.045454545454545456
+2018,legacy systems,1,0.045454545454545456
+2018,mapping,1,0.045454545454545456
+2018,architecture-based,1,0.045454545454545456
+2018,distributed sources,1,0.045454545454545456
+2018,health care information system,1,0.045454545454545456
+2018,heterogeneous sources,1,0.045454545454545456
+2018,integration architecture,1,0.045454545454545456
+2018,research activities,1,0.045454545454545456
+2018,medical information systems,1,0.045454545454545456
+2019,electronic health record,25,0.7575757575757576
+2019,semantics,6,0.18181818181818182
+2019,archetype,6,0.18181818181818182
+2019,delivery of health care,4,0.12121212121212122
+2019,software,4,0.12121212121212122
+2019,data accuracy,3,0.09090909090909091
+2019,health information interoperability,3,0.09090909090909091
+2019,interoperability,3,0.09090909090909091
+2019,electronic health,3,0.09090909090909091
+2019,semantic interoperability,3,0.09090909090909091
+2019,information storage and retrieval,2,0.06060606060606061
+2019,algorithms,2,0.06060606060606061
+2019,"health records, personal",2,0.06060606060606061
+2019,biological ontologies,2,0.06060606060606061
+2019,semantic web,2,0.06060606060606061
+2019,reference model,2,0.06060606060606061
+2019,medical computing,2,0.06060606060606061
+2019,electronic medical record,2,0.06060606060606061
+2019,health care,2,0.06060606060606061
+2019,data aggregation,1,0.030303030303030304
+2019,internet,1,0.030303030303030304
+2019,systems integration,1,0.030303030303030304
+2019,narration,1,0.030303030303030304
+2019,computer systems,1,0.030303030303030304
+2019,medical record linkage,1,0.030303030303030304
+2019,checklist,1,0.030303030303030304
+2019,"decision support systems, clinical",1,0.030303030303030304
+2019,guideline adherence,1,0.030303030303030304
+2019,patient safety,1,0.030303030303030304
+2019,percutaneous coronary intervention,1,0.030303030303030304
+2019,drug therapy,1,0.030303030303030304
+2019,programming languages,1,0.030303030303030304
+2019,pharmacists,1,0.030303030303030304
+2019,"labor, obstetric",1,0.030303030303030304
+2019,pregnancy,1,0.030303030303030304
+2019,feasibility studies,1,0.030303030303030304
+2019,health information exchange,1,0.030303030303030304
+2019,online systems,1,0.030303030303030304
+2019,"infant, newborn",1,0.030303030303030304
+2019,obstetrics,1,0.030303030303030304
+2019,data systems,1,0.030303030303030304
+2019,data collection,1,0.030303030303030304
+2019,data warehousing,1,0.030303030303030304
+2019,crowdsourcing,1,0.030303030303030304
+2019,interviews as topic,1,0.030303030303030304
+2019,medical informatics,1,0.030303030303030304
+2019,tobacco smoking,1,0.030303030303030304
+2019,blockchain,1,0.030303030303030304
+2019,clinical coding,1,0.030303030303030304
+2019,logical observation identifiers names and codes,1,0.030303030303030304
+2019,"medical records systems, computerized",1,0.030303030303030304
+2019,systematized nomenclature of medicine,1,0.030303030303030304
+2019,aging,1,0.030303030303030304
+2019,frailty,1,0.030303030303030304
+2019,"models, theoretical",1,0.030303030303030304
+2019,adult,1,0.030303030303030304
+2019,computer simulation,1,0.030303030303030304
+2019,natural language processing,1,0.030303030303030304
+2019,dual-level scheme,1,0.030303030303030304
+2019,sql,1,0.030303030303030304
+2019,nosql,1,0.030303030303030304
+2019,clinical workflows,1,0.030303030303030304
+2019,business process modelling,1,0.030303030303030304
+2019,design,1,0.030303030303030304
+2019,graph database,1,0.030303030303030304
+2019,database,1,0.030303030303030304
+2019,performance,1,0.030303030303030304
+2019,ehr repository,1,0.030303030303030304
+2019,archetype-based storage,1,0.030303030303030304
+2019,query response time,1,0.030303030303030304
+2019,clinical repository,1,0.030303030303030304
+2019,health,1,0.030303030303030304
+2019,adoption,1,0.030303030303030304
+2019,system,1,0.030303030303030304
+2019,care,1,0.030303030303030304
+2019,extraction,1,0.030303030303030304
+2019,normalization,1,0.030303030303030304
+2019,challenges,1,0.030303030303030304
+2019,models,1,0.030303030303030304
+2019,nosql databases,1,0.030303030303030304
+2019,query-language interfaces,1,0.030303030303030304
+2019,standardized electronic health records,1,0.030303030303030304
+2019,interface,1,0.030303030303030304
+2019,internet of things (iot),1,0.030303030303030304
+2019,machine-to-machine (m2m) communications,1,0.030303030303030304
+2019,system performance,1,0.030303030303030304
+2019,wi-fi,1,0.030303030303030304
+2019,conditional random fields,1,0.030303030303030304
+2019,semantic analysis,1,0.030303030303030304
+2019,wide&deep network,1,0.030303030303030304
+2019,medicine,1,0.030303030303030304
+2019,random processes,1,0.030303030303030304
+2019,specifications,1,0.030303030303030304
+2019,automatic conversion,1,0.030303030303030304
+2019,conditional random field,1,0.030303030303030304
+2019,electronic records,1,0.030303030303030304
+2019,high scalabilities,1,0.030303030303030304
+2019,openehr specifications,1,0.030303030303030304
+2019,electronic document exchange,1,0.030303030303030304
+2019,data model,1,0.030303030303030304
+2019,iso/en 13606,1,0.030303030303030304
+2019,medical information,1,0.030303030303030304
+2019,xml,1,0.030303030303030304
+2019,application programs,1,0.030303030303030304
+2019,data structures,1,0.030303030303030304
+2019,health insurance,1,0.030303030303030304
+2019,reference modeling,1,0.030303030303030304
+2019,clinical archetypes,1,0.030303030303030304
+2019,clinical observation sketching,1,0.030303030303030304
+2019,hysteroscopy,1,0.030303030303030304
+2019,image processing,1,0.030303030303030304
+2019,snomed-ct,1,0.030303030303030304
+2019,clinical event,1,0.030303030303030304
+2019,declarative,1,0.030303030303030304
+2019,multi-perspective,1,0.030303030303030304
+2019,process mining,1,0.030303030303030304
+2019,bioinformatics,1,0.030303030303030304
+2019,mining,1,0.030303030303030304
+2019,clinical staff,1,0.030303030303030304
+2019,constraint-based,1,0.030303030303030304
+2019,control flows,1,0.030303030303030304
+2019,medical institutions,1,0.030303030303030304
+2019,model approach,1,0.030303030303030304
+2019,model representation,1,0.030303030303030304
+2019,data mining,1,0.030303030303030304
+2019,hl7 fhir,1,0.030303030303030304
+2019,openrhr,1,0.030303030303030304
+2019,costs,1,0.030303030303030304
+2019,ehealth,1,0.030303030303030304
+2019,records management,1,0.030303030303030304
+2019,telemedicine,1,0.030303030303030304
+2019,health care providers,1,0.030303030303030304
+2019,information and communication technologies,1,0.030303030303030304
+2019,public health systems,1,0.030303030303030304
+2019,clinical knowledge manager,1,0.030303030303030304
+2019,fair,1,0.030303030303030304
+2019,highmed,1,0.030303030303030304
+2019,modelling,1,0.030303030303030304
+2019,principles,1,0.030303030303030304
+2019,clinical research,1,0.030303030303030304
+2019,knowledge management,1,0.030303030303030304
+2019,managers,1,0.030303030303030304
+2019,clinical knowledge,1,0.030303030303030304
+2019,collaborative library,1,0.030303030303030304
+2019,data publishing,1,0.030303030303030304
+2019,research data,1,0.030303030303030304
+2019,scientific data,1,0.030303030303030304
+2019,semantic framework,1,0.030303030303030304
+2020,electronic health record,13,0.48148148148148145
+2020,semantics,5,0.18518518518518517
+2020,interoperability,5,0.18518518518518517
+2020,"decision support systems, clinical",4,0.14814814814814814
+2020,software,4,0.14814814814814814
+2020,data mining,3,0.1111111111111111
+2020,information storage and retrieval,3,0.1111111111111111
+2020,systematized nomenclature of medicine,3,0.1111111111111111
+2020,semantic interoperability,3,0.1111111111111111
+2020,delivery of health care,2,0.07407407407407407
+2020,reference standards,2,0.07407407407407407
+2020,covid-19,2,0.07407407407407407
+2020,coronavirus infections,2,0.07407407407407407
+2020,pandemics,2,0.07407407407407407
+2020,"pneumonia, viral",2,0.07407407407407407
+2020,artificial intelligence,2,0.07407407407407407
+2020,programming languages,2,0.07407407407407407
+2020,database management systems,2,0.07407407407407407
+2020,terminology,2,0.07407407407407407
+2020,medical services,2,0.07407407407407407
+2020,deep learning,2,0.07407407407407407
+2020,nephrology,2,0.07407407407407407
+2020,information systems,2,0.07407407407407407
+2020,information use,2,0.07407407407407407
+2020,stroke,1,0.037037037037037035
+2020,natural language processing,1,0.037037037037037035
+2020,pilot projects,1,0.037037037037037035
+2020,betacoronavirus,1,0.037037037037037035
+2020,datasets as topic,1,0.037037037037037035
+2020,facilities and services utilization,1,0.037037037037037035
+2020,multilingualism,1,0.037037037037037035
+2020,sars-cov-2,1,0.037037037037037035
+2020,data accuracy,1,0.037037037037037035
+2020,electronics,1,0.037037037037037035
+2020,breast neoplasms,1,0.037037037037037035
+2020,"databases, factual",1,0.037037037037037035
+2020,genetic testing,1,0.037037037037037035
+2020,genomics,1,0.037037037037037035
+2020,algorithms,1,0.037037037037037035
+2020,feasibility studies,1,0.037037037037037035
+2020,medical record linkage,1,0.037037037037037035
+2020,"medical records systems, computerized",1,0.037037037037037035
+2020,"models, theoretical",1,0.037037037037037035
+2020,phenotype,1,0.037037037037037035
+2020,precision medicine,1,0.037037037037037035
+2020,practice guidelines as topic,1,0.037037037037037035
+2020,stroke screening,1,0.037037037037037035
+2020,data modeling,1,0.037037037037037035
+2020,cde,1,0.037037037037037035
+2020,open knowledge,1,0.037037037037037035
+2020,health information system,1,0.037037037037037035
+2020,graphical user interfaces,1,0.037037037037037035
+2020,tools,1,0.037037037037037035
+2020,xml,1,0.037037037037037035
+2020,computer architecture,1,0.037037037037037035
+2020,computing milieux,1,0.037037037037037035
+2020,computers and society,1,0.037037037037037035
+2020,public policy issues,1,0.037037037037037035
+2020,computer-related health issues,1,0.037037037037037035
+2020,user interfaces,1,0.037037037037037035
+2020,information interfaces and representation (hci),1,0.037037037037037035
+2020,information,1,0.037037037037037035
+2020,distributed,1,0.037037037037037035
+2020,internet based software engineering tools and techniques,1,0.037037037037037035
+2020,design tools and techniques,1,0.037037037037037035
+2020,information technology and systems,1,0.037037037037037035
+2020,database management,1,0.037037037037037035
+2020,systems,1,0.037037037037037035
+2020,relational databases,1,0.037037037037037035
+2020,clinical archetypes,1,0.037037037037037035
+2020,it infrastructure flexibility,1,0.037037037037037035
+2020,conceptual independence,1,0.037037037037037035
+2020,mixed-methods research,1,0.037037037037037035
+2020,information-technology,1,0.037037037037037035
+2020,architectural mismatch,1,0.037037037037037035
+2020,agility,1,0.037037037037037035
+2020,design,1,0.037037037037037035
+2020,reuse,1,0.037037037037037035
+2020,electronic health,1,0.037037037037037035
+2020,internet of medical things,1,0.037037037037037035
+2020,machine-to-machine,1,0.037037037037037035
+2020,semantic sensor network,1,0.037037037037037035
+2020,data,1,0.037037037037037035
+2020,semantic,1,0.037037037037037035
+2020,clinical decision support,1,0.037037037037037035
+2020,clinical knowledge,1,0.037037037037037035
+2020,entity attribute value model,1,0.037037037037037035
+2020,optimized entity attribute value model,1,0.037037037037037035
+2020,optimized column-oriented model,1,0.037037037037037035
+2020,dynamic tables,1,0.037037037037037035
+2020,sparse data,1,0.037037037037037035
+2020,healthcare,1,0.037037037037037035
+2020,diseases,1,0.037037037037037035
+2020,predictive models,1,0.037037037037037035
+2020,data models,1,0.037037037037037035
+2020,medical diagnostic imaging,1,0.037037037037037035
+2020,feature extraction,1,0.037037037037037035
+2020,convolutional neural networks,1,0.037037037037037035
+2020,similarity learning,1,0.037037037037037035
+2020,softmax-based technique,1,0.037037037037037035
+2020,missing data,1,0.037037037037037035
+2020,multiple imputation,1,0.037037037037037035
+2020,risk prediction,1,0.037037037037037035
+2020,machine,1,0.037037037037037035
+2020,algorithm,1,0.037037037037037035
+2020,challenges,1,0.037037037037037035
+2020,framework,1,0.037037037037037035
+2020,disease,1,0.037037037037037035
+2020,system,1,0.037037037037037035
+2020,cen 13606 archetype,1,0.037037037037037035
+2020,cen 13606 reference model,1,0.037037037037037035
+2020,ehealth,1,0.037037037037037035
+2020,information services,1,0.037037037037037035
+2020,unified modeling language,1,0.037037037037037035
+2020,web services,1,0.037037037037037035
+2020,building a prototypes,1,0.037037037037037035
+2020,data types and structures,1,0.037037037037037035
+2020,e-health services,1,0.037037037037037035
+2020,professional experiences,1,0.037037037037037035
+2020,reference modeling,1,0.037037037037037035
+2020,restful web services,1,0.037037037037037035
+2020,scientific programs,1,0.037037037037037035
+2020,feed forward neural network,1,0.037037037037037035
+2020,kidney disease,1,0.037037037037037035
+2020,ordba dataset,1,0.037037037037037035
+2020,automation,1,0.037037037037037035
+2020,diagnosis,1,0.037037037037037035
+2020,feedforward neural networks,1,0.037037037037037035
+2020,learning systems,1,0.037037037037037035
+2020,urea,1,0.037037037037037035
+2020,abdominal ultrasonography,1,0.037037037037037035
+2020,automated systems,1,0.037037037037037035
+2020,automatic systems,1,0.037037037037037035
+2020,cancer diagnosis,1,0.037037037037037035
+2020,learning techniques,1,0.037037037037037035
+2020,multiple parameters,1,0.037037037037037035
+2020,reduction rate,1,0.037037037037037035
+2020,vascular access,1,0.037037037037037035
+2020,archetype,1,0.037037037037037035
+2020,hl7 v3/cda,1,0.037037037037037035
+2020,operational templates,1,0.037037037037037035
+2020,snomed ct,1,0.037037037037037035
+2020,article,1,0.037037037037037035
+2020,computer language,1,0.037037037037037035
+2020,data system,1,0.037037037037037035
+2020,health care personnel,1,0.037037037037037035
+2020,human,1,0.037037037037037035
+2020,clinical data reuse,1,0.037037037037037035
+2020,omop cdm,1,0.037037037037037035
+2020,big data,1,0.037037037037037035
+2020,clinical research,1,0.037037037037037035
+2020,data acquisition,1,0.037037037037037035
+2020,data sharing,1,0.037037037037037035
+2020,data warehouses,1,0.037037037037037035
+2020,distributed database systems,1,0.037037037037037035
+2020,electronic data interchange,1,0.037037037037037035
+2020,medical computing,1,0.037037037037037035
+2020,open source software,1,0.037037037037037035
+2020,clinical observation,1,0.037037037037037035
+2020,data acquisition system,1,0.037037037037037035
+2020,data transformation,1,0.037037037037037035
+2020,experimental projects,1,0.037037037037037035
+2020,pharmaceutical safety,1,0.037037037037037035
+2020,steep learning curve,1,0.037037037037037035
+2020,business process model and notation,1,0.037037037037037035
+2020,international patient summary,1,0.037037037037037035
+2020,openehr information model,1,0.037037037037037035
+2020,use case,1,0.037037037037037035
+2020,web application,1,0.037037037037037035
+2020,international law,1,0.037037037037037035
+2020,computer experiment,1,0.037037037037037035
+2020,continuity of cares,1,0.037037037037037035
+2020,european commission,1,0.037037037037037035
+2020,functional requirement,1,0.037037037037037035
+2020,information exchanges,1,0.037037037037037035
+2020,information modeling,1,0.037037037037037035
+2020,software implementation,1,0.037037037037037035
+2021,electronic health record,17,0.85
+2021,semantics,6,0.3
+2021,systematized nomenclature of medicine,2,0.1
+2021,logical observation identifiers names and codes,2,0.1
+2021,data accuracy,2,0.1
+2021,electronic health record (ehr),2,0.1
+2021,interoperability,2,0.1
+2021,biomedical research,1,0.05
+2021,pancreatic neoplasms,1,0.05
+2021,feasibility studies,1,0.05
+2021,natural language processing,1,0.05
+2021,genomics,1,0.05
+2021,software,1,0.05
+2021,laboratories,1,0.05
+2021,"hospitals, university",1,0.05
+2021,medical informatics,1,0.05
+2021,medical records,1,0.05
+2021,"medical records, problem-oriented",1,0.05
+2021,computer simulation,1,0.05
+2021,cross infection,1,0.05
+2021,disease outbreaks,1,0.05
+2021,"drug resistance, microbial",1,0.05
+2021,interinstitutional relations,1,0.05
+2021,proof of concept study,1,0.05
+2021,reference standards,1,0.05
+2021,"decision support systems, clinical",1,0.05
+2021,knowledge bases,1,0.05
+2021,algorithms,1,0.05
+2021,covid-19,1,0.05
+2021,cohort studies,1,0.05
+2021,datasets as topic,1,0.05
+2021,sars-cov-2,1,0.05
+2021,healthcare information systems,1,0.05
+2021,clinical information model,1,0.05
+2021,reference model,1,0.05
+2021,big data,1,0.05
+2021,computer-interpretable guidelines,1,0.05
+2021,gdl,1,0.05
+2021,meta-model,1,0.05
+2021,case study,1,0.05
+2021,metamodel,1,0.05
+2021,semantic,1,0.05
+2021,fuzzy ontology,1,0.05
+2021,sparql,1,0.05
+2021,knowledge,1,0.05
+2021,systems,1,0.05
+2021,representation,1,0.05
+2021,uncertainty,1,0.05
+2021,reasoner,1,0.05
+2021,health informatics,1,0.05
+2021,computational methods,1,0.05
+2021,data sharing,1,0.05
+2021,electronic data interchange,1,0.05
+2021,electronic document exchange,1,0.05
+2021,health care,1,0.05
+2021,information retrieval,1,0.05
+2021,storage as a service (staas),1,0.05
+2021,windows operating system,1,0.05
+2021,cloud services,1,0.05
+2021,data collection,1,0.05
+2021,database storage,1,0.05
+2021,extract informations,1,0.05
+2021,medical errors,1,0.05
+2021,open-source solutions,1,0.05
+2021,openehr specifications,1,0.05
+2021,digital storage,1,0.05
+2021,notation3,1,0.05
+2021,semantic user interfaces,1,0.05
+2021,decision making,1,0.05
+2021,records management,1,0.05
+2021,semantic web,1,0.05
+2021,data interoperability,1,0.05
+2021,health data,1,0.05
+2021,interface formats,1,0.05
+2021,model-driven,1,0.05
+2021,multiple platforms,1,0.05
+2021,self management,1,0.05
+2021,semantic interfaces,1,0.05
+2021,semantic user interface,1,0.05
+2021,web application,1,0.05
+2021,user interfaces,1,0.05
+2022,electronic health record,10,0.43478260869565216
+2022,interoperability,7,0.30434782608695654
+2022,delivery of health care,5,0.21739130434782608
+2022,covid-19,5,0.21739130434782608
+2022,health records,4,0.17391304347826086
+2022,software,3,0.13043478260869565
+2022,semantics,3,0.13043478260869565
+2022,pandemics,3,0.13043478260869565
+2022,sars-cov-2,3,0.13043478260869565
+2022,electronic health,3,0.13043478260869565
+2022,clinical data,3,0.13043478260869565
+2022,information storage and retrieval,2,0.08695652173913043
+2022,sepsis,2,0.08695652173913043
+2022,critical pathways,2,0.08695652173913043
+2022,archetype,2,0.08695652173913043
+2022,blockchain,2,0.08695652173913043
+2022,electronic data interchange,2,0.08695652173913043
+2022,decision making,2,0.08695652173913043
+2022,health care,2,0.08695652173913043
+2022,information management,2,0.08695652173913043
+2022,data warehousing,1,0.043478260869565216
+2022,reference standards,1,0.043478260869565216
+2022,"decision support systems, clinical",1,0.043478260869565216
+2022,critical illness,1,0.043478260869565216
+2022,prospective studies,1,0.043478260869565216
+2022,"models, theoretical",1,0.043478260869565216
+2022,artifacts,1,0.043478260869565216
+2022,covid-19 testing,1,0.043478260869565216
+2022,infection control,1,0.043478260869565216
+2022,records,1,0.043478260869565216
+2022,medical informatics,1,0.043478260869565216
+2022,medicare,1,0.043478260869565216
+2022,consensus,1,0.043478260869565216
+2022,dual-model approach,1,0.043478260869565216
+2022,knowledge representation,1,0.043478260869565216
+2022,xml,1,0.043478260869565216
+2022,adl,1,0.043478260869565216
+2022,owl,1,0.043478260869565216
+2022,electronic health records (ehrs),1,0.043478260869565216
+2022,data-security,1,0.043478260869565216
+2022,privacy,1,0.043478260869565216
+2022,architecture description maturity,1,0.043478260869565216
+2022,open-source software,1,0.043478260869565216
+2022,software architecture,1,0.043478260869565216
+2022,software documentation,1,0.043478260869565216
+2022,data exchange,1,0.043478260869565216
+2022,data representation,1,0.043478260869565216
+2022,intraocular pressure,1,0.043478260869565216
+2022,ophthalmology,1,0.043478260869565216
+2022,specifications,1,0.043478260869565216
+2022,cyber security,1,0.043478260869565216
+2022,data representations,1,0.043478260869565216
+2022,digital capacities,1,0.043478260869565216
+2022,digital skills,1,0.043478260869565216
+2022,digital technologies,1,0.043478260869565216
+2022,performance computing,1,0.043478260869565216
+2022,business intelligence,1,0.043478260869565216
+2022,complementary diagnostic request,1,0.043478260869565216
+2022,data warehouse,1,0.043478260869565216
+2022,templates,1,0.043478260869565216
+2022,architecture,1,0.043478260869565216
+2022,data warehouses,1,0.043478260869565216
+2022,diagnosis,1,0.043478260869565216
+2022,information analysis,1,0.043478260869565216
+2022,additional costs,1,0.043478260869565216
+2022,business-intelligence,1,0.043478260869565216
+2022,demographic data,1,0.043478260869565216
+2022,diagnostic tests,1,0.043478260869565216
+2022,health outcomes,1,0.043478260869565216
+2022,template,1,0.043478260869565216
+2022,clinical decision support system,1,0.043478260869565216
+2022,decision module language,1,0.043478260869565216
+2022,guideline,1,0.043478260869565216
+2022,rules,1,0.043478260869565216
+2022,artificial intelligence,1,0.043478260869565216
+2022,decision support systems,1,0.043478260869565216
+2022,clinical decision support systems,1,0.043478260869565216
+2022,daily tasks,1,0.043478260869565216
+2022,decision modules,1,0.043478260869565216
+2022,decision-making process,1,0.043478260869565216
+2022,health care professionals,1,0.043478260869565216
+2022,rule,1,0.043478260869565216
+2022,rule based,1,0.043478260869565216
+2022,helthcare,1,0.043478260869565216
+2022,hyperledger fabric,1,0.043478260869565216
+2022,distributed ledger,1,0.043478260869565216
+2022,open data,1,0.043478260869565216
+2022,access permissions,1,0.043478260869565216
+2022,block-chain,1,0.043478260869565216
+2022,data framework,1,0.043478260869565216
+2022,electronic records,1,0.043478260869565216
+2022,fine grained,1,0.043478260869565216
+2022,hyperledg fabric,1,0.043478260869565216
+2022,open datum,1,0.043478260869565216
+2022,archetype object model,1,0.043478260869565216
+2022,clinical information models,1,0.043478260869565216
+2022,ehealth,1,0.043478260869565216
+2022,iso 13606,1,0.043478260869565216
+2022,information systems,1,0.043478260869565216
+2022,information theory,1,0.043478260869565216
+2022,information use,1,0.043478260869565216
+2022,medical computing,1,0.043478260869565216
+2022,records management,1,0.043478260869565216
+2022,reusability,1,0.043478260869565216
+2022,clinical information,1,0.043478260869565216
+2022,clinical information model,1,0.043478260869565216
+2022,information modeling,1,0.043478260869565216
+2022,object modeling,1,0.043478260869565216
+2022,bariatric surgery,1,0.043478260869565216
+2022,health information systems,1,0.043478260869565216
+2022,obesity,1,0.043478260869565216
+2022,health risks,1,0.043478260869565216
+2022,surgery,1,0.043478260869565216
+2022,follow up,1,0.043478260869565216
+2022,weight loss,1,0.043478260869565216
+2022,world health organization,1,0.043478260869565216
+2022,ckm,1,0.043478260869565216
+2022,fhir,1,0.043478260869565216
+2022,hl7 fhir ehr,1,0.043478260869565216
+2022,smart on fhir,1,0.043478260869565216
+2022,visualization,1,0.043478260869565216
+2022,fast health interoperability resource,1,0.043478260869565216
+2022,hl7 fast health interoperability resource ehr,1,0.043478260869565216
+2022,literature reviews,1,0.043478260869565216
+2022,management platforms,1,0.043478260869565216
+2022,pressung,1,0.043478260869565216
+2022,smart on fast health interoperability resource,1,0.043478260869565216
+2022,technical challenges,1,0.043478260869565216
+2022,data visualization,1,0.043478260869565216
+2023,electronic health record,6,0.35294117647058826
+2023,interoperability,5,0.29411764705882354
+2023,semantics,4,0.23529411764705882
+2023,knowledge,3,0.17647058823529413
+2023,information systems,3,0.17647058823529413
+2023,health care,3,0.17647058823529413
+2023,information use,3,0.17647058823529413
+2023,medical computing,3,0.17647058823529413
+2023,ehealth,3,0.17647058823529413
+2023,electronic health,3,0.17647058823529413
+2023,health records,3,0.17647058823529413
+2023,reference standards,2,0.11764705882352941
+2023,"databases, factual",2,0.11764705882352941
+2023,decision making,2,0.11764705882352941
+2023,information management,2,0.11764705882352941
+2023,health information systems,2,0.11764705882352941
+2023,records management,2,0.11764705882352941
+2023,health level seven,1,0.058823529411764705
+2023,consensus,1,0.058823529411764705
+2023,occupational health,1,0.058823529411764705
+2023,employment,1,0.058823529411764705
+2023,occupations,1,0.058823529411764705
+2023,behcet syndrome,1,0.058823529411764705
+2023,rare diseases,1,0.058823529411764705
+2023,"decision support systems, clinical",1,0.058823529411764705
+2023,learning health system,1,0.058823529411764705
+2023,"intensive care units, pediatric",1,0.058823529411764705
+2023,pediatrics,1,0.058823529411764705
+2023,disclosure,1,0.058823529411764705
+2023,credentialing,1,0.058823529411764705
+2023,records,1,0.058823529411764705
+2023,systematized nomenclature of medicine,1,0.058823529411764705
+2023,delivery of health care,1,0.058823529411764705
+2023,-medical computer systems,1,0.058823529411764705
+2023,healthcare information technology,1,0.058823529411764705
+2023,hl7 fhir,1,0.058823529411764705
+2023,hl7 fast health interoperability resources (hl7 fhir),1,0.058823529411764705
+2023,estonian national health information system (enhis),1,0.058823529411764705
+2023,electronic health record (ehr),1,0.058823529411764705
+2023,socioeconomic status,1,0.058823529411764705
+2023,education level,1,0.058823529411764705
+2023,occupation,1,0.058823529411764705
+2023,hl7 clinical document architecture (hl7 cda),1,0.058823529411764705
+2023,snomed,1,0.058823529411764705
+2023,loinc,1,0.058823529411764705
+2023,cdss,1,0.058823529411764705
+2023,model transformation,1,0.058823529411764705
+2023,ontology,1,0.058823529411764705
+2023,owl,1,0.058823529411764705
+2023,decision support systems,1,0.058823529411764705
+2023,diagnosis,1,0.058823529411764705
+2023,knowledge based systems,1,0.058823529411764705
+2023,biomedical fields,1,0.058823529411764705
+2023,clinical decision,1,0.058823529411764705
+2023,clinical decision support systems,1,0.058823529411764705
+2023,computer technology,1,0.058823529411764705
+2023,medical knowledge,1,0.058823529411764705
+2023,ontology's,1,0.058823529411764705
+2023,system development,1,0.058823529411764705
+2023,benchmarking,1,0.058823529411764705
+2023,blockchain,1,0.058823529411764705
+2023,blockchain in healthcare,1,0.058823529411764705
+2023,hyperledger fabric,1,0.058823529411764705
+2023,distributed ledger,1,0.058823529411764705
+2023,open data,1,0.058823529411764705
+2023,sensitive data,1,0.058823529411764705
+2023,block-chain,1,0.058823529411764705
+2023,clinical data,1,0.058823529411764705
+2023,hyperledg fabric,1,0.058823529411764705
+2023,open datum,1,0.058823529411764705
+2023,security and privacy,1,0.058823529411764705
+2023,sensitive datas,1,0.058823529411764705
+2023,data science interoperability,1,0.058823529411764705
+2023,application programming interfaces (api),1,0.058823529411764705
+2023,application programs,1,0.058823529411764705
+2023,data science,1,0.058823529411764705
+2023,digital storage,1,0.058823529411764705
+2023,development and applications,1,0.058823529411764705
+2023,e health,1,0.058823529411764705
+2023,healthcare industry,1,0.058823529411764705
+2023,innovative systems,1,0.058823529411764705
+2023,software and hardwares,1,0.058823529411764705
+2023,software solution,1,0.058823529411764705
+2023,acute respiratory infection (ari),1,0.058823529411764705
+2023,electronic healthcare records,1,0.058823529411764705
+2023,health promotion,1,0.058823529411764705
+2023,healthcare coverage,1,0.058823529411764705
+2023,iso/en 13606,1,0.058823529411764705
+2023,rural populations,1,0.058823529411764705
+2023,telemedicine,1,0.058823529411764705
+2023,cost effectiveness,1,0.058823529411764705
+2023,patient rehabilitation,1,0.058823529411764705
+2023,acute respiratory infection,1,0.058823529411764705
+2023,healthcare reforms,1,0.058823529411764705
+2023,primary healthcare,1,0.058823529411764705
+2023,rural population,1,0.058823529411764705
+2023,universal access,1,0.058823529411764705
+2023,business intelligence,1,0.058823529411764705
+2023,healthcare,1,0.058823529411764705
+2023,electronic document exchange,1,0.058823529411764705
+2023,information analysis,1,0.058823529411764705
+2023,amount of information,1,0.058823529411764705
+2023,business-intelligence,1,0.058823529411764705
+2023,healthcare sectors,1,0.058823529411764705
+2023,healthcare systems,1,0.058823529411764705
+2023,large amounts,1,0.058823529411764705
+2023,physical medicine,1,0.058823529411764705
+2023,rehabilitation,1,0.058823529411764705
+2023,shoulder pathologies,1,0.058823529411764705
+2023,data acquisition,1,0.058823529411764705
+2023,hospital data processing,1,0.058823529411764705
+2023,medical applications,1,0.058823529411764705
+2023,pathology,1,0.058823529411764705
+2023,user interfaces,1,0.058823529411764705
+2023,health care professionals,1,0.058823529411764705
+2023,patient data,1,0.058823529411764705
+2023,quality of life,1,0.058823529411764705
+2023,shoulder joints,1,0.058823529411764705
+2023,shoulder pathology,1,0.058823529411764705
+2023,big data,1,0.058823529411764705
+2023,e-health data,1,0.058823529411764705
+2023,e-health sensor,1,0.058823529411764705
+2023,healthcare ontology,1,0.058823529411764705
+2023,nosql data model,1,0.058823529411764705
+2023,data digitization,1,0.058823529411764705
+2023,data integration,1,0.058823529411764705
+2023,data standardization,1,0.058823529411764705
+2023,machine learning,1,0.058823529411764705
+2023,portable health clinic,1,0.058823529411764705
+2023,developing countries,1,0.058823529411764705
+2023,e-learning,1,0.058823529411764705
+2023,medical informatics,1,0.058823529411764705
+2023,mhealth,1,0.058823529411764705
+2023,smartphones,1,0.058823529411764705
+2023,standardization,1,0.058823529411764705
+2023,health clinics,1,0.058823529411764705
+2023,machine-learning,1,0.058823529411764705
+2023,medical history,1,0.058823529411764705
+2023,medical record,1,0.058823529411764705
+2024,electronic health record,17,0.6538461538461539
+2024,medical record linkage,4,0.15384615384615385
+2024,semantics,3,0.11538461538461539
+2024,information storage and retrieval,3,0.11538461538461539
+2024,software,3,0.11538461538461539
+2024,electronic health,3,0.11538461538461539
+2024,health records,3,0.11538461538461539
+2024,patient generated health data,2,0.07692307692307693
+2024,wearable electronic devices,2,0.07692307692307693
+2024,health information interoperability,2,0.07692307692307693
+2024,medical oncology,2,0.07692307692307693
+2024,healthcare,2,0.07692307692307693
+2024,interoperability,2,0.07692307692307693
+2024,health information management,1,0.038461538461538464
+2024,corneal transplantation,1,0.038461538461538464
+2024,surveys and questionnaires,1,0.038461538461538464
+2024,registries,1,0.038461538461538464
+2024,heart valve diseases,1,0.038461538461538464
+2024,covid-19,1,0.038461538461538464
+2024,pandemics,1,0.038461538461538464
+2024,sars-cov-2,1,0.038461538461538464
+2024,"databases, factual",1,0.038461538461538464
+2024,fitness trackers,1,0.038461538461538464
+2024,learning health system,1,0.038461538461538464
+2024,quality improvement,1,0.038461538461538464
+2024,evidence-based medicine,1,0.038461538461538464
+2024,natural language processing,1,0.038461538461538464
+2024,health level seven,1,0.038461538461538464
+2024,systems integration,1,0.038461538461538464
+2024,neoplasms,1,0.038461538461538464
+2024,biomedical research,1,0.038461538461538464
+2024,computer security,1,0.038461538461538464
+2024,blockchain,1,0.038461538461538464
+2024,electronic prescribing,1,0.038461538461538464
+2024,"models, organizational",1,0.038461538461538464
+2024,artificial intelligence,1,0.038461538461538464
+2024,"hospitals, university",1,0.038461538461538464
+2024,medicine,1,0.038461538461538464
+2024,ecosystem,1,0.038461538461538464
+2024,digital health,1,0.038461538461538464
+2024,"drugs, generic",1,0.038461538461538464
+2024,product labeling,1,0.038461538461538464
+2024,feasibility studies,1,0.038461538461538464
+2024,data warehousing,1,0.038461538461538464
+2024,health facilities,1,0.038461538461538464
+2024,medical information systems,1,0.038461538461538464
+2024,bibliometric index,1,0.038461538461538464
+2024,bibliometrix,1,0.038461538461538464
+2024,vosviewer,1,0.038461538461538464
+2024,bibliometric methods,1,0.038461538461538464
+2024,health informatics,1,0.038461538461538464
+2024,research impact,1,0.038461538461538464
+2024,quality management,1,0.038461538461538464
+2024,accreditation,1,0.038461538461538464
+2024,index,1,0.038461538461538464
+2024,data interoperability,1,0.038461538461538464
+2024,healthcare analytics,1,0.038461538461538464
+2024,healthcare data management,1,0.038461538461538464
+2024,integration technologies,1,0.038461538461538464
+2024,real-time data processing,1,0.038461538461538464
+2024,medical services,1,0.038461538461538464
+2024,software development management,1,0.038461538461538464
+2024,usability,1,0.038461538461538464
+2024,terminology,1,0.038461538461538464
+2024,surveys,1,0.038461538461538464
+2024,standards,1,0.038461538461538464
+2024,interviews,1,0.038461538461538464
+2024,guidelines,1,0.038461538461538464
+2024,ethics,1,0.038461538461538464
+2024,software engineering,1,0.038461538461538464
+2024,healthcare software development,1,0.038461538461538464
+2024,requirements elicitation,1,0.038461538461538464
+2024,openehr archetypes,1,0.038461538461538464
+2024,knowledge-based system,1,0.038461538461538464
+2024,knowledge graph,1,0.038461538461538464
+2024,querying,1,0.038461538461538464
+2024,quality,1,0.038461538461538464
+2024,medical information system,1,0.038461538461538464
+2024,medical similarity model,1,0.038461538461538464
+2024,bert,1,0.038461538461538464
+2024,chatgpt,1,0.038461538461538464
+2024,clinical decision support system,1,0.038461538461538464
+2024,decision language,1,0.038461538461538464
+2024,decision logic,1,0.038461538461538464
+2024,computer circuits,1,0.038461538461538464
+2024,decision making,1,0.038461538461538464
+2024,decision support systems,1,0.038461538461538464
+2024,information management,1,0.038461538461538464
+2024,knowledge based systems,1,0.038461538461538464
+2024,logic devices,1,0.038461538461538464
+2024,records management,1,0.038461538461538464
+2024,specifications,1,0.038461538461538464
+2024,clinical decision making,1,0.038461538461538464
+2024,clinical decision support systems,1,0.038461538461538464
+2024,decision rules,1,0.038461538461538464
+2024,logic module,1,0.038461538461538464
+2024,decision tables,1,0.038461538461538464
+2024,clinical practice guidelines,1,0.038461538461538464
+2024,huntington's disease,1,0.038461538461538464
+2024,motor symptoms,1,0.038461538461538464
+2024,disease control,1,0.038461538461538464
+2024,neurodegenerative diseases,1,0.038461538461538464
+2024,patient treatment,1,0.038461538461538464
+2024,'current,1,0.038461538461538464
+2024,huntington disease,1,0.038461538461538464
+2024,motor symptom,1,0.038461538461538464
+2024,neurodegenerative disorders,1,0.038461538461538464
+2024,symptom management,1,0.038461538461538464
+2024,therapeutic strategy,1,0.038461538461538464
+2024,ehealth,1,0.038461538461538464
+2024,en 13606,1,0.038461538461538464
+2024,occupational disease,1,0.038461538461538464
+2024,occupational health summary,1,0.038461538461538464
+2024,occupational medicine,1,0.038461538461538464
+2024,proactive prevention,1,0.038461538461538464
+2024,semantic interoperability,1,0.038461538461538464
+2024,use cases,1,0.038461538461538464
+2024,workplace hazards,1,0.038461538461538464
+2024,data analytics,1,0.038461538461538464
+2024,business analytics,1,0.038461538461538464
+2024,open source architecture,1,0.038461538461538464
+2024,structure data,1,0.038461538461538464
+2024,swot analysis,1,0.038461538461538464
+2025,electronic health record,7,0.5384615384615384
+2025,health information interoperability,3,0.23076923076923078
+2025,interoperability,3,0.23076923076923078
+2025,health level seven,2,0.15384615384615385
+2025,ehealth,2,0.15384615384615385
+2025,medical informatics,1,0.07692307692307693
+2025,critical pathways,1,0.07692307692307693
+2025,unified medical language system,1,0.07692307692307693
+2025,rehabilitation centers,1,0.07692307692307693
+2025,medical record linkage,1,0.07692307692307693
+2025,health information exchange,1,0.07692307692307693
+2025,hospital information systems,1,0.07692307692307693
+2025,automation,1,0.07692307692307693
+2025,diagnostic imaging,1,0.07692307692307693
+2025,hospitals,1,0.07692307692307693
+2025,"efficiency, organizational",1,0.07692307692307693
+2025,software,1,0.07692307692307693
+2025,male,1,0.07692307692307693
+2025,prostatic neoplasms,1,0.07692307692307693
+2025,"decision support systems, clinical",1,0.07692307692307693
+2025,clinical decision-making,1,0.07692307692307693
+2025,middle aged,1,0.07692307692307693
+2025,large language models,1,0.07692307692307693
+2025,patient generated health data,1,0.07692307692307693
+2025,wearable electronic devices,1,0.07692307692307693
+2025,open source foundation,1,0.07692307692307693
+2025,governance practices,1,0.07692307692307693
+2025,best practices,1,0.07692307692307693
+2025,racoon,1,0.07692307692307693
+2025,cdisc,1,0.07692307692307693
+2025,comparison,1,0.07692307692307693
+2025,hl7 fhir,1,0.07692307692307693
+2025,standards,1,0.07692307692307693
+2025,comparison criterion,1,0.07692307692307693
+2025,scopus database,1,0.07692307692307693
+2025,unique features,1,0.07692307692307693
+2025,information use,1,0.07692307692307693
+2025,machine learning,1,0.07692307692307693
+2025,ontology alignment,1,0.07692307692307693
+2025,schema mapping,1,0.07692307692307693
+2025,clinical oncology,1,0.07692307692307693
+2025,implementation science,1,0.07692307692307693
+2025,pediatrics,1,0.07692307692307693
+2025,quality of life,1,0.07692307692307693
+2025,survivors of childhood cancer,1,0.07692307692307693
+2025,cda(clinical document architecture),1,0.07692307692307693
+2025,customization,1,0.07692307692307693
+2025,hl7 fhir(health level 7 fast health interoperability services),1,0.07692307692307693
+2025,interoperable cloud and fhir,1,0.07692307692307693
+2025,openehr (open electronic health record),1,0.07692307692307693
+2025,proprietary ehr,1,0.07692307692307693
+2025,access control,1,0.07692307692307693
+2025,data privacy,1,0.07692307692307693
+2025,information management,1,0.07692307692307693
+2025,records management,1,0.07692307692307693
+2025,clinical document architectures,1,0.07692307692307693
+2025,cloud environments,1,0.07692307692307693
+2025,customisation,1,0.07692307692307693
+2025,electronic health,1,0.07692307692307693
+2025,health records,1,0.07692307692307693
+2025,hl7 fhir(health level 7 fast health interoperability service),1,0.07692307692307693
+2025,open electronic health record,1,0.07692307692307693
+2025,data science,1,0.07692307692307693
+2025,disease screening,1,0.07692307692307693
+2025,healthcare interoperability,1,0.07692307692307693
+2025,healthcare system architecture,1,0.07692307692307693
+2025,diagnosis,1,0.07692307692307693
+2025,diseases,1,0.07692307692307693
+2025,health outcomes,1,0.07692307692307693
+2025,healthcare resources,1,0.07692307692307693
+2025,healthcare systems,1,0.07692307692307693
+2025,screening methods,1,0.07692307692307693
+2025,screening process,1,0.07692307692307693
+2025,systems architecture,1,0.07692307692307693
+2025,patient treatment,1,0.07692307692307693

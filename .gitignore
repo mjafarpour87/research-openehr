@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-# __pycache__/
+__pycache__/
 *.py[cod]
 *$py.class
 
@@ -199,17 +199,4 @@ database/*
 data/dataset*.*
 
 
-dt-batch-api-call.ipynb
-dt-bibliometric-analysis.ipynb
-dt-main-lab.ipynb
-
-# docs/process.md
-# docs/backup-information.md
-# docs/protocol.md
-# docs/pre-article*.md
-# docs/premature-article*.md
-
-
-# *.jsonl
-# *.qvw
 
