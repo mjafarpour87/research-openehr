@@ -6,13 +6,14 @@ We use [Semantic Versioning](https://semver.org/)
 ## Task
 
 
-Remove `output/*` from `.gitignore`
-Finalize `requirements.txt`
+
 
 
 ## [v2.0.1] - 2026-04-10
 - Update `README.md`
 - Update `DATASET` function
+- Remove `output/*` from `.gitignore`
+- Finalize `requirements.txt`
 
 ## [v2.0.0] - 2026-03-09
 

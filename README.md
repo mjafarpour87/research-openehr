@@ -58,6 +58,35 @@ The project systematically maps the evolution, structure, and global dynamics of
 
 ```
 
+
+## 🛢 Dataset Structure
+
+| Field Name                       | Description                                                                                                    |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **bank**                         | Numeric identifier for the data source. Mapping: **1 = PUBMED**, **3 = Web of Science (WOS)**, **4 = Scopus**. |
+| **title**                        | Title of the article or study.                                                                                 |
+| **year**                         | Year of publication.                                                                                           |
+| **publisher**                    | Name of the publisher or the source where the article is published.                                            |
+| **journal_issn**                 | International Standard Serial Number (ISSN) of the journal, used for unique identification.                    |
+| **language**                     | Language of the publication (e.g., *eng* for English).                                                         |
+| **publication_type**             | Type of publication (e.g., Journal Article, Review, Conference Paper). Stored as a list.                       |
+| **doi**                          | Digital Object Identifier (DOI), a persistent identifier used to uniquely identify and access the article.     |
+| **pmid**                         | PubMed ID, a unique identifier used in the PubMed database.                                                    |
+| **url**                          | Direct link to the article page (e.g., PubMed or publisher website).                                           |
+| **abstract**                     | Summary of the article, including objectives, methods, and key findings.                                       |
+| **citation_count**               | Number of times the article has been cited.                                                                    |
+| **authors**                      | List of authors of the publication.                                                                            |
+| **keywords**                     | Keywords associated with the article for thematic categorization.                                              |
+| **affiliation_country**          | Country of the authors’ institutional affiliations.                                                            |
+| **affiliation_city**             | City of the authors’ institutional affiliations.                                                               |
+| **affiliation_text**             | Full textual description of author affiliations (institution, department, etc.).                               |
+| **before_screen_exclude**        | Indicates whether the article was excluded before the screening phase (Yes/No).                                |
+| **before_screen_exclude_Reason** | Reason for exclusion before screening (if applicable).                                                         |
+| **final_inclusion_decision**     | Final decision on whether the article is included in the study (Include/Exclude).                              |
+| **assigned_category**            | Thematic category assigned to the article.                                                                     |
+| **DBUID**                        | Unique identifier for the record in your internal database.                                                    |
+
+
 ## ⚙️ Reproducibility
 
 This project is designed for **full reproducibility**:
@@ -74,7 +103,7 @@ git clone https://github.com/mjafarpour87/research-openehr.git
 cd research-openehr
 
 pip install -r requirements.txt
-jupyter notebook
+jupyter notebook integrated_bibliometric_analysis.ipynb
 ```
 
 
