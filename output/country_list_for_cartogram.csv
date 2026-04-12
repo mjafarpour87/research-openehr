@@ -1,0 +1,56 @@
+country,n_publications,total_citations,iso3
+Spain,85,412,ESP
+Germany,76,309,DEU
+Portugal,56,194,PRT
+Brazil,45,279,BRA
+China,39,145,CHN
+United Kingdom,31,151,GBR
+Austria,28,80,AUT
+Netherlands,28,151,NLD
+Sweden,27,146,SWE
+United States,24,187,USA
+Australia,21,161,AUS
+Japan,20,134,JPN
+India,18,61,IND
+Norway,17,80,NOR
+Italy,12,25,ITA
+Russian Federation,12,37,RUS
+New Zealand,9,36,NZL
+Bulgaria,8,17,BGR
+South Korea,7,35,KOR
+Ireland,7,59,IRL
+Romania,6,14,ROU
+Greece,5,7,GRC
+Canada,4,1,CAN
+"Iran, Islamic Republic of",4,13,IRN
+Poland,4,10,POL
+Slovenia,4,6,SVN
+Switzerland,3,8,CHE
+Israel,3,46,ISR
+Colombia,3,3,COL
+Indonesia,3,11,IDN
+Czechia,3,3,CZE
+Morocco,2,25,MAR
+Denmark,2,12,DNK
+Belgium,2,10,BEL
+Ecuador,2,1,ECU
+Singapore,2,3,SGP
+Estonia,2,4,EST
+Tunisia,2,5,TUN
+Taiwan,2,4,TWN
+Philippines,1,4,PHL
+Rwanda,1,4,RWA
+Croatia,1,0,HRV
+Paraguay,1,2,PRY
+Malaysia,1,11,MYS
+Hungary,1,0,HUN
+Argentina,1,1,ARG
+France,1,3,FRA
+Hong Kong,1,3,HKG
+South Africa,1,2,ZAF
+Egypt,1,8,EGY
+Saudi Arabia,1,4,SAU
+"Venezuela, Bolivarian Republic of",1,2,VEN
+Pakistan,1,10,PAK
+Uruguay,1,1,URY
+Peru,1,1,PER

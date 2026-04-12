@@ -1,0 +1,721 @@
+Year,Keyword,Count,Normalized_Frequency
+2002,electronic health record,1,0.5
+2002,health information interoperability,0,0.0
+2002,electronic health,0,0.0
+2002,data mining,0,0.0
+2002,data accuracy,0,0.0
+2002,biomedical engineering,0,0.0
+2002,biological ontologies,0,0.0
+2002,healthcare,0,0.0
+2002,health records,0,0.0
+2002,blockchain,0,0.0
+2002,guidelines as topic,0,0.0
+2002,health level seven,0,0.0
+2002,critical pathways,0,0.0
+2002,datasets as topic,0,0.0
+2002,records,0,0.0
+2002,electronic data interchange,0,0.0
+2002,delivery of health care,0,0.0
+2002,semantic web,0,0.0
+2002,internationality,0,0.0
+2002,ehealth,0,0.0
+2002,archetype,0,0.0
+2002,sars-cov-2,0,0.0
+2002,user interfaces,0,0.0
+2002,clinical data,0,0.0
+2002,data integration,0,0.0
+2002,clinical research,0,0.0
+2002,xml,0,0.0
+2002,diagnosis,0,0.0
+2002,digital storage,0,0.0
+2002,standardization,0,0.0
+2003,electronic health record,0,0.0
+2003,health information interoperability,0,0.0
+2003,electronic health,0,0.0
+2003,data mining,0,0.0
+2003,data accuracy,0,0.0
+2003,biomedical engineering,0,0.0
+2003,biological ontologies,0,0.0
+2003,healthcare,0,0.0
+2003,health records,0,0.0
+2003,blockchain,0,0.0
+2003,guidelines as topic,0,0.0
+2003,health level seven,0,0.0
+2003,critical pathways,0,0.0
+2003,datasets as topic,0,0.0
+2003,records,0,0.0
+2003,electronic data interchange,0,0.0
+2003,delivery of health care,0,0.0
+2003,semantic web,0,0.0
+2003,internationality,0,0.0
+2003,ehealth,0,0.0
+2003,archetype,0,0.0
+2003,sars-cov-2,0,0.0
+2003,user interfaces,0,0.0
+2003,clinical data,0,0.0
+2003,data integration,0,0.0
+2003,clinical research,0,0.0
+2003,xml,0,0.0
+2003,diagnosis,0,0.0
+2003,digital storage,0,0.0
+2003,standardization,0,0.0
+2004,electronic health record,0,0.0
+2004,health information interoperability,0,0.0
+2004,electronic health,0,0.0
+2004,data mining,0,0.0
+2004,data accuracy,0,0.0
+2004,biomedical engineering,0,0.0
+2004,biological ontologies,0,0.0
+2004,healthcare,0,0.0
+2004,health records,0,0.0
+2004,blockchain,0,0.0
+2004,guidelines as topic,0,0.0
+2004,health level seven,0,0.0
+2004,critical pathways,0,0.0
+2004,datasets as topic,0,0.0
+2004,records,0,0.0
+2004,electronic data interchange,0,0.0
+2004,delivery of health care,0,0.0
+2004,semantic web,0,0.0
+2004,internationality,0,0.0
+2004,ehealth,0,0.0
+2004,archetype,0,0.0
+2004,sars-cov-2,0,0.0
+2004,user interfaces,0,0.0
+2004,clinical data,0,0.0
+2004,data integration,0,0.0
+2004,clinical research,0,0.0
+2004,xml,0,0.0
+2004,diagnosis,0,0.0
+2004,digital storage,0,0.0
+2004,standardization,0,0.0
+2005,electronic health record,4,0.5
+2005,health information interoperability,0,0.0
+2005,electronic health,0,0.0
+2005,data mining,0,0.0
+2005,data accuracy,0,0.0
+2005,biomedical engineering,0,0.0
+2005,biological ontologies,0,0.0
+2005,healthcare,0,0.0
+2005,health records,0,0.0
+2005,blockchain,0,0.0
+2005,guidelines as topic,0,0.0
+2005,health level seven,0,0.0
+2005,critical pathways,0,0.0
+2005,datasets as topic,0,0.0
+2005,records,0,0.0
+2005,electronic data interchange,0,0.0
+2005,delivery of health care,0,0.0
+2005,semantic web,0,0.0
+2005,internationality,0,0.0
+2005,ehealth,0,0.0
+2005,archetype,0,0.0
+2005,sars-cov-2,0,0.0
+2005,user interfaces,0,0.0
+2005,clinical data,0,0.0
+2005,data integration,0,0.0
+2005,clinical research,0,0.0
+2005,xml,0,0.0
+2005,diagnosis,0,0.0
+2005,digital storage,0,0.0
+2005,standardization,0,0.0
+2006,electronic health record,1,0.125
+2006,health information interoperability,0,0.0
+2006,electronic health,0,0.0
+2006,data mining,0,0.0
+2006,data accuracy,0,0.0
+2006,biomedical engineering,0,0.0
+2006,biological ontologies,0,0.0
+2006,healthcare,0,0.0
+2006,health records,0,0.0
+2006,blockchain,0,0.0
+2006,guidelines as topic,0,0.0
+2006,health level seven,0,0.0
+2006,critical pathways,0,0.0
+2006,datasets as topic,0,0.0
+2006,records,0,0.0
+2006,electronic data interchange,0,0.0
+2006,delivery of health care,1,0.125
+2006,semantic web,0,0.0
+2006,internationality,0,0.0
+2006,ehealth,0,0.0
+2006,archetype,0,0.0
+2006,sars-cov-2,0,0.0
+2006,user interfaces,0,0.0
+2006,clinical data,0,0.0
+2006,data integration,0,0.0
+2006,clinical research,0,0.0
+2006,xml,0,0.0
+2006,diagnosis,0,0.0
+2006,digital storage,0,0.0
+2006,standardization,0,0.0
+2007,electronic health record,1,0.1
+2007,health information interoperability,0,0.0
+2007,electronic health,0,0.0
+2007,data mining,0,0.0
+2007,data accuracy,0,0.0
+2007,biomedical engineering,0,0.0
+2007,biological ontologies,0,0.0
+2007,healthcare,0,0.0
+2007,health records,0,0.0
+2007,blockchain,0,0.0
+2007,guidelines as topic,0,0.0
+2007,health level seven,0,0.0
+2007,critical pathways,0,0.0
+2007,datasets as topic,0,0.0
+2007,records,0,0.0
+2007,electronic data interchange,0,0.0
+2007,delivery of health care,0,0.0
+2007,semantic web,0,0.0
+2007,internationality,0,0.0
+2007,ehealth,1,0.1
+2007,archetype,0,0.0
+2007,sars-cov-2,0,0.0
+2007,user interfaces,0,0.0
+2007,clinical data,1,0.1
+2007,data integration,0,0.0
+2007,clinical research,0,0.0
+2007,xml,0,0.0
+2007,diagnosis,0,0.0
+2007,digital storage,0,0.0
+2007,standardization,0,0.0
+2008,electronic health record,0,0.0
+2008,health information interoperability,0,0.0
+2008,electronic health,0,0.0
+2008,data mining,0,0.0
+2008,data accuracy,0,0.0
+2008,biomedical engineering,0,0.0
+2008,biological ontologies,0,0.0
+2008,healthcare,0,0.0
+2008,health records,0,0.0
+2008,blockchain,0,0.0
+2008,guidelines as topic,0,0.0
+2008,health level seven,0,0.0
+2008,critical pathways,0,0.0
+2008,datasets as topic,0,0.0
+2008,records,0,0.0
+2008,electronic data interchange,0,0.0
+2008,delivery of health care,0,0.0
+2008,semantic web,0,0.0
+2008,internationality,0,0.0
+2008,ehealth,1,0.07692307692307693
+2008,archetype,0,0.0
+2008,sars-cov-2,0,0.0
+2008,user interfaces,0,0.0
+2008,clinical data,0,0.0
+2008,data integration,0,0.0
+2008,clinical research,0,0.0
+2008,xml,0,0.0
+2008,diagnosis,0,0.0
+2008,digital storage,0,0.0
+2008,standardization,0,0.0
+2009,electronic health record,3,0.15789473684210525
+2009,health information interoperability,0,0.0
+2009,electronic health,1,0.05263157894736842
+2009,data mining,0,0.0
+2009,data accuracy,0,0.0
+2009,biomedical engineering,1,0.05263157894736842
+2009,biological ontologies,0,0.0
+2009,healthcare,0,0.0
+2009,health records,0,0.0
+2009,blockchain,0,0.0
+2009,guidelines as topic,0,0.0
+2009,health level seven,0,0.0
+2009,critical pathways,1,0.05263157894736842
+2009,datasets as topic,0,0.0
+2009,records,0,0.0
+2009,electronic data interchange,0,0.0
+2009,delivery of health care,0,0.0
+2009,semantic web,0,0.0
+2009,internationality,0,0.0
+2009,ehealth,0,0.0
+2009,archetype,1,0.05263157894736842
+2009,sars-cov-2,0,0.0
+2009,user interfaces,0,0.0
+2009,clinical data,0,0.0
+2009,data integration,0,0.0
+2009,clinical research,0,0.0
+2009,xml,0,0.0
+2009,diagnosis,0,0.0
+2009,digital storage,0,0.0
+2009,standardization,1,0.05263157894736842
+2010,electronic health record,10,0.43478260869565216
+2010,health information interoperability,0,0.0
+2010,electronic health,0,0.0
+2010,data mining,0,0.0
+2010,data accuracy,0,0.0
+2010,biomedical engineering,1,0.043478260869565216
+2010,biological ontologies,0,0.0
+2010,healthcare,0,0.0
+2010,health records,3,0.13043478260869565
+2010,blockchain,0,0.0
+2010,guidelines as topic,1,0.043478260869565216
+2010,health level seven,1,0.043478260869565216
+2010,critical pathways,0,0.0
+2010,datasets as topic,0,0.0
+2010,records,0,0.0
+2010,electronic data interchange,0,0.0
+2010,delivery of health care,2,0.08695652173913043
+2010,semantic web,0,0.0
+2010,internationality,2,0.08695652173913043
+2010,ehealth,1,0.043478260869565216
+2010,archetype,2,0.08695652173913043
+2010,sars-cov-2,0,0.0
+2010,user interfaces,0,0.0
+2010,clinical data,0,0.0
+2010,data integration,0,0.0
+2010,clinical research,0,0.0
+2010,xml,0,0.0
+2010,diagnosis,0,0.0
+2010,digital storage,0,0.0
+2010,standardization,0,0.0
+2011,electronic health record,15,0.5555555555555556
+2011,health information interoperability,0,0.0
+2011,electronic health,0,0.0
+2011,data mining,0,0.0
+2011,data accuracy,0,0.0
+2011,biomedical engineering,0,0.0
+2011,biological ontologies,0,0.0
+2011,healthcare,0,0.0
+2011,health records,0,0.0
+2011,blockchain,0,0.0
+2011,guidelines as topic,0,0.0
+2011,health level seven,1,0.037037037037037035
+2011,critical pathways,0,0.0
+2011,datasets as topic,0,0.0
+2011,records,0,0.0
+2011,electronic data interchange,0,0.0
+2011,delivery of health care,1,0.037037037037037035
+2011,semantic web,1,0.037037037037037035
+2011,internationality,0,0.0
+2011,ehealth,0,0.0
+2011,archetype,2,0.07407407407407407
+2011,sars-cov-2,0,0.0
+2011,user interfaces,1,0.037037037037037035
+2011,clinical data,1,0.037037037037037035
+2011,data integration,0,0.0
+2011,clinical research,0,0.0
+2011,xml,0,0.0
+2011,diagnosis,0,0.0
+2011,digital storage,0,0.0
+2011,standardization,0,0.0
+2012,electronic health record,23,0.71875
+2012,health information interoperability,0,0.0
+2012,electronic health,0,0.0
+2012,data mining,1,0.03125
+2012,data accuracy,0,0.0
+2012,biomedical engineering,0,0.0
+2012,biological ontologies,0,0.0
+2012,healthcare,0,0.0
+2012,health records,0,0.0
+2012,blockchain,0,0.0
+2012,guidelines as topic,1,0.03125
+2012,health level seven,3,0.09375
+2012,critical pathways,0,0.0
+2012,datasets as topic,0,0.0
+2012,records,0,0.0
+2012,electronic data interchange,1,0.03125
+2012,delivery of health care,0,0.0
+2012,semantic web,0,0.0
+2012,internationality,2,0.0625
+2012,ehealth,1,0.03125
+2012,archetype,2,0.0625
+2012,sars-cov-2,0,0.0
+2012,user interfaces,0,0.0
+2012,clinical data,2,0.0625
+2012,data integration,1,0.03125
+2012,clinical research,0,0.0
+2012,xml,1,0.03125
+2012,diagnosis,0,0.0
+2012,digital storage,0,0.0
+2012,standardization,1,0.03125
+2013,electronic health record,17,0.5
+2013,health information interoperability,0,0.0
+2013,electronic health,0,0.0
+2013,data mining,1,0.029411764705882353
+2013,data accuracy,0,0.0
+2013,biomedical engineering,0,0.0
+2013,biological ontologies,0,0.0
+2013,healthcare,1,0.029411764705882353
+2013,health records,0,0.0
+2013,blockchain,0,0.0
+2013,guidelines as topic,2,0.058823529411764705
+2013,health level seven,2,0.058823529411764705
+2013,critical pathways,0,0.0
+2013,datasets as topic,0,0.0
+2013,records,0,0.0
+2013,electronic data interchange,2,0.058823529411764705
+2013,delivery of health care,0,0.0
+2013,semantic web,0,0.0
+2013,internationality,1,0.029411764705882353
+2013,ehealth,0,0.0
+2013,archetype,5,0.14705882352941177
+2013,sars-cov-2,0,0.0
+2013,user interfaces,0,0.0
+2013,clinical data,1,0.029411764705882353
+2013,data integration,2,0.058823529411764705
+2013,clinical research,1,0.029411764705882353
+2013,xml,1,0.029411764705882353
+2013,diagnosis,0,0.0
+2013,digital storage,1,0.029411764705882353
+2013,standardization,0,0.0
+2014,electronic health record,21,0.6363636363636364
+2014,health information interoperability,0,0.0
+2014,electronic health,0,0.0
+2014,data mining,1,0.030303030303030304
+2014,data accuracy,0,0.0
+2014,biomedical engineering,1,0.030303030303030304
+2014,biological ontologies,1,0.030303030303030304
+2014,healthcare,0,0.0
+2014,health records,1,0.030303030303030304
+2014,blockchain,0,0.0
+2014,guidelines as topic,1,0.030303030303030304
+2014,health level seven,2,0.06060606060606061
+2014,critical pathways,0,0.0
+2014,datasets as topic,1,0.030303030303030304
+2014,records,1,0.030303030303030304
+2014,electronic data interchange,0,0.0
+2014,delivery of health care,0,0.0
+2014,semantic web,0,0.0
+2014,internationality,3,0.09090909090909091
+2014,ehealth,1,0.030303030303030304
+2014,archetype,5,0.15151515151515152
+2014,sars-cov-2,0,0.0
+2014,user interfaces,1,0.030303030303030304
+2014,clinical data,0,0.0
+2014,data integration,2,0.06060606060606061
+2014,clinical research,1,0.030303030303030304
+2014,xml,0,0.0
+2014,diagnosis,2,0.06060606060606061
+2014,digital storage,3,0.09090909090909091
+2014,standardization,2,0.06060606060606061
+2015,electronic health record,31,0.7380952380952381
+2015,health information interoperability,0,0.0
+2015,electronic health,2,0.047619047619047616
+2015,data mining,4,0.09523809523809523
+2015,data accuracy,3,0.07142857142857142
+2015,biomedical engineering,4,0.09523809523809523
+2015,biological ontologies,2,0.047619047619047616
+2015,healthcare,0,0.0
+2015,health records,0,0.0
+2015,blockchain,0,0.0
+2015,guidelines as topic,4,0.09523809523809523
+2015,health level seven,1,0.023809523809523808
+2015,critical pathways,1,0.023809523809523808
+2015,datasets as topic,1,0.023809523809523808
+2015,records,0,0.0
+2015,electronic data interchange,0,0.0
+2015,delivery of health care,2,0.047619047619047616
+2015,semantic web,1,0.023809523809523808
+2015,internationality,4,0.09523809523809523
+2015,ehealth,2,0.047619047619047616
+2015,archetype,6,0.14285714285714285
+2015,sars-cov-2,0,0.0
+2015,user interfaces,0,0.0
+2015,clinical data,0,0.0
+2015,data integration,0,0.0
+2015,clinical research,0,0.0
+2015,xml,0,0.0
+2015,diagnosis,0,0.0
+2015,digital storage,1,0.023809523809523808
+2015,standardization,1,0.023809523809523808
+2016,electronic health record,17,0.7391304347826086
+2016,health information interoperability,0,0.0
+2016,electronic health,1,0.043478260869565216
+2016,data mining,0,0.0
+2016,data accuracy,0,0.0
+2016,biomedical engineering,0,0.0
+2016,biological ontologies,1,0.043478260869565216
+2016,healthcare,0,0.0
+2016,health records,1,0.043478260869565216
+2016,blockchain,0,0.0
+2016,guidelines as topic,0,0.0
+2016,health level seven,0,0.0
+2016,critical pathways,0,0.0
+2016,datasets as topic,1,0.043478260869565216
+2016,records,0,0.0
+2016,electronic data interchange,0,0.0
+2016,delivery of health care,0,0.0
+2016,semantic web,1,0.043478260869565216
+2016,internationality,0,0.0
+2016,ehealth,0,0.0
+2016,archetype,1,0.043478260869565216
+2016,sars-cov-2,0,0.0
+2016,user interfaces,0,0.0
+2016,clinical data,0,0.0
+2016,data integration,0,0.0
+2016,clinical research,0,0.0
+2016,xml,0,0.0
+2016,diagnosis,0,0.0
+2016,digital storage,0,0.0
+2016,standardization,0,0.0
+2017,electronic health record,25,0.5813953488372093
+2017,health information interoperability,2,0.046511627906976744
+2017,electronic health,2,0.046511627906976744
+2017,data mining,0,0.0
+2017,data accuracy,1,0.023255813953488372
+2017,biomedical engineering,0,0.0
+2017,biological ontologies,1,0.023255813953488372
+2017,healthcare,0,0.0
+2017,health records,0,0.0
+2017,blockchain,0,0.0
+2017,guidelines as topic,2,0.046511627906976744
+2017,health level seven,1,0.023255813953488372
+2017,critical pathways,0,0.0
+2017,datasets as topic,1,0.023255813953488372
+2017,records,1,0.023255813953488372
+2017,electronic data interchange,2,0.046511627906976744
+2017,delivery of health care,2,0.046511627906976744
+2017,semantic web,1,0.023255813953488372
+2017,internationality,0,0.0
+2017,ehealth,0,0.0
+2017,archetype,4,0.09302325581395349
+2017,sars-cov-2,0,0.0
+2017,user interfaces,0,0.0
+2017,clinical data,0,0.0
+2017,data integration,0,0.0
+2017,clinical research,0,0.0
+2017,xml,0,0.0
+2017,diagnosis,0,0.0
+2017,digital storage,1,0.023255813953488372
+2017,standardization,2,0.046511627906976744
+2018,electronic health record,16,0.7272727272727273
+2018,health information interoperability,2,0.09090909090909091
+2018,electronic health,0,0.0
+2018,data mining,1,0.045454545454545456
+2018,data accuracy,1,0.045454545454545456
+2018,biomedical engineering,0,0.0
+2018,biological ontologies,0,0.0
+2018,healthcare,0,0.0
+2018,health records,0,0.0
+2018,blockchain,0,0.0
+2018,guidelines as topic,0,0.0
+2018,health level seven,0,0.0
+2018,critical pathways,0,0.0
+2018,datasets as topic,1,0.045454545454545456
+2018,records,2,0.09090909090909091
+2018,electronic data interchange,0,0.0
+2018,delivery of health care,3,0.13636363636363635
+2018,semantic web,0,0.0
+2018,internationality,0,0.0
+2018,ehealth,0,0.0
+2018,archetype,3,0.13636363636363635
+2018,sars-cov-2,0,0.0
+2018,user interfaces,0,0.0
+2018,clinical data,0,0.0
+2018,data integration,0,0.0
+2018,clinical research,1,0.045454545454545456
+2018,xml,0,0.0
+2018,diagnosis,0,0.0
+2018,digital storage,0,0.0
+2018,standardization,0,0.0
+2019,electronic health record,25,0.7575757575757576
+2019,health information interoperability,3,0.09090909090909091
+2019,electronic health,3,0.09090909090909091
+2019,data mining,1,0.030303030303030304
+2019,data accuracy,3,0.09090909090909091
+2019,biomedical engineering,0,0.0
+2019,biological ontologies,2,0.06060606060606061
+2019,healthcare,0,0.0
+2019,health records,0,0.0
+2019,blockchain,1,0.030303030303030304
+2019,guidelines as topic,0,0.0
+2019,health level seven,0,0.0
+2019,critical pathways,0,0.0
+2019,datasets as topic,0,0.0
+2019,records,0,0.0
+2019,electronic data interchange,0,0.0
+2019,delivery of health care,4,0.12121212121212122
+2019,semantic web,2,0.06060606060606061
+2019,internationality,0,0.0
+2019,ehealth,1,0.030303030303030304
+2019,archetype,6,0.18181818181818182
+2019,sars-cov-2,0,0.0
+2019,user interfaces,0,0.0
+2019,clinical data,0,0.0
+2019,data integration,0,0.0
+2019,clinical research,1,0.030303030303030304
+2019,xml,1,0.030303030303030304
+2019,diagnosis,0,0.0
+2019,digital storage,0,0.0
+2019,standardization,0,0.0
+2020,electronic health record,13,0.48148148148148145
+2020,health information interoperability,0,0.0
+2020,electronic health,1,0.037037037037037035
+2020,data mining,3,0.1111111111111111
+2020,data accuracy,1,0.037037037037037035
+2020,biomedical engineering,0,0.0
+2020,biological ontologies,0,0.0
+2020,healthcare,1,0.037037037037037035
+2020,health records,0,0.0
+2020,blockchain,0,0.0
+2020,guidelines as topic,0,0.0
+2020,health level seven,0,0.0
+2020,critical pathways,0,0.0
+2020,datasets as topic,1,0.037037037037037035
+2020,records,0,0.0
+2020,electronic data interchange,1,0.037037037037037035
+2020,delivery of health care,2,0.07407407407407407
+2020,semantic web,0,0.0
+2020,internationality,0,0.0
+2020,ehealth,1,0.037037037037037035
+2020,archetype,1,0.037037037037037035
+2020,sars-cov-2,1,0.037037037037037035
+2020,user interfaces,1,0.037037037037037035
+2020,clinical data,0,0.0
+2020,data integration,0,0.0
+2020,clinical research,1,0.037037037037037035
+2020,xml,1,0.037037037037037035
+2020,diagnosis,1,0.037037037037037035
+2020,digital storage,0,0.0
+2020,standardization,0,0.0
+2021,electronic health record,17,0.85
+2021,health information interoperability,0,0.0
+2021,electronic health,0,0.0
+2021,data mining,0,0.0
+2021,data accuracy,2,0.1
+2021,biomedical engineering,0,0.0
+2021,biological ontologies,0,0.0
+2021,healthcare,0,0.0
+2021,health records,0,0.0
+2021,blockchain,0,0.0
+2021,guidelines as topic,0,0.0
+2021,health level seven,0,0.0
+2021,critical pathways,0,0.0
+2021,datasets as topic,1,0.05
+2021,records,0,0.0
+2021,electronic data interchange,1,0.05
+2021,delivery of health care,0,0.0
+2021,semantic web,1,0.05
+2021,internationality,0,0.0
+2021,ehealth,0,0.0
+2021,archetype,0,0.0
+2021,sars-cov-2,1,0.05
+2021,user interfaces,1,0.05
+2021,clinical data,0,0.0
+2021,data integration,0,0.0
+2021,clinical research,0,0.0
+2021,xml,0,0.0
+2021,diagnosis,0,0.0
+2021,digital storage,1,0.05
+2021,standardization,0,0.0
+2022,electronic health record,10,0.43478260869565216
+2022,health information interoperability,0,0.0
+2022,electronic health,3,0.13043478260869565
+2022,data mining,0,0.0
+2022,data accuracy,0,0.0
+2022,biomedical engineering,0,0.0
+2022,biological ontologies,0,0.0
+2022,healthcare,0,0.0
+2022,health records,4,0.17391304347826086
+2022,blockchain,2,0.08695652173913043
+2022,guidelines as topic,0,0.0
+2022,health level seven,0,0.0
+2022,critical pathways,2,0.08695652173913043
+2022,datasets as topic,0,0.0
+2022,records,1,0.043478260869565216
+2022,electronic data interchange,2,0.08695652173913043
+2022,delivery of health care,5,0.21739130434782608
+2022,semantic web,0,0.0
+2022,internationality,0,0.0
+2022,ehealth,1,0.043478260869565216
+2022,archetype,2,0.08695652173913043
+2022,sars-cov-2,3,0.13043478260869565
+2022,user interfaces,0,0.0
+2022,clinical data,3,0.13043478260869565
+2022,data integration,0,0.0
+2022,clinical research,0,0.0
+2022,xml,1,0.043478260869565216
+2022,diagnosis,1,0.043478260869565216
+2022,digital storage,0,0.0
+2022,standardization,0,0.0
+2023,electronic health record,6,0.35294117647058826
+2023,health information interoperability,0,0.0
+2023,electronic health,3,0.17647058823529413
+2023,data mining,0,0.0
+2023,data accuracy,0,0.0
+2023,biomedical engineering,0,0.0
+2023,biological ontologies,0,0.0
+2023,healthcare,1,0.058823529411764705
+2023,health records,3,0.17647058823529413
+2023,blockchain,1,0.058823529411764705
+2023,guidelines as topic,0,0.0
+2023,health level seven,1,0.058823529411764705
+2023,critical pathways,0,0.0
+2023,datasets as topic,0,0.0
+2023,records,1,0.058823529411764705
+2023,electronic data interchange,0,0.0
+2023,delivery of health care,1,0.058823529411764705
+2023,semantic web,0,0.0
+2023,internationality,0,0.0
+2023,ehealth,3,0.17647058823529413
+2023,archetype,0,0.0
+2023,sars-cov-2,0,0.0
+2023,user interfaces,1,0.058823529411764705
+2023,clinical data,1,0.058823529411764705
+2023,data integration,1,0.058823529411764705
+2023,clinical research,0,0.0
+2023,xml,0,0.0
+2023,diagnosis,1,0.058823529411764705
+2023,digital storage,1,0.058823529411764705
+2023,standardization,1,0.058823529411764705
+2024,electronic health record,17,0.6538461538461539
+2024,health information interoperability,2,0.07692307692307693
+2024,electronic health,3,0.11538461538461539
+2024,data mining,0,0.0
+2024,data accuracy,0,0.0
+2024,biomedical engineering,0,0.0
+2024,biological ontologies,0,0.0
+2024,healthcare,2,0.07692307692307693
+2024,health records,3,0.11538461538461539
+2024,blockchain,1,0.038461538461538464
+2024,guidelines as topic,0,0.0
+2024,health level seven,1,0.038461538461538464
+2024,critical pathways,0,0.0
+2024,datasets as topic,0,0.0
+2024,records,0,0.0
+2024,electronic data interchange,0,0.0
+2024,delivery of health care,0,0.0
+2024,semantic web,0,0.0
+2024,internationality,0,0.0
+2024,ehealth,1,0.038461538461538464
+2024,archetype,0,0.0
+2024,sars-cov-2,1,0.038461538461538464
+2024,user interfaces,0,0.0
+2024,clinical data,0,0.0
+2024,data integration,0,0.0
+2024,clinical research,0,0.0
+2024,xml,0,0.0
+2024,diagnosis,0,0.0
+2024,digital storage,0,0.0
+2024,standardization,0,0.0
+2025,electronic health record,7,0.5384615384615384
+2025,health information interoperability,3,0.23076923076923078
+2025,electronic health,1,0.07692307692307693
+2025,data mining,0,0.0
+2025,data accuracy,0,0.0
+2025,biomedical engineering,0,0.0
+2025,biological ontologies,0,0.0
+2025,healthcare,0,0.0
+2025,health records,1,0.07692307692307693
+2025,blockchain,0,0.0
+2025,guidelines as topic,0,0.0
+2025,health level seven,2,0.15384615384615385
+2025,critical pathways,1,0.07692307692307693
+2025,datasets as topic,0,0.0
+2025,records,0,0.0
+2025,electronic data interchange,0,0.0
+2025,delivery of health care,0,0.0
+2025,semantic web,0,0.0
+2025,internationality,0,0.0
+2025,ehealth,2,0.15384615384615385
+2025,archetype,0,0.0
+2025,sars-cov-2,0,0.0
+2025,user interfaces,0,0.0
+2025,clinical data,0,0.0
+2025,data integration,0,0.0
+2025,clinical research,0,0.0
+2025,xml,0,0.0
+2025,diagnosis,1,0.07692307692307693
+2025,digital storage,0,0.0
+2025,standardization,0,0.0
