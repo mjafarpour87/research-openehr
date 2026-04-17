@@ -6,6 +6,9 @@ We use [Semantic Versioning](https://semver.org/)
 ## Task
 
 
+## [v2.0.2] - 2026-04-17
+- Update Cartogram
+- Update Font in `journal_productivity_vs_citation_impact.png` and `thematic_strategic_diagram_category_based.png`
 
 
 
