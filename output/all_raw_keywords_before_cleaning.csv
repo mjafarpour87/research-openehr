@@ -1,0 +1,2133 @@
+Raw_Keyword,Document_Frequency,Total_Occurrences
+openEHR,125,130
+Interoperability,85,98
+OpenEHR,65,96
+Electronic health record,64,71
+Archetypes,58,72
+Semantics,53,58
+Health care,46,47
+Semantic interoperability,44,55
+Medical computing,35,36
+Electronic Health Records,35,35
+Information systems,34,34
+EHR,33,39
+Records management,30,31
+electronic health record,26,26
+Health,24,25
+semantic interoperability,22,22
+Archetype,21,26
+archetypes,19,20
+eHealth,19,20
+Electronic health records,19,19
+Information use,19,19
+Ontology,18,25
+Health information systems,18,20
+Electronic Health Record,18,18
+human,18,18
+interoperability,18,18
+Health records,17,18
+Openehr,16,16
+Standards,15,15
+electronic health records,15,15
+Electronic health,14,14
+archetype,14,14
+HL7,13,17
+ISO 13606,13,14
+Hospital data processing,13,13
+Hospitals,13,13
+Electronic data interchange,12,12
+Information management,12,12
+Clinical decision support systems,11,11
+Decision support systems,11,11
+Telemedicine,10,12
+Electronic healthcare records,10,11
+Health informatics,10,11
+Knowledge management,10,11
+Terminology,10,11
+COVID-19,10,10
+Clinical information,10,10
+Semantic Interoperability,10,10
+HL7 FHIR,9,13
+Knowledge representation,9,13
+FHIR,9,10
+Medical informatics,9,10
+Clinical data,9,9
+Standardization,9,9
+article,9,9
+OWL,8,11
+SNOMED-CT,8,11
+Clinical archetypes,8,10
+XML,8,10
+Artificial intelligence,8,8
+Data integration,8,8
+Decision making,8,8
+Diagnosis,8,8
+Digital storage,8,8
+HiGHmed,8,8
+INTEROPERABILITY,8,8
+standardization,8,8
+ISO/EN 13606,7,10
+Healthcare,7,9
+Integration,7,8
+openEHR archetypes,7,8
+Architecture,7,7
+Biochemical engineering,7,7
+Biomedical engineering,7,7
+Medical information systems,7,7
+Patient treatment,7,7
+Specifications,7,7
+conference abstract,7,7
+medical record,7,7
+Blockchain,6,8
+electronic medical record,6,8
+medical informatics,6,8
+EN13606,6,7
+HL7 CDA,6,7
+Application programs,6,6
+Ehealth,6,6
+Health Information Interoperability,6,6
+Health Information Systems,6,6
+Information theory,6,6
+"Medical Records Systems, Computerized",6,6
+Ontologies,6,6
+SYSTEMS,6,6
+health information interoperability,6,6
+model,6,6
+semantics,6,6
+standard,6,6
+EHRs,5,7
+Pervasive healthcare,5,7
+Ubiquitous computing,5,7
+SNOMED CT,5,6
+Clinical decision support,5,5
+Clinical knowledge,5,5
+Clinical research,5,5
+Computer architecture,5,5
+Computer science,5,5
+Diseases,5,5
+E-Health,5,5
+Electronic document exchange,5,5
+HEALTH,5,5
+Health care professionals,5,5
+Humans,5,5
+Information Modeling,5,5
+Medical data,5,5
+Medical services,5,5
+Nutrition,5,5
+Openehr specifications,5,5
+Software architecture,5,5
+Tools,5,5
+data base,5,5
+data integration,5,5
+diagnosis,5,5
+female,5,5
+information retrieval,5,5
+organization and management,4,6
+Access control,4,5
+Cardiology,4,5
+Mapping,4,5
+Secondary use,4,5
+Semantic Web,4,5
+Software design,4,5
+Big data,4,4
+Bioinformatics,4,4
+Clinical data repository,4,4
+Clinical decision support system,4,4
+Common Data Elements,4,4
+DESIGN,4,4
+Data Integration,4,4
+Data mining,4,4
+Decision Support Systems,4,4
+Electronic health record systems,4,4
+Graphical user interfaces,4,4
+Health Information Exchange,4,4
+Health care information system,4,4
+Health informations,4,4
+Health-care system,4,4
+Hospital information systems,4,4
+INFORMATION,4,4
+Information exchanges,4,4
+Knowledge based systems,4,4
+Metadata,4,4
+Obstetrics,4,4
+Patient data,4,4
+Patient information,4,4
+Pervasive Healthcare,4,4
+Query languages,4,4
+Query processing,4,4
+RECORDS,4,4
+Reference modeling,4,4
+Software,4,4
+Templates,4,4
+User interfaces,4,4
+Web services,4,4
+e-health,4,4
+major clinical study,4,4
+practice guideline,4,4
+Clinical guideline,3,6
+Europe,3,6
+medical information system,3,5
+CDSS,3,4
+Knowledge base,3,4
+Medical information,3,4
+Model transformation,3,4
+OpenEHR archetypes,3,4
+Template,3,4
+UML,3,4
+ARCHETYPES,3,3
+Benchmarking,3,3
+Clinical,3,3
+Clinical guidelines,3,3
+Clinical information model,3,3
+Computerized,3,3
+Continuity of care records,3,3
+Data Sharing,3,3
+Data acquisition,3,3
+Data privacy,3,3
+Data quality,3,3
+Data type,3,3
+Data warehouses,3,3
+Database systems,3,3
+Detailed Clinical Models,3,3
+Detailed clinical models,3,3
+E health,3,3
+ELECTRONIC HEALTH RECORDS,3,3
+Electronic patient record,3,3
+Electronic records,3,3
+FAIR,3,3
+GDL,3,3
+Graphical user interfaces (GUI),3,3
+HIS,3,3
+Health Information Management,3,3
+Health care providers,3,3
+Health information interoperability,3,3
+Health risks,3,3
+Healthcare environments,3,3
+Healthcare systems,3,3
+Heterogeneous systems,3,3
+IHE,3,3
+Informatics,3,3
+Information Storage and Retrieval,3,3
+Information models,3,3
+Information technology,3,3
+Medical Informatics,3,3
+Medical Records Systems,3,3
+Medical applications,3,3
+Medical errors,3,3
+Models,3,3
+"Models, Organizational",3,3
+Open source software,3,3
+Patient record,3,3
+Quality of life,3,3
+Reference Standards,3,3
+Reusability,3,3
+Robotics,3,3
+Search engines,3,3
+Software engineering,3,3
+Visualization,3,3
+Work-flows,3,3
+adult,3,3
+clinical decision support system,3,3
+computer program,3,3
+data model,3,3
+data representation,3,3
+health care personnel,3,3
+health information standards,3,3
+i2b2,3,3
+information model,3,3
+information processing,3,3
+laboratory test,3,3
+machine learning,3,3
+male,3,3
+nonbiological model,3,3
+ontology,3,3
+register,3,3
+software,3,3
+template,3,3
+terminology,3,3
+UMLS,2,5
+Archetype-based EHR,2,4
+ADL,2,3
+Basic Health Unit,2,3
+CCR,2,3
+Chikungunya,2,3
+Chronic disease,2,3
+Clinical repository,2,3
+Computer based prescribing,2,3
+Continuity of Care,2,3
+Database Management Systems,2,3
+Information science,2,3
+Intelligent agents,2,3
+Knowledge acquisition,2,3
+Model-driven engineering,2,3
+Obesity,2,3
+Ontology matching,2,3
+Performance,2,3
+Quality indicators,2,3
+Risk assessment,2,3
+SOA,2,3
+SPARQL,2,3
+Semantic integration,2,3
+Spain,2,3
+Tele-monitoring,2,3
+needs assessment,2,3
+Adherence,2,2
+Aggregates,2,2
+Algorithms,2,2
+Ambient assisted living,2,2
+Amount of information,2,2
+Application programming interfaces (API),2,2
+Archetype query language,2,2
+Archetype relational mapping,2,2
+Automation,2,2
+Big Data,2,2
+Biomedical equipment,2,2
+Biosensors,2,2
+Birds,2,2
+Block-chain,2,2
+Blockchain in Healthcare,2,2
+Business Intelligence,2,2
+Business-intelligence,2,2
+CARE,2,2
+CEN 13606 archetype,2,2
+CHALLENGES,2,2
+CLINICAL ARCHETYPES,2,2
+Clinical Decision Support,2,2
+Clinical Decision Support System,2,2
+Clinical Decision Support Systems,2,2
+Clinical Governance,2,2
+Clinical Management,2,2
+Clinical application,2,2
+Clinical decision support system (CDSS),2,2
+Clinical observation,2,2
+Clinical practice guideline,2,2
+Common reference models,2,2
+Computer Systems,2,2
+Continuity of Patient Care,2,2
+Continuity of cares,2,2
+Controlled experiment,2,2
+Crowdsourcing,2,2
+DRIVEN,2,2
+Data Collection,2,2
+Data Science,2,2
+Data Warehousing,2,2
+Data exchange,2,2
+Data interoperability,2,2
+Data reuse,2,2
+Data standards,2,2
+Data warehouse,2,2
+Decision language,2,2
+Decision logic,2,2
+Decision supports,2,2
+Demographic data,2,2
+Development process,2,2
+Distributed ledger,2,2
+Documentation,2,2
+Domain knowledge,2,2
+Dual model,2,2
+EHR standards,2,2
+EHealth,2,2
+ETL,2,2
+Electronic Health Record (EHR),2,2
+Electronic Health Records*/standards,2,2
+Electronic health record (EHR),2,2
+Electronic health record (EHRs),2,2
+Electronic healthcare,2,2
+Electronic healthcare record,2,2
+Electronic healthcare record (EHR),2,2
+Electronic medical record,2,2
+Equipment testing,2,2
+GDPR,2,2
+Graph Databases,2,2
+Graphical user interface,2,2
+Guideline Definition Language,2,2
+HL7 V3/CDA,2,2
+Health Level 7,2,2
+Health Level 7 (HL7),2,2
+Health Level Seven,2,2
+Health Records,2,2
+Health data,2,2
+Health information system,2,2
+Health outcomes,2,2
+Health professionals,2,2
+Health services,2,2
+Health systems,2,2
+Healthcare Information Systems,2,2
+Healthcare process,2,2
+Healthcare record,2,2
+Healthcare sectors,2,2
+Hyperledg fabric,2,2
+Hyperledger Fabric,2,2
+IHE XDS,2,2
+INFORMATICS,2,2
+ISO/EN 13606 standard,2,2
+In-line,2,2
+Information analysis,2,2
+Information and Communication Technologies,2,2
+Information modeling,2,2
+Information retrieval,2,2
+Information services,2,2
+Information storage and retrieval,2,2
+International healths,2,2
+Internet of Things (IoT),2,2
+Ireland,2,2
+KNOWLEDGE,2,2
+Knowledge Management,2,2
+Knowledge Representation,2,2
+LOINC,2,2
+Large amounts,2,2
+MEDICAL DATA VISUALIZATION,2,2
+METRICS,2,2
+MODEL,2,2
+MODELS,2,2
+Maintenance,2,2
+Management information systems,2,2
+Mathematical models,2,2
+Medical Informatics Applications,2,2
+Medical record systems,2,2
+Medical software,2,2
+Methadone maintenance therapies,2,2
+Methadone maintenance therapy (MMT),2,2
+Mobile computing,2,2
+Model-Driven Development,2,2
+Modeling languages,2,2
+Modelling,2,2
+Multi agent systems,2,2
+Needs Assessment,2,2
+Network architecture,2,2
+NoSQL Databases,2,2
+NoSQL database,2,2
+Nursing,2,2
+OMOP,2,2
+OMOP CDM,2,2
+OPENEHR,2,2
+Oncology,2,2
+Ontology's,2,2
+Open Data,2,2
+Open EHR,2,2
+Open datum,2,2
+Open-source solutions,2,2
+Open-standard specification,2,2
+Ophthalmology,2,2
+PRIVACY,2,2
+Pediatrics,2,2
+Personal health record,2,2
+Privacy,2,2
+Proposed architectures,2,2
+Quality,2,2
+Quality of health care,2,2
+REUSE,2,2
+Reference Model,2,2
+Reference standards,2,2
+Registries,2,2
+Relational Database,2,2
+Relational database systems,2,2
+Requirements,2,2
+Romania,2,2
+Sensitive data,2,2
+Societies and institutions,2,2
+Software agents,2,2
+Software implementation,2,2
+Software maintainability,2,2
+Surveys,2,2
+System program documentation,2,2
+Systems Integration,2,2
+Ubiquitous Computing,2,2
+Ubiquitous Healthcare,2,2
+Usability,2,2
+Web ontology language,2,2
+Windows operating system,2,2
+World Wide Web,2,2
+artificial intelligence,2,2
+case report,2,2
+clinical archetypes,2,2
+clinical article,2,2
+clinical data,2,2
+clinical guidelines,2,2
+clinical models,2,2
+clinical practice,2,2
+clinical research,2,2
+clinician,2,2
+computer system,2,2
+data analysis,2,2
+data exchange,2,2
+data quality,2,2
+data warehouse,2,2
+decision support system,2,2
+dimeticone,2,2
+drug therapy,2,2
+e-Health,2,2
+electronic health record (EHR),2,2
+electronic medical record system,2,2
+error,2,2
+exploratory research,2,2
+extract,2,2
+feasibility study,2,2
+guideline,2,2
+health information system,2,2
+human experiment,2,2
+information,2,2
+information science,2,2
+information system,2,2
+integrated care,2,2
+language,2,2
+mHealth,2,2
+medical informatics applications,2,2
+medical school,2,2
+methodology,2,2
+multi-agent system,2,2
+narrative,2,2
+ontologies,2,2
+open source,2,2
+priority journal,2,2
+publication,2,2
+reuse,2,2
+review,2,2
+rules,2,2
+semantic,2,2
+skill,2,2
+standards,2,2
+student,2,2
+system analysis,2,2
+system performance,2,2
+templates,2,2
+two-level modelling,2,2
+vMR,2,2
+web portal,2,2
+workshop,2,2
+AIDS,1,2
+Ambient assisted living (AAL),1,2
+Anonymisation,1,2
+Auscultation,1,2
+Automated approach,1,2
+Automated mapping,1,2
+BDI architecture,1,2
+BPMN2,1,2
+Bariatric surgery,1,2
+CDISC,1,2
+CEN/ISO EN13606,1,2
+CSP,1,2
+Certification,1,2
+Chronobiology,1,2
+Community nursing,1,2
+Comparison,1,2
+Computer-Assisted,1,2
+Context-awareness,1,2
+Digital stethoscope,1,2
+Disease screening,1,2
+Dual-model approach,1,2
+EHR repository,1,2
+EHRcom,1,2
+EHRcom standard,1,2
+EN/ISO 12967,1,2
+Electroencephalography,1,2
+Electrophysiology,1,2
+"Fractures, Bone",1,2
+Germany,1,2
+Guideline representation language,1,2
+HISA,1,2
+HIV,1,2
+HL7 Templates,1,2
+Healthcare Interoperability,1,2
+Helthcare,1,2
+Home telecare,1,2
+ID domain,1,2
+Identity management,1,2
+Indonesian NHIS,1,2
+Integrated health post,1,2
+Italy,1,2
+Knowledge,1,2
+Knowledge modelling,1,2
+MediGrid,1,2
+Medical alert,1,2
+Medical algorithms,1,2
+Medical interface adaptation,1,2
+Mobile interface,1,2
+MongoDB,1,2
+NRS,1,2
+Neuroinformatics,1,2
+Notation3,1,2
+Ontology mapping,1,2
+Open-EHR,1,2
+OpenRHR,1,2
+Patient summary,1,2
+Person-centric,1,2
+Phenomenology,1,2
+Proprietary EHR,1,2
+Quality System,1,2
+Query response time,1,2
+RM-ODP,1,2
+Reusable components,1,2
+SIOp,1,2
+SWRL,1,2
+Security management,1,2
+Semantic similarity,1,2
+Sequential combination,1,2
+Software product lines,1,2
+Speech and language therapy,1,2
+Standardization in EHR,1,2
+Systems analysis,1,2
+Systems integration,1,2
+Teleassistance,1,2
+Term binding,1,2
+Terminology mapping,1,2
+United States,1,2
+User's context,1,2
+Verification,1,2
+eCare,1,2
+interventions,1,2
+public health,1,2
+telemedicine,1,2
+'current,1,1
+ACCESS-CONTROL,1,1
+ADL archetype,1,1
+ADOPTION,1,1
+AGILITY,1,1
+ANSI standards,1,1
+AQL,1,1
+ARCHITECTURAL MISMATCH,1,1
+ARCHITECTURE,1,1
+ATTITUDES,1,1
+Access control mechanism,1,1
+Access control policies,1,1
+Access control schemes,1,1
+Access permissions,1,1
+Accurate mapping,1,1
+Active interface,1,1
+Acute Respiratory Infection (ARI),1,1
+Acute respiratory infection,1,1
+Adaptability,1,1
+Adaptive information systems,1,1
+Adaptive interface,1,1
+Additional costs,1,1
+Advanced Electronics,1,1
+Aged,1,1
+"Aged, 80 and over",1,1
+Algorithmic complexity,1,1
+Allergy,1,1
+Ambient intelligence,1,1
+Analytic tools,1,1
+Analytical studies,1,1
+Android platforms,1,1
+Application,1,1
+Application components,1,1
+Application models,1,1
+Applications in Healthcare,1,1
+Archetyp,1,1
+Archetype driven modeling,1,1
+Archetype object model,1,1
+Archetype-based storage,1,1
+Archetypes systems,1,1
+Architectural approach,1,1
+Architectural description languages,1,1
+Architectural descriptions,1,1
+Architectural style,1,1
+Architectural styles,1,1
+Architecture designs,1,1
+Architecture models,1,1
+Architecture patterns,1,1
+Architecture-based,1,1
+Artificial Intelligence,1,1
+Assessment tool,1,1
+Asthma disease,1,1
+Atrial Fibrillation,1,1
+Attribute Based Encryption,1,1
+Audio equipment,1,1
+Audio-visual,1,1
+Australia,1,1
+Automatic,1,1
+Automatic Data Processing,1,1
+Automatic conversion,1,1
+Automatized Health Record,1,1
+Autonomous components,1,1
+BEHAVIOR,1,1
+BIG DATA,1,1
+BMJ Health Informatics,1,1
+BPMN,1,1
+BREAST-CANCER,1,1
+Back ends,1,1
+Based reasonings,1,1
+Basic Insurance Organizations,1,1
+Behavior change,1,1
+Behcet’s disease,1,1
+Best practices,1,1
+Best-practices,1,1
+Biomedical Ontology,1,1
+Biomedical Research,1,1
+Biomedical fields,1,1
+Biomedical information system,1,1
+Biomedical research,1,1
+Biosensor,1,1
+Blockchain in healthcare,1,1
+Blood,1,1
+Breast cancer,1,1
+Building a prototypes,1,1
+Buildings,1,1
+Business,1,1
+Business Process Model and Notation,1,1
+Business Process Modelling,1,1
+Business analytics,1,1
+CDA,1,1
+CDA(Clinical Document Architecture),1,1
+CDE,1,1
+CEN 13606,1,1
+CEN 13606 reference model,1,1
+CEN/ISO 13606,1,1
+CEN/TC251,1,1
+CLINICAL-RESEARCH,1,1
+COMMUNICATION,1,1
+COMMUNITIES,1,1
+CONSEQUENCES,1,1
+CQL,1,1
+CR-BSI,1,1
+CSP model,1,1
+Can design,1,1
+Cardio-vascular disease,1,1
+Cardiovascular risk,1,1
+Care Pathway,1,1
+Care Pathways,1,1
+Care process,1,1
+Case Study,1,1
+Case based reasoning,1,1
+Catalonia,1,1
+CdS,1,1
+Cellular networks,1,1
+Cerebral palsy information system,1,1
+Changing environment,1,1
+Checklist,1,1
+Children,1,1
+Chinese hospital,1,1
+Chronic Disease,1,1
+Chronic conditions,1,1
+Chronic disease management (CDM),1,1
+Chronic kidney disease,1,1
+Cleveland,1,1
+Clinical Alarms,1,1
+Clinical Application,1,1
+Clinical Data Repository,1,1
+Clinical Decision Software,1,1
+Clinical Element Model,1,1
+Clinical Information Processing,1,1
+Clinical Information model,1,1
+Clinical Pathways,1,1
+Clinical Practice Guidelines,1,1
+Clinical Workflows,1,1
+Clinical care,1,1
+Clinical care continuity,1,1
+Clinical content,1,1
+Clinical data exchange,1,1
+Clinical data management,1,1
+Clinical data registry,1,1
+Clinical data reuse,1,1
+Clinical data warehouse,1,1
+Clinical decision,1,1
+Clinical decision making,1,1
+Clinical decision-support systems,1,1
+Clinical document architectures,1,1
+Clinical domain models,1,1
+Clinical handover,1,1
+Clinical informatics,1,1
+Clinical information models,1,1
+Clinical information repository,1,1
+Clinical information systems,1,1
+Clinical knowledge governance,1,1
+Clinical knowledge manager,1,1
+Clinical knowledge modelling,1,1
+Clinical knowledge resources,1,1
+Clinical knowledges,1,1
+Clinical management,1,1
+Clinical model,1,1
+Clinical models,1,1
+Clinical oncology,1,1
+Clinical practice,1,1
+Clinical practice guidelines,1,1
+Clinical quality indicators,1,1
+Clinical quality measure,1,1
+Clinical registries,1,1
+Clinical staff,1,1
+Clinical terminology,1,1
+Clinical terms,1,1
+Clinical trial,1,1
+Clinical trials,1,1
+Clinical workflow,1,1
+Cloud EHR,1,1
+Cloud architectures,1,1
+Cloud environments,1,1
+Cloud services,1,1
+Cloud-Based Persistence,1,1
+Cloud-based,1,1
+Cloud-based persistence,1,1
+Codes,1,1
+Codesets,1,1
+Collaborative library,1,1
+Colombia,1,1
+Common object request broker architecture (CORBA),1,1
+Communication,1,1
+Communication interface,1,1
+Communication standards,1,1
+Comparative analysis,1,1
+Comparison criterion,1,1
+Complementary Diagnostic Request,1,1
+Complementary diagnostic request,1,1
+Component architectures,1,1
+Component based,1,1
+Component-oriented,1,1
+Computation theory,1,1
+Computational methods,1,1
+Computational modeling,1,1
+Computer Communication Networks,1,1
+Computer Security,1,1
+Computer Simulation,1,1
+Computer circuits,1,1
+Computer experiment,1,1
+Computer interaction,1,1
+Computer models,1,1
+Computer programming languages,1,1
+Computer software reusability,1,1
+Computer technology,1,1
+Computer-Interpretable Guidelines,1,1
+Computer-interpretable guidelines,1,1
+Computerized Guidelines,1,1
+Computerized medical record systems,1,1
+Computing Methodologies,1,1
+Concept Representation,1,1
+Concept representation,1,1
+Conceptual Independence,1,1
+Conceptual mapping,1,1
+Concretes,1,1
+Condition,1,1
+Conditional random field,1,1
+Conditional random fields,1,1
+Confidentiality,1,1
+Conformal mapping,1,1
+Congestive heart failure,1,1
+Congestive heart failures,1,1
+Constraint-based,1,1
+Context,1,1
+Contextual problem list,1,1
+Continuity of Care Record (CCR),1,1
+Continuity of care,1,1
+Control flows,1,1
+Control services,1,1
+Controlled,1,1
+Core components,1,1
+Core systems,1,1
+Cost effectiveness,1,1
+Cost reduction,1,1
+Costs,1,1
+Coupled structures,1,1
+Cruise,1,1
+Cruises,1,1
+CryptDB,1,1
+Customisation,1,1
+Customization,1,1
+Cyber security,1,1
+DATA INTEROPERABILITY,1,1
+DATA-SECURITY,1,1
+DECISION-SUPPORT-SYSTEMS,1,1
+DICOM,1,1
+DNA transcription,1,1
+DSL,1,1
+Daily tasks,1,1
+Data Accuracy,1,1
+Data Analytics,1,1
+Data Flattening,1,1
+Data Protection,1,1
+Data Science Interoperability,1,1
+Data Warehouse,1,1
+Data accuracy,1,1
+Data acquisition system,1,1
+Data aggregation,1,1
+Data collection,1,1
+Data elements,1,1
+Data entries,1,1
+Data flattening,1,1
+Data framework,1,1
+Data handling,1,1
+Data interchange,1,1
+Data level,1,1
+Data management system,1,1
+Data model,1,1
+Data processing,1,1
+Data publishing,1,1
+Data quality assessment,1,1
+Data quality control,1,1
+Data quality in healthcare,1,1
+Data quality in healthcares,1,1
+Data quality rule,1,1
+Data reports,1,1
+Data representations,1,1
+Data reusability,1,1
+Data science interoperability,1,1
+Data sets,1,1
+Data sharing,1,1
+Data structures,1,1
+Data transformation,1,1
+Data types and structures,1,1
+Data validation,1,1
+Data visualization,1,1
+Data-mining techniques,1,1
+Database,1,1
+Database storage,1,1
+Databases,1,1
+"Databases, Factual",1,1
+Dataset,1,1
+Datasets as Topic,1,1
+Datenvalidierung,1,1
+Decision Making,1,1
+Decision Support Techniques,1,1
+Decision making process,1,1
+Decision module language,1,1
+Decision modules,1,1
+Decision rules,1,1
+Decision support,1,1
+Decision tables,1,1
+Decision theory,1,1
+Decision-making process,1,1
+Demographic information,1,1
+Deployed systems,1,1
+Design,1,1
+Design and development process,1,1
+Design and implementations,1,1
+Development and applications,1,1
+Development costs,1,1
+Development project,1,1
+Dewey encoding,1,1
+Diabetes Mellitus,1,1
+Diabetic retinopathy,1,1
+Diagnostic tests,1,1
+Difference method,1,1
+Digital capacities,1,1
+Digital ecosystems,1,1
+Digital healthcare,1,1
+Digital skills,1,1
+Digital technologies,1,1
+Discharge Report,1,1
+Disease control,1,1
+Disease management,1,1
+Disease register,1,1
+Distributed database systems,1,1
+Distributed environments,1,1
+Distributed sources,1,1
+Distributed systems,1,1
+Document structure,1,1
+Document-based task,1,1
+Domain description,1,1
+Domain model,1,1
+Domain specific language,1,1
+Domain specific languages,1,1
+Domain-Specific Language,1,1
+Draft standard,1,1
+Dual model approach,1,1
+Dual-level Modeling,1,1
+Dual-level Scheme,1,1
+Dual-model layered architecture,1,1
+Dublin Core Metadata Element Set (DC Metadata Element Set),1,1
+Dynamic Mobile Form Generation,1,1
+Dynamic Tables,1,1
+Dynamic configuration,1,1
+Dynamic mobile form generation,1,1
+E-health,1,1
+E-health services,1,1
+EHR (Electronic Health Record),1,1
+EHR Document structure,1,1
+EHR Service Architecture,1,1
+EHR standard,1,1
+EHR systems,1,1
+ELECTRONIC HEALTH RECORD,1,1
+EN 13606,1,1
+EN 13606 archetype,1,1
+EN/ISO 13606 archetype,1,1
+EN13606 standard,1,1
+EPR,1,1
+ESC,1,1
+ETL tools,1,1
+EXCHANGE,1,1
+EXTRACTION,1,1
+Early supported discharge (ESD),1,1
+Educational aspects,1,1
+Effective transmission,1,1
+Elderly people,1,1
+Electronic Health Record - EHR,1,1
+Electronic Health Record(EHR) System,1,1
+Electronic Health Records (EHR),1,1
+Electronic Health Records System (EHRS),1,1
+Electronic Healthcare Records,1,1
+Electronic Healthcare record system,1,1
+Electronic Mail,1,1
+Electronic Patient Records,1,1
+Electronic Patient record system,1,1
+Electronic Prescribing,1,1
+Electronic Prescription (EP),1,1
+Electronic data,1,1
+Electronic formats,1,1
+Electronic health care record (EHR),1,1
+Electronic health cares,1,1
+Electronic health record architecture,1,1
+Electronic health record extract,1,1
+Electronic health records (EHRs),1,1
+Electronic medical records (EMR),1,1
+Electronic resources,1,1
+Eletronic Health Record,1,1
+Emergency care,1,1
+Emergency departments,1,1
+Emergency rooms,1,1
+Emergency scenario,1,1
+Endoscopy,1,1
+Engineering,1,1
+Entity Attribute Value Model,1,1
+Entity attribute value model,1,1
+Epidemiology,1,1
+Errors,1,1
+Ethics,1,1
+European Commission,1,1
+European Countries,1,1
+European Norm/International Organization for Standardization 13606,1,1
+European Standards,1,1
+Evaluation,1,1
+Evaluation measures,1,1
+Evidence-based biomedical informatics,1,1
+Evidence-based medicine,1,1
+Evolution behavior,1,1
+Evolutionary refinements,1,1
+Exchange of information,1,1
+Experimental projects,1,1
+Experimental system,1,1
+Experiments,1,1
+External systems,1,1
+Extract informations,1,1
+FAIR Principles,1,1
+FAIR principles,1,1
+FRAMEWORK,1,1
+Federated Electronic Health Record,1,1
+Federated queries,1,1
+Female,1,1
+Fine grained,1,1
+Fine-grained securities,1,1
+Focusing,1,1
+Follow up,1,1
+Formal Methods,1,1
+Formal methods,1,1
+Frailty,1,1
+Frameworks for Big Data,1,1
+Functional requirement,1,1
+Fundamental tools,1,1
+GECCO: German Corona Consensus Data Set,1,1
+GENERIFICATION,1,1
+GOVERNANCE,1,1
+GUI,1,1
+General aspects,1,1
+Generic component model,1,1
+Generic implementation,1,1
+Generic information model,1,1
+Generic section,1,1
+Generic storage,1,1
+Generic structure,1,1
+Genetics,1,1
+Genomics,1,1
+Global trends,1,1
+Good clinical practices,1,1
+Governance,1,1
+Government Regulation,1,1
+Graph database,1,1
+Guidance document,1,1
+Guideline,1,1
+Guideline adherence,1,1
+Guideline representation languages,1,1
+Guidelines,1,1
+HEALTH DATA,1,1
+HEALTH RECORDS,1,1
+HEALTH-CARE,1,1
+HL7 FHIR(Health Level 7 Fast Health Interoperability Services),1,1
+HL7 FHIR(health level 7 fast health interoperability service),1,1
+HL7 Version 3: Reference Information Model (RIM),1,1
+HL7 template,1,1
+HL7 v2,1,1
+HL7 virtual Medical Record (vMR),1,1
+HOSPITAL ADMISSION,1,1
+Hadoop,1,1
+Handover,1,1
+Hardware and software,1,1
+Health Care Record Architecture,1,1
+Health Data Integration,1,1
+Health Informatics,1,1
+Health Informatics System,1,1
+Health Patient Record,1,1
+Health Practitioners,1,1
+Health Promotion,1,1
+Health Services Research,1,1
+Health assessment summary,1,1
+Health assessments,1,1
+Health care application,1,1
+Health care costs,1,1
+Health care informatics,1,1
+Health data design,1,1
+Health data interoperability,1,1
+Health informatic system,1,1
+Health informatics standards,1,1
+Health information,1,1
+Health information exchange,1,1
+Health information system (HIS),1,1
+Health insurance,1,1
+Health promotion,1,1
+Health record,1,1
+Health regions,1,1
+Health standards,1,1
+Health telematics,1,1
+Health-care decisions,1,1
+Healthcare Applications,1,1
+Healthcare Coverage,1,1
+Healthcare Data Mapping,1,1
+Healthcare Informatics,1,1
+Healthcare Standards,1,1
+Healthcare System Architecture,1,1
+Healthcare Workflows,1,1
+Healthcare analytics,1,1
+Healthcare coverage,1,1
+Healthcare domains,1,1
+Healthcare industry,1,1
+Healthcare information systems,1,1
+Healthcare information technology,1,1
+Healthcare interoperability standards,1,1
+Healthcare managements,1,1
+Healthcare processes,1,1
+Healthcare quality improvement,1,1
+Healthcare reforms,1,1
+Healthcare resources,1,1
+Healthcare services,1,1
+Healthcare software development,1,1
+Healthcare standard,1,1
+Healthcare system architecture,1,1
+Heart,1,1
+Heart rate turbulences,1,1
+Heterogeneous sources,1,1
+High level languages,1,1
+High scalabilities,1,1
+Higher-degree,1,1
+Higher-level information,1,1
+Hl7,1,1
+Home Care Equipment,1,1
+Home automation,1,1
+Home care,1,1
+Home health care,1,1
+Hospital Information Systems,1,1
+Hospital care,1,1
+Hospital environment,1,1
+Hospital information system,1,1
+Hospital workflow,1,1
+Human phenotype ontology,1,1
+Huntington disease,1,1
+Huntington's disease,1,1
+Hygehos,1,1
+Hypertext systems,1,1
+Hypotension,1,1
+Hysteroscopy,1,1
+ICHOM,1,1
+ICT infrastructures,1,1
+ICT-tools,1,1
+IDENTIFICATION,1,1
+IDEOLOGY,1,1
+INFORMATION-TECHNOLOGY,1,1
+INTERFACE,1,1
+INTERNET,1,1
+ISARIC,1,1
+ISO 13606 standard,1,1
+ISO 13606; openEHR,1,1
+ISO 3606,1,1
+ISO EN 13606,1,1
+ISO EN13606 standard,1,1
+ISO/CEN 13606,1,1
+IT infrastructure flexibility,1,1
+ITS applications,1,1
+Identification (control systems),1,1
+Identification mechanism,1,1
+Identification problem,1,1
+Immunization campaigns,1,1
+Impact performance,1,1
+Implementation Guide,1,1
+Implementation guide,1,1
+Implementation science,1,1
+Indexing mechanisms,1,1
+Individualized Medicine,1,1
+Industrial engineering,1,1
+Infant,1,1
+Informatics systems,1,1
+Information Extraction,1,1
+Information Models,1,1
+Information Systems,1,1
+Information architectures,1,1
+Information communication,1,1
+Information components,1,1
+Information dissemination,1,1
+Information elements,1,1
+Information gathering,1,1
+Information infrastructure,1,1
+Information model,1,1
+Information model reuse,1,1
+Information ontologies,1,1
+Information resource,1,1
+Information standards,1,1
+Information system,1,1
+Information systems modeling,1,1
+Information transmission,1,1
+Innovative systems,1,1
+Integrated care,1,1
+Integrated data repositories,1,1
+Integration architecture,1,1
+Integration capability,1,1
+Integration frameworks,1,1
+Integration modules,1,1
+Integration process,1,1
+Intelligent Agents,1,1
+Intelligent buildings,1,1
+Interconnecting device,1,1
+Interface formats,1,1
+Interfaces,1,1
+International Patient Summary,1,1
+International law,1,1
+International regulations,1,1
+Internationality,1,1
+Internet,1,1
+Internet Architectures,1,1
+Internet architecture,1,1
+Internet of Medical Things,1,1
+Interoperabilitat,1,1
+Interoperability health informatics standards,1,1
+Interoperable Cloud and FHIR,1,1
+Interoperable cloud and FHIR,1,1
+Interviews,1,1
+Intraocular pressure,1,1
+Inverted indices,1,1
+IoMT,1,1
+It supports,1,1
+Iterative design,1,1
+Java,1,1
+Kernel applications,1,1
+Knowledge Acquisition,1,1
+Knowledge Graph,1,1
+Knowledge bases,1,1
+Knowledge engineering,1,1
+Knowledge graphs,1,1
+Knowledge model,1,1
+Knowledge organization systems,1,1
+Knowledge representation (computer),1,1
+Knowledge-Based System,1,1
+Knowledge-based system,1,1
+Knowledge-representation,1,1
+LIS,1,1
+Language,1,1
+Language interface,1,1
+Large language models,1,1
+Learning Health System,1,1
+Learning contents,1,1
+Legacy systems,1,1
+Legal concern,1,1
+Levels of abstraction,1,1
+Life cycle,1,1
+Limited information,1,1
+LinkEHR,1,1
+Literature reviews,1,1
+Load testing,1,1
+Logic devices,1,1
+Logic module,1,1
+Logical Information Model,1,1
+M2M,1,1
+M2M COMMUNICATIONS,1,1
+MANAGEMENT,1,1
+MEDICATION DISCREPANCIES,1,1
+METAMODEL,1,1
+MLCS,1,1
+MLOWN,1,1
+MVC Pattern,1,1
+MVC pattern,1,1
+Machine components,1,1
+Machine to machine (M2M),1,1
+Machine-to-Machine (M2M) communications,1,1
+Machine-to-machine communication,1,1
+Machine-to-machine communications,1,1
+Maintainability,1,1
+Malnutrition,1,1
+Management systems,1,1
+Managers,1,1
+Mapping algorithms,1,1
+Mapping method,1,1
+Mass Screening,1,1
+Matching methods,1,1
+Maternal Health Services,1,1
+Medical Informatics Computing,1,1
+Medical Order Entry Systems,1,1
+Medical Physics,1,1
+Medical Record Systems,1,1
+Medical Records,1,1
+Medical benefit schedule (MBS),1,1
+Medical center,1,1
+Medical computer system,1,1
+Medical data mining,1,1
+Medical decision making,1,1
+Medical documentation,1,1
+Medical education,1,1
+Medical fields,1,1
+Medical information system,1,1
+Medical institutions,1,1
+Medical knowledge,1,1
+Medical ontology,1,1
+Medical record,1,1
+Medical record systems-computerised,1,1
+Medical records,1,1
+"Medical records systems, computerized",1,1
+Medical sensing,1,1
+Medical sensing information,1,1
+Medical workflows,1,1
+Medication,1,1
+Medicine,1,1
+Medicines reconciliation,1,1
+Memory Disorders,1,1
+Message communication,1,1
+Message exchanging,1,1
+Messaging,1,1
+Meta-model,1,1
+Methadone maintenance therapy,1,1
+Method evaluation,1,1
+Methodology,1,1
+Microarrays,1,1
+Mining,1,1
+Mobile App,1,1
+Mobile Computing,1,1
+Mobile and ubiquitous computing,1,1
+Mobile app,1,1
+Mobile application,1,1
+Mobile applications,1,1
+Mobile cloud computing,1,1
+Mobile devices,1,1
+Model,1,1
+Model Transformation,1,1
+Model approach,1,1
+Model representation,1,1
+Model transformation component,1,1
+Model-Driven Software Development,1,1
+Model-Driven architecture,1,1
+Model-driven,1,1
+Model-driven architecture,1,1
+Model-driven development,1,1
+Model-driven software development,1,1
+Modeling EHR,1,1
+Modeling approach,1,1
+"Models, theoretical",1,1
+Modular,1,1
+Modulation,1,1
+Monitoring periods,1,1
+"Monitoring, Ambulatory",1,1
+Motor Symptoms,1,1
+Motor symptom,1,1
+Multi agent system (MAS),1,1
+Multi-perspective,1,1
+Multiple platforms,1,1
+Multiple use of data,1,1
+Myocardial Infarction,1,1
+NLP,1,1
+NORMALIZATION,1,1
+Nanoelectronic,1,1
+Nanoelectronics,1,1
+Nanotechnology,1,1
+National Health Programs,1,1
+National e-health transition authorities,1,1
+National eHealth programs,1,1
+National identification systems,1,1
+Native XML database,1,1
+Native xml database,1,1
+Natural Language Processing,1,1
+Natural Language Processing Information Extraction,1,1
+Natural Rule Language,1,1
+Natural language processing systems,1,1
+Nature language processing,1,1
+Netherlands,1,1
+Network security,1,1
+Neural networks,1,1
+Neurodegenerative diseases,1,1
+Neurodegenerative disorders,1,1
+Neurology,1,1
+New components,1,1
+New information and communication technologies,1,1
+NoSQL,1,1
+Nordic,1,1
+Normalization,1,1
+Normalized medical information,1,1
+Nosql database,1,1
+Novel architecture,1,1
+Novel information,1,1
+OHDSI,1,1
+ONTOLOGY,1,1
+OPEN INNOVATION,1,1
+OPEN-SOURCE SOFTWARE,1,1
+OVERWEIGHT,1,1
+OWL ontologies,1,1
+OWL ontology,1,1
+OWL/XML,1,1
+Object modeling,1,1
+Object oriented,1,1
+Observational Medical Outcomes Partnership Common Data Model,1,1
+Occupational disease,1,1
+Occupational history,1,1
+Occupational therapy,1,1
+Ontological approach,1,1
+Ontological commitment,1,1
+Ontological foundation,1,1
+Ontologies and rules,1,1
+Ontology alignment,1,1
+Open Source Software,1,1
+Open data models,1,1
+Open ecosystem,1,1
+Open electronic health record,1,1
+Open health data platform,1,1
+Open platform,1,1
+Open source,1,1
+Open source architecture,1,1
+Open sources,1,1
+Open standard,1,1
+Open systems,1,1
+Open-source,1,1
+Open-source components,1,1
+Open-source software,1,1
+OpenEHR (Open Electronic Health Record),1,1
+OpenEHR Archetype,1,1
+OpenEHR Information Model,1,1
+OpenEHR Templates,1,1
+OpenEHR approach,1,1
+OpenEHR clinical archetypes,1,1
+Openehr standard,1,1
+Operational Templates,1,1
+Operational data model,1,1
+Operational requirements,1,1
+Operational templates,1,1
+Optimized Column-oriented Model,1,1
+Optimized Entity Attribute Value Model,1,1
+Orchidaceae,1,1
+Organizational Models,1,1
+Orthostatic,1,1
+PAPER,1,1
+PERFORMANCE,1,1
+PERSONALIZED NUTRITION,1,1
+PHR,1,1
+PKI,1,1
+PRACTICE GUIDELINES,1,1
+PRECISION MEDICINE,1,1
+PREVALENCE,1,1
+PROforma,1,1
+Parenteral nutrition,1,1
+Participatory action research,1,1
+Pathology,1,1
+Patient Safety,1,1
+Patient data modeling,1,1
+Patient health,1,1
+Patient identification,1,1
+Patient monitoring,1,1
+Patient rehabilitation,1,1
+Patient-Generated Health Data,1,1
+Patient-Generated Health Data (PGHD),1,1
+Pediatric Intensive Care Units,1,1
+Performance computing,1,1
+Personal Health Record,1,1
+Personal Health Record (PHR),1,1
+Personal health care,1,1
+Personnel testing,1,1
+Pervasive Computing,1,1
+Pervasive healthcare systems,1,1
+Petri net,1,1
+Petroleum reservoir evaluation,1,1
+Pharmaceutical safety,1,1
+Philosophical aspects,1,1
+Physical Medicine,1,1
+Physical Therapy Specialty,1,1
+Physical medicine,1,1
+Pilot Projects,1,1
+Population statistics,1,1
+Post-discharge,1,1
+Practice guidelines,1,1
+Precision Medicine,1,1
+Prediction indices,1,1
+Primary care,1,1
+Primary healthcare,1,1
+Primary use,1,1
+Principles,1,1
+Process mining,1,1
+Professional experiences,1,1
+Project evaluation,1,1
+Project team,1,1
+Prostate cancer,1,1
+Protocols,1,1
+Prototype,1,1
+Prototype system,1,1
+Prototypes,1,1
+Public health,1,1
+Public health systems,1,1
+Public key cryptography,1,1
+Public policy,1,1
+Public-key infrastructure,1,1
+Publicly available specifications,1,1
+Publishing,1,1
+QUALITY,1,1
+Quality Improvement,1,1
+Quality assurance,1,1
+Quality features,1,1
+Quality of Healthcare Care,1,1
+Quality of care,1,1
+Quality systems,1,1
+Quality-based EHR,1,1
+Query Interface,1,1
+Query generation,1,1
+Query interfaces,1,1
+Query-language interfaces,1,1
+Querying,1,1
+RDB,1,1
+REASONER,1,1
+RECORD,1,1
+RECORD SYSTEMS,1,1
+REPRESENTATION,1,1
+REQUIREMENTS,1,1
+RESTful Web services,1,1
+Random processes,1,1
+Rapid expansion,1,1
+Rating scales,1,1
+Real World Data,1,1
+Real world data,1,1
+Real- time,1,1
+Real-world scenario,1,1
+Reasoners,1,1
+Reasoning,1,1
+Reasoning methods,1,1
+Recent researches,1,1
+Record management,1,1
+Recruitment,1,1
+Reduce costs,1,1
+Reference data models,1,1
+Reference model,1,1
+Reference user,1,1
+Referential integrity,1,1
+Regional government,1,1
+Regional management,1,1
+Rehabilitation,1,1
+Relational database,1,1
+Relational database management systems,1,1
+Remote monitoring,1,1
+Representation Standards,1,1
+Research,1,1
+Research activities,1,1
+Research data,1,1
+Resource-scheduling,1,1
+Reusable architectures,1,1
+Risk screening,1,1
+Robots,1,1
+Role-based Access Control,1,1
+Romanians,1,1
+Ruby,1,1
+Rule,1,1
+Rule based,1,1
+Runtime adaptation,1,1
+Runtime solution,1,1
+Rural Populations,1,1
+Rural population,1,1
+SARA,1,1
+SARS-CoV-2,1,1
+SEMANTIC INTEROPERABILITY,1,1
+SENSOR,1,1
+SEPAS project,1,1
+SERVICES,1,1
+SIGN-OUT,1,1
+SNOMED,1,1
+SNOMED CT Interoperability,1,1
+SQL,1,1
+STANDARD,1,1
+STANDARDIZATION,1,1
+SWOT analysis,1,1
+SYSTEM,1,1
+Safety,1,1
+Scalability,1,1
+Scalable storage,1,1
+Scandinavian countries,1,1
+Schematron,1,1
+Scientific data,1,1
+Scientific programs,1,1
+Scopus database,1,1
+Screening,1,1
+Screening methods,1,1
+Screening process,1,1
+Searchable Encryption,1,1
+Secondary research development,1,1
+Secondary research use,1,1
+Secondary researches,1,1
+Secondary use of EHR,1,1
+Secondary use of clinical data,1,1
+Security,1,1
+Security and privacy,1,1
+Security of data,1,1
+Security requirements,1,1
+Security systems,1,1
+Security tokens,1,1
+Self management,1,1
+Self-maintenance,1,1
+Semantic Analysis,1,1
+Semantic Sensor Network,1,1
+Semantic User Interfaces,1,1
+Semantic Web Rule Language(SWRL),1,1
+Semantic Web technology,1,1
+Semantic analysis,1,1
+Semantic data,1,1
+Semantic framework,1,1
+Semantic interfaces,1,1
+Semantic interoperability in eHealth,1,1
+Semantic mapping,1,1
+Semantic modelling,1,1
+Semantic reasoning,1,1
+Semantic technologies,1,1
+Semantic user interface,1,1
+Semantic web applications,1,1
+Sensitive datas,1,1
+Sensor data,1,1
+Service Oriented Architecture,1,1
+Service interfaces,1,1
+Service layers,1,1
+Service oriented architecture (SOA),1,1
+Service oriented frameworks,1,1
+Service-oriented architecture,1,1
+Sharing information,1,1
+Ships,1,1
+Shoulder Pathologies,1,1
+Shoulder joints,1,1
+Shoulder pathology,1,1
+Signal processing,1,1
+Simple rules,1,1
+Single source,1,1
+Smart Space,1,1
+Smart space,1,1
+Soft computing,1,1
+Software Architecture,1,1
+Software Design,1,1
+Software Engineering,1,1
+Software Product Line,1,1
+Software Validation,1,1
+Software and hardwares,1,1
+Software applications,1,1
+Software development management,1,1
+Software prototyping,1,1
+Software solution,1,1
+Software systems,1,1
+Sparse Data,1,1
+Standard,1,1
+Standard frameworks,1,1
+Standard requirements,1,1
+Standardisierung,1,1
+Standardized Electronic Health Records,1,1
+Standardized electronic health record,1,1
+Standards development organizations,1,1
+Steep learning curve,1,1
+Storage as a service (STaaS),1,1
+Storage structures,1,1
+Story,1,1
+Stroke,1,1
+Structural information,1,1
+Structure data,1,1
+Structure-based,1,1
+Structured Query Language,1,1
+Structured data,1,1
+Sudden cardiac deaths,1,1
+Supporting tool,1,1
+Surgery,1,1
+Surrounding environment,1,1
+Survivors of childhood cancer,1,1
+Symptom management,1,1
+System development,1,1
+System implementation,1,1
+System integration,1,1
+Systematized Nomenclature of Medicine,1,1
+Systemic inflammatory response syndrome,1,1
+Systems architecture,1,1
+TAVI,1,1
+TEMPLATES,1,1
+TOOL,1,1
+TOOLS,1,1
+Tablet computer,1,1
+Task planning,1,1
+Technical interoperability,1,1
+Technical limitations,1,1
+Technical standards,1,1
+Technological development,1,1
+Technological revolution,1,1
+Technology development,1,1
+Telecommunication networks,1,1
+Terminally ill,1,1
+Texas,1,1
+Text Mining,1,1
+Theoretical,1,1
+Therapeutic strategy,1,1
+Timed csp,1,1
+Timed models,1,1
+Tools for testing,1,1
+Transformation mechanisms,1,1
+Transformation process,1,1
+Treatment process,1,1
+Treatment recommendations,1,1
+Triage,1,1
+Triple Helix,1,1
+Triple helix models,1,1
+Triple helixes,1,1
+Turbulence,1,1
+Two-level Modelling,1,1
+UCD,1,1
+UML Activity Diagram,1,1
+UNCERTAINTY,1,1
+UNE/ISO 13606,1,1
+Ubiquitous computing technology,1,1
+Ubiquitous health care,1,1
+Unified Modeling Language,1,1
+Unique features,1,1
+Universal access,1,1
+Urban areas,1,1
+Usability requirements,1,1
+Use Case,1,1
+User Interaction,1,1
+User centered design,1,1
+User experience,1,1
+User interaction,1,1
+Users,1,1
+Validation,1,1
+Variant calling,1,1
+Virtual models,1,1
+Visual query,1,1
+Vital sign,1,1
+Vocabulary,1,1
+"Vocabulary, Controlled",1,1
+WEB application,1,1
+WORK,1,1
+Wearable devices,1,1
+Wearable technology,1,1
+Wearables,1,1
+Web Application,1,1
+Web Semantics,1,1
+Web based,1,1
+Web semantics,1,1
+Web-based,1,1
+Web-based system,1,1
+Webs services,1,1
+Websites,1,1
+Weight loss,1,1
+Wi-Fi,1,1
+Wide&deep network,1,1
+Wireless telecommunication systems,1,1
+World Health Organization,1,1
+X ray,1,1
+XDS.b,1,1
+XML repositories,1,1
+XML repository,1,1
+XML schemas,1,1
+accelerometry,1,1
+acute coronary syndrome,1,1
+adolescent,1,1
+aged,1,1
+agnosticism,1,1
+algorithm,1,1
+algorithms,1,1
+allergy,1,1
+ambulatory monitoring,1,1
+amyotrophic lateral sclerosis,1,1
+application development framework,1,1
+archetype modelling,1,1
+archetype object model,1,1
+archetype-conform EHR extract,1,1
+archetyped interfaces,1,1
+arteriosclerosis,1,1
+artifact,1,1
+artificial ventilation,1,1
+behavior change interventions,1,1
+benchmarking,1,1
+big data,1,1
+blood cell,1,1
+blood donor,1,1
+bone tumor,1,1
+book,1,1
+breast milk,1,1
+business archetypes and archetype patterns,1,1
+business process model and notation,1,1
+cBioPortal,1,1
+cancer epidemiology,1,1
+cancer registry,1,1
+cardiovascular risk stratification,1,1
+catheter-related bloodstream infection,1,1
+certification,1,1
+change management,1,1
+changing ideology,1,1
+child,1,1
+childhood acute lymphoblastic leukemia,1,1
+childhood cancer,1,1
+childhood cancer survivor,1,1
+clinical application,1,1
+clinical audit,1,1
+clinical data modelling,1,1
+clinical decision,1,1
+clinical decision making,1,1
+clinical decision support,1,1
+clinical decision support systems,1,1
+clinical evaluation,1,1
+clinical event,1,1
+clinical informatics,1,1
+clinical information model,1,1
+clinical information models,1,1
+clinical model,1,1
+clinical modelling,1,1
+clinical observation sketching,1,1
+clinical pathways,1,1
+clinical pharmacology,1,1
+clinical practice guideline,1,1
+clinical research (CR),1,1
+clinical routine data,1,1
+clinical screening criteria,1,1
+clinical study,1,1
+clinical trial,1,1
+clinical trials,1,1
+cloud computing,1,1
+cognition,1,1
+commercial phenomena,1,1
+common data element,1,1
+common ground,1,1
+communication,1,1
+communication software,1,1
+comparative study,1,1
+component: Electronic health records,1,1
+computable phenotypes,1,1
+computer aided design,1,1
+computer assisted tomography,1,1
+computer interface,1,1
+computer language,1,1
+computer network,1,1
+computer security,1,1
+computer-interpretable guideline,1,1
+computer-related health issues,1,1
+computerized clinical guidelines,1,1
+computers and society,1,1
+computing milieux,1,1
+concept models,1,1
+concept-based,1,1
+confidentiality,1,1
+congenital heart disease,1,1
+consensus development,1,1
+consultation,1,1
+content-based search,1,1
+continuity of care,1,1
+controlled study,1,1
+corneal transplantation,1,1
+coronavirus disease,1,1
+crowd sourced,1,1
+curriculum,1,1
+data,1,1
+data architecture,1,1
+data binding,1,1
+data interoperability,1,1
+data management,1,1
+data mining,1,1
+data modeling,1,1
+data protection,1,1
+data set,1,1
+data sharing,1,1
+data system,1,1
+database management,1,1
+database management system,1,1
+decision language,1,1
+decision logic,1,1
+decision making,1,1
+decision module language,1,1
+decision tree,1,1
+declarative,1,1
+design tools and techniques,1,1
+development,1,1
+devices,1,1
+diabetes,1,1
+diabetes mellitus,1,1
+diagnostic accuracy,1,1
+diagnostic imaging,1,1
+diagnostic test accuracy study,1,1
+digital health,1,1
+digital imaging and communications in medicine,1,1
+digital transformation,1,1
+dissemination,1,1
+distributed,1,1
+doctor patient relation,1,1
+doctor patient relationship,1,1
+drug monitoring,1,1
+dry mouth,1,1
+dual model,1,1
+dual model approach,1,1
+e-Health systems,1,1
+e-mail,1,1
+eHealth use case,1,1
+ePrescription,1,1
+eating disorders,1,1
+editor,1,1
+electroencephalography,1,1
+electronic data capture,1,1
+electronic data interchange,1,1
+electronic health record system,1,1
+electronic healthcare record,1,1
+electronic healthcare records,1,1
+end-to-end design,1,1
+ethics,1,1
+event-related potentials,1,1
+evolution,1,1
+facilitation,1,1
+factual database,1,1
+follow up,1,1
+form generation,1,1
+forms,1,1
+fuzzy logic,1,1
+fuzzy ontology,1,1
+general practice,1,1
+genomic models,1,1
+governance,1,1
+government regulation,1,1
+graphical user interfaces,1,1
+guideline adherence,1,1
+guideline representation languages,1,1
+health care quality,1,1
+health informatics standards,1,1
+health information exchange,1,1
+health information on the web,1,1
+health information systems,1,1
+health knowledge model,1,1
+health practitioner,1,1
+health records,1,1
+health research,1,1
+health services research,1,1
+healthcare analytics,1,1
+healthcare data management,1,1
+healthcare information technology,1,1
+heart,1,1
+heart arrhythmia,1,1
+heart failure,1,1
+heart rate turbulence,1,1
+heart rate variability,1,1
+heart surgery,1,1
+heart ventricle arrhythmia,1,1
+homomorphic encryption,1,1
+hospital information system,1,1
+human tissue,1,1
+hypersensitivity,1,1
+image processing,1,1
+immunization,1,1
+immunoglobulin,1,1
+implementation,1,1
+implementation guidelines. ISO/IEEE11073 standard,1,1
+infant,1,1
+information extraction,1,1
+information infrastructure,1,1
+information interfaces and representation (hci),1,1
+information technology and systems,1,1
+information visualisation,1,1
+informed consent,1,1
+infrastructuring,1,1
+integration,1,1
+integration technologies,1,1
+intellectual system,1,1
+intensive care unit,1,1
+international cooperation,1,1
+international patient summary,1,1
+internet based software engineering tools and techniques,1,1
+interoperability and evolution of healthcare models and software systems,1,1
+intraocular pressure,1,1
+keratoplasty,1,1
+kidney biopsy,1,1
+knowledge,1,1
+knowledge base,1,1
+knowledge extraction,1,1
+knowledge modeling,1,1
+knowledge modelling,1,1
+knowledge representation,1,1
+lambda calculus,1,1
+large-scale projects,1,1
+linguistics,1,1
+liver tumor,1,1
+lymphoma,1,1
+machine-to-machine,1,1
+machine-to-machine (M2M) communications,1,1
+malnutrition,1,1
+mapping,1,1
+maternal health service,1,1
+maturation,1,1
+measurement accuracy,1,1
+medical application,1,1
+medical computer systems,1,1
+medical data integration center,1,1
+medical history,1,1
+medical informatics initiative,1,1
+medical information,1,1
+medical information systems,1,1
+medical ontologies,1,1
+medical record linkage,1,1
+medical records,1,1
+medical research,1,1
+memory clinic system,1,1
+memory disorder,1,1
+metadata,1,1
+microbiology,1,1
+mixed-methods research,1,1
+mobile app,1,1
+mobile gateways (GWs),1,1
+mobile health,1,1
+mobility,1,1
+modeling approach,1,1
+modeling healthcare services,1,1
+modelling and meta-modelling in healthcare,1,1
+models,1,1
+multi-perspective,1,1
+multidisciplinary team,1,1
+multilingual,1,1
+multilingualism,1,1
+multimedia,1,1
+mutations,1,1
+native XML database,1,1
+neuroblastoma,1,1
+nomenclature,1,1
+normal value,1,1
+nursing documentation,1,1
+nursing informatics,1,1
+nutrition,1,1
+occupational disease,1,1
+occupational health summary,1,1
+occupational medicine,1,1
+odML,1,1
+oncology,1,1
+open knowledge,1,1
+openEHR Archetype,1,1
+openEHR Archetypes,1,1
+openEHR RM (Reference Model),1,1
+openEHR Task Planning,1,1
+openEHR Templates,1,1
+openEHR archetype,1,1
+openEHR guideline definition language,1,1
+openEHR repository,1,1
+openEHR specifications,1,1
+openEHR standard,1,1
+openEHR task planning,1,1
+openness,1,1
+opereffa,1,1
+ophthalmology,1,1
+organization,1,1
+p-Health,1,1
+pandemic preparedness,1,1
+pandemics,1,1
+paroxysmal supraventricular tachycardia,1,1
+pathogenesis,1,1
+pathology,1,1
+patient care,1,1
+patient data representation,1,1
+patient information,1,1
+patient pathways,1,1
+patient safety,1,1
+patient screening,1,1
+patient summary,1,1
+patient-generated health data,1,1
+pediatric intensive care unit,1,1
+personal health recording,1,1
+personalized medicine,1,1
+pervasive healthcare,1,1
+pharmacological science,1,1
+phenotype,1,1
+phenotyping,1,1
+physical examination,1,1
+pilot study,1,1
+pituitary adenoma,1,1
+population health,1,1
+preclinical study,1,1
+primary health care,1,1
+proactive prevention,1,1
+probabilistic graphical model,1,1
+problem based learning,1,1
+problem oriented medical record,1,1
+procedures,1,1
+process diagram,1,1
+process mining,1,1
+process of metamorphosis,1,1
+processes of concreteness,1,1
+programming languages,1,1
+proof of concept,1,1
+public health service,1,1
+public policy issues,1,1
+quality assessment,1,1
+quality assurance,1,1
+quality control,1,1
+quality of care,1,1
+query,1,1
+query generation,1,1
+query-language interfaces,1,1
+radiology,1,1
+rare disease,1,1
+rare disease register,1,1
+reaction time,1,1
+real-time data processing,1,1
+recommendations,1,1
+registration,1,1
+registries,1,1
+registry,1,1
+relational databases,1,1
+requirements,1,1
+requirements elicitation,1,1
+respiratory assessment,1,1
+response time,1,1
+reusable components,1,1
+rheumatology,1,1
+risk,1,1
+risk prediction scores,1,1
+schema mapping,1,1
+search engine,1,1
+secondary analysis,1,1
+secondary use of health data,1,1
+section boundary detection,1,1
+semantic reasoning,1,1
+semantische Interoperabilitat,1,1
+sensitivity and specificity,1,1
+sensor,1,1
+shared decision making,1,1
+simulation,1,1
+smart hospital,1,1
+smartphones,1,1
+software architecture,1,1
+software engineering,1,1
+standardisation,1,1
+stroke,1,1
+stroke screening,1,1
+structured data,1,1
+structured medical data,1,1
+surgery,1,1
+system integration,1,1
+systemic inflammatory response syndrome,1,1
+systems,1,1
+tacrolimus,1,1
+teaching,1,1
+telecare,1,1
+telecommunication,1,1
+tertiary care center,1,1
+test data,1,1
+thorax surgery,1,1
+transfusion,1,1
+transfusion medicine,1,1
+treatment outcome,1,1
+tumor board,1,1
+two-factor authentication,1,1
+type theory,1,1
+usability,1,1
+usability tests,1,1
+use cases,1,1
+user interface building tool,1,1
+user interfaces,1,1
+user participation,1,1
+validation,1,1
+variations,1,1
+ventilator,1,1
+verbal communication,1,1
+very elderly,1,1
+videorecording,1,1
+virtual patient,1,1
+web service,1,1
+web system,1,1
+wireless networks,1,1
+workflow,1,1
+working time,1,1
+workplace hazards,1,1
+young adult,1,1

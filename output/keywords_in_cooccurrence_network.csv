@@ -1,0 +1,127 @@
+Rank,Keyword,Document_Frequency
+1,ehr,208
+2,archetype,126
+3,interoperability,105
+4,semantic interoperability,72
+5,semantics,58
+6,health care,46
+7,information system,38
+8,medical computing,35
+9,ehealth,32
+10,records management,30
+11,health,29
+12,iso 13606,28
+13,ontology,27
+14,health information system,26
+15,health record,21
+16,clinical decision support system,20
+17,health level 7,19
+18,information use,19
+19,human,18
+20,decision support system,17
+21,standardization,17
+22,standards,17
+23,data integration,16
+24,health information interoperability,15
+25,medical informatics,15
+26,electronic health,14
+27,diagnosis,13
+28,hospital data processing,13
+29,hospitals,13
+30,snomed ct,13
+31,terminology,13
+32,clinical archetypes,12
+33,electronic data interchange,12
+34,information management,12
+35,knowledge management,12
+36,knowledge representation,11
+37,medical information system,11
+38,artificial intelligence,10
+39,clinical data,10
+40,clinical information,10
+41,covid-19,10
+42,decision making,10
+43,health informatics,10
+44,hospital information system,10
+45,medical records system,10
+46,telemedicine,10
+47,article,9
+48,data warehouse,9
+49,electronic medical record,9
+50,fhir,9
+51,hl7 fhir,9
+52,model,9
+53,open source,9
+54,architecture,8
+55,clinical decision support,8
+56,clinical research,8
+57,digital storage,8
+58,en 13606,8
+59,healthcare,8
+60,highmed,8
+61,medical record,8
+62,owl,8
+63,pervasive healthcare,8
+64,xml,8
+65,big data,7
+66,biochemical engineering,7
+67,biomedical engineering,7
+68,clinical guideline,7
+69,conference abstract,7
+70,healthcare system,7
+71,information modeling,7
+72,information retrieval,7
+73,integration,7
+74,patient treatment,7
+75,specifications,7
+76,standard,7
+77,systems,7
+78,templates,7
+79,application programs,6
+80,blockchain,6
+81,clinical information model,6
+82,continuity of care,6
+83,detailed clinical models,6
+84,electronic health record system,6
+85,graphical user interface,6
+86,health information exchange,6
+87,hl7 cda,6
+88,information,6
+89,information theory,6
+90,models,6
+91,nutrition,6
+92,openehr specifications,6
+93,practice guideline,6
+94,software,6
+95,template,6
+96,tools,6
+97,access control,5
+98,clinical data repository,5
+99,clinical knowledge,5
+100,clinical model,5
+101,common data element,5
+102,computer architecture,5
+103,computer science,5
+104,data base,5
+105,data mining,5
+106,data quality,5
+107,data sharing,5
+108,design,5
+109,diseases,5
+110,electronic document exchange,5
+111,female,5
+112,health care professionals,5
+113,informatics,5
+114,information storage and retrieval,5
+115,m2m communication,5
+116,mapping,5
+117,medical data,5
+118,medical services,5
+119,metadata,5
+120,nosql database,5
+121,patient information,5
+122,reference standards,5
+123,software architecture,5
+124,software design,5
+125,ubiquitous computing,5
+126,user interfaces,5

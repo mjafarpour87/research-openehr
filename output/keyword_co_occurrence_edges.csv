@@ -1,0 +1,2196 @@
+Source,Target,Weight
+archetype,ehr,61
+ehr,interoperability,53
+ehr,semantic interoperability,36
+ehr,semantics,31
+archetype,interoperability,30
+interoperability,semantics,30
+archetype,semantic interoperability,28
+ehr,records management,28
+semantic interoperability,semantics,27
+health care,interoperability,25
+interoperability,medical computing,25
+interoperability,semantic interoperability,24
+ehr,health care,23
+ehr,medical computing,23
+information system,interoperability,20
+ehealth,ehr,19
+ehr,information system,19
+ehr,iso 13606,19
+interoperability,records management,19
+ehr,health,18
+ehealth,interoperability,17
+medical computing,semantics,17
+archetype,health care,15
+health care,semantics,15
+ehr,standardization,14
+electronic health,health record,14
+archetype,semantics,13
+ehr,health record,13
+health care,information system,13
+health information system,interoperability,13
+archetype,iso 13606,12
+decision support system,ehr,12
+ehr,electronic health,12
+ehr,health information system,12
+health,interoperability,12
+health,records management,12
+health care,medical computing,12
+health care,semantic interoperability,12
+health record,interoperability,12
+information system,information use,12
+information system,semantics,12
+medical computing,semantic interoperability,12
+archetype,information system,11
+archetype,ontology,11
+clinical decision support system,ehr,11
+ehr,standards,11
+information system,medical computing,11
+information use,interoperability,11
+medical computing,records management,11
+archetype,health,10
+archetype,medical computing,10
+ehealth,semantic interoperability,10
+ehr,health level 7,10
+ehr,ontology,10
+health,health care,10
+health,semantics,10
+health care,records management,10
+information system,semantic interoperability,10
+semantic interoperability,standardization,10
+ehealth,medical computing,9
+ehr,hospital data processing,9
+ehr,human,9
+ehr,information use,9
+ehr,medical informatics,9
+electronic health,interoperability,9
+health,semantic interoperability,9
+clinical decision support system,decision support system,8
+ehealth,records management,8
+ehealth,semantics,8
+ehr,hospitals,8
+ehr,information management,8
+ehr,telemedicine,8
+electronic data interchange,interoperability,8
+health,information system,8
+hospital data processing,interoperability,8
+hospital data processing,medical computing,8
+hospital data processing,semantics,8
+information management,interoperability,8
+information use,semantics,8
+interoperability,ontology,8
+records management,semantic interoperability,8
+records management,semantics,8
+archetype,clinical decision support system,7
+archetype,templates,7
+biochemical engineering,ehr,7
+biochemical engineering,medical computing,7
+clinical information,ehr,7
+conference abstract,human,7
+ehealth,health record,7
+ehr,knowledge management,7
+health,medical computing,7
+health care,information use,7
+health record,medical computing,7
+information system,records management,7
+information use,medical computing,7
+interoperability,knowledge representation,7
+interoperability,snomed ct,7
+archetype,knowledge representation,6
+archetype,snomed ct,6
+archetype,standardization,6
+archetype,template,6
+artificial intelligence,ehr,6
+clinical data,interoperability,6
+clinical decision support system,interoperability,6
+clinical information,semantics,6
+clinical research,ehr,6
+covid-19,ehr,6
+data integration,ehr,6
+data integration,interoperability,6
+decision making,interoperability,6
+decision support system,semantics,6
+ehealth,electronic health,6
+ehealth,health care,6
+ehr,electronic data interchange,6
+ehr,en 13606,6
+ehr,health informatics,6
+ehr,hl7 fhir,6
+ehr,hospital information system,6
+ehr,medical information system,6
+ehr,snomed ct,6
+electronic data interchange,medical computing,6
+electronic data interchange,semantics,6
+electronic health,information management,6
+electronic health,medical computing,6
+health care,health level 7,6
+health informatics,interoperability,6
+health information system,semantics,6
+health level 7,interoperability,6
+health level 7,semantic interoperability,6
+health record,information management,6
+health record,records management,6
+healthcare system,interoperability,6
+hl7 fhir,interoperability,6
+information management,medical computing,6
+interoperability,standardization,6
+ontology,semantics,6
+semantics,snomed ct,6
+archetype,detailed clinical models,5
+archetype,en 13606,5
+archetype,knowledge management,5
+archetype,medical informatics,5
+archetype,owl,5
+archetype,pervasive healthcare,5
+archetype,records management,5
+architecture,ehr,5
+article,ehr,5
+article,electronic medical record,5
+artificial intelligence,clinical decision support system,5
+artificial intelligence,decision support system,5
+artificial intelligence,semantics,5
+big data,ehr,5
+biochemical engineering,interoperability,5
+biochemical engineering,semantics,5
+clinical archetypes,ehr,5
+clinical archetypes,interoperability,5
+clinical decision support system,decision making,5
+clinical decision support system,semantics,5
+clinical information,interoperability,5
+computer science,information system,5
+data integration,semantics,5
+decision making,decision support system,5
+decision support system,interoperability,5
+decision support system,medical computing,5
+diagnosis,ehr,5
+ehealth,information use,5
+ehealth,m2m communication,5
+ehealth,medical informatics,5
+ehr,hl7 cda,5
+ehr,knowledge representation,5
+ehr,owl,5
+ehr,patient treatment,5
+ehr,tools,5
+electronic data interchange,semantic interoperability,5
+electronic health,records management,5
+electronic health record system,semantics,5
+female,human,5
+health,health information system,5
+health care,healthcare system,5
+health care professionals,interoperability,5
+health information system,information system,5
+health information system,medical computing,5
+health information system,semantic interoperability,5
+health level 7,information system,5
+highmed,semantic interoperability,5
+hospital information system,interoperability,5
+hospitals,information system,5
+human,model,5
+information management,records management,5
+information system,integration,5
+integration,semantics,5
+interoperability,mapping,5
+interoperability,medical informatics,5
+interoperability,medical information system,5
+interoperability,standards,5
+iso 13606,semantic interoperability,5
+iso 13606,semantics,5
+knowledge representation,semantics,5
+pervasive healthcare,semantic interoperability,5
+semantic interoperability,snomed ct,5
+semantic interoperability,terminology,5
+semantics,standardization,5
+semantics,standards,5
+application programs,health care,4
+archetype,architecture,4
+archetype,article,4
+archetype,clinical data,4
+archetype,clinical data repository,4
+archetype,clinical decision support,4
+archetype,clinical guideline,4
+archetype,data integration,4
+archetype,diagnosis,4
+archetype,ehealth,4
+archetype,electronic medical record,4
+archetype,health information system,4
+archetype,hl7 cda,4
+archetype,hospital data processing,4
+archetype,human,4
+archetype,information use,4
+archetype,medical information system,4
+archetype,models,4
+archetype,nosql database,4
+archetype,terminology,4
+architecture,interoperability,4
+article,medical informatics,4
+artificial intelligence,interoperability,4
+artificial intelligence,medical computing,4
+biochemical engineering,semantic interoperability,4
+biomedical engineering,ehr,4
+biomedical engineering,medical informatics,4
+clinical archetypes,ontology,4
+clinical archetypes,semantic interoperability,4
+clinical data,information system,4
+clinical data,medical computing,4
+clinical data,semantics,4
+clinical decision support system,medical computing,4
+clinical information,information system,4
+clinical information,semantic interoperability,4
+clinical information model,ehr,4
+clinical knowledge,ehr,4
+computer science,ehr,4
+computer science,health,4
+computer science,records management,4
+conference abstract,ehr,4
+conference abstract,female,4
+continuity of care,ehr,4
+data integration,hospital data processing,4
+data warehouse,ehr,4
+decision making,ehr,4
+decision support system,health care,4
+diagnosis,human,4
+diagnosis,interoperability,4
+diagnosis,medical computing,4
+diagnosis,semantics,4
+digital storage,ehr,4
+digital storage,health care,4
+digital storage,interoperability,4
+ehealth,health,4
+ehealth,information management,4
+ehealth,information system,4
+ehealth,standardization,4
+ehr,electronic medical record,4
+ehr,health care professionals,4
+ehr,health information exchange,4
+ehr,health information interoperability,4
+ehr,healthcare,4
+ehr,information modeling,4
+ehr,information retrieval,4
+ehr,information storage and retrieval,4
+ehr,information theory,4
+ehr,integration,4
+ehr,medical records system,4
+ehr,nutrition,4
+ehr,open source,4
+ehr,openehr specifications,4
+ehr,reference standards,4
+ehr,specifications,4
+ehr,templates,4
+ehr,terminology,4
+ehr,xml,4
+electronic data interchange,health care,4
+electronic data interchange,hospital data processing,4
+electronic data interchange,records management,4
+en 13606,semantic interoperability,4
+fhir,interoperability,4
+health,health level 7,4
+health,integration,4
+health,standardization,4
+health care,health informatics,4
+health care,health record,4
+health care,hospital data processing,4
+health care,hospitals,4
+health care,knowledge representation,4
+health care,medical informatics,4
+health care,ontology,4
+health care,pervasive healthcare,4
+health care,standards,4
+health care,ubiquitous computing,4
+health informatics,medical informatics,4
+health information system,health level 7,4
+health information system,information use,4
+health information system,medical information system,4
+health level 7,semantics,4
+health record,ontology,4
+hospital data processing,information system,4
+hospital data processing,records management,4
+hospital data processing,semantic interoperability,4
+hospitals,medical computing,4
+hospitals,records management,4
+hospitals,semantics,4
+information system,information theory,4
+information theory,interoperability,4
+information use,records management,4
+information use,semantic interoperability,4
+integration,medical computing,4
+interoperability,iso 13606,4
+interoperability,knowledge management,4
+interoperability,openehr specifications,4
+interoperability,pervasive healthcare,4
+interoperability,specifications,4
+interoperability,terminology,4
+interoperability,ubiquitous computing,4
+knowledge management,semantic interoperability,4
+knowledge representation,medical computing,4
+mapping,semantics,4
+medical computing,medical informatics,4
+medical computing,medical information system,4
+medical informatics,ontology,4
+medical record,medical records system,4
+ontology,owl,4
+ontology,semantic interoperability,4
+pervasive healthcare,ubiquitous computing,4
+records management,telemedicine,4
+semantics,terminology,4
+access control,ehr,3
+application programs,ehealth,3
+archetype,biochemical engineering,3
+archetype,biomedical engineering,3
+archetype,covid-19,3
+archetype,data warehouse,3
+archetype,health level 7,3
+archetype,health record,3
+archetype,hospital information system,3
+archetype,information modeling,3
+archetype,nutrition,3
+archetype,software design,3
+archetype,standards,3
+archetype,systems,3
+archetype,telemedicine,3
+archetype,tools,3
+archetype,xml,3
+architecture,health,3
+architecture,records management,3
+article,health information system,3
+article,information system,3
+article,interoperability,3
+article,medical information system,3
+article,medical record,3
+article,medical records system,3
+big data,medical computing,3
+big data,semantics,3
+biochemical engineering,diagnosis,3
+biochemical engineering,tools,3
+biomedical engineering,ehealth,3
+blockchain,interoperability,3
+clinical archetypes,semantics,3
+clinical archetypes,snomed ct,3
+clinical archetypes,terminology,3
+clinical data,health care,3
+clinical data,information use,3
+clinical decision support,decision support system,3
+clinical decision support,ehr,3
+clinical decision support,interoperability,3
+clinical decision support system,clinical guideline,3
+clinical decision support system,semantic interoperability,3
+clinical information,health,3
+clinical information,health care,3
+clinical information,information theory,3
+clinical information,information use,3
+clinical information,medical computing,3
+clinical research,metadata,3
+computer architecture,hospitals,3
+computer architecture,information system,3
+computer architecture,medical services,3
+computer science,health care,3
+computer science,interoperability,3
+computer science,semantic interoperability,3
+computer science,semantics,3
+conference abstract,diagnosis,3
+covid-19,interoperability,3
+data base,human,3
+data integration,health care,3
+data integration,information system,3
+data mining,semantic interoperability,3
+data sharing,ehr,3
+data sharing,open source,3
+data warehouse,semantic interoperability,3
+decision making,health care,3
+decision support system,diagnosis,3
+decision support system,hospitals,3
+decision support system,practice guideline,3
+decision support system,records management,3
+design,interoperability,3
+detailed clinical models,ehr,3
+detailed clinical models,semantics,3
+diseases,ehr,3
+diseases,health care,3
+ehealth,electronic data interchange,3
+ehealth,healthcare,3
+ehealth,hl7 fhir,3
+ehr,electronic document exchange,3
+ehr,electronic health record system,3
+ehr,graphical user interface,3
+ehr,model,3
+ehr,practice guideline,3
+ehr,software,3
+ehr,systems,3
+ehr,template,3
+ehr,user interfaces,3
+electronic data interchange,electronic health,3
+electronic data interchange,health record,3
+electronic data interchange,information system,3
+electronic data interchange,standardization,3
+electronic document exchange,interoperability,3
+electronic health,information system,3
+electronic medical record,health information system,3
+electronic medical record,information system,3
+electronic medical record,medical informatics,3
+electronic medical record,medical information system,3
+en 13606,standardization,3
+fhir,semantic interoperability,3
+health,health informatics,3
+health,hospital data processing,3
+health,hospitals,3
+health,ontology,3
+health,standards,3
+health care,information management,3
+health care,integration,3
+health care,iso 13606,3
+health care,knowledge management,3
+health care,medical information system,3
+health care,patient treatment,3
+health care,standardization,3
+health care,terminology,3
+health care professionals,hospital data processing,3
+health care professionals,medical computing,3
+health care professionals,semantics,3
+health informatics,medical computing,3
+health information system,hospital data processing,3
+health information system,integration,3
+health record,information system,3
+health record,semantics,3
+healthcare,interoperability,3
+healthcare,records management,3
+healthcare system,information system,3
+healthcare system,pervasive healthcare,3
+hl7 fhir,medical computing,3
+hospital data processing,integration,3
+hospital information system,information system,3
+hospitals,interoperability,3
+hospitals,semantic interoperability,3
+hospitals,telemedicine,3
+human,medical informatics,3
+human,medical record,3
+human,medical records system,3
+human,practice guideline,3
+human,software,3
+information management,information use,3
+information modeling,information use,3
+information system,medical services,3
+information system,ontology,3
+information system,pervasive healthcare,3
+information system,standards,3
+information system,terminology,3
+information theory,semantics,3
+integration,interoperability,3
+integration,semantic interoperability,3
+interoperability,owl,3
+interoperability,patient treatment,3
+interoperability,telemedicine,3
+interoperability,user interfaces,3
+iso 13606,medical computing,3
+iso 13606,records management,3
+knowledge management,knowledge representation,3
+knowledge management,ontology,3
+knowledge management,semantics,3
+knowledge representation,medical information system,3
+knowledge representation,ontology,3
+knowledge representation,snomed ct,3
+medical computing,openehr specifications,3
+medical computing,telemedicine,3
+medical computing,tools,3
+medical informatics,medical information system,3
+medical informatics,medical record,3
+medical informatics,semantics,3
+medical information system,semantics,3
+medical record,standard,3
+ontology,snomed ct,3
+owl,semantic interoperability,3
+owl,semantics,3
+patient treatment,semantic interoperability,3
+records management,standardization,3
+records management,standards,3
+semantic interoperability,tools,3
+semantics,tools,3
+snomed ct,terminology,3
+access control,health,2
+access control,interoperability,2
+access control,records management,2
+application programs,archetype,2
+application programs,ehr,2
+application programs,information system,2
+application programs,information use,2
+archetype,artificial intelligence,2
+archetype,clinical archetypes,2
+archetype,clinical information model,2
+archetype,clinical knowledge,2
+archetype,clinical model,2
+archetype,clinical research,2
+archetype,common data element,2
+archetype,computer science,2
+archetype,data base,2
+archetype,data quality,2
+archetype,decision support system,2
+archetype,design,2
+archetype,digital storage,2
+archetype,electronic data interchange,2
+archetype,graphical user interface,2
+archetype,healthcare system,2
+archetype,informatics,2
+archetype,information management,2
+archetype,information theory,2
+archetype,medical services,2
+archetype,model,2
+archetype,openehr specifications,2
+archetype,practice guideline,2
+archetype,software,2
+archetype,software architecture,2
+archetype,standard,2
+archetype,ubiquitous computing,2
+architecture,article,2
+architecture,clinical data,2
+architecture,diagnosis,2
+architecture,health care,2
+architecture,hospitals,2
+architecture,medical computing,2
+architecture,models,2
+article,health care,2
+article,human,2
+article,software,2
+article,standard,2
+artificial intelligence,biochemical engineering,2
+artificial intelligence,clinical guideline,2
+artificial intelligence,decision making,2
+artificial intelligence,electronic health record system,2
+artificial intelligence,health care,2
+artificial intelligence,hospitals,2
+artificial intelligence,records management,2
+artificial intelligence,semantic interoperability,2
+big data,clinical research,2
+big data,electronic data interchange,2
+big data,health,2
+big data,health care,2
+big data,hospital data processing,2
+big data,interoperability,2
+big data,semantic interoperability,2
+biochemical engineering,clinical decision support system,2
+biochemical engineering,clinical information,2
+biochemical engineering,decision support system,2
+biochemical engineering,graphical user interface,2
+biochemical engineering,health care,2
+biochemical engineering,hospital data processing,2
+biochemical engineering,hospitals,2
+biochemical engineering,iso 13606,2
+biochemical engineering,records management,2
+biochemical engineering,telemedicine,2
+biomedical engineering,clinical knowledge,2
+biomedical engineering,hospitals,2
+biomedical engineering,ontology,2
+biomedical engineering,semantics,2
+biomedical engineering,telemedicine,2
+blockchain,health care,2
+clinical archetypes,clinical data,2
+clinical archetypes,health care,2
+clinical archetypes,information system,2
+clinical archetypes,information theory,2
+clinical archetypes,information use,2
+clinical archetypes,medical computing,2
+clinical archetypes,owl,2
+clinical archetypes,tools,2
+clinical data,data integration,2
+clinical data,data warehouse,2
+clinical data,diagnosis,2
+clinical data,ehr,2
+clinical data,health information system,2
+clinical data,health record,2
+clinical data,information management,2
+clinical data,knowledge representation,2
+clinical data,ontology,2
+clinical data,snomed ct,2
+clinical decision support,clinical decision support system,2
+clinical decision support,electronic data interchange,2
+clinical decision support,health care,2
+clinical decision support,medical computing,2
+clinical decision support system,data integration,2
+clinical decision support system,diagnosis,2
+clinical decision support system,electronic health record system,2
+clinical decision support system,health care,2
+clinical decision support system,hospitals,2
+clinical decision support system,records management,2
+clinical guideline,ehr,2
+clinical guideline,interoperability,2
+clinical guideline,medical computing,2
+clinical information,clinical information model,2
+clinical information,ehealth,2
+clinical information,health informatics,2
+clinical information,hospitals,2
+clinical information,information modeling,2
+clinical information,integration,2
+clinical information,iso 13606,2
+clinical information,records management,2
+clinical information,standardization,2
+clinical information,terminology,2
+clinical information model,medical computing,2
+clinical information model,semantic interoperability,2
+clinical information model,semantics,2
+clinical knowledge,health care,2
+clinical knowledge,interoperability,2
+clinical knowledge,medical informatics,2
+clinical knowledge,semantic interoperability,2
+clinical knowledge,semantics,2
+clinical model,interoperability,2
+clinical model,ontology,2
+clinical research,data sharing,2
+clinical research,data warehouse,2
+clinical research,health care,2
+clinical research,information use,2
+clinical research,interoperability,2
+clinical research,medical computing,2
+clinical research,open source,2
+clinical research,semantic interoperability,2
+clinical research,semantics,2
+common data element,ehr,2
+common data element,informatics,2
+computer architecture,xml,2
+computer science,medical computing,2
+computer science,snomed ct,2
+computer science,standards,2
+conference abstract,decision support system,2
+conference abstract,practice guideline,2
+continuity of care,information modeling,2
+continuity of care,information system,2
+continuity of care,information use,2
+continuity of care,interoperability,2
+continuity of care,semantics,2
+covid-19,health information interoperability,2
+covid-19,semantics,2
+covid-19,standards,2
+covid-19,template,2
+data base,ehr,2
+data base,electronic medical record,2
+data base,model,2
+data integration,decision support system,2
+data integration,health,2
+data integration,health level 7,2
+data integration,human,2
+data integration,integration,2
+data integration,knowledge representation,2
+data integration,medical computing,2
+data integration,semantic interoperability,2
+data mining,data warehouse,2
+data mining,medical computing,2
+data mining,semantics,2
+data quality,human,2
+data sharing,electronic data interchange,2
+data sharing,health care,2
+data warehouse,diagnosis,2
+data warehouse,information system,2
+data warehouse,medical computing,2
+data warehouse,metadata,2
+data warehouse,semantics,2
+decision making,health information system,2
+decision making,health record,2
+decision making,information system,2
+decision making,records management,2
+decision making,semantics,2
+decision support system,electronic data interchange,2
+decision support system,electronic health record system,2
+decision support system,human,2
+decision support system,knowledge representation,2
+decision support system,patient treatment,2
+decision support system,semantic interoperability,2
+decision support system,tools,2
+design,ehr,2
+detailed clinical models,information modeling,2
+detailed clinical models,templates,2
+diagnosis,diseases,2
+diagnosis,graphical user interface,2
+diagnosis,hospital data processing,2
+diagnosis,hospital information system,2
+diagnosis,hospitals,2
+diagnosis,information system,2
+diagnosis,medical record,2
+diagnosis,ontology,2
+diagnosis,patient treatment,2
+diagnosis,records management,2
+diagnosis,telemedicine,2
+diagnosis,tools,2
+digital storage,electronic data interchange,2
+digital storage,health,2
+digital storage,health informatics,2
+digital storage,information management,2
+digital storage,medical computing,2
+digital storage,semantic interoperability,2
+digital storage,semantics,2
+diseases,ehealth,2
+diseases,interoperability,2
+diseases,medical computing,2
+diseases,patient treatment,2
+diseases,semantics,2
+ehealth,electronic document exchange,2
+ehealth,health informatics,2
+ehealth,health information system,2
+ehealth,health level 7,2
+ehealth,healthcare system,2
+ehealth,hospital data processing,2
+ehealth,hospitals,2
+ehealth,iso 13606,2
+ehealth,medical information system,2
+ehealth,openehr specifications,2
+ehealth,patient treatment,2
+ehealth,standards,2
+ehealth,telemedicine,2
+ehr,female,2
+ehr,healthcare system,2
+ehr,medical data,2
+ehr,medical record,2
+ehr,metadata,2
+ehr,nosql database,2
+electronic data interchange,electronic document exchange,2
+electronic data interchange,health,2
+electronic data interchange,health informatics,2
+electronic data interchange,information use,2
+electronic data interchange,knowledge representation,2
+electronic data interchange,medical informatics,2
+electronic data interchange,metadata,2
+electronic data interchange,ontology,2
+electronic document exchange,electronic health,2
+electronic document exchange,health informatics,2
+electronic document exchange,health record,2
+electronic document exchange,information system,2
+electronic document exchange,medical computing,2
+electronic document exchange,openehr specifications,2
+electronic health,healthcare,2
+electronic health,information use,2
+electronic health,knowledge management,2
+electronic health,medical informatics,2
+electronic health,specifications,2
+electronic health record system,health care,2
+electronic health record system,semantic interoperability,2
+electronic health record system,standards,2
+electronic medical record,health level 7,2
+electronic medical record,interoperability,2
+electronic medical record,medical computing,2
+electronic medical record,model,2
+electronic medical record,semantics,2
+electronic medical record,telemedicine,2
+en 13606,interoperability,2
+graphical user interface,hospital information system,2
+graphical user interface,interoperability,2
+graphical user interface,medical computing,2
+graphical user interface,tools,2
+health,health record,2
+health,information use,2
+health,knowledge management,2
+health,knowledge representation,2
+health,medical information system,2
+health care,health care professionals,2
+health care,health information system,2
+health care,healthcare,2
+health care,mapping,2
+health care,medical record,2
+health care,medical records system,2
+health care,models,2
+health care,openehr specifications,2
+health care,snomed ct,2
+health care,software architecture,2
+health care,software design,2
+health care,specifications,2
+health care professionals,information system,2
+health care professionals,records management,2
+health informatics,hl7 fhir,2
+health informatics,ontology,2
+health informatics,semantic interoperability,2
+health information system,information management,2
+health information system,knowledge representation,2
+health information system,mapping,2
+health information system,medical informatics,2
+health information system,medical records system,2
+health information system,patient information,2
+health information system,records management,2
+health information system,software architecture,2
+health information system,standards,2
+health level 7,hospitals,2
+health level 7,information,2
+health level 7,records management,2
+health level 7,standardization,2
+health level 7,standards,2
+health level 7,templates,2
+health record,healthcare,2
+health record,information use,2
+health record,knowledge management,2
+health record,medical informatics,2
+health record,semantic interoperability,2
+health record,specifications,2
+healthcare system,patient treatment,2
+healthcare system,semantic interoperability,2
+healthcare system,semantics,2
+healthcare system,ubiquitous computing,2
+hl7 cda,iso 13606,2
+hl7 cda,semantics,2
+hl7 fhir,medical informatics,2
+hospital data processing,hospitals,2
+hospital data processing,knowledge representation,2
+hospital data processing,standardization,2
+hospital data processing,user interfaces,2
+hospital information system,hospitals,2
+hospital information system,medical computing,2
+hospital information system,records management,2
+hospitals,integration,2
+hospitals,medical services,2
+hospitals,patient treatment,2
+hospitals,standardization,2
+human,information retrieval,2
+information management,information system,2
+information management,semantics,2
+information management,specifications,2
+information modeling,information system,2
+information modeling,information theory,2
+information modeling,interoperability,2
+information modeling,semantic interoperability,2
+information modeling,semantics,2
+information modeling,templates,2
+information retrieval,information storage and retrieval,2
+information retrieval,interoperability,2
+information storage and retrieval,model,2
+information system,knowledge management,2
+information system,medical informatics,2
+information system,medical information system,2
+information system,metadata,2
+information system,open source,2
+information system,owl,2
+information system,snomed ct,2
+information system,standardization,2
+information system,telemedicine,2
+information system,ubiquitous computing,2
+information theory,information use,2
+information theory,medical computing,2
+information theory,ontology,2
+information theory,records management,2
+information theory,terminology,2
+information use,iso 13606,2
+information use,mapping,2
+information use,medical information system,2
+information use,metadata,2
+information use,open source,2
+integration,medical information system,2
+interoperability,m2m communication,2
+interoperability,medical record,2
+interoperability,nutrition,2
+interoperability,patient information,2
+interoperability,standard,2
+interoperability,systems,2
+interoperability,templates,2
+interoperability,tools,2
+iso 13606,standardization,2
+iso 13606,standards,2
+iso 13606,telemedicine,2
+knowledge management,medical computing,2
+knowledge management,medical informatics,2
+knowledge management,medical information system,2
+knowledge management,records management,2
+knowledge management,standards,2
+knowledge management,terminology,2
+knowledge representation,mapping,2
+knowledge representation,owl,2
+knowledge representation,records management,2
+knowledge representation,semantic interoperability,2
+knowledge representation,terminology,2
+mapping,medical computing,2
+mapping,medical information system,2
+mapping,semantic interoperability,2
+mapping,snomed ct,2
+medical computing,medical data,2
+medical computing,ontology,2
+medical computing,open source,2
+medical computing,owl,2
+medical computing,specifications,2
+medical computing,standardization,2
+medical computing,standards,2
+medical computing,user interfaces,2
+medical informatics,medical records system,2
+medical informatics,openehr specifications,2
+medical informatics,semantic interoperability,2
+medical informatics,software,2
+medical informatics,standardization,2
+medical information system,ontology,2
+medical information system,records management,2
+medical record,ontology,2
+medical records system,model,2
+medical records system,reference standards,2
+medical records system,software,2
+medical records system,standard,2
+medical services,software,2
+medical services,terminology,2
+medical services,xml,2
+metadata,semantic interoperability,2
+metadata,semantics,2
+model,ontology,2
+models,software design,2
+models,terminology,2
+ontology,records management,2
+open source,records management,2
+openehr specifications,semantics,2
+openehr specifications,specifications,2
+owl,records management,2
+patient information,semantic interoperability,2
+patient treatment,records management,2
+patient treatment,semantics,2
+pervasive healthcare,semantics,2
+semantic interoperability,standards,2
+semantic interoperability,ubiquitous computing,2
+semantics,telemedicine,2
+semantics,ubiquitous computing,2
+semantics,user interfaces,2
+software,terminology,2
+software architecture,software design,2
+standardization,systems,2
+telemedicine,tools,2
+tools,user interfaces,2
+access control,ehealth,1
+access control,electronic health,1
+access control,electronic health record system,1
+access control,health information system,1
+access control,health record,1
+access control,information management,1
+access control,semantics,1
+access control,standardization,1
+access control,standards,1
+application programs,artificial intelligence,1
+application programs,biomedical engineering,1
+application programs,clinical decision support system,1
+application programs,decision making,1
+application programs,decision support system,1
+application programs,digital storage,1
+application programs,electronic data interchange,1
+application programs,electronic health record system,1
+application programs,health information system,1
+application programs,health level 7,1
+application programs,interoperability,1
+application programs,iso 13606,1
+application programs,knowledge management,1
+application programs,metadata,1
+application programs,records management,1
+application programs,semantics,1
+application programs,software architecture,1
+application programs,telemedicine,1
+application programs,terminology,1
+application programs,xml,1
+archetype,big data,1
+archetype,clinical information,1
+archetype,computer architecture,1
+archetype,continuity of care,1
+archetype,decision making,1
+archetype,diseases,1
+archetype,electronic document exchange,1
+archetype,electronic health,1
+archetype,electronic health record system,1
+archetype,female,1
+archetype,fhir,1
+archetype,health care professionals,1
+archetype,health informatics,1
+archetype,health information interoperability,1
+archetype,highmed,1
+archetype,hl7 fhir,1
+archetype,hospitals,1
+archetype,information,1
+archetype,information retrieval,1
+archetype,information storage and retrieval,1
+archetype,integration,1
+archetype,medical data,1
+archetype,medical records system,1
+archetype,metadata,1
+archetype,patient treatment,1
+archetype,reference standards,1
+archetype,specifications,1
+archetype,user interfaces,1
+architecture,biochemical engineering,1
+architecture,clinical archetypes,1
+architecture,computer architecture,1
+architecture,data base,1
+architecture,data warehouse,1
+architecture,decision support system,1
+architecture,detailed clinical models,1
+architecture,ehealth,1
+architecture,electronic medical record,1
+architecture,health informatics,1
+architecture,health information system,1
+architecture,information management,1
+architecture,information retrieval,1
+architecture,information storage and retrieval,1
+architecture,information system,1
+architecture,information use,1
+architecture,knowledge representation,1
+architecture,medical data,1
+architecture,medical informatics,1
+architecture,medical record,1
+architecture,medical records system,1
+architecture,practice guideline,1
+architecture,semantics,1
+architecture,software architecture,1
+architecture,software design,1
+architecture,telemedicine,1
+architecture,template,1
+architecture,templates,1
+architecture,tools,1
+article,artificial intelligence,1
+article,clinical information,1
+article,computer architecture,1
+article,continuity of care,1
+article,data base,1
+article,decision making,1
+article,detailed clinical models,1
+article,ehealth,1
+article,health,1
+article,health informatics,1
+article,health level 7,1
+article,information,1
+article,information management,1
+article,information retrieval,1
+article,information storage and retrieval,1
+article,information use,1
+article,knowledge management,1
+article,knowledge representation,1
+article,medical computing,1
+article,model,1
+article,records management,1
+article,semantic interoperability,1
+article,semantics,1
+article,snomed ct,1
+article,standardization,1
+article,standards,1
+article,telemedicine,1
+artificial intelligence,clinical information,1
+artificial intelligence,diagnosis,1
+artificial intelligence,graphical user interface,1
+artificial intelligence,health,1
+artificial intelligence,health care professionals,1
+artificial intelligence,health information interoperability,1
+artificial intelligence,hospital data processing,1
+artificial intelligence,human,1
+artificial intelligence,iso 13606,1
+artificial intelligence,knowledge management,1
+artificial intelligence,knowledge representation,1
+artificial intelligence,medical information system,1
+artificial intelligence,patient treatment,1
+artificial intelligence,snomed ct,1
+artificial intelligence,telemedicine,1
+artificial intelligence,terminology,1
+artificial intelligence,tools,1
+big data,clinical data,1
+big data,clinical information model,1
+big data,data integration,1
+big data,data mining,1
+big data,data sharing,1
+big data,data warehouse,1
+big data,digital storage,1
+big data,ehealth,1
+big data,health care professionals,1
+big data,health information system,1
+big data,hospitals,1
+big data,information use,1
+big data,integration,1
+big data,mapping,1
+big data,medical information system,1
+big data,metadata,1
+big data,open source,1
+big data,records management,1
+big data,standardization,1
+biochemical engineering,clinical information model,1
+biochemical engineering,data mining,1
+biochemical engineering,digital storage,1
+biochemical engineering,diseases,1
+biochemical engineering,electronic health record system,1
+biochemical engineering,en 13606,1
+biochemical engineering,health care professionals,1
+biochemical engineering,health informatics,1
+biochemical engineering,hl7 cda,1
+biochemical engineering,hospital information system,1
+biochemical engineering,information system,1
+biochemical engineering,patient treatment,1
+biochemical engineering,user interfaces,1
+biomedical engineering,computer architecture,1
+biomedical engineering,digital storage,1
+biomedical engineering,electronic health record system,1
+biomedical engineering,health,1
+biomedical engineering,health care,1
+biomedical engineering,health informatics,1
+biomedical engineering,health level 7,1
+biomedical engineering,information management,1
+biomedical engineering,information modeling,1
+biomedical engineering,information system,1
+biomedical engineering,information theory,1
+biomedical engineering,interoperability,1
+biomedical engineering,medical data,1
+biomedical engineering,medical services,1
+biomedical engineering,openehr specifications,1
+biomedical engineering,records management,1
+biomedical engineering,semantic interoperability,1
+biomedical engineering,standardization,1
+biomedical engineering,template,1
+biomedical engineering,xml,1
+blockchain,clinical data,1
+blockchain,decision making,1
+blockchain,ehr,1
+blockchain,health information system,1
+blockchain,health record,1
+blockchain,information management,1
+blockchain,information system,1
+blockchain,information use,1
+blockchain,iso 13606,1
+blockchain,medical computing,1
+blockchain,software architecture,1
+clinical archetypes,clinical information,1
+clinical archetypes,computer architecture,1
+clinical archetypes,data mining,1
+clinical archetypes,en 13606,1
+clinical archetypes,graphical user interface,1
+clinical archetypes,health care professionals,1
+clinical archetypes,information,1
+clinical archetypes,knowledge representation,1
+clinical archetypes,mapping,1
+clinical archetypes,medical informatics,1
+clinical archetypes,medical services,1
+clinical archetypes,models,1
+clinical archetypes,software,1
+clinical archetypes,software architecture,1
+clinical archetypes,software design,1
+clinical archetypes,specifications,1
+clinical archetypes,systems,1
+clinical archetypes,user interfaces,1
+clinical archetypes,xml,1
+clinical data,clinical information,1
+clinical data,clinical information model,1
+clinical data,ehealth,1
+clinical data,electronic data interchange,1
+clinical data,electronic health,1
+clinical data,health information interoperability,1
+clinical data,hospital data processing,1
+clinical data,hospitals,1
+clinical data,information modeling,1
+clinical data,information theory,1
+clinical data,integration,1
+clinical data,iso 13606,1
+clinical data,mapping,1
+clinical data,medical informatics,1
+clinical data,medical information system,1
+clinical data,models,1
+clinical data,nutrition,1
+clinical data,openehr specifications,1
+clinical data,owl,1
+clinical data,records management,1
+clinical data,semantic interoperability,1
+clinical data,software architecture,1
+clinical data,software design,1
+clinical data,template,1
+clinical data,templates,1
+clinical data,terminology,1
+clinical data repository,clinical decision support,1
+clinical data repository,clinical decision support system,1
+clinical data repository,data warehouse,1
+clinical data repository,detailed clinical models,1
+clinical data repository,health information interoperability,1
+clinical data repository,interoperability,1
+clinical decision support,clinical guideline,1
+clinical decision support,clinical knowledge,1
+clinical decision support,computer science,1
+clinical decision support,data integration,1
+clinical decision support,health,1
+clinical decision support,hospital data processing,1
+clinical decision support,information system,1
+clinical decision support,integration,1
+clinical decision support,knowledge representation,1
+clinical decision support,ontology,1
+clinical decision support,records management,1
+clinical decision support,snomed ct,1
+clinical decision support,standards,1
+clinical decision support,templates,1
+clinical decision support,terminology,1
+clinical decision support system,clinical information,1
+clinical decision support system,conference abstract,1
+clinical decision support system,continuity of care,1
+clinical decision support system,electronic data interchange,1
+clinical decision support system,electronic health,1
+clinical decision support system,female,1
+clinical decision support system,graphical user interface,1
+clinical decision support system,health care professionals,1
+clinical decision support system,health information interoperability,1
+clinical decision support system,health record,1
+clinical decision support system,hospital data processing,1
+clinical decision support system,human,1
+clinical decision support system,information management,1
+clinical decision support system,iso 13606,1
+clinical decision support system,knowledge management,1
+clinical decision support system,knowledge representation,1
+clinical decision support system,ontology,1
+clinical decision support system,owl,1
+clinical decision support system,patient treatment,1
+clinical decision support system,specifications,1
+clinical decision support system,standardization,1
+clinical decision support system,systems,1
+clinical decision support system,telemedicine,1
+clinical decision support system,terminology,1
+clinical decision support system,tools,1
+clinical guideline,covid-19,1
+clinical guideline,data integration,1
+clinical guideline,decision making,1
+clinical guideline,decision support system,1
+clinical guideline,health,1
+clinical guideline,health care,1
+clinical guideline,knowledge representation,1
+clinical guideline,medical information system,1
+clinical guideline,records management,1
+clinical guideline,template,1
+clinical information,continuity of care,1
+clinical information,data integration,1
+clinical information,decision support system,1
+clinical information,electronic data interchange,1
+clinical information,electronic health,1
+clinical information,health care professionals,1
+clinical information,health information system,1
+clinical information,health level 7,1
+clinical information,health record,1
+clinical information,hl7 cda,1
+clinical information,hospital data processing,1
+clinical information,hospital information system,1
+clinical information,human,1
+clinical information,information management,1
+clinical information,knowledge representation,1
+clinical information,medical informatics,1
+clinical information,medical information system,1
+clinical information,medical record,1
+clinical information,medical records system,1
+clinical information,ontology,1
+clinical information,software,1
+clinical information,tools,1
+clinical information model,ehealth,1
+clinical information model,electronic data interchange,1
+clinical information model,electronic health,1
+clinical information model,health information interoperability,1
+clinical information model,health record,1
+clinical information model,hl7 cda,1
+clinical information model,information management,1
+clinical information model,information modeling,1
+clinical information model,information retrieval,1
+clinical information model,information system,1
+clinical information model,information theory,1
+clinical information model,information use,1
+clinical information model,interoperability,1
+clinical information model,iso 13606,1
+clinical information model,records management,1
+clinical information model,tools,1
+clinical knowledge,clinical research,1
+clinical knowledge,ehealth,1
+clinical knowledge,electronic health record system,1
+clinical knowledge,highmed,1
+clinical knowledge,knowledge management,1
+clinical knowledge,ontology,1
+clinical knowledge,openehr specifications,1
+clinical knowledge,standardization,1
+clinical knowledge,template,1
+clinical knowledge,terminology,1
+clinical model,diagnosis,1
+clinical model,ehr,1
+clinical model,hl7 cda,1
+clinical model,knowledge management,1
+clinical model,knowledge representation,1
+clinical model,medical record,1
+clinical model,template,1
+clinical research,conference abstract,1
+clinical research,data mining,1
+clinical research,diagnosis,1
+clinical research,digital storage,1
+clinical research,electronic data interchange,1
+clinical research,health information system,1
+clinical research,healthcare,1
+clinical research,highmed,1
+clinical research,hospital data processing,1
+clinical research,human,1
+clinical research,information management,1
+clinical research,information system,1
+clinical research,integration,1
+clinical research,knowledge management,1
+clinical research,mapping,1
+clinical research,medical information system,1
+clinical research,records management,1
+clinical research,software,1
+common data element,health information exchange,1
+common data element,health information system,1
+common data element,knowledge management,1
+common data element,semantics,1
+common data element,telemedicine,1
+computer architecture,data base,1
+computer architecture,data mining,1
+computer architecture,detailed clinical models,1
+computer architecture,ehealth,1
+computer architecture,ehr,1
+computer architecture,electronic medical record,1
+computer architecture,graphical user interface,1
+computer architecture,health,1
+computer architecture,information,1
+computer architecture,information retrieval,1
+computer architecture,information storage and retrieval,1
+computer architecture,information use,1
+computer architecture,semantics,1
+computer architecture,software,1
+computer architecture,standards,1
+computer architecture,systems,1
+computer architecture,telemedicine,1
+computer architecture,terminology,1
+computer architecture,tools,1
+computer architecture,user interfaces,1
+computer science,decision support system,1
+computer science,health level 7,1
+computer science,information theory,1
+computer science,integration,1
+computer science,knowledge management,1
+computer science,terminology,1
+conference abstract,data integration,1
+conference abstract,data quality,1
+conference abstract,data warehouse,1
+conference abstract,decision making,1
+conference abstract,hospital information system,1
+conference abstract,information retrieval,1
+conference abstract,medical informatics,1
+conference abstract,medical record,1
+conference abstract,metadata,1
+conference abstract,semantics,1
+conference abstract,software,1
+continuity of care,decision making,1
+continuity of care,electronic medical record,1
+continuity of care,health,1
+continuity of care,health informatics,1
+continuity of care,health information system,1
+continuity of care,medical informatics,1
+continuity of care,medical information system,1
+continuity of care,metadata,1
+continuity of care,semantic interoperability,1
+continuity of care,standardization,1
+continuity of care,standards,1
+continuity of care,telemedicine,1
+continuity of care,user interfaces,1
+covid-19,data base,1
+covid-19,data quality,1
+covid-19,data sharing,1
+covid-19,detailed clinical models,1
+covid-19,fhir,1
+covid-19,iso 13606,1
+covid-19,open source,1
+covid-19,standard,1
+covid-19,templates,1
+data base,data sharing,1
+data base,detailed clinical models,1
+data base,diagnosis,1
+data base,health,1
+data base,health information interoperability,1
+data base,information retrieval,1
+data base,information storage and retrieval,1
+data base,information system,1
+data base,information use,1
+data base,medical informatics,1
+data base,medical record,1
+data base,ontology,1
+data base,open source,1
+data base,semantics,1
+data integration,data warehouse,1
+data integration,diagnosis,1
+data integration,ehealth,1
+data integration,electronic data interchange,1
+data integration,female,1
+data integration,health information exchange,1
+data integration,health information interoperability,1
+data integration,health information system,1
+data integration,hospital information system,1
+data integration,hospitals,1
+data integration,information retrieval,1
+data integration,information storage and retrieval,1
+data integration,m2m communication,1
+data integration,medical record,1
+data integration,model,1
+data integration,owl,1
+data integration,practice guideline,1
+data mining,data sharing,1
+data mining,digital storage,1
+data mining,ehealth,1
+data mining,ehr,1
+data mining,electronic data interchange,1
+data mining,fhir,1
+data mining,graphical user interface,1
+data mining,health care,1
+data mining,information,1
+data mining,interoperability,1
+data mining,iso 13606,1
+data mining,m2m communication,1
+data mining,medical services,1
+data mining,metadata,1
+data mining,open source,1
+data mining,pervasive healthcare,1
+data mining,software,1
+data mining,systems,1
+data mining,terminology,1
+data mining,tools,1
+data mining,user interfaces,1
+data mining,xml,1
+data quality,diagnosis,1
+data quality,ehr,1
+data quality,female,1
+data quality,health information interoperability,1
+data quality,interoperability,1
+data quality,iso 13606,1
+data quality,standard,1
+data quality,template,1
+data sharing,data warehouse,1
+data sharing,digital storage,1
+data sharing,electronic document exchange,1
+data sharing,health informatics,1
+data sharing,health information interoperability,1
+data sharing,healthcare,1
+data sharing,information retrieval,1
+data sharing,information system,1
+data sharing,information use,1
+data sharing,interoperability,1
+data sharing,medical computing,1
+data sharing,metadata,1
+data sharing,openehr specifications,1
+data sharing,records management,1
+data sharing,semantic interoperability,1
+data sharing,semantics,1
+data warehouse,detailed clinical models,1
+data warehouse,ehealth,1
+data warehouse,electronic data interchange,1
+data warehouse,fhir,1
+data warehouse,health care,1
+data warehouse,health information interoperability,1
+data warehouse,hospital data processing,1
+data warehouse,hospitals,1
+data warehouse,human,1
+data warehouse,integration,1
+data warehouse,interoperability,1
+data warehouse,knowledge representation,1
+data warehouse,m2m communication,1
+data warehouse,open source,1
+data warehouse,owl,1
+data warehouse,pervasive healthcare,1
+data warehouse,software,1
+data warehouse,template,1
+data warehouse,templates,1
+decision making,diagnosis,1
+decision making,digital storage,1
+decision making,ehealth,1
+decision making,electronic health,1
+decision making,electronic medical record,1
+decision making,female,1
+decision making,health care professionals,1
+decision making,human,1
+decision making,information management,1
+decision making,information use,1
+decision making,medical computing,1
+decision making,medical informatics,1
+decision making,medical information system,1
+decision making,ontology,1
+decision making,owl,1
+decision making,specifications,1
+decision making,standards,1
+decision making,telemedicine,1
+decision making,user interfaces,1
+decision support system,diseases,1
+decision support system,electronic health,1
+decision support system,female,1
+decision support system,graphical user interface,1
+decision support system,health,1
+decision support system,health care professionals,1
+decision support system,health information interoperability,1
+decision support system,health level 7,1
+decision support system,health record,1
+decision support system,hospital data processing,1
+decision support system,hospital information system,1
+decision support system,information management,1
+decision support system,information retrieval,1
+decision support system,information system,1
+decision support system,integration,1
+decision support system,iso 13606,1
+decision support system,knowledge management,1
+decision support system,medical record,1
+decision support system,models,1
+decision support system,nutrition,1
+decision support system,ontology,1
+decision support system,owl,1
+decision support system,specifications,1
+decision support system,standards,1
+decision support system,telemedicine,1
+decision support system,terminology,1
+design,standardization,1
+design,systems,1
+detailed clinical models,electronic medical record,1
+detailed clinical models,health,1
+detailed clinical models,health level 7,1
+detailed clinical models,information retrieval,1
+detailed clinical models,information storage and retrieval,1
+detailed clinical models,information system,1
+detailed clinical models,information use,1
+detailed clinical models,standards,1
+diagnosis,ehealth,1
+diagnosis,electronic health record system,1
+diagnosis,electronic medical record,1
+diagnosis,en 13606,1
+diagnosis,female,1
+diagnosis,health,1
+diagnosis,health care professionals,1
+diagnosis,healthcare system,1
+diagnosis,information use,1
+diagnosis,medical informatics,1
+diagnosis,metadata,1
+diagnosis,model,1
+diagnosis,nutrition,1
+diagnosis,openehr specifications,1
+diagnosis,owl,1
+diagnosis,practice guideline,1
+diagnosis,semantic interoperability,1
+diagnosis,software,1
+diagnosis,template,1
+diagnosis,templates,1
+diagnosis,user interfaces,1
+digital storage,ehealth,1
+digital storage,electronic document exchange,1
+digital storage,health care professionals,1
+digital storage,health information system,1
+digital storage,hospital data processing,1
+digital storage,hospitals,1
+digital storage,information retrieval,1
+digital storage,information system,1
+digital storage,information use,1
+digital storage,iso 13606,1
+digital storage,medical informatics,1
+digital storage,ontology,1
+digital storage,openehr specifications,1
+digital storage,patient information,1
+digital storage,records management,1
+digital storage,standardization,1
+digital storage,xml,1
+diseases,en 13606,1
+diseases,health,1
+diseases,health informatics,1
+diseases,health record,1
+diseases,healthcare system,1
+diseases,hospital data processing,1
+diseases,hospitals,1
+diseases,nutrition,1
+diseases,records management,1
+diseases,semantic interoperability,1
+diseases,telemedicine,1
+diseases,tools,1
+diseases,ubiquitous computing,1
+diseases,user interfaces,1
+ehealth,electronic medical record,1
+ehealth,en 13606,1
+ehealth,fhir,1
+ehealth,health care professionals,1
+ehealth,information modeling,1
+ehealth,information theory,1
+ehealth,integration,1
+ehealth,knowledge management,1
+ehealth,medical record,1
+ehealth,medical records system,1
+ehealth,nosql database,1
+ehealth,ontology,1
+ehealth,open source,1
+ehealth,pervasive healthcare,1
+ehealth,terminology,1
+ehealth,ubiquitous computing,1
+ehealth,user interfaces,1
+ehealth,xml,1
+ehr,fhir,1
+ehr,highmed,1
+ehr,information,1
+ehr,m2m communication,1
+ehr,mapping,1
+ehr,models,1
+ehr,patient information,1
+ehr,software architecture,1
+ehr,software design,1
+ehr,standard,1
+electronic data interchange,health care professionals,1
+electronic data interchange,health information system,1
+electronic data interchange,health level 7,1
+electronic data interchange,hl7 fhir,1
+electronic data interchange,hospitals,1
+electronic data interchange,information management,1
+electronic data interchange,information modeling,1
+electronic data interchange,information retrieval,1
+electronic data interchange,information theory,1
+electronic data interchange,iso 13606,1
+electronic data interchange,knowledge management,1
+electronic data interchange,open source,1
+electronic data interchange,openehr specifications,1
+electronic data interchange,owl,1
+electronic data interchange,specifications,1
+electronic data interchange,xml,1
+electronic document exchange,electronic medical record,1
+electronic document exchange,health care,1
+electronic document exchange,healthcare,1
+electronic document exchange,healthcare system,1
+electronic document exchange,hl7 fhir,1
+electronic document exchange,information retrieval,1
+electronic document exchange,information use,1
+electronic document exchange,medical informatics,1
+electronic document exchange,nosql database,1
+electronic document exchange,ontology,1
+electronic document exchange,records management,1
+electronic document exchange,semantics,1
+electronic document exchange,specifications,1
+electronic health,health care professionals,1
+electronic health,health informatics,1
+electronic health,health information system,1
+electronic health,healthcare system,1
+electronic health,hl7 fhir,1
+electronic health,hospital data processing,1
+electronic health,information modeling,1
+electronic health,information theory,1
+electronic health,iso 13606,1
+electronic health,medical data,1
+electronic health,medical information system,1
+electronic health,ontology,1
+electronic health,open source,1
+electronic health,openehr specifications,1
+electronic health,patient treatment,1
+electronic health,semantic interoperability,1
+electronic health,semantics,1
+electronic health,user interfaces,1
+electronic health record system,graphical user interface,1
+electronic health record system,health level 7,1
+electronic health record system,healthcare system,1
+electronic health record system,hospitals,1
+electronic health record system,information management,1
+electronic health record system,information retrieval,1
+electronic health record system,interoperability,1
+electronic health record system,knowledge management,1
+electronic health record system,mapping,1
+electronic health record system,medical computing,1
+electronic health record system,medical informatics,1
+electronic health record system,ontology,1
+electronic health record system,patient treatment,1
+electronic health record system,telemedicine,1
+electronic health record system,template,1
+electronic health record system,terminology,1
+electronic health record system,tools,1
+electronic medical record,health,1
+electronic medical record,hl7 fhir,1
+electronic medical record,human,1
+electronic medical record,information,1
+electronic medical record,information retrieval,1
+electronic medical record,information storage and retrieval,1
+electronic medical record,information use,1
+electronic medical record,knowledge management,1
+electronic medical record,knowledge representation,1
+electronic medical record,medical record,1
+electronic medical record,ontology,1
+electronic medical record,openehr specifications,1
+electronic medical record,records management,1
+electronic medical record,semantic interoperability,1
+electronic medical record,software,1
+electronic medical record,specifications,1
+electronic medical record,standard,1
+electronic medical record,standardization,1
+electronic medical record,standards,1
+en 13606,hospital data processing,1
+en 13606,medical computing,1
+en 13606,semantics,1
+en 13606,telemedicine,1
+en 13606,tools,1
+en 13606,user interfaces,1
+female,hospital information system,1
+female,iso 13606,1
+female,medical informatics,1
+female,medical record,1
+female,practice guideline,1
+female,semantics,1
+fhir,health,1
+fhir,health care,1
+fhir,health level 7,1
+fhir,highmed,1
+fhir,m2m communication,1
+fhir,mapping,1
+fhir,ontology,1
+fhir,pervasive healthcare,1
+fhir,records management,1
+fhir,standard,1
+fhir,standards,1
+graphical user interface,health care professionals,1
+graphical user interface,health information system,1
+graphical user interface,hospital data processing,1
+graphical user interface,hospitals,1
+graphical user interface,information,1
+graphical user interface,information system,1
+graphical user interface,information use,1
+graphical user interface,medical services,1
+graphical user interface,patient treatment,1
+graphical user interface,records management,1
+graphical user interface,semantic interoperability,1
+graphical user interface,semantics,1
+graphical user interface,software,1
+graphical user interface,software architecture,1
+graphical user interface,software design,1
+graphical user interface,specifications,1
+graphical user interface,systems,1
+graphical user interface,telemedicine,1
+graphical user interface,terminology,1
+graphical user interface,user interfaces,1
+graphical user interface,xml,1
+health,health care professionals,1
+health,hospital information system,1
+health,information management,1
+health,information modeling,1
+health,information retrieval,1
+health,information storage and retrieval,1
+health,information theory,1
+health,medical data,1
+health,medical informatics,1
+health,model,1
+health,nutrition,1
+health,open source,1
+health,owl,1
+health,patient information,1
+health,snomed ct,1
+health,software architecture,1
+health,telemedicine,1
+health,terminology,1
+health,ubiquitous computing,1
+health,xml,1
+health care,highmed,1
+health care,hospital information system,1
+health care,human,1
+health care,information retrieval,1
+health care,metadata,1
+health care,model,1
+health care,nutrition,1
+health care,open source,1
+health care,owl,1
+health care,software,1
+health care,standard,1
+health care,telemedicine,1
+health care,template,1
+health care,xml,1
+health care professionals,health record,1
+health care professionals,hospital information system,1
+health care professionals,hospitals,1
+health care professionals,information management,1
+health care professionals,information theory,1
+health care professionals,information use,1
+health care professionals,ontology,1
+health care professionals,semantic interoperability,1
+health care professionals,standardization,1
+health care professionals,user interfaces,1
+health informatics,health information system,1
+health informatics,health level 7,1
+health informatics,health record,1
+health informatics,human,1
+health informatics,information management,1
+health informatics,information modeling,1
+health informatics,information retrieval,1
+health informatics,information system,1
+health informatics,information use,1
+health informatics,medical data,1
+health informatics,medical information system,1
+health informatics,medical record,1
+health informatics,medical records system,1
+health informatics,openehr specifications,1
+health informatics,records management,1
+health informatics,semantics,1
+health informatics,software,1
+health informatics,software architecture,1
+health information exchange,highmed,1
+health information exchange,interoperability,1
+health information exchange,knowledge management,1
+health information exchange,software design,1
+health information exchange,telemedicine,1
+health information exchange,xml,1
+health information interoperability,health level 7,1
+health information interoperability,health record,1
+health information interoperability,highmed,1
+health information interoperability,information retrieval,1
+health information interoperability,information storage and retrieval,1
+health information interoperability,knowledge management,1
+health information interoperability,ontology,1
+health information interoperability,open source,1
+health information system,health record,1
+health information system,hospital information system,1
+health information system,information,1
+health information system,iso 13606,1
+health information system,knowledge management,1
+health information system,medical record,1
+health information system,ontology,1
+health information system,snomed ct,1
+health information system,software,1
+health information system,software design,1
+health information system,specifications,1
+health information system,telemedicine,1
+health level 7,health record,1
+health level 7,healthcare system,1
+health level 7,hospital data processing,1
+health level 7,hospital information system,1
+health level 7,information management,1
+health level 7,information modeling,1
+health level 7,information use,1
+health level 7,knowledge management,1
+health level 7,m2m communication,1
+health level 7,mapping,1
+health level 7,medical computing,1
+health level 7,medical informatics,1
+health level 7,metadata,1
+health level 7,model,1
+health level 7,software architecture,1
+health level 7,standard,1
+health level 7,terminology,1
+health record,healthcare system,1
+health record,hl7 fhir,1
+health record,hospital data processing,1
+health record,information modeling,1
+health record,information theory,1
+health record,iso 13606,1
+health record,medical data,1
+health record,medical information system,1
+health record,open source,1
+health record,openehr specifications,1
+health record,patient treatment,1
+health record,ubiquitous computing,1
+health record,user interfaces,1
+healthcare,healthcare system,1
+healthcare,information system,1
+healthcare,information use,1
+healthcare,m2m communication,1
+healthcare,open source,1
+healthcare,patient treatment,1
+healthcare,semantic interoperability,1
+healthcare,semantics,1
+healthcare system,information management,1
+healthcare system,information use,1
+healthcare system,mapping,1
+healthcare system,medical computing,1
+healthcare system,records management,1
+healthcare system,standards,1
+highmed,interoperability,1
+highmed,knowledge management,1
+highmed,software design,1
+hl7 cda,knowledge representation,1
+hl7 cda,medical computing,1
+hl7 cda,ontology,1
+hl7 cda,semantic interoperability,1
+hl7 cda,snomed ct,1
+hl7 cda,template,1
+hl7 cda,tools,1
+hl7 fhir,information system,1
+hl7 fhir,information use,1
+hl7 fhir,iso 13606,1
+hl7 fhir,medical data,1
+hl7 fhir,medical information system,1
+hl7 fhir,ontology,1
+hl7 fhir,records management,1
+hl7 fhir,semantics,1
+hl7 fhir,snomed ct,1
+hl7 fhir,standards,1
+hl7 fhir,telemedicine,1
+hospital data processing,hospital information system,1
+hospital data processing,information management,1
+hospital data processing,information use,1
+hospital data processing,mapping,1
+hospital data processing,medical informatics,1
+hospital data processing,medical information system,1
+hospital data processing,owl,1
+hospital data processing,telemedicine,1
+hospital data processing,tools,1
+hospital information system,human,1
+hospital information system,integration,1
+hospital information system,medical record,1
+hospital information system,open source,1
+hospital information system,owl,1
+hospital information system,patient information,1
+hospital information system,patient treatment,1
+hospital information system,practice guideline,1
+hospital information system,semantic interoperability,1
+hospital information system,semantics,1
+hospital information system,standardization,1
+hospital information system,terminology,1
+hospitals,iso 13606,1
+hospitals,knowledge representation,1
+hospitals,medical data,1
+hospitals,medical informatics,1
+hospitals,nutrition,1
+hospitals,open source,1
+hospitals,owl,1
+hospitals,standards,1
+hospitals,terminology,1
+hospitals,tools,1
+hospitals,xml,1
+human,information storage and retrieval,1
+human,information system,1
+human,interoperability,1
+human,iso 13606,1
+human,metadata,1
+human,ontology,1
+human,semantics,1
+human,snomed ct,1
+human,xml,1
+informatics,information storage and retrieval,1
+informatics,interoperability,1
+informatics,medical records system,1
+informatics,model,1
+informatics,semantics,1
+information,medical information system,1
+information,medical services,1
+information,nutrition,1
+information,semantic interoperability,1
+information,software,1
+information,systems,1
+information,terminology,1
+information,tools,1
+information,user interfaces,1
+information,xml,1
+information management,information modeling,1
+information management,information theory,1
+information management,iso 13606,1
+information management,mapping,1
+information management,medical data,1
+information management,medical informatics,1
+information management,medical information system,1
+information management,medical record,1
+information management,medical records system,1
+information management,ontology,1
+information management,open source,1
+information management,openehr specifications,1
+information management,semantic interoperability,1
+information management,standards,1
+information management,user interfaces,1
+information modeling,iso 13606,1
+information modeling,medical computing,1
+information modeling,medical data,1
+information modeling,metadata,1
+information modeling,ontology,1
+information modeling,records management,1
+information retrieval,information system,1
+information retrieval,information use,1
+information retrieval,model,1
+information retrieval,openehr specifications,1
+information retrieval,practice guideline,1
+information retrieval,semantics,1
+information storage and retrieval,information system,1
+information storage and retrieval,information use,1
+information storage and retrieval,medical records system,1
+information storage and retrieval,semantics,1
+information system,iso 13606,1
+information system,knowledge representation,1
+information system,model,1
+information system,nosql database,1
+information system,nutrition,1
+information system,openehr specifications,1
+information system,patient information,1
+information system,specifications,1
+information system,standard,1
+information system,xml,1
+information theory,iso 13606,1
+information theory,knowledge representation,1
+information theory,medical data,1
+information theory,owl,1
+information theory,semantic interoperability,1
+information theory,snomed ct,1
+information theory,specifications,1
+information use,integration,1
+information use,knowledge representation,1
+information use,nosql database,1
+information use,nutrition,1
+information use,ontology,1
+information use,openehr specifications,1
+information use,pervasive healthcare,1
+information use,snomed ct,1
+information use,software architecture,1
+information use,software design,1
+information use,specifications,1
+information use,standards,1
+information use,telemedicine,1
+information use,terminology,1
+integration,knowledge representation,1
+integration,mapping,1
+integration,open source,1
+integration,owl,1
+integration,patient information,1
+integration,records management,1
+integration,standardization,1
+integration,standards,1
+interoperability,medical data,1
+interoperability,medical records system,1
+interoperability,metadata,1
+interoperability,models,1
+interoperability,nosql database,1
+interoperability,practice guideline,1
+interoperability,software architecture,1
+interoperability,template,1
+interoperability,xml,1
+iso 13606,nosql database,1
+iso 13606,ontology,1
+iso 13606,open source,1
+iso 13606,snomed ct,1
+iso 13606,standard,1
+iso 13606,systems,1
+iso 13606,xml,1
+knowledge management,medical record,1
+knowledge management,model,1
+knowledge management,models,1
+knowledge management,openehr specifications,1
+knowledge management,owl,1
+knowledge management,practice guideline,1
+knowledge management,software,1
+knowledge management,software design,1
+knowledge management,standardization,1
+knowledge management,telemedicine,1
+knowledge management,xml,1
+knowledge representation,medical informatics,1
+knowledge representation,medical record,1
+knowledge representation,models,1
+knowledge representation,practice guideline,1
+knowledge representation,software,1
+knowledge representation,standardization,1
+knowledge representation,tools,1
+knowledge representation,xml,1
+m2m communication,pervasive healthcare,1
+m2m communication,semantic interoperability,1
+m2m communication,semantics,1
+mapping,ontology,1
+mapping,standard,1
+mapping,standards,1
+mapping,terminology,1
+medical computing,medical record,1
+medical computing,medical records system,1
+medical computing,metadata,1
+medical computing,nutrition,1
+medical computing,patient information,1
+medical computing,patient treatment,1
+medical computing,pervasive healthcare,1
+medical computing,snomed ct,1
+medical computing,terminology,1
+medical computing,ubiquitous computing,1
+medical data,medical informatics,1
+medical data,medical information system,1
+medical data,ontology,1
+medical data,records management,1
+medical data,semantic interoperability,1
+medical data,telemedicine,1
+medical informatics,model,1
+medical informatics,models,1
+medical informatics,records management,1
+medical informatics,software architecture,1
+medical informatics,software design,1
+medical informatics,standard,1
+medical informatics,standards,1
+medical informatics,telemedicine,1
+medical informatics,template,1
+medical information system,model,1
+medical information system,models,1
+medical information system,open source,1
+medical information system,semantic interoperability,1
+medical information system,snomed ct,1
+medical information system,software,1
+medical information system,software design,1
+medical information system,standardization,1
+medical information system,standards,1
+medical information system,telemedicine,1
+medical information system,terminology,1
+medical record,model,1
+medical record,patient information,1
+medical record,practice guideline,1
+medical record,records management,1
+medical record,semantics,1
+medical record,software,1
+medical records system,models,1
+medical records system,records management,1
+medical records system,xml,1
+medical services,pervasive healthcare,1
+medical services,standards,1
+medical services,systems,1
+medical services,telemedicine,1
+medical services,tools,1
+medical services,ubiquitous computing,1
+medical services,user interfaces,1
+metadata,open source,1
+metadata,software,1
+model,models,1
+model,open source,1
+model,practice guideline,1
+model,semantic interoperability,1
+model,software design,1
+model,standard,1
+model,standardization,1
+model,terminology,1
+model,xml,1
+models,ontology,1
+models,practice guideline,1
+models,reference standards,1
+models,semantic interoperability,1
+models,software architecture,1
+models,tools,1
+nosql database,semantic interoperability,1
+nutrition,openehr specifications,1
+nutrition,patient treatment,1
+ontology,software design,1
+ontology,specifications,1
+ontology,standardization,1
+ontology,standards,1
+ontology,template,1
+ontology,terminology,1
+ontology,xml,1
+open source,semantic interoperability,1
+open source,semantics,1
+openehr specifications,semantic interoperability,1
+openehr specifications,standardization,1
+owl,patient information,1
+owl,patient treatment,1
+owl,snomed ct,1
+owl,specifications,1
+owl,standardization,1
+owl,xml,1
+patient information,patient treatment,1
+patient information,records management,1
+patient information,semantics,1
+patient information,standard,1
+patient information,xml,1
+patient treatment,pervasive healthcare,1
+patient treatment,telemedicine,1
+patient treatment,tools,1
+patient treatment,ubiquitous computing,1
+practice guideline,semantics,1
+practice guideline,standards,1
+practice guideline,systems,1
+practice guideline,tools,1
+records management,snomed ct,1
+records management,specifications,1
+records management,terminology,1
+records management,user interfaces,1
+records management,xml,1
+reference standards,semantic interoperability,1
+semantic interoperability,software architecture,1
+semantic interoperability,standard,1
+semantic interoperability,systems,1
+semantic interoperability,telemedicine,1
+semantic interoperability,xml,1
+semantics,software architecture,1
+semantics,specifications,1
+semantics,template,1
+semantics,xml,1
+snomed ct,standardization,1
+software,standards,1
+software,systems,1
+software,tools,1
+software,user interfaces,1
+software,xml,1
+software architecture,specifications,1
+software design,specifications,1
+software design,standards,1
+software design,terminology,1
+standard,standardization,1
+standard,template,1
+standardization,templates,1
+standardization,terminology,1
+standardization,xml,1
+standards,telemedicine,1
+standards,terminology,1
+systems,terminology,1
+systems,tools,1
+systems,user interfaces,1
+systems,xml,1
+telemedicine,user interfaces,1
+telemedicine,xml,1
+template,templates,1
+terminology,tools,1
+terminology,user interfaces,1
+terminology,xml,1
+tools,xml,1
+user interfaces,xml,1

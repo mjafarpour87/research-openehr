@@ -1,17 +1,15 @@
 Source,Target,Weight
-Evaluation & impact,Technical integration,44
-Comparative assessments,Technical integration,9
-Comparative assessments,Semantic interoperability,5
-Semantic interoperability,Technical integration,35
-Clinical adoption - use,Technical integration,18
-Evaluation & impact,Semantic interoperability,15
-Clinical adoption - use,Semantic interoperability,5
-Education - training - human factors,Evaluation & impact,2
-Education - training - human factors,Technical integration,2
-Evaluation & impact,Regulatory - governance - ethics,2
-Regulatory - governance - ethics,Technical integration,5
-Regulatory - governance - ethics,Semantic interoperability,3
-Comparative assessments,Regulatory - governance - ethics,2
-Comparative assessments,Evaluation & impact,6
-Clinical adoption - use,Evaluation & impact,6
-Clinical adoption - use,Regulatory - governance - ethics,2
+Clinical adoption - use,Technical integration,9
+Evaluation & impact,Semantic interoperability,8
+Evaluation & impact,Technical integration,26
+Semantic interoperability,Technical integration,18
+Clinical adoption - use,Semantic interoperability,3
+Comparative assessments,Evaluation & impact,4
+Comparative assessments,Technical integration,5
+Clinical adoption - use,Evaluation & impact,4
+Comparative assessments,Semantic interoperability,4
+Education - training - human factors,Technical integration,3
+Clinical adoption - use,Education - training - human factors,1
+Education - training - human factors,Evaluation & impact,1
+Comparative assessments,Education - training - human factors,1
+Education - training - human factors,Semantic interoperability,1

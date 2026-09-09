@@ -4,7 +4,11 @@ We use [Semantic Versioning](https://semver.org/)
 
 
 ## Task
+ quarto convert integrated_bibliometric_analysis.ipynb 
 
+
+## [v2.0.3] - 2026-09-09
+- Change the code based on the reviewer's feedback
 
 ## [v2.0.2] - 2026-04-17
 - Update Cartogram

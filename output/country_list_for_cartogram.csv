@@ -1,56 +1,62 @@
-country,n_publications,total_citations,iso3
-Spain,85,412,ESP
-Germany,76,309,DEU
-Portugal,56,194,PRT
-Brazil,45,279,BRA
-China,39,145,CHN
-United Kingdom,31,151,GBR
-Austria,28,80,AUT
-Netherlands,28,151,NLD
-Sweden,27,146,SWE
-United States,24,187,USA
-Australia,21,161,AUS
-Japan,20,134,JPN
-India,18,61,IND
-Norway,17,80,NOR
-Italy,12,25,ITA
-Russian Federation,12,37,RUS
-New Zealand,9,36,NZL
-Bulgaria,8,17,BGR
-South Korea,7,35,KOR
-Ireland,7,59,IRL
-Romania,6,14,ROU
-Greece,5,7,GRC
-Canada,4,1,CAN
-"Iran, Islamic Republic of",4,13,IRN
-Poland,4,10,POL
-Slovenia,4,6,SVN
-Switzerland,3,8,CHE
-Israel,3,46,ISR
-Colombia,3,3,COL
-Indonesia,3,11,IDN
-Czechia,3,3,CZE
-Morocco,2,25,MAR
-Denmark,2,12,DNK
-Belgium,2,10,BEL
-Ecuador,2,1,ECU
-Singapore,2,3,SGP
-Estonia,2,4,EST
-Tunisia,2,5,TUN
-Taiwan,2,4,TWN
-Philippines,1,4,PHL
-Rwanda,1,4,RWA
-Croatia,1,0,HRV
-Paraguay,1,2,PRY
-Malaysia,1,11,MYS
-Hungary,1,0,HUN
-Argentina,1,1,ARG
-France,1,3,FRA
-Hong Kong,1,3,HKG
-South Africa,1,2,ZAF
-Egypt,1,8,EGY
-Saudi Arabia,1,4,SAU
-"Venezuela, Bolivarian Republic of",1,2,VEN
-Pakistan,1,10,PAK
-Uruguay,1,1,URY
-Peru,1,1,PER
+rank,iso3,country,n_publications,citation_data_available,total_citations,mean_citations,median_citations,citation_data_missing,citation_coverage_pct,citation_missing_pct
+1,ESP,Spain,103,101,1256.0,12.44,6.0,2,98.06,1.94
+2,DEU,Germany,76,74,1044.0,14.11,6.0,2,97.37,2.63
+3,PRT,Portugal,58,58,393.0,6.78,4.0,0,100.0,0.0
+4,BRA,Brazil,44,40,754.0,18.85,5.5,4,90.91,9.09
+5,GBR,United Kingdom,37,37,421.0,11.38,3.0,0,100.0,0.0
+6,USA,United States,32,32,464.0,14.5,5.0,0,100.0,0.0
+7,CHN,China,32,30,287.0,9.57,5.0,2,93.75,6.25
+8,NLD,Netherlands,26,25,307.0,12.28,5.0,1,96.15,3.85
+9,AUT,Austria,26,24,221.0,9.21,3.5,2,92.31,7.69
+10,SWE,Sweden,25,25,469.0,18.76,12.0,0,100.0,0.0
+11,AUS,Australia,18,17,409.0,24.06,9.0,1,94.44,5.56
+12,NOR,Norway,18,18,199.0,11.06,2.0,0,100.0,0.0
+13,JPN,Japan,17,17,196.0,11.53,3.0,0,100.0,0.0
+14,IND,India,14,14,48.0,3.43,2.5,0,100.0,0.0
+15,RUS,Russia,13,13,96.0,7.38,2.0,0,100.0,0.0
+16,ITA,Italy,11,11,51.0,4.64,2.0,0,100.0,0.0
+17,NZL,New Zealand,9,9,109.0,12.11,10.0,0,100.0,0.0
+18,IRL,Ireland,9,8,104.0,13.0,4.0,1,88.89,11.11
+19,BGR,Bulgaria,8,5,10.0,2.0,1.0,3,62.5,37.5
+20,CHE,Switzerland,7,7,74.0,10.57,8.0,0,100.0,0.0
+21,KOR,South Korea,6,5,71.0,14.2,13.0,1,83.33,16.67
+22,ROU,Romania,6,6,28.0,4.67,2.5,0,100.0,0.0
+23,GRC,Greece,6,5,27.0,5.4,2.0,1,83.33,16.67
+24,DNK,Denmark,5,5,44.0,8.8,8.0,0,100.0,0.0
+25,SVN,Slovenia,4,4,22.0,5.5,1.5,0,100.0,0.0
+26,IDN,Indonesia,4,4,15.0,3.75,4.0,0,100.0,0.0
+27,ISR,Israel,3,3,70.0,23.33,25.0,0,100.0,0.0
+28,FRA,France,3,3,42.0,14.0,5.0,0,100.0,0.0
+29,IRN,Iran,3,3,28.0,9.33,6.0,0,100.0,0.0
+30,POL,Poland,3,3,25.0,8.33,11.0,0,100.0,0.0
+31,TWN,Taiwan,3,3,25.0,8.33,7.0,0,100.0,0.0
+32,CZE,Czechia,3,3,8.0,2.67,1.0,0,100.0,0.0
+33,CAN,Canada,3,1,1.0,1.0,1.0,2,33.33,66.67
+34,MAR,Morocco,2,2,52.0,26.0,26.0,0,100.0,0.0
+35,EGY,Egypt,2,2,21.0,10.5,10.5,0,100.0,0.0
+36,TUN,Tunisia,2,2,13.0,6.5,6.5,0,100.0,0.0
+37,COL,Colombia,2,2,5.0,2.5,2.5,0,100.0,0.0
+38,MYS,Malaysia,1,1,53.0,53.0,53.0,0,100.0,0.0
+39,PHL,Philippines,1,1,16.0,16.0,16.0,0,100.0,0.0
+40,RWA,Rwanda,1,1,16.0,16.0,16.0,0,100.0,0.0
+41,SRB,Serbia,1,1,13.0,13.0,13.0,0,100.0,0.0
+42,PAK,Pakistan,1,1,12.0,12.0,12.0,0,100.0,0.0
+43,EST,Estonia,1,1,10.0,10.0,10.0,0,100.0,0.0
+44,CHL,Chile,1,1,6.0,6.0,6.0,0,100.0,0.0
+45,BEL,Belgium,1,1,5.0,5.0,5.0,0,100.0,0.0
+46,KEN,Kenya,1,1,5.0,5.0,5.0,0,100.0,0.0
+47,LKA,Sri Lanka,1,1,4.0,4.0,4.0,0,100.0,0.0
+48,HKG,Hong Kong,1,1,3.0,3.0,3.0,0,100.0,0.0
+49,VEN,Venezuela,1,1,3.0,3.0,3.0,0,100.0,0.0
+50,BGD,Bangladesh,1,1,2.0,2.0,2.0,0,100.0,0.0
+51,FIN,Finland,1,1,2.0,2.0,2.0,0,100.0,0.0
+52,MAC,Macao,1,1,2.0,2.0,2.0,0,100.0,0.0
+53,SGP,Singapore,1,1,2.0,2.0,2.0,0,100.0,0.0
+54,ZAF,South Africa,1,1,2.0,2.0,2.0,0,100.0,0.0
+55,ECU,Ecuador,1,1,1.0,1.0,1.0,0,100.0,0.0
+56,MEX,Mexico,1,1,1.0,1.0,1.0,0,100.0,0.0
+57,PER,Peru,1,1,1.0,1.0,1.0,0,100.0,0.0
+58,ARG,Argentina,1,1,0.0,0.0,0.0,0,100.0,0.0
+59,HRV,Croatia,1,1,0.0,0.0,0.0,0,100.0,0.0
+60,HUN,Hungary,1,1,0.0,0.0,0.0,0,100.0,0.0
+61,URY,Uruguay,1,1,0.0,0.0,0.0,0,100.0,0.0

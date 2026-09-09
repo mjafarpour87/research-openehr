@@ -1,0 +1,116 @@
+Source,Target,Weight
+Brazil,Netherlands,7
+China,Netherlands,7
+United Kingdom,United States,6
+Brazil,Sweden,4
+India,Japan,4
+Brazil,Portugal,3
+Brazil,United States,3
+China,New Zealand,3
+China,United States,3
+Germany,Switzerland,3
+Norway,Spain,3
+Norway,United States,3
+Portugal,United States,3
+Spain,United States,3
+Australia,Germany,2
+Austria,Germany,2
+Austria,Switzerland,2
+Brazil,United Kingdom,2
+China,Ireland,2
+France,Portugal,2
+Germany,Netherlands,2
+Germany,Russia,2
+Israel,Spain,2
+Italy,Spain,2
+Italy,United States,2
+Japan,United Kingdom,2
+Netherlands,New Zealand,2
+Netherlands,Switzerland,2
+Netherlands,United States,2
+New Zealand,United Kingdom,2
+Portugal,Sweden,2
+Sweden,Switzerland,2
+Australia,China,1
+Australia,France,1
+Australia,Italy,1
+Australia,Netherlands,1
+Australia,New Zealand,1
+Australia,Portugal,1
+Australia,United Kingdom,1
+Australia,United States,1
+Austria,Chile,1
+Austria,Netherlands,1
+Austria,Spain,1
+Austria,Taiwan,1
+Austria,United States,1
+Bangladesh,Japan,1
+Belgium,Bulgaria,1
+Brazil,France,1
+Brazil,Germany,1
+Brazil,Italy,1
+Brazil,Kenya,1
+Brazil,Malaysia,1
+Brazil,Switzerland,1
+Chile,Switzerland,1
+China,United Kingdom,1
+Colombia,Venezuela,1
+Croatia,United States,1
+Denmark,Indonesia,1
+Denmark,Slovenia,1
+Ecuador,Spain,1
+Egypt,Poland,1
+Egypt,South Korea,1
+Egypt,Spain,1
+Estonia,United Kingdom,1
+France,Italy,1
+France,Sweden,1
+France,United States,1
+Germany,Italy,1
+Germany,Malaysia,1
+Germany,Spain,1
+Germany,Sweden,1
+Germany,United Kingdom,1
+Germany,United States,1
+Greece,Italy,1
+Greece,Spain,1
+Greece,United States,1
+Indonesia,Spain,1
+Indonesia,United States,1
+Ireland,Spain,1
+Italy,Portugal,1
+Italy,Slovenia,1
+Japan,New Zealand,1
+Japan,Norway,1
+Japan,Philippines,1
+Japan,Rwanda,1
+Japan,United States,1
+Kenya,United States,1
+Macao,United Kingdom,1
+Macao,United States,1
+Mexico,Peru,1
+Mexico,Spain,1
+Netherlands,United Kingdom,1
+New Zealand,Norway,1
+New Zealand,Philippines,1
+New Zealand,Rwanda,1
+New Zealand,United States,1
+Norway,Philippines,1
+Norway,Rwanda,1
+Norway,United Kingdom,1
+Pakistan,South Korea,1
+Peru,Spain,1
+Philippines,Rwanda,1
+Philippines,United Kingdom,1
+Philippines,United States,1
+Portugal,Spain,1
+Portugal,United Kingdom,1
+Russia,Spain,1
+Russia,Tunisia,1
+Rwanda,United Kingdom,1
+Rwanda,United States,1
+Slovenia,Spain,1
+South Korea,Spain,1
+Spain,United Kingdom,1
+Sweden,United Kingdom,1
+Taiwan,United States,1

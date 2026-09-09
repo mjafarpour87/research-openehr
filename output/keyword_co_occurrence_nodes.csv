@@ -1,0 +1,127 @@
+Keyword,Document_Frequency,Degree,Weighted_Degree
+ehr,208,105,810
+interoperability,105,87,586
+archetype,126,85,451
+semantics,58,69,379
+semantic interoperability,72,57,329
+medical computing,35,64,311
+health care,46,66,307
+information system,38,54,250
+records management,30,44,212
+ehealth,32,37,170
+health,29,32,162
+information use,19,29,115
+health information system,26,28,105
+health record,21,23,105
+ontology,27,27,98
+medical informatics,15,28,89
+hospital data processing,13,23,89
+decision support system,17,24,87
+electronic data interchange,12,27,86
+standardization,17,20,79
+hospitals,13,27,77
+electronic health,14,15,76
+clinical decision support system,20,18,73
+iso 13606,28,16,70
+knowledge representation,11,22,67
+health level 7,19,18,66
+diagnosis,13,25,66
+information management,12,16,63
+clinical information,10,21,63
+human,18,17,62
+medical information system,11,20,59
+biochemical engineering,7,19,59
+standards,17,18,57
+snomed ct,13,14,52
+knowledge management,12,18,52
+clinical data,10,19,52
+data integration,16,17,51
+terminology,13,16,47
+artificial intelligence,10,15,47
+article,9,15,46
+clinical archetypes,12,16,45
+integration,7,14,45
+health informatics,10,14,42
+telemedicine,10,15,42
+electronic medical record,9,14,39
+computer science,5,12,37
+decision making,10,11,35
+information theory,6,13,34
+tools,6,13,34
+architecture,8,12,33
+owl,8,11,33
+clinical research,8,13,31
+healthcare system,7,11,31
+pervasive healthcare,8,8,30
+patient treatment,7,12,30
+medical records system,10,11,28
+digital storage,8,11,28
+information modeling,7,12,28
+hospital information system,10,9,27
+data warehouse,9,11,26
+medical record,8,10,26
+big data,7,10,25
+openehr specifications,6,10,25
+mapping,5,10,25
+biomedical engineering,7,9,24
+health care professionals,5,8,24
+hl7 fhir,9,6,22
+conference abstract,7,6,22
+electronic document exchange,5,10,22
+ubiquitous computing,5,8,22
+clinical decision support,8,8,21
+covid-19,10,7,20
+model,9,8,20
+en 13606,8,5,20
+specifications,7,8,20
+electronic health record system,6,8,20
+healthcare,8,7,19
+templates,7,6,19
+software,6,8,18
+clinical knowledge,5,8,18
+diseases,5,8,18
+open source,9,7,17
+graphical user interface,6,8,17
+metadata,5,8,17
+medical services,5,7,16
+clinical guideline,7,6,15
+application programs,6,6,15
+detailed clinical models,6,5,15
+clinical information model,6,6,14
+continuity of care,6,6,14
+user interfaces,5,6,14
+hl7 cda,6,4,13
+practice guideline,6,5,13
+models,6,5,12
+data sharing,5,5,12
+xml,8,4,11
+standard,7,5,11
+template,6,3,11
+computer architecture,5,4,11
+data base,5,5,11
+female,5,3,11
+information retrieval,7,4,10
+systems,7,4,10
+nutrition,6,3,9
+access control,5,4,9
+data mining,5,4,9
+software design,5,4,9
+information storage and retrieval,5,3,8
+software architecture,5,4,8
+fhir,9,2,7
+design,5,3,7
+m2m communication,5,2,7
+health information interoperability,15,2,6
+clinical model,5,3,6
+common data element,5,3,6
+nosql database,5,2,6
+patient information,5,3,6
+reference standards,5,2,6
+highmed,8,1,5
+blockchain,6,2,5
+health information exchange,6,1,4
+clinical data repository,5,1,4
+data quality,5,2,4
+informatics,5,2,4
+medical data,5,2,4
+information,6,1,2
