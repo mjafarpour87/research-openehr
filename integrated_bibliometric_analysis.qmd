@@ -1,6 +1,22 @@
 ---
 title: "ISO 13606 and openEHR in Health Informatics: A Multi-Database Bibliometric and Thematic Analysis"
 subtitle: "Reproducible analytical workflow supporting the manuscript and supplementary analyses"
+lang: en
+author:
+  - name: Maryam Jafarpour
+    affiliation: Institute of Outcomes Research, Center for Medical Data Science, Medical University of Vienna, Vienna, Austria
+  - name: Ehsan Bitaraf
+    affiliation: Institute of Medical Information Management, Center for Medical Data Science, Medical University of Vienna, Vienna, Austria
+  - name: Fatemeh Sarani Rad
+    affiliation: Computer Science Department, North Dakota State University, Fargo, ND, USA
+  - name: Vajiheh Jam
+    affiliation: Computer Science Department, Ferdowsi University of Mashhad, Mashhad, Iran
+  - name: Georg Duftschmid
+    affiliation: Institute of Medical Information Management, Center for Medical Data Science, Medical University of Vienna, Vienna, Austria
+  - name: Dipak Kalra
+    affiliation: The European Institute for Innovation through Health Data, Gent, Belgium
+  - name: Tanja Stamm
+    affiliation: Institute of Outcomes Research, Center for Medical Data Science, Medical University of Vienna, Vienna, Austria
 jupyter: python3
 format:
   html:
@@ -392,7 +408,7 @@ dataframe_to_csv(corpus_summary, "table_corpus_summary.csv")
 show_interactive_table(corpus_summary)
 ```
 
-The table above reports the corpus size and citation coverage explicitly. Missing citation metadata are therefore distinguishable from verified zero-citation records.
+The table above reports the corpus size and citation coverage. Missing citation metadata are therefore distinguishable from verified zero-citation records.
 
 ### Citation-data completeness
 
@@ -1085,7 +1101,7 @@ show_interactive_table(
 )
 ```
 
-Countries without available citation observations are not assigned an artificial citation value.
+Countries without available citation observations are not assigned any artificial citation value.
 
 ### Cartogram input for SCImago Graphica
 
@@ -1296,7 +1312,7 @@ show_interactive_table(country_nodes, paging=True, searching=True, info=True)
 show_interactive_table(country_edges, paging=True, searching=True, info=True)
 ```
 
-The node and edge tables are the raw network inputs. Any VOSviewer association-strength normalization, clustering resolution, or cluster merging should be reported separately from these Python counts.
+The node and edge tables are the raw network inputs. 
 
 ## Author and journal analysis
 
@@ -1478,7 +1494,6 @@ show_interactive_table(lotka_fit_summary.round(4))
 show_interactive_table(lotka_distribution, paging=True, searching=True, info=True)
 ```
 
-The observed single-publication author share and fitted parameters should be reported numerically and descriptively rather than summarized as a categorical claim that the corpus “follows Lotka's Law.”
 
 ### Journal citation profile and productivity
 
@@ -1740,7 +1755,7 @@ show_interactive_table(bradford_metric_summary)
 show_interactive_table(bradford_df, paging=True, searching=True, info=True)
 ```
 
-The zone counts are reported as a descriptive concentration pattern. The manuscript wording should describe the observed distribution rather than state that Bradford's law has been formally proven.
+The zone counts are reported as a descriptive concentration pattern. 
 
 ## Thematic analysis
 
@@ -1808,7 +1823,7 @@ plt.close()
 show_interactive_table(theme_distribution)
 ```
 
-The table reports publication counts, corpus prevalence, and assignment share together, avoiding a second duplicate thematic-distribution calculation.
+
 
 ### Cross-national thematic distribution
 
@@ -2112,7 +2127,6 @@ $$
 f_{i,r\rightarrow r+1}=\min(N_{ir},N_{i,r+1}).
 $$
 
-This is a visualization device and is not a publication-level transition probability.
 
 ```{python}
 THEMATIC_PERIODS = [
@@ -2552,7 +2566,7 @@ show_interactive_table(
 )
 ```
 
-The slope is a descriptive measure of change in publication-normalized keyword frequency. The regression statistics are retained for transparent reporting rather than for a binary significance rule.
+The slope is a descriptive measure of change in publication-normalized keyword frequency. 
 
 ### Decomposition of thematic diversity: richness and evenness
 
@@ -3167,13 +3181,3 @@ show_interactive_table(keyword_journal_edges, paging=True, searching=True, info=
 
 The top entities are selected globally before complete-case filtering, whereas the plotted cross-field links require complete author, keyword, and journal information.
 
-## Output naming and reproducibility notes
-
-All exported outputs use consistent prefixes:
-
-- `table_*.csv` for analytical tables;
-- `fig_*.jpg` for static figures;
-- `fig_*.html` for standalone interactive Plotly figures;
-- `network_*.csv` or `network_*.json` for network nodes, edges, matrices, and VOSviewer-compatible structures.
-
-Matplotlib figures are saved through the project `plt_savefig()` helper and tabular files through `dataframe_to_csv()`. Plotly HTML outputs explicitly embed Plotly JavaScript. The Quarto YAML uses both `embed-resources: true` and `self-contained-math: true`, so CSS, scripts, figures, and MathJax are included in the standalone report as far as supported by the renderer. ITables is initialized in offline mode and its resources are included in the notebook output.

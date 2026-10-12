@@ -7,6 +7,7 @@ We use [Semantic Versioning](https://semver.org/)
 
 
 ## [v2.0.4] - 2026-10-04
+- Improve Documentation
 - Change output images format
 
 

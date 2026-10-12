@@ -13,7 +13,7 @@
 
 This repository contains a fully reproducible analytical pipeline supporting the study:
 
-> **ISO 13606 and openEHR in Health Informatics: A Bibliometric and Thematic Analysis across Three Major Databases**
+> **SO 13606 and openEHR in Health Informatics: A Multi-Database Bibliometric and Thematic Analysis**
 
 The project systematically maps the evolution, structure, and global dynamics of archetype-based interoperability standards using large-scale bibliometric data.
 
@@ -63,7 +63,7 @@ The project systematically maps the evolution, structure, and global dynamics of
 
 | Field Name                       | Description                                                                                                    |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| **bank**                         | Numeric identifier for the data source. Mapping: **1 = PUBMED**, **3 = Web of Science (WOS)**, **4 = Scopus**. |
+| **bank**                         | Numeric identifier for the data source. Mapping: **1 = PUBMED**, **3 = Web of Science (WOS)**, **4 = Scopus**, **5 = IEEE Xplore**, **8 = Embase**. |
 | **title**                        | Title of the article or study.                                                                                 |
 | **year**                         | Year of publication.                                                                                           |
 | **publisher**                    | Name of the publisher or the source where the article is published.                                            |
