@@ -4,7 +4,10 @@ We use [Semantic Versioning](https://semver.org/)
 
 
 ## Task
- quarto convert integrated_bibliometric_analysis.ipynb 
+
+
+## [v2.0.4] - 2026-10-04
+- Change output images format
 
 
 ## [v2.0.3] - 2026-09-09
