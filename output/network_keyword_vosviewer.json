@@ -1,0 +1,5585 @@
+{
+  "network": {
+    "items": [
+      {
+        "id": "archetype",
+        "label": "archetype",
+        "x": 0.054159,
+        "y": 0.037149,
+        "weight": 126
+      },
+      {
+        "id": "ehr",
+        "label": "ehr",
+        "x": -0.001414,
+        "y": -0.015373,
+        "weight": 208
+      },
+      {
+        "id": "interoperability",
+        "label": "interoperability",
+        "x": -0.061234,
+        "y": -0.040712,
+        "weight": 105
+      },
+      {
+        "id": "semantic interoperability",
+        "label": "semantic interoperability",
+        "x": -0.121077,
+        "y": 0.050385,
+        "weight": 72
+      },
+      {
+        "id": "semantics",
+        "label": "semantics",
+        "x": -0.072001,
+        "y": 0.025313,
+        "weight": 58
+      },
+      {
+        "id": "records management",
+        "label": "records management",
+        "x": -0.091168,
+        "y": -0.065616,
+        "weight": 30
+      },
+      {
+        "id": "health care",
+        "label": "health care",
+        "x": -0.030483,
+        "y": -0.002807,
+        "weight": 46
+      },
+      {
+        "id": "medical computing",
+        "label": "medical computing",
+        "x": -0.099323,
+        "y": -0.034822,
+        "weight": 35
+      },
+      {
+        "id": "information system",
+        "label": "information system",
+        "x": -0.005979,
+        "y": 0.021747,
+        "weight": 38
+      },
+      {
+        "id": "ehealth",
+        "label": "ehealth",
+        "x": -0.037684,
+        "y": -0.152975,
+        "weight": 32
+      },
+      {
+        "id": "iso 13606",
+        "label": "iso 13606",
+        "x": -0.018378,
+        "y": 0.09542,
+        "weight": 28
+      },
+      {
+        "id": "health",
+        "label": "health",
+        "x": -0.073404,
+        "y": -0.028761,
+        "weight": 29
+      },
+      {
+        "id": "standardization",
+        "label": "standardization",
+        "x": -0.149046,
+        "y": -0.087033,
+        "weight": 17
+      },
+      {
+        "id": "electronic health",
+        "label": "electronic health",
+        "x": -0.075556,
+        "y": -0.244249,
+        "weight": 14
+      },
+      {
+        "id": "health record",
+        "label": "health record",
+        "x": -0.060851,
+        "y": -0.174888,
+        "weight": 21
+      },
+      {
+        "id": "health information system",
+        "label": "health information system",
+        "x": 0.041638,
+        "y": 0.081154,
+        "weight": 26
+      },
+      {
+        "id": "decision support system",
+        "label": "decision support system",
+        "x": -0.082474,
+        "y": 0.130402,
+        "weight": 17
+      },
+      {
+        "id": "information use",
+        "label": "information use",
+        "x": 0.007562,
+        "y": -0.104044,
+        "weight": 19
+      },
+      {
+        "id": "ontology",
+        "label": "ontology",
+        "x": 0.060259,
+        "y": 0.003189,
+        "weight": 27
+      },
+      {
+        "id": "clinical decision support system",
+        "label": "clinical decision support system",
+        "x": -0.182057,
+        "y": 0.084156,
+        "weight": 20
+      },
+      {
+        "id": "standards",
+        "label": "standards",
+        "x": -0.147226,
+        "y": 0.124167,
+        "weight": 17
+      },
+      {
+        "id": "health level 7",
+        "label": "health level 7",
+        "x": -0.220613,
+        "y": -0.01281,
+        "weight": 19
+      },
+      {
+        "id": "hospital data processing",
+        "label": "hospital data processing",
+        "x": -0.154682,
+        "y": 0.005147,
+        "weight": 13
+      },
+      {
+        "id": "human",
+        "label": "human",
+        "x": 0.359358,
+        "y": 0.081556,
+        "weight": 18
+      },
+      {
+        "id": "medical informatics",
+        "label": "medical informatics",
+        "x": 0.149217,
+        "y": -0.098106,
+        "weight": 15
+      },
+      {
+        "id": "hospitals",
+        "label": "hospitals",
+        "x": -0.020542,
+        "y": 0.138002,
+        "weight": 13
+      },
+      {
+        "id": "information management",
+        "label": "information management",
+        "x": -0.003634,
+        "y": -0.208686,
+        "weight": 12
+      },
+      {
+        "id": "telemedicine",
+        "label": "telemedicine",
+        "x": 0.061174,
+        "y": -0.16204,
+        "weight": 10
+      },
+      {
+        "id": "electronic data interchange",
+        "label": "electronic data interchange",
+        "x": -0.1487,
+        "y": -0.150525,
+        "weight": 12
+      },
+      {
+        "id": "templates",
+        "label": "templates",
+        "x": 0.046828,
+        "y": -0.317324,
+        "weight": 7
+      },
+      {
+        "id": "biochemical engineering",
+        "label": "biochemical engineering",
+        "x": -0.193818,
+        "y": -0.051124,
+        "weight": 7
+      },
+      {
+        "id": "clinical information",
+        "label": "clinical information",
+        "x": -0.074283,
+        "y": 0.084999,
+        "weight": 10
+      },
+      {
+        "id": "conference abstract",
+        "label": "conference abstract",
+        "x": 0.358716,
+        "y": 0.240469,
+        "weight": 7
+      },
+      {
+        "id": "knowledge management",
+        "label": "knowledge management",
+        "x": 0.089314,
+        "y": -0.10505,
+        "weight": 12
+      },
+      {
+        "id": "knowledge representation",
+        "label": "knowledge representation",
+        "x": 0.09366,
+        "y": 0.064424,
+        "weight": 11
+      },
+      {
+        "id": "snomed ct",
+        "label": "snomed ct",
+        "x": 0.070591,
+        "y": 0.18478,
+        "weight": 13
+      },
+      {
+        "id": "template",
+        "label": "template",
+        "x": 0.046148,
+        "y": 0.457287,
+        "weight": 6
+      },
+      {
+        "id": "artificial intelligence",
+        "label": "artificial intelligence",
+        "x": -0.274869,
+        "y": 0.104266,
+        "weight": 10
+      },
+      {
+        "id": "clinical data",
+        "label": "clinical data",
+        "x": 0.123232,
+        "y": -0.052144,
+        "weight": 10
+      },
+      {
+        "id": "clinical research",
+        "label": "clinical research",
+        "x": -0.197955,
+        "y": -0.279648,
+        "weight": 8
+      },
+      {
+        "id": "covid-19",
+        "label": "covid-19",
+        "x": -0.194001,
+        "y": 0.318752,
+        "weight": 10
+      },
+      {
+        "id": "data integration",
+        "label": "data integration",
+        "x": 0.071652,
+        "y": 0.120719,
+        "weight": 16
+      },
+      {
+        "id": "decision making",
+        "label": "decision making",
+        "x": -0.290916,
+        "y": 0.052892,
+        "weight": 10
+      },
+      {
+        "id": "en 13606",
+        "label": "en 13606",
+        "x": -0.274357,
+        "y": 0.201235,
+        "weight": 8
+      },
+      {
+        "id": "health informatics",
+        "label": "health informatics",
+        "x": -0.029254,
+        "y": -0.251846,
+        "weight": 10
+      },
+      {
+        "id": "hl7 fhir",
+        "label": "hl7 fhir",
+        "x": 0.088392,
+        "y": -0.337166,
+        "weight": 9
+      },
+      {
+        "id": "hospital information system",
+        "label": "hospital information system",
+        "x": -0.185886,
+        "y": -0.208821,
+        "weight": 10
+      },
+      {
+        "id": "medical information system",
+        "label": "medical information system",
+        "x": 0.16238,
+        "y": -0.000662,
+        "weight": 11
+      },
+      {
+        "id": "healthcare system",
+        "label": "healthcare system",
+        "x": -0.200584,
+        "y": 0.209729,
+        "weight": 7
+      },
+      {
+        "id": "detailed clinical models",
+        "label": "detailed clinical models",
+        "x": 0.146611,
+        "y": -0.384283,
+        "weight": 6
+      },
+      {
+        "id": "owl",
+        "label": "owl",
+        "x": -0.117615,
+        "y": 0.212096,
+        "weight": 8
+      },
+      {
+        "id": "pervasive healthcare",
+        "label": "pervasive healthcare",
+        "x": -0.114593,
+        "y": 0.279966,
+        "weight": 8
+      },
+      {
+        "id": "architecture",
+        "label": "architecture",
+        "x": 0.209906,
+        "y": 0.074045,
+        "weight": 8
+      },
+      {
+        "id": "article",
+        "label": "article",
+        "x": 0.309997,
+        "y": -0.046068,
+        "weight": 9
+      },
+      {
+        "id": "electronic medical record",
+        "label": "electronic medical record",
+        "x": 0.239741,
+        "y": -0.038412,
+        "weight": 9
+      },
+      {
+        "id": "big data",
+        "label": "big data",
+        "x": -0.34464,
+        "y": -0.121066,
+        "weight": 7
+      },
+      {
+        "id": "clinical archetypes",
+        "label": "clinical archetypes",
+        "x": -0.015342,
+        "y": 0.198906,
+        "weight": 12
+      },
+      {
+        "id": "computer science",
+        "label": "computer science",
+        "x": -0.08192,
+        "y": 0.2071,
+        "weight": 5
+      },
+      {
+        "id": "diagnosis",
+        "label": "diagnosis",
+        "x": 0.041886,
+        "y": -0.045343,
+        "weight": 13
+      },
+      {
+        "id": "m2m communication",
+        "label": "m2m communication",
+        "x": -0.071903,
+        "y": -0.621604,
+        "weight": 5
+      },
+      {
+        "id": "hl7 cda",
+        "label": "hl7 cda",
+        "x": 0.125706,
+        "y": 0.366536,
+        "weight": 6
+      },
+      {
+        "id": "patient treatment",
+        "label": "patient treatment",
+        "x": -0.251195,
+        "y": 0.128776,
+        "weight": 7
+      },
+      {
+        "id": "tools",
+        "label": "tools",
+        "x": -0.250312,
+        "y": -0.101752,
+        "weight": 6
+      },
+      {
+        "id": "electronic health record system",
+        "label": "electronic health record system",
+        "x": -0.328386,
+        "y": 0.272557,
+        "weight": 6
+      },
+      {
+        "id": "female",
+        "label": "female",
+        "x": 0.59645,
+        "y": 0.289562,
+        "weight": 5
+      },
+      {
+        "id": "health care professionals",
+        "label": "health care professionals",
+        "x": -0.357792,
+        "y": 0.017292,
+        "weight": 5
+      },
+      {
+        "id": "highmed",
+        "label": "highmed",
+        "x": -0.626271,
+        "y": 0.323637,
+        "weight": 8
+      },
+      {
+        "id": "model",
+        "label": "model",
+        "x": 0.491411,
+        "y": -0.050759,
+        "weight": 9
+      },
+      {
+        "id": "integration",
+        "label": "integration",
+        "x": 0.013942,
+        "y": 0.177343,
+        "weight": 7
+      },
+      {
+        "id": "mapping",
+        "label": "mapping",
+        "x": 0.061758,
+        "y": 0.267514,
+        "weight": 5
+      },
+      {
+        "id": "terminology",
+        "label": "terminology",
+        "x": 0.163532,
+        "y": 0.17132,
+        "weight": 13
+      },
+      {
+        "id": "application programs",
+        "label": "application programs",
+        "x": 0.246678,
+        "y": -0.27044,
+        "weight": 6
+      },
+      {
+        "id": "clinical data repository",
+        "label": "clinical data repository",
+        "x": 0.298068,
+        "y": -0.556079,
+        "weight": 5
+      },
+      {
+        "id": "clinical decision support",
+        "label": "clinical decision support",
+        "x": -0.352652,
+        "y": -0.035304,
+        "weight": 8
+      },
+      {
+        "id": "clinical guideline",
+        "label": "clinical guideline",
+        "x": -0.387348,
+        "y": 0.168548,
+        "weight": 7
+      },
+      {
+        "id": "models",
+        "label": "models",
+        "x": 0.440179,
+        "y": 0.286792,
+        "weight": 6
+      },
+      {
+        "id": "nosql database",
+        "label": "nosql database",
+        "x": -0.064964,
+        "y": 0.537534,
+        "weight": 5
+      },
+      {
+        "id": "biomedical engineering",
+        "label": "biomedical engineering",
+        "x": 0.258343,
+        "y": -0.158676,
+        "weight": 7
+      },
+      {
+        "id": "clinical information model",
+        "label": "clinical information model",
+        "x": -0.165888,
+        "y": 0.369858,
+        "weight": 6
+      },
+      {
+        "id": "clinical knowledge",
+        "label": "clinical knowledge",
+        "x": 0.290498,
+        "y": 0.02413,
+        "weight": 5
+      },
+      {
+        "id": "continuity of care",
+        "label": "continuity of care",
+        "x": 0.214354,
+        "y": -0.348938,
+        "weight": 6
+      },
+      {
+        "id": "data warehouse",
+        "label": "data warehouse",
+        "x": -0.273616,
+        "y": -0.168009,
+        "weight": 9
+      },
+      {
+        "id": "digital storage",
+        "label": "digital storage",
+        "x": -0.278393,
+        "y": -0.015506,
+        "weight": 8
+      },
+      {
+        "id": "health information exchange",
+        "label": "health information exchange",
+        "x": 0.36004,
+        "y": -0.572195,
+        "weight": 6
+      },
+      {
+        "id": "health information interoperability",
+        "label": "health information interoperability",
+        "x": -0.426005,
+        "y": 0.443983,
+        "weight": 15
+      },
+      {
+        "id": "healthcare",
+        "label": "healthcare",
+        "x": -0.191552,
+        "y": -0.363378,
+        "weight": 8
+      },
+      {
+        "id": "information modeling",
+        "label": "information modeling",
+        "x": 0.173241,
+        "y": -0.180888,
+        "weight": 7
+      },
+      {
+        "id": "information retrieval",
+        "label": "information retrieval",
+        "x": 0.429669,
+        "y": -0.269238,
+        "weight": 7
+      },
+      {
+        "id": "information storage and retrieval",
+        "label": "information storage and retrieval",
+        "x": 0.564996,
+        "y": -0.312307,
+        "weight": 5
+      },
+      {
+        "id": "information theory",
+        "label": "information theory",
+        "x": 0.132775,
+        "y": 0.156397,
+        "weight": 6
+      },
+      {
+        "id": "medical records system",
+        "label": "medical records system",
+        "x": 0.428179,
+        "y": -0.131262,
+        "weight": 10
+      },
+      {
+        "id": "nutrition",
+        "label": "nutrition",
+        "x": 0.389982,
+        "y": 0.173116,
+        "weight": 6
+      },
+      {
+        "id": "open source",
+        "label": "open source",
+        "x": -0.125968,
+        "y": -0.415946,
+        "weight": 9
+      },
+      {
+        "id": "openehr specifications",
+        "label": "openehr specifications",
+        "x": 0.112442,
+        "y": -0.281279,
+        "weight": 6
+      },
+      {
+        "id": "reference standards",
+        "label": "reference standards",
+        "x": 0.476046,
+        "y": -0.430514,
+        "weight": 5
+      },
+      {
+        "id": "specifications",
+        "label": "specifications",
+        "x": -0.000722,
+        "y": -0.417557,
+        "weight": 7
+      },
+      {
+        "id": "xml",
+        "label": "xml",
+        "x": 0.307197,
+        "y": 0.420833,
+        "weight": 8
+      },
+      {
+        "id": "fhir",
+        "label": "fhir",
+        "x": -0.588868,
+        "y": 0.079233,
+        "weight": 9
+      },
+      {
+        "id": "ubiquitous computing",
+        "label": "ubiquitous computing",
+        "x": -0.074469,
+        "y": 0.349821,
+        "weight": 5
+      },
+      {
+        "id": "medical record",
+        "label": "medical record",
+        "x": 0.379877,
+        "y": -0.115598,
+        "weight": 8
+      },
+      {
+        "id": "access control",
+        "label": "access control",
+        "x": -0.471374,
+        "y": -0.26759,
+        "weight": 5
+      },
+      {
+        "id": "software design",
+        "label": "software design",
+        "x": 0.413764,
+        "y": 0.449788,
+        "weight": 5
+      },
+      {
+        "id": "systems",
+        "label": "systems",
+        "x": -0.165794,
+        "y": -0.447571,
+        "weight": 7
+      },
+      {
+        "id": "blockchain",
+        "label": "blockchain",
+        "x": -0.398873,
+        "y": -0.521962,
+        "weight": 6
+      },
+      {
+        "id": "metadata",
+        "label": "metadata",
+        "x": -0.340857,
+        "y": -0.310122,
+        "weight": 5
+      },
+      {
+        "id": "computer architecture",
+        "label": "computer architecture",
+        "x": 0.134493,
+        "y": 0.583169,
+        "weight": 5
+      },
+      {
+        "id": "medical services",
+        "label": "medical services",
+        "x": 0.241812,
+        "y": 0.445748,
+        "weight": 5
+      },
+      {
+        "id": "data base",
+        "label": "data base",
+        "x": 0.598592,
+        "y": 0.00379,
+        "weight": 5
+      },
+      {
+        "id": "data mining",
+        "label": "data mining",
+        "x": -0.584522,
+        "y": -0.037954,
+        "weight": 5
+      },
+      {
+        "id": "data sharing",
+        "label": "data sharing",
+        "x": -0.217937,
+        "y": -0.522322,
+        "weight": 5
+      },
+      {
+        "id": "practice guideline",
+        "label": "practice guideline",
+        "x": 0.289439,
+        "y": 0.334957,
+        "weight": 6
+      },
+      {
+        "id": "design",
+        "label": "design",
+        "x": -0.513995,
+        "y": -0.146888,
+        "weight": 5
+      },
+      {
+        "id": "diseases",
+        "label": "diseases",
+        "x": -0.333765,
+        "y": -0.199057,
+        "weight": 5
+      },
+      {
+        "id": "electronic document exchange",
+        "label": "electronic document exchange",
+        "x": -0.058426,
+        "y": -0.395119,
+        "weight": 5
+      },
+      {
+        "id": "graphical user interface",
+        "label": "graphical user interface",
+        "x": -0.273858,
+        "y": -0.308602,
+        "weight": 6
+      },
+      {
+        "id": "software",
+        "label": "software",
+        "x": 0.463204,
+        "y": 0.119109,
+        "weight": 6
+      },
+      {
+        "id": "user interfaces",
+        "label": "user interfaces",
+        "x": -0.411574,
+        "y": -0.218744,
+        "weight": 5
+      },
+      {
+        "id": "standard",
+        "label": "standard",
+        "x": 0.562324,
+        "y": -0.181389,
+        "weight": 7
+      },
+      {
+        "id": "clinical model",
+        "label": "clinical model",
+        "x": -0.493367,
+        "y": 0.212959,
+        "weight": 5
+      },
+      {
+        "id": "common data element",
+        "label": "common data element",
+        "x": 0.672567,
+        "y": 0.091065,
+        "weight": 5
+      },
+      {
+        "id": "data quality",
+        "label": "data quality",
+        "x": 0.746096,
+        "y": 0.307137,
+        "weight": 5
+      },
+      {
+        "id": "informatics",
+        "label": "informatics",
+        "x": 0.877367,
+        "y": 0.128842,
+        "weight": 5
+      },
+      {
+        "id": "software architecture",
+        "label": "software architecture",
+        "x": 0.259413,
+        "y": 0.537478,
+        "weight": 5
+      },
+      {
+        "id": "medical data",
+        "label": "medical data",
+        "x": -0.398247,
+        "y": 0.520214,
+        "weight": 5
+      },
+      {
+        "id": "patient information",
+        "label": "patient information",
+        "x": -0.120404,
+        "y": 0.584991,
+        "weight": 5
+      },
+      {
+        "id": "information",
+        "label": "information",
+        "x": -1.0,
+        "y": -0.036524,
+        "weight": 6
+      }
+    ],
+    "links": [
+      {
+        "source_id": "archetype",
+        "target_id": "ehr",
+        "strength": 61
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "interoperability",
+        "strength": 30
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "semantic interoperability",
+        "strength": 28
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "health care",
+        "strength": 15
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "semantics",
+        "strength": 13
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "iso 13606",
+        "strength": 12
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "information system",
+        "strength": 11
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "ontology",
+        "strength": 11
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "health",
+        "strength": 10
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "medical computing",
+        "strength": 10
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical decision support system",
+        "strength": 7
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "templates",
+        "strength": 7
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "knowledge representation",
+        "strength": 6
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "snomed ct",
+        "strength": 6
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "standardization",
+        "strength": 6
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "template",
+        "strength": 6
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "detailed clinical models",
+        "strength": 5
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "en 13606",
+        "strength": 5
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "knowledge management",
+        "strength": 5
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "medical informatics",
+        "strength": 5
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "owl",
+        "strength": 5
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "pervasive healthcare",
+        "strength": 5
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "records management",
+        "strength": 5
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "architecture",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "article",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical data",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical data repository",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical decision support",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical guideline",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "data integration",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "diagnosis",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "ehealth",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "electronic medical record",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "health information system",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "hl7 cda",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "hospital data processing",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "human",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "information use",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "medical information system",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "models",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "nosql database",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "terminology",
+        "strength": 4
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "biochemical engineering",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "biomedical engineering",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "covid-19",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "data warehouse",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "health level 7",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "health record",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "hospital information system",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "information modeling",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "nutrition",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "software design",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "standards",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "systems",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "telemedicine",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "tools",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "xml",
+        "strength": 3
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "application programs",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "artificial intelligence",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical archetypes",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical information model",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical knowledge",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical model",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "clinical research",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "common data element",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "computer science",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "data base",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "data quality",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "decision support system",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "design",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "digital storage",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "electronic data interchange",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "graphical user interface",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "healthcare system",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "information management",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "information theory",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "medical services",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "model",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "openehr specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "practice guideline",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "software",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "software architecture",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "standard",
+        "strength": 2
+      },
+      {
+        "source_id": "archetype",
+        "target_id": "ubiquitous computing",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "interoperability",
+        "strength": 53
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "semantic interoperability",
+        "strength": 36
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "semantics",
+        "strength": 31
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "records management",
+        "strength": 28
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "health care",
+        "strength": 23
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "medical computing",
+        "strength": 23
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "ehealth",
+        "strength": 19
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "information system",
+        "strength": 19
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "iso 13606",
+        "strength": 19
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "health",
+        "strength": 18
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "standardization",
+        "strength": 14
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "health record",
+        "strength": 13
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "decision support system",
+        "strength": 12
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "electronic health",
+        "strength": 12
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "health information system",
+        "strength": 12
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "clinical decision support system",
+        "strength": 11
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "standards",
+        "strength": 11
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "health level 7",
+        "strength": 10
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "ontology",
+        "strength": 10
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "hospital data processing",
+        "strength": 9
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "human",
+        "strength": 9
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "information use",
+        "strength": 9
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "medical informatics",
+        "strength": 9
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "hospitals",
+        "strength": 8
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "information management",
+        "strength": 8
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "telemedicine",
+        "strength": 8
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "biochemical engineering",
+        "strength": 7
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "clinical information",
+        "strength": 7
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "knowledge management",
+        "strength": 7
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "artificial intelligence",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "clinical research",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "covid-19",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "data integration",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "electronic data interchange",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "en 13606",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "health informatics",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "hl7 fhir",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "hospital information system",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "medical information system",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "snomed ct",
+        "strength": 6
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "architecture",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "article",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "big data",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "clinical archetypes",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "diagnosis",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "hl7 cda",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "knowledge representation",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "owl",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "patient treatment",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "tools",
+        "strength": 5
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "biomedical engineering",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "clinical information model",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "clinical knowledge",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "computer science",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "conference abstract",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "continuity of care",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "data warehouse",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "decision making",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "digital storage",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "electronic medical record",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "health care professionals",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "health information exchange",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "health information interoperability",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "healthcare",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "information modeling",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "information retrieval",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "information storage and retrieval",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "information theory",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "integration",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "medical records system",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "nutrition",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "open source",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "openehr specifications",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "reference standards",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "specifications",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "templates",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "terminology",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "xml",
+        "strength": 4
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "access control",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "clinical decision support",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "data sharing",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "detailed clinical models",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "diseases",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "electronic document exchange",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "electronic health record system",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "graphical user interface",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "model",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "practice guideline",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "software",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "systems",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "template",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "user interfaces",
+        "strength": 3
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "application programs",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "clinical data",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "clinical guideline",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "common data element",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "data base",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "design",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "female",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "healthcare system",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "medical data",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "metadata",
+        "strength": 2
+      },
+      {
+        "source_id": "ehr",
+        "target_id": "nosql database",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "semantics",
+        "strength": 30
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "health care",
+        "strength": 25
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "medical computing",
+        "strength": 25
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "semantic interoperability",
+        "strength": 24
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "information system",
+        "strength": 20
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "records management",
+        "strength": 19
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "ehealth",
+        "strength": 17
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "health information system",
+        "strength": 13
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "health",
+        "strength": 12
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "health record",
+        "strength": 12
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "information use",
+        "strength": 11
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "electronic health",
+        "strength": 9
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "electronic data interchange",
+        "strength": 8
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "hospital data processing",
+        "strength": 8
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "information management",
+        "strength": 8
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "ontology",
+        "strength": 8
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "knowledge representation",
+        "strength": 7
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "snomed ct",
+        "strength": 7
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "clinical data",
+        "strength": 6
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "clinical decision support system",
+        "strength": 6
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "data integration",
+        "strength": 6
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "decision making",
+        "strength": 6
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "health informatics",
+        "strength": 6
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "health level 7",
+        "strength": 6
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "healthcare system",
+        "strength": 6
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "hl7 fhir",
+        "strength": 6
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "standardization",
+        "strength": 6
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "biochemical engineering",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "clinical archetypes",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "clinical information",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "decision support system",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "health care professionals",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "hospital information system",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "mapping",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "medical informatics",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "medical information system",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "standards",
+        "strength": 5
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "architecture",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "artificial intelligence",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "diagnosis",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "digital storage",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "fhir",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "information theory",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "iso 13606",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "knowledge management",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "openehr specifications",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "pervasive healthcare",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "specifications",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "terminology",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "ubiquitous computing",
+        "strength": 4
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "article",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "blockchain",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "clinical decision support",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "computer science",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "covid-19",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "design",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "electronic document exchange",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "healthcare",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "hospitals",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "integration",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "owl",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "patient treatment",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "telemedicine",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "user interfaces",
+        "strength": 3
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "access control",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "big data",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "clinical guideline",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "clinical knowledge",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "clinical model",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "clinical research",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "continuity of care",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "diseases",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "electronic medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "en 13606",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "graphical user interface",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "information modeling",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "information retrieval",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "m2m communication",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "nutrition",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "patient information",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "standard",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "systems",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "templates",
+        "strength": 2
+      },
+      {
+        "source_id": "interoperability",
+        "target_id": "tools",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "semantics",
+        "strength": 27
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "health care",
+        "strength": 12
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "medical computing",
+        "strength": 12
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "ehealth",
+        "strength": 10
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "information system",
+        "strength": 10
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "standardization",
+        "strength": 10
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "health",
+        "strength": 9
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "records management",
+        "strength": 8
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "health level 7",
+        "strength": 6
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "electronic data interchange",
+        "strength": 5
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "health information system",
+        "strength": 5
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "highmed",
+        "strength": 5
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "iso 13606",
+        "strength": 5
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "pervasive healthcare",
+        "strength": 5
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "snomed ct",
+        "strength": 5
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "terminology",
+        "strength": 5
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "biochemical engineering",
+        "strength": 4
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "clinical archetypes",
+        "strength": 4
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "clinical information",
+        "strength": 4
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "en 13606",
+        "strength": 4
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "hospital data processing",
+        "strength": 4
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "information use",
+        "strength": 4
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "knowledge management",
+        "strength": 4
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "ontology",
+        "strength": 4
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "clinical decision support system",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "computer science",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "data mining",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "data warehouse",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "fhir",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "hospitals",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "integration",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "owl",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "patient treatment",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "tools",
+        "strength": 3
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "artificial intelligence",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "big data",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "clinical information model",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "clinical knowledge",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "clinical research",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "data integration",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "decision support system",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "digital storage",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "electronic health record system",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "health informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "health record",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "healthcare system",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "information modeling",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "knowledge representation",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "mapping",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "medical informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "metadata",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "patient information",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "standards",
+        "strength": 2
+      },
+      {
+        "source_id": "semantic interoperability",
+        "target_id": "ubiquitous computing",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "medical computing",
+        "strength": 17
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "health care",
+        "strength": 15
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "information system",
+        "strength": 12
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "health",
+        "strength": 10
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "ehealth",
+        "strength": 8
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "hospital data processing",
+        "strength": 8
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "information use",
+        "strength": 8
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "records management",
+        "strength": 8
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "clinical information",
+        "strength": 6
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "decision support system",
+        "strength": 6
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "electronic data interchange",
+        "strength": 6
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "health information system",
+        "strength": 6
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "ontology",
+        "strength": 6
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "snomed ct",
+        "strength": 6
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "artificial intelligence",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "biochemical engineering",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "clinical decision support system",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "data integration",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "electronic health record system",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "integration",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "iso 13606",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "knowledge representation",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "standardization",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "standards",
+        "strength": 5
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "clinical data",
+        "strength": 4
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "diagnosis",
+        "strength": 4
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "health level 7",
+        "strength": 4
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "hospitals",
+        "strength": 4
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "mapping",
+        "strength": 4
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "terminology",
+        "strength": 4
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "big data",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "clinical archetypes",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "computer science",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "detailed clinical models",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "health care professionals",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "health record",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "information theory",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "knowledge management",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "medical informatics",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "medical information system",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "owl",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "tools",
+        "strength": 3
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "biomedical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "clinical information model",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "clinical knowledge",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "clinical research",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "continuity of care",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "covid-19",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "data mining",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "data warehouse",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "decision making",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "digital storage",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "diseases",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "electronic medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "healthcare system",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "hl7 cda",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "information management",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "information modeling",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "metadata",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "openehr specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "patient treatment",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "pervasive healthcare",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "telemedicine",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "ubiquitous computing",
+        "strength": 2
+      },
+      {
+        "source_id": "semantics",
+        "target_id": "user interfaces",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "health",
+        "strength": 12
+      },
+      {
+        "source_id": "records management",
+        "target_id": "medical computing",
+        "strength": 11
+      },
+      {
+        "source_id": "records management",
+        "target_id": "health care",
+        "strength": 10
+      },
+      {
+        "source_id": "records management",
+        "target_id": "ehealth",
+        "strength": 8
+      },
+      {
+        "source_id": "records management",
+        "target_id": "information system",
+        "strength": 7
+      },
+      {
+        "source_id": "records management",
+        "target_id": "health record",
+        "strength": 6
+      },
+      {
+        "source_id": "records management",
+        "target_id": "electronic health",
+        "strength": 5
+      },
+      {
+        "source_id": "records management",
+        "target_id": "information management",
+        "strength": 5
+      },
+      {
+        "source_id": "records management",
+        "target_id": "computer science",
+        "strength": 4
+      },
+      {
+        "source_id": "records management",
+        "target_id": "electronic data interchange",
+        "strength": 4
+      },
+      {
+        "source_id": "records management",
+        "target_id": "hospital data processing",
+        "strength": 4
+      },
+      {
+        "source_id": "records management",
+        "target_id": "hospitals",
+        "strength": 4
+      },
+      {
+        "source_id": "records management",
+        "target_id": "information use",
+        "strength": 4
+      },
+      {
+        "source_id": "records management",
+        "target_id": "telemedicine",
+        "strength": 4
+      },
+      {
+        "source_id": "records management",
+        "target_id": "architecture",
+        "strength": 3
+      },
+      {
+        "source_id": "records management",
+        "target_id": "decision support system",
+        "strength": 3
+      },
+      {
+        "source_id": "records management",
+        "target_id": "healthcare",
+        "strength": 3
+      },
+      {
+        "source_id": "records management",
+        "target_id": "iso 13606",
+        "strength": 3
+      },
+      {
+        "source_id": "records management",
+        "target_id": "standardization",
+        "strength": 3
+      },
+      {
+        "source_id": "records management",
+        "target_id": "standards",
+        "strength": 3
+      },
+      {
+        "source_id": "records management",
+        "target_id": "access control",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "artificial intelligence",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "biochemical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "clinical decision support system",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "clinical information",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "decision making",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "health care professionals",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "health information system",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "health level 7",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "hospital information system",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "information theory",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "knowledge management",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "knowledge representation",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "medical information system",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "ontology",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "open source",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "owl",
+        "strength": 2
+      },
+      {
+        "source_id": "records management",
+        "target_id": "patient treatment",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "information system",
+        "strength": 13
+      },
+      {
+        "source_id": "health care",
+        "target_id": "medical computing",
+        "strength": 12
+      },
+      {
+        "source_id": "health care",
+        "target_id": "health",
+        "strength": 10
+      },
+      {
+        "source_id": "health care",
+        "target_id": "information use",
+        "strength": 7
+      },
+      {
+        "source_id": "health care",
+        "target_id": "ehealth",
+        "strength": 6
+      },
+      {
+        "source_id": "health care",
+        "target_id": "health level 7",
+        "strength": 6
+      },
+      {
+        "source_id": "health care",
+        "target_id": "healthcare system",
+        "strength": 5
+      },
+      {
+        "source_id": "health care",
+        "target_id": "application programs",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "decision support system",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "digital storage",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "electronic data interchange",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "health informatics",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "health record",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "hospital data processing",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "hospitals",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "knowledge representation",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "medical informatics",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "ontology",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "pervasive healthcare",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "standards",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "ubiquitous computing",
+        "strength": 4
+      },
+      {
+        "source_id": "health care",
+        "target_id": "clinical data",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "clinical information",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "computer science",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "data integration",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "decision making",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "diseases",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "information management",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "integration",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "iso 13606",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "knowledge management",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "medical information system",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "patient treatment",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "standardization",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "terminology",
+        "strength": 3
+      },
+      {
+        "source_id": "health care",
+        "target_id": "architecture",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "article",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "artificial intelligence",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "big data",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "biochemical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "blockchain",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "clinical archetypes",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "clinical decision support",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "clinical decision support system",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "clinical knowledge",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "clinical research",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "data sharing",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "electronic health record system",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "health care professionals",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "health information system",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "healthcare",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "mapping",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "medical records system",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "models",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "openehr specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "snomed ct",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "software architecture",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "software design",
+        "strength": 2
+      },
+      {
+        "source_id": "health care",
+        "target_id": "specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "information system",
+        "strength": 11
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "ehealth",
+        "strength": 9
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "hospital data processing",
+        "strength": 8
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "biochemical engineering",
+        "strength": 7
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "health",
+        "strength": 7
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "health record",
+        "strength": 7
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "information use",
+        "strength": 7
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "electronic data interchange",
+        "strength": 6
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "electronic health",
+        "strength": 6
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "information management",
+        "strength": 6
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "decision support system",
+        "strength": 5
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "health information system",
+        "strength": 5
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "artificial intelligence",
+        "strength": 4
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "clinical data",
+        "strength": 4
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "clinical decision support system",
+        "strength": 4
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "diagnosis",
+        "strength": 4
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "hospitals",
+        "strength": 4
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "integration",
+        "strength": 4
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "knowledge representation",
+        "strength": 4
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "medical informatics",
+        "strength": 4
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "medical information system",
+        "strength": 4
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "big data",
+        "strength": 3
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "clinical information",
+        "strength": 3
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "health care professionals",
+        "strength": 3
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "health informatics",
+        "strength": 3
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "hl7 fhir",
+        "strength": 3
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "iso 13606",
+        "strength": 3
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "openehr specifications",
+        "strength": 3
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "telemedicine",
+        "strength": 3
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "tools",
+        "strength": 3
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "architecture",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "clinical archetypes",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "clinical decision support",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "clinical guideline",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "clinical information model",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "clinical research",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "computer science",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "data integration",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "data mining",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "data warehouse",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "digital storage",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "diseases",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "electronic document exchange",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "electronic medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "graphical user interface",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "hospital information system",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "information theory",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "knowledge management",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "mapping",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "medical data",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "ontology",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "open source",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "owl",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "standardization",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "standards",
+        "strength": 2
+      },
+      {
+        "source_id": "medical computing",
+        "target_id": "user interfaces",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "information use",
+        "strength": 12
+      },
+      {
+        "source_id": "information system",
+        "target_id": "health",
+        "strength": 8
+      },
+      {
+        "source_id": "information system",
+        "target_id": "computer science",
+        "strength": 5
+      },
+      {
+        "source_id": "information system",
+        "target_id": "health information system",
+        "strength": 5
+      },
+      {
+        "source_id": "information system",
+        "target_id": "health level 7",
+        "strength": 5
+      },
+      {
+        "source_id": "information system",
+        "target_id": "hospitals",
+        "strength": 5
+      },
+      {
+        "source_id": "information system",
+        "target_id": "integration",
+        "strength": 5
+      },
+      {
+        "source_id": "information system",
+        "target_id": "clinical data",
+        "strength": 4
+      },
+      {
+        "source_id": "information system",
+        "target_id": "clinical information",
+        "strength": 4
+      },
+      {
+        "source_id": "information system",
+        "target_id": "ehealth",
+        "strength": 4
+      },
+      {
+        "source_id": "information system",
+        "target_id": "hospital data processing",
+        "strength": 4
+      },
+      {
+        "source_id": "information system",
+        "target_id": "information theory",
+        "strength": 4
+      },
+      {
+        "source_id": "information system",
+        "target_id": "article",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "computer architecture",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "data integration",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "electronic data interchange",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "electronic health",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "electronic medical record",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "health record",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "healthcare system",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "hospital information system",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "medical services",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "ontology",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "pervasive healthcare",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "standards",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "terminology",
+        "strength": 3
+      },
+      {
+        "source_id": "information system",
+        "target_id": "application programs",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "clinical archetypes",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "continuity of care",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "data warehouse",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "decision making",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "electronic document exchange",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "health care professionals",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "information management",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "information modeling",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "knowledge management",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "medical informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "medical information system",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "metadata",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "open source",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "owl",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "snomed ct",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "standardization",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "telemedicine",
+        "strength": 2
+      },
+      {
+        "source_id": "information system",
+        "target_id": "ubiquitous computing",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "health record",
+        "strength": 7
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "electronic health",
+        "strength": 6
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "information use",
+        "strength": 5
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "m2m communication",
+        "strength": 5
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "medical informatics",
+        "strength": 5
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "health",
+        "strength": 4
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "information management",
+        "strength": 4
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "standardization",
+        "strength": 4
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "application programs",
+        "strength": 3
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "biomedical engineering",
+        "strength": 3
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "electronic data interchange",
+        "strength": 3
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "healthcare",
+        "strength": 3
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "hl7 fhir",
+        "strength": 3
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "clinical information",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "diseases",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "electronic document exchange",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "health informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "health information system",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "health level 7",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "healthcare system",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "hospital data processing",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "hospitals",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "iso 13606",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "medical information system",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "openehr specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "patient treatment",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "standards",
+        "strength": 2
+      },
+      {
+        "source_id": "ehealth",
+        "target_id": "telemedicine",
+        "strength": 2
+      },
+      {
+        "source_id": "iso 13606",
+        "target_id": "biochemical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "iso 13606",
+        "target_id": "clinical information",
+        "strength": 2
+      },
+      {
+        "source_id": "iso 13606",
+        "target_id": "hl7 cda",
+        "strength": 2
+      },
+      {
+        "source_id": "iso 13606",
+        "target_id": "information use",
+        "strength": 2
+      },
+      {
+        "source_id": "iso 13606",
+        "target_id": "standardization",
+        "strength": 2
+      },
+      {
+        "source_id": "iso 13606",
+        "target_id": "standards",
+        "strength": 2
+      },
+      {
+        "source_id": "iso 13606",
+        "target_id": "telemedicine",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "health information system",
+        "strength": 5
+      },
+      {
+        "source_id": "health",
+        "target_id": "computer science",
+        "strength": 4
+      },
+      {
+        "source_id": "health",
+        "target_id": "health level 7",
+        "strength": 4
+      },
+      {
+        "source_id": "health",
+        "target_id": "integration",
+        "strength": 4
+      },
+      {
+        "source_id": "health",
+        "target_id": "standardization",
+        "strength": 4
+      },
+      {
+        "source_id": "health",
+        "target_id": "architecture",
+        "strength": 3
+      },
+      {
+        "source_id": "health",
+        "target_id": "clinical information",
+        "strength": 3
+      },
+      {
+        "source_id": "health",
+        "target_id": "health informatics",
+        "strength": 3
+      },
+      {
+        "source_id": "health",
+        "target_id": "hospital data processing",
+        "strength": 3
+      },
+      {
+        "source_id": "health",
+        "target_id": "hospitals",
+        "strength": 3
+      },
+      {
+        "source_id": "health",
+        "target_id": "ontology",
+        "strength": 3
+      },
+      {
+        "source_id": "health",
+        "target_id": "standards",
+        "strength": 3
+      },
+      {
+        "source_id": "health",
+        "target_id": "access control",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "big data",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "data integration",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "digital storage",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "electronic data interchange",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "health record",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "information use",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "knowledge management",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "knowledge representation",
+        "strength": 2
+      },
+      {
+        "source_id": "health",
+        "target_id": "medical information system",
+        "strength": 2
+      },
+      {
+        "source_id": "standardization",
+        "target_id": "electronic data interchange",
+        "strength": 3
+      },
+      {
+        "source_id": "standardization",
+        "target_id": "en 13606",
+        "strength": 3
+      },
+      {
+        "source_id": "standardization",
+        "target_id": "clinical information",
+        "strength": 2
+      },
+      {
+        "source_id": "standardization",
+        "target_id": "health level 7",
+        "strength": 2
+      },
+      {
+        "source_id": "standardization",
+        "target_id": "hospital data processing",
+        "strength": 2
+      },
+      {
+        "source_id": "standardization",
+        "target_id": "hospitals",
+        "strength": 2
+      },
+      {
+        "source_id": "standardization",
+        "target_id": "medical informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "standardization",
+        "target_id": "systems",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic health",
+        "target_id": "health record",
+        "strength": 14
+      },
+      {
+        "source_id": "electronic health",
+        "target_id": "information management",
+        "strength": 6
+      },
+      {
+        "source_id": "electronic health",
+        "target_id": "electronic data interchange",
+        "strength": 3
+      },
+      {
+        "source_id": "electronic health",
+        "target_id": "electronic document exchange",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic health",
+        "target_id": "healthcare",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic health",
+        "target_id": "information use",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic health",
+        "target_id": "knowledge management",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic health",
+        "target_id": "medical informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic health",
+        "target_id": "specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "health record",
+        "target_id": "information management",
+        "strength": 6
+      },
+      {
+        "source_id": "health record",
+        "target_id": "ontology",
+        "strength": 4
+      },
+      {
+        "source_id": "health record",
+        "target_id": "electronic data interchange",
+        "strength": 3
+      },
+      {
+        "source_id": "health record",
+        "target_id": "clinical data",
+        "strength": 2
+      },
+      {
+        "source_id": "health record",
+        "target_id": "decision making",
+        "strength": 2
+      },
+      {
+        "source_id": "health record",
+        "target_id": "electronic document exchange",
+        "strength": 2
+      },
+      {
+        "source_id": "health record",
+        "target_id": "healthcare",
+        "strength": 2
+      },
+      {
+        "source_id": "health record",
+        "target_id": "information use",
+        "strength": 2
+      },
+      {
+        "source_id": "health record",
+        "target_id": "knowledge management",
+        "strength": 2
+      },
+      {
+        "source_id": "health record",
+        "target_id": "medical informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "health record",
+        "target_id": "specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "health level 7",
+        "strength": 4
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "information use",
+        "strength": 4
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "medical information system",
+        "strength": 4
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "article",
+        "strength": 3
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "electronic medical record",
+        "strength": 3
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "hospital data processing",
+        "strength": 3
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "integration",
+        "strength": 3
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "clinical data",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "decision making",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "information management",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "knowledge representation",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "mapping",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "medical informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "medical records system",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "patient information",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "software architecture",
+        "strength": 2
+      },
+      {
+        "source_id": "health information system",
+        "target_id": "standards",
+        "strength": 2
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "clinical decision support system",
+        "strength": 8
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "artificial intelligence",
+        "strength": 5
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "decision making",
+        "strength": 5
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "clinical decision support",
+        "strength": 3
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "diagnosis",
+        "strength": 3
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "hospitals",
+        "strength": 3
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "practice guideline",
+        "strength": 3
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "biochemical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "conference abstract",
+        "strength": 2
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "data integration",
+        "strength": 2
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "electronic data interchange",
+        "strength": 2
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "electronic health record system",
+        "strength": 2
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "human",
+        "strength": 2
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "knowledge representation",
+        "strength": 2
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "patient treatment",
+        "strength": 2
+      },
+      {
+        "source_id": "decision support system",
+        "target_id": "tools",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "clinical data",
+        "strength": 3
+      },
+      {
+        "source_id": "information use",
+        "target_id": "clinical information",
+        "strength": 3
+      },
+      {
+        "source_id": "information use",
+        "target_id": "information management",
+        "strength": 3
+      },
+      {
+        "source_id": "information use",
+        "target_id": "information modeling",
+        "strength": 3
+      },
+      {
+        "source_id": "information use",
+        "target_id": "application programs",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "clinical archetypes",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "clinical research",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "continuity of care",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "electronic data interchange",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "information theory",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "mapping",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "medical information system",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "metadata",
+        "strength": 2
+      },
+      {
+        "source_id": "information use",
+        "target_id": "open source",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "clinical archetypes",
+        "strength": 4
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "medical informatics",
+        "strength": 4
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "owl",
+        "strength": 4
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "knowledge management",
+        "strength": 3
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "knowledge representation",
+        "strength": 3
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "snomed ct",
+        "strength": 3
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "biomedical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "clinical data",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "clinical model",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "electronic data interchange",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "health informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "information theory",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "medical information system",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "ontology",
+        "target_id": "model",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical decision support system",
+        "target_id": "artificial intelligence",
+        "strength": 5
+      },
+      {
+        "source_id": "clinical decision support system",
+        "target_id": "decision making",
+        "strength": 5
+      },
+      {
+        "source_id": "clinical decision support system",
+        "target_id": "clinical guideline",
+        "strength": 3
+      },
+      {
+        "source_id": "clinical decision support system",
+        "target_id": "biochemical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical decision support system",
+        "target_id": "clinical decision support",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical decision support system",
+        "target_id": "data integration",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical decision support system",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical decision support system",
+        "target_id": "electronic health record system",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical decision support system",
+        "target_id": "hospitals",
+        "strength": 2
+      },
+      {
+        "source_id": "standards",
+        "target_id": "computer science",
+        "strength": 2
+      },
+      {
+        "source_id": "standards",
+        "target_id": "covid-19",
+        "strength": 2
+      },
+      {
+        "source_id": "standards",
+        "target_id": "electronic health record system",
+        "strength": 2
+      },
+      {
+        "source_id": "standards",
+        "target_id": "health level 7",
+        "strength": 2
+      },
+      {
+        "source_id": "standards",
+        "target_id": "knowledge management",
+        "strength": 2
+      },
+      {
+        "source_id": "health level 7",
+        "target_id": "data integration",
+        "strength": 2
+      },
+      {
+        "source_id": "health level 7",
+        "target_id": "electronic medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "health level 7",
+        "target_id": "hospitals",
+        "strength": 2
+      },
+      {
+        "source_id": "health level 7",
+        "target_id": "information",
+        "strength": 2
+      },
+      {
+        "source_id": "health level 7",
+        "target_id": "templates",
+        "strength": 2
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "data integration",
+        "strength": 4
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "electronic data interchange",
+        "strength": 4
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "health care professionals",
+        "strength": 3
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "integration",
+        "strength": 3
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "big data",
+        "strength": 2
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "biochemical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "hospitals",
+        "strength": 2
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "knowledge representation",
+        "strength": 2
+      },
+      {
+        "source_id": "hospital data processing",
+        "target_id": "user interfaces",
+        "strength": 2
+      },
+      {
+        "source_id": "human",
+        "target_id": "conference abstract",
+        "strength": 7
+      },
+      {
+        "source_id": "human",
+        "target_id": "female",
+        "strength": 5
+      },
+      {
+        "source_id": "human",
+        "target_id": "model",
+        "strength": 5
+      },
+      {
+        "source_id": "human",
+        "target_id": "diagnosis",
+        "strength": 4
+      },
+      {
+        "source_id": "human",
+        "target_id": "data base",
+        "strength": 3
+      },
+      {
+        "source_id": "human",
+        "target_id": "medical informatics",
+        "strength": 3
+      },
+      {
+        "source_id": "human",
+        "target_id": "medical record",
+        "strength": 3
+      },
+      {
+        "source_id": "human",
+        "target_id": "medical records system",
+        "strength": 3
+      },
+      {
+        "source_id": "human",
+        "target_id": "practice guideline",
+        "strength": 3
+      },
+      {
+        "source_id": "human",
+        "target_id": "software",
+        "strength": 3
+      },
+      {
+        "source_id": "human",
+        "target_id": "article",
+        "strength": 2
+      },
+      {
+        "source_id": "human",
+        "target_id": "data integration",
+        "strength": 2
+      },
+      {
+        "source_id": "human",
+        "target_id": "data quality",
+        "strength": 2
+      },
+      {
+        "source_id": "human",
+        "target_id": "information retrieval",
+        "strength": 2
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "article",
+        "strength": 4
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "biomedical engineering",
+        "strength": 4
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "health informatics",
+        "strength": 4
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "electronic medical record",
+        "strength": 3
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "medical information system",
+        "strength": 3
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "medical record",
+        "strength": 3
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "clinical knowledge",
+        "strength": 2
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "electronic data interchange",
+        "strength": 2
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "hl7 fhir",
+        "strength": 2
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "knowledge management",
+        "strength": 2
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "medical records system",
+        "strength": 2
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "openehr specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "medical informatics",
+        "target_id": "software",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "computer architecture",
+        "strength": 3
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "telemedicine",
+        "strength": 3
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "architecture",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "artificial intelligence",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "biochemical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "biomedical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "clinical information",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "hospital information system",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "integration",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "medical services",
+        "strength": 2
+      },
+      {
+        "source_id": "hospitals",
+        "target_id": "patient treatment",
+        "strength": 2
+      },
+      {
+        "source_id": "information management",
+        "target_id": "clinical data",
+        "strength": 2
+      },
+      {
+        "source_id": "information management",
+        "target_id": "digital storage",
+        "strength": 2
+      },
+      {
+        "source_id": "information management",
+        "target_id": "specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "telemedicine",
+        "target_id": "biochemical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "telemedicine",
+        "target_id": "biomedical engineering",
+        "strength": 2
+      },
+      {
+        "source_id": "telemedicine",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "telemedicine",
+        "target_id": "electronic medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "telemedicine",
+        "target_id": "tools",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic data interchange",
+        "target_id": "big data",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic data interchange",
+        "target_id": "clinical decision support",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic data interchange",
+        "target_id": "data sharing",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic data interchange",
+        "target_id": "digital storage",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic data interchange",
+        "target_id": "electronic document exchange",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic data interchange",
+        "target_id": "health informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic data interchange",
+        "target_id": "knowledge representation",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic data interchange",
+        "target_id": "metadata",
+        "strength": 2
+      },
+      {
+        "source_id": "templates",
+        "target_id": "detailed clinical models",
+        "strength": 2
+      },
+      {
+        "source_id": "templates",
+        "target_id": "information modeling",
+        "strength": 2
+      },
+      {
+        "source_id": "biochemical engineering",
+        "target_id": "diagnosis",
+        "strength": 3
+      },
+      {
+        "source_id": "biochemical engineering",
+        "target_id": "tools",
+        "strength": 3
+      },
+      {
+        "source_id": "biochemical engineering",
+        "target_id": "artificial intelligence",
+        "strength": 2
+      },
+      {
+        "source_id": "biochemical engineering",
+        "target_id": "clinical information",
+        "strength": 2
+      },
+      {
+        "source_id": "biochemical engineering",
+        "target_id": "graphical user interface",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical information",
+        "target_id": "information theory",
+        "strength": 3
+      },
+      {
+        "source_id": "clinical information",
+        "target_id": "clinical information model",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical information",
+        "target_id": "health informatics",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical information",
+        "target_id": "information modeling",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical information",
+        "target_id": "integration",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical information",
+        "target_id": "terminology",
+        "strength": 2
+      },
+      {
+        "source_id": "conference abstract",
+        "target_id": "female",
+        "strength": 4
+      },
+      {
+        "source_id": "conference abstract",
+        "target_id": "diagnosis",
+        "strength": 3
+      },
+      {
+        "source_id": "conference abstract",
+        "target_id": "practice guideline",
+        "strength": 2
+      },
+      {
+        "source_id": "knowledge management",
+        "target_id": "knowledge representation",
+        "strength": 3
+      },
+      {
+        "source_id": "knowledge management",
+        "target_id": "medical information system",
+        "strength": 2
+      },
+      {
+        "source_id": "knowledge management",
+        "target_id": "terminology",
+        "strength": 2
+      },
+      {
+        "source_id": "knowledge representation",
+        "target_id": "medical information system",
+        "strength": 3
+      },
+      {
+        "source_id": "knowledge representation",
+        "target_id": "snomed ct",
+        "strength": 3
+      },
+      {
+        "source_id": "knowledge representation",
+        "target_id": "clinical data",
+        "strength": 2
+      },
+      {
+        "source_id": "knowledge representation",
+        "target_id": "data integration",
+        "strength": 2
+      },
+      {
+        "source_id": "knowledge representation",
+        "target_id": "mapping",
+        "strength": 2
+      },
+      {
+        "source_id": "knowledge representation",
+        "target_id": "owl",
+        "strength": 2
+      },
+      {
+        "source_id": "knowledge representation",
+        "target_id": "terminology",
+        "strength": 2
+      },
+      {
+        "source_id": "snomed ct",
+        "target_id": "clinical archetypes",
+        "strength": 3
+      },
+      {
+        "source_id": "snomed ct",
+        "target_id": "terminology",
+        "strength": 3
+      },
+      {
+        "source_id": "snomed ct",
+        "target_id": "clinical data",
+        "strength": 2
+      },
+      {
+        "source_id": "snomed ct",
+        "target_id": "computer science",
+        "strength": 2
+      },
+      {
+        "source_id": "snomed ct",
+        "target_id": "mapping",
+        "strength": 2
+      },
+      {
+        "source_id": "template",
+        "target_id": "covid-19",
+        "strength": 2
+      },
+      {
+        "source_id": "artificial intelligence",
+        "target_id": "clinical guideline",
+        "strength": 2
+      },
+      {
+        "source_id": "artificial intelligence",
+        "target_id": "decision making",
+        "strength": 2
+      },
+      {
+        "source_id": "artificial intelligence",
+        "target_id": "electronic health record system",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical data",
+        "target_id": "architecture",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical data",
+        "target_id": "clinical archetypes",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical data",
+        "target_id": "data integration",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical data",
+        "target_id": "data warehouse",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical data",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical research",
+        "target_id": "metadata",
+        "strength": 3
+      },
+      {
+        "source_id": "clinical research",
+        "target_id": "big data",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical research",
+        "target_id": "data sharing",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical research",
+        "target_id": "data warehouse",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical research",
+        "target_id": "open source",
+        "strength": 2
+      },
+      {
+        "source_id": "covid-19",
+        "target_id": "health information interoperability",
+        "strength": 2
+      },
+      {
+        "source_id": "data integration",
+        "target_id": "integration",
+        "strength": 2
+      },
+      {
+        "source_id": "health informatics",
+        "target_id": "digital storage",
+        "strength": 2
+      },
+      {
+        "source_id": "health informatics",
+        "target_id": "electronic document exchange",
+        "strength": 2
+      },
+      {
+        "source_id": "health informatics",
+        "target_id": "hl7 fhir",
+        "strength": 2
+      },
+      {
+        "source_id": "hospital information system",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "hospital information system",
+        "target_id": "graphical user interface",
+        "strength": 2
+      },
+      {
+        "source_id": "medical information system",
+        "target_id": "article",
+        "strength": 3
+      },
+      {
+        "source_id": "medical information system",
+        "target_id": "electronic medical record",
+        "strength": 3
+      },
+      {
+        "source_id": "medical information system",
+        "target_id": "integration",
+        "strength": 2
+      },
+      {
+        "source_id": "medical information system",
+        "target_id": "mapping",
+        "strength": 2
+      },
+      {
+        "source_id": "healthcare system",
+        "target_id": "pervasive healthcare",
+        "strength": 3
+      },
+      {
+        "source_id": "healthcare system",
+        "target_id": "patient treatment",
+        "strength": 2
+      },
+      {
+        "source_id": "healthcare system",
+        "target_id": "ubiquitous computing",
+        "strength": 2
+      },
+      {
+        "source_id": "detailed clinical models",
+        "target_id": "information modeling",
+        "strength": 2
+      },
+      {
+        "source_id": "owl",
+        "target_id": "clinical archetypes",
+        "strength": 2
+      },
+      {
+        "source_id": "pervasive healthcare",
+        "target_id": "ubiquitous computing",
+        "strength": 4
+      },
+      {
+        "source_id": "architecture",
+        "target_id": "article",
+        "strength": 2
+      },
+      {
+        "source_id": "architecture",
+        "target_id": "diagnosis",
+        "strength": 2
+      },
+      {
+        "source_id": "architecture",
+        "target_id": "models",
+        "strength": 2
+      },
+      {
+        "source_id": "article",
+        "target_id": "electronic medical record",
+        "strength": 5
+      },
+      {
+        "source_id": "article",
+        "target_id": "medical record",
+        "strength": 3
+      },
+      {
+        "source_id": "article",
+        "target_id": "medical records system",
+        "strength": 3
+      },
+      {
+        "source_id": "article",
+        "target_id": "software",
+        "strength": 2
+      },
+      {
+        "source_id": "article",
+        "target_id": "standard",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic medical record",
+        "target_id": "data base",
+        "strength": 2
+      },
+      {
+        "source_id": "electronic medical record",
+        "target_id": "model",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical archetypes",
+        "target_id": "terminology",
+        "strength": 3
+      },
+      {
+        "source_id": "clinical archetypes",
+        "target_id": "information theory",
+        "strength": 2
+      },
+      {
+        "source_id": "clinical archetypes",
+        "target_id": "tools",
+        "strength": 2
+      },
+      {
+        "source_id": "diagnosis",
+        "target_id": "data warehouse",
+        "strength": 2
+      },
+      {
+        "source_id": "diagnosis",
+        "target_id": "diseases",
+        "strength": 2
+      },
+      {
+        "source_id": "diagnosis",
+        "target_id": "graphical user interface",
+        "strength": 2
+      },
+      {
+        "source_id": "diagnosis",
+        "target_id": "medical record",
+        "strength": 2
+      },
+      {
+        "source_id": "diagnosis",
+        "target_id": "patient treatment",
+        "strength": 2
+      },
+      {
+        "source_id": "diagnosis",
+        "target_id": "tools",
+        "strength": 2
+      },
+      {
+        "source_id": "patient treatment",
+        "target_id": "diseases",
+        "strength": 2
+      },
+      {
+        "source_id": "tools",
+        "target_id": "graphical user interface",
+        "strength": 2
+      },
+      {
+        "source_id": "tools",
+        "target_id": "user interfaces",
+        "strength": 2
+      },
+      {
+        "source_id": "model",
+        "target_id": "data base",
+        "strength": 2
+      },
+      {
+        "source_id": "model",
+        "target_id": "information storage and retrieval",
+        "strength": 2
+      },
+      {
+        "source_id": "model",
+        "target_id": "medical records system",
+        "strength": 2
+      },
+      {
+        "source_id": "terminology",
+        "target_id": "information theory",
+        "strength": 2
+      },
+      {
+        "source_id": "terminology",
+        "target_id": "medical services",
+        "strength": 2
+      },
+      {
+        "source_id": "terminology",
+        "target_id": "models",
+        "strength": 2
+      },
+      {
+        "source_id": "terminology",
+        "target_id": "software",
+        "strength": 2
+      },
+      {
+        "source_id": "models",
+        "target_id": "software design",
+        "strength": 2
+      },
+      {
+        "source_id": "biomedical engineering",
+        "target_id": "clinical knowledge",
+        "strength": 2
+      },
+      {
+        "source_id": "continuity of care",
+        "target_id": "information modeling",
+        "strength": 2
+      },
+      {
+        "source_id": "data warehouse",
+        "target_id": "data mining",
+        "strength": 2
+      },
+      {
+        "source_id": "data warehouse",
+        "target_id": "metadata",
+        "strength": 2
+      },
+      {
+        "source_id": "information modeling",
+        "target_id": "information theory",
+        "strength": 2
+      },
+      {
+        "source_id": "information retrieval",
+        "target_id": "information storage and retrieval",
+        "strength": 2
+      },
+      {
+        "source_id": "medical records system",
+        "target_id": "medical record",
+        "strength": 4
+      },
+      {
+        "source_id": "medical records system",
+        "target_id": "reference standards",
+        "strength": 2
+      },
+      {
+        "source_id": "medical records system",
+        "target_id": "software",
+        "strength": 2
+      },
+      {
+        "source_id": "medical records system",
+        "target_id": "standard",
+        "strength": 2
+      },
+      {
+        "source_id": "open source",
+        "target_id": "data sharing",
+        "strength": 3
+      },
+      {
+        "source_id": "openehr specifications",
+        "target_id": "electronic document exchange",
+        "strength": 2
+      },
+      {
+        "source_id": "openehr specifications",
+        "target_id": "specifications",
+        "strength": 2
+      },
+      {
+        "source_id": "xml",
+        "target_id": "computer architecture",
+        "strength": 2
+      },
+      {
+        "source_id": "xml",
+        "target_id": "medical services",
+        "strength": 2
+      },
+      {
+        "source_id": "medical record",
+        "target_id": "standard",
+        "strength": 3
+      },
+      {
+        "source_id": "software design",
+        "target_id": "software architecture",
+        "strength": 2
+      },
+      {
+        "source_id": "computer architecture",
+        "target_id": "medical services",
+        "strength": 3
+      },
+      {
+        "source_id": "medical services",
+        "target_id": "software",
+        "strength": 2
+      },
+      {
+        "source_id": "common data element",
+        "target_id": "informatics",
+        "strength": 2
+      }
+    ]
+  }
+}

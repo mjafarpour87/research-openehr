@@ -1,0 +1,3179 @@
+---
+title: "ISO 13606 and openEHR in Health Informatics: A Multi-Database Bibliometric and Thematic Analysis"
+subtitle: "Reproducible analytical workflow supporting the manuscript and supplementary analyses"
+jupyter: python3
+format:
+  html:
+    page-layout: full
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    code-fold: true
+    code-summary: "Show code"
+    code-tools: true
+    embed-resources: true
+    self-contained-math: true
+    html-math-method: mathjax
+    df-print: paged
+    smooth-scroll: true
+    link-external-newwindow: true
+    theme: cosmo
+execute:
+  echo: true
+  warning: false
+  error: false
+  cache: false
+---
+
+## Analytical scope and conventions
+
+This document contains the reproducible analytical workflow used for the bibliometric, citation, geographic, collaboration, author, journal, thematic, and network analyses reported in the manuscript and supplementary material. The analysis is based on the final included corpus returned by `DATASET()`. Database-specific retrieval, deduplication, screening, and adjudication occur upstream of this notebook.
+
+The source database is encoded in the `bank` field as follows:
+
+| Database | `bank` code |
+|---|---:|
+| PubMed | 1 |
+| Web of Science (WOS) | 3 |
+| Scopus | 4 |
+| IEEE Xplore | 5 |
+| Embase | 8 |
+
+Citation metadata were retrieved in 2026. Missing citation values are retained as missing (`NaN`) and are never recoded as zero. A citation count of zero therefore represents a verified uncited publication, whereas `NaN` represents unavailable citation information.
+
+Country analyses use **full counting**: each publication contributes once to every unique country represented in its affiliations. Thematic categories are non-mutually exclusive. Unless a section states otherwise, repeated occurrences of the same country, keyword, author, or thematic category within one publication are counted once at the publication level.
+
+Display equations in this report use standard LaTeX delimiters such as `$$ ... $$`. The HTML output is configured to use MathJax and to embed the MathJax library in the standalone HTML file.
+
+### Setup and shared helper functions
+
+The setup cell imports the common libraries, initializes offline ITables support, loads the final corpus once, creates the output directory, and defines small preprocessing helpers reused throughout the workflow. Interactive tables include **Copy** and **CSV** export buttons.
+
+```{python}
+from __future__ import annotations
+
+import ast
+import json
+import math
+from collections import Counter
+from itertools import combinations
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+import networkx as nx
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import pycountry
+from itables import init_notebook_mode, show
+from matplotlib.ticker import MaxNLocator
+from scipy.stats import chi2 as chi2_distribution
+from scipy.stats import linregress
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
+from src.config import OUTPUT_DIR, SAVE_MODE
+from src.lib_dataset import (
+    COUNTRY_ALIASES,
+    DISPLAY_NAMES,
+    DATASET,
+    keyword_map,
+    unwanted_keywords,
+)
+from src.lib_visualization import dataframe_to_csv, plt_savefig
+
+
+# -----------------------------------------------------------------------------
+# Notebook-wide constants
+# -----------------------------------------------------------------------------
+ANALYSIS_YEAR = 2026
+FIRST_ELIGIBLE_YEAR = 1999
+LAST_ELIGIBLE_YEAR = 2025
+THEMATIC_COLUMN = "DEFA_assigned_category_v3"
+OTHER_THEME = "Other"
+SUBSTANTIVE_THEMES = [
+    "Technical integration",
+    "Semantic interoperability",
+    "Evaluation & impact",
+    "Comparative assessments",
+    "Clinical adoption - use",
+    "Regulatory - governance - ethics",
+    "Education - training - human factors",
+]
+
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+# Load ITables resources into the notebook output itself. With connected=False,
+# the generated report does not depend on an external DataTables CDN.
+init_notebook_mode(all_interactive=False, connected=False)
+
+
+def show_interactive_table(
+    df,
+    paging=False,
+    searching=False,
+    info=False,
+):
+    """
+    Display an interactive table with copy and CSV export buttons.
+    """
+    return show(
+        df,
+        buttons=[
+            "copyHtml5",
+            "csvHtml5",
+        ],
+        dom="Bfrtip",
+        paging=paging,
+        searching=searching,
+        info=info,
+    )
+
+
+# Load the final included corpus once. Individual analyses use copies so that
+# temporary transformations cannot modify the shared source dataframe.
+corpus_df = DATASET().copy()
+
+
+def as_list(value) -> list:
+    """Return a value as a list without turning strings into characters."""
+    if isinstance(value, list):
+        return value
+    if isinstance(value, (tuple, set)):
+        return list(value)
+    if value is None:
+        return []
+    if not isinstance(value, (list, tuple, set, dict)) and pd.isna(value):
+        return []
+    if isinstance(value, str):
+        stripped = value.strip()
+        if not stripped:
+            return []
+        try:
+            parsed = ast.literal_eval(stripped)
+        except (ValueError, SyntaxError):
+            return [stripped]
+        if isinstance(parsed, (list, tuple, set)):
+            return list(parsed)
+        return [parsed]
+    return [value]
+
+
+def clean_unique_strings(value) -> list[str]:
+    """Return unique, non-empty strings while preserving their first order."""
+    cleaned = []
+    seen = set()
+    for item in as_list(value):
+        text = str(item).strip()
+        if not text or text.lower() in {"nan", "none"} or text in seen:
+            continue
+        seen.add(text)
+        cleaned.append(text)
+    return cleaned
+
+
+def prepare_year(series: pd.Series) -> pd.Series:
+    """Convert publication years to numeric form while retaining missing values."""
+    return pd.to_numeric(series, errors="coerce")
+
+
+def prepare_citations(series: pd.Series) -> pd.Series:
+    """Convert citation values to numeric form and preserve missing values as NaN."""
+    return pd.to_numeric(series, errors="coerce")
+
+
+def add_publication_id(df: pd.DataFrame) -> pd.DataFrame:
+    """Add a reproducible publication identifier without changing source fields."""
+    result = df.copy()
+    if "DBUID" in result.columns:
+        dbuid = result["DBUID"].astype("string").str.strip()
+        fallback = pd.Series(
+            [f"row_{i}" for i in result.index],
+            index=result.index,
+            dtype="string",
+        )
+        result["publication_id"] = dbuid.where(dbuid.notna() & dbuid.ne(""), fallback)
+    else:
+        result["publication_id"] = [f"row_{i}" for i in result.index]
+    return result
+
+
+def normalize_country(country: str) -> tuple[str | None, str | None]:
+    """Return a canonical country display name and ISO-3 code."""
+    if country is None:
+        return None, None
+    raw = str(country).strip()
+    if not raw:
+        return None, None
+
+    lookup_name = COUNTRY_ALIASES.get(raw.lower(), raw)
+    try:
+        match = pycountry.countries.lookup(lookup_name)
+        iso3 = match.alpha_3
+        display_name = DISPLAY_NAMES.get(iso3, match.name)
+        return display_name, iso3
+    except LookupError:
+        return raw, None
+
+
+def prepare_publication_country_table(df: pd.DataFrame) -> pd.DataFrame:
+    """Create one row per unique publication-country pair for full counting."""
+    work = add_publication_id(df)
+    work["affiliation_country"] = work["affiliation_country"].apply(clean_unique_strings)
+    long_df = work[["publication_id", "citation_count", "affiliation_country"]].explode(
+        "affiliation_country"
+    )
+    long_df = long_df.dropna(subset=["affiliation_country"]).copy()
+    normalized = long_df["affiliation_country"].apply(normalize_country)
+    long_df[["Country", "ISO3"]] = pd.DataFrame(
+        normalized.tolist(), index=long_df.index
+    )
+    long_df = long_df.dropna(subset=["Country"]).drop_duplicates(
+        ["publication_id", "Country"]
+    )
+    return long_df
+
+
+def prepare_themes(value, include_other: bool = True) -> list[str]:
+    """Return unique thematic categories in the manuscript vocabulary."""
+    allowed = set(SUBSTANTIVE_THEMES)
+    if include_other:
+        allowed.add(OTHER_THEME)
+    return [item for item in clean_unique_strings(value) if item in allowed]
+
+
+def normalize_keywords(value) -> list[str]:
+    """Apply the same keyword harmonization rules to every keyword analysis."""
+    mapping = {
+        str(key).strip().lower(): str(mapped).strip().lower()
+        for key, mapped in keyword_map().items()
+    }
+    excluded = {str(keyword).strip().lower() for keyword in unwanted_keywords()}
+
+    normalized = []
+    seen = set()
+    for item in clean_unique_strings(value):
+        term = item.lower().strip()
+        if not term or term in excluded:
+            continue
+        term = mapping.get(term, term)
+        if not term or term in excluded or term in seen:
+            continue
+        seen.add(term)
+        normalized.append(term)
+    return normalized
+
+
+def save_plotly_html(fig, filename: str) -> None:
+    """Save a Plotly figure as a standalone HTML file with Plotly JS embedded."""
+    if SAVE_MODE:
+        path = OUTPUT_DIR / filename
+        fig.write_html(path, include_plotlyjs=True, full_html=True)
+        print(f"Saved interactive HTML: {path.name}")
+
+
+def try_save_plotly_png(fig, filename: str, scale: int = 2) -> None:
+    """Save Plotly PNG when the local Kaleido backend is available."""
+    if not SAVE_MODE:
+        return
+    try:
+        fig.write_image(str(OUTPUT_DIR / filename), scale=scale)
+        print(f"Saved PNG: {filename}")
+    except Exception as exc:
+        print(f"PNG export skipped for {filename}: {exc}")
+```
+
+## Dataset overview and preprocessing
+
+### Dataset description
+
+The final corpus integrates records originating from PubMed, Web of Science, Scopus, IEEE Xplore, and Embase. Upstream processing performs deduplication, screening, OpenAlex-based citation and affiliation harmonization, final thematic adjudication, and source-title standardization. This notebook begins from the final included corpus returned by `DATASET()`.
+
+The principal fields used in this workflow are:
+
+| Field | Analytical role |
+|---|---|
+| `bank` | Numeric source-database identifier |
+| `title` | Publication title |
+| `year` | Publication year |
+| `journal_title` / `publisher` | Canonical publication source |
+| `journal_issn` | Canonical journal ISSN |
+| `journal_q` | Journal quartile metadata |
+| `citation_count` | OpenAlex-harmonized citation count |
+| `authors` | Publication authors |
+| `keywords` | Author/index keywords |
+| `affiliation_country` | Harmonized affiliation countries |
+| `DEFA_assigned_category_v3` | Final adjudicated thematic categories |
+| `DBUID` | Internal publication identifier |
+
+### Descriptive statistics of the corpus
+
+For citation-based indicators, only publications with available citation values contribute to citation denominators. The arithmetic mean citations per publication is
+
+$$
+\mathrm{CPA}=\frac{\sum_{p=1}^{N_C} C_p}{N_C},
+$$
+
+where $C_p$ is the citation count of publication $p$ and $N_C$ is the number of publications with non-missing citation data. The h-index is the largest $h$ such that at least $h$ publications have $h$ or more citations; the i10-index is the number of publications with at least 10 citations.
+
+```{python}
+summary_df = corpus_df.copy()
+summary_df["year"] = prepare_year(summary_df["year"])
+summary_df["citation_count"] = prepare_citations(summary_df["citation_count"])
+
+for column in ["authors", "keywords", "affiliation_country", THEMATIC_COLUMN]:
+    if column in summary_df.columns:
+        summary_df[column] = summary_df[column].apply(clean_unique_strings)
+
+valid_citations = summary_df["citation_count"].dropna()
+valid_years = summary_df["year"].dropna().astype(int)
+sorted_citations = np.sort(valid_citations.to_numpy(dtype=float))[::-1]
+
+h_index = int(
+    max(
+        [rank for rank, value in enumerate(sorted_citations, start=1) if value >= rank],
+        default=0,
+    )
+)
+i10_index = int((valid_citations >= 10).sum())
+
+author_values = [author for values in summary_df["authors"] for author in values]
+keyword_values = [keyword for values in summary_df["keywords"] for keyword in values]
+country_values = [country for values in summary_df["affiliation_country"] for country in values]
+
+corpus_summary = pd.DataFrame(
+    {
+        "Indicator": [
+            "Publications",
+            "First publication year",
+            "Last publication year",
+            "Citation data available, n",
+            "Citation data missing, n",
+            "Citation data coverage, %",
+            "Total citations",
+            "Mean citations per publication",
+            "Median citations",
+            "Citation IQR (Q1-Q3)",
+            "Cited publications, % of corpus",
+            "Verified uncited publications, % of corpus",
+            "Verified uncited publications, % of citation-known records",
+            "h-index",
+            "i10-index",
+            "Unique authors",
+            "Unique keywords",
+            "Unique affiliation countries (raw labels)",
+        ],
+        "Value": [
+            len(summary_df),
+            int(valid_years.min()) if not valid_years.empty else np.nan,
+            int(valid_years.max()) if not valid_years.empty else np.nan,
+            int(valid_citations.shape[0]),
+            int(summary_df["citation_count"].isna().sum()),
+            round(valid_citations.shape[0] / len(summary_df) * 100, 2),
+            float(valid_citations.sum()),
+            round(float(valid_citations.mean()), 2),
+            round(float(valid_citations.median()), 2),
+            f"{valid_citations.quantile(0.25):.2f}-{valid_citations.quantile(0.75):.2f}",
+            round(float((summary_df["citation_count"] > 0).mean() * 100), 2),
+            round(float((summary_df["citation_count"] == 0).mean() * 100), 2),
+            round(float((valid_citations == 0).mean() * 100), 2),
+            h_index,
+            i10_index,
+            len(set(author_values)),
+            len(set(keyword_values)),
+            len(set(country_values)),
+        ],
+    }
+)
+
+dataframe_to_csv(corpus_summary, "table_corpus_summary.csv")
+show_interactive_table(corpus_summary)
+```
+
+The table above reports the corpus size and citation coverage explicitly. Missing citation metadata are therefore distinguishable from verified zero-citation records.
+
+### Citation-data completeness
+
+For citation-status group $s$ (missing, zero, or positive), the corpus percentage is
+
+$$
+Q_s=\frac{N_s}{N}\times100.
+$$
+
+```{python}
+citation_quality = pd.DataFrame(
+    {
+        "Citation status": ["Missing", "Zero", "Positive"],
+        "Publications": [
+            int(summary_df["citation_count"].isna().sum()),
+            int((summary_df["citation_count"] == 0).sum()),
+            int((summary_df["citation_count"] > 0).sum()),
+        ],
+    }
+)
+citation_quality["Percent of corpus"] = (
+    citation_quality["Publications"] / len(summary_df) * 100
+).round(2)
+
+dataframe_to_csv(citation_quality, "table_citation_data_completeness.csv")
+show_interactive_table(citation_quality)
+```
+
+No transformation is applied to missing citation values. This diagnostic table is used to document the denominator of every subsequent citation calculation.
+
+## Temporal analysis
+
+### Temporal trends and descriptive growth phases
+
+Annual publication growth between adjacent years is
+
+$$
+g_t=\frac{P_t-P_{t-1}}{P_{t-1}}\times100,
+$$
+
+where $P_t$ is the number of eligible publications in year $t$. The phase-detection procedure below is exploratory and descriptive; it identifies years with large absolute annual changes and fits a separate linear trend within each resulting segment.
+
+```{python}
+temporal_df = corpus_df.copy()
+temporal_df["year"] = prepare_year(temporal_df["year"])
+temporal_df = temporal_df.dropna(subset=["year"]).copy()
+temporal_df["year"] = temporal_df["year"].astype(int)
+
+annual_publications = (
+    temporal_df.groupby("year")
+    .size()
+    .reindex(
+        range(temporal_df["year"].min(), temporal_df["year"].max() + 1),
+        fill_value=0,
+    )
+    .rename("Publications")
+    .rename_axis("Year")
+    .reset_index()
+)
+annual_publications["Growth_%"] = annual_publications["Publications"].pct_change() * 100
+
+
+def detect_descriptive_phases(
+    annual_df: pd.DataFrame,
+    max_phases: int = 4,
+) -> list[int]:
+    """Return candidate break years from the largest absolute annual changes."""
+    growth = annual_df["Growth_%"].replace([np.inf, -np.inf], np.nan).abs().dropna()
+    if len(growth) < 3:
+        return []
+    n_breaks = min(max_phases - 1, max(1, int(round(math.sqrt(len(growth)) / 2))))
+    candidate_idx = growth.nlargest(n_breaks).index.tolist()
+    return sorted(int(annual_df.loc[idx, "Year"]) for idx in candidate_idx)
+
+
+phase_break_years = detect_descriptive_phases(annual_publications)
+phase_boundaries = [annual_publications["Year"].min()] + phase_break_years + [
+    annual_publications["Year"].max() + 1
+]
+
+phase_rows = []
+plt.figure(figsize=(12, 6))
+plt.plot(
+    annual_publications["Year"],
+    annual_publications["Publications"],
+    marker="o",
+    linewidth=1.8,
+    label="Annual publications",
+)
+
+for phase_number, (start, stop) in enumerate(
+    zip(phase_boundaries[:-1], phase_boundaries[1:]),
+    start=1,
+):
+    segment = annual_publications[
+        (annual_publications["Year"] >= start)
+        & (annual_publications["Year"] < stop)
+    ].copy()
+    if len(segment) < 2:
+        slope = np.nan
+        r_squared = np.nan
+    else:
+        model = LinearRegression().fit(segment[["Year"]], segment["Publications"])
+        predicted = model.predict(segment[["Year"]])
+        slope = float(model.coef_[0])
+        r_squared = float(r2_score(segment["Publications"], predicted))
+        plt.plot(segment["Year"], predicted, linestyle="--", linewidth=1.5)
+
+    phase_rows.append(
+        {
+            "Phase": phase_number,
+            "Start_Year": int(segment["Year"].min()),
+            "End_Year": int(segment["Year"].max()),
+            "Slope_Publications_per_Year": slope,
+            "R_squared": r_squared,
+        }
+    )
+
+for year in phase_break_years:
+    plt.axvline(year, linestyle=":", linewidth=1)
+
+plt.xlabel("Publication year")
+plt.ylabel("Publications")
+plt.title("Annual Publication Output with Descriptive Growth Phases")
+plt.grid(alpha=0.25)
+plt.legend()
+plt_savefig(plt, "fig_publication_growth_phases.jpg")
+plt.close()
+
+phase_summary = pd.DataFrame(phase_rows)
+dataframe_to_csv(annual_publications, "table_annual_publications.csv")
+dataframe_to_csv(phase_summary, "table_publication_growth_phases.csv")
+show_interactive_table(phase_summary)
+```
+
+The phase table describes the observed year ranges, annual slopes, and within-segment $R^2$ values. These segments are descriptive summaries rather than inferential change-point estimates.
+
+### Compound annual growth rate (CAGR)
+
+Long-term publication growth is summarized using
+
+$$
+\mathrm{CAGR}=\left(\frac{P_{\mathrm{end}}}{P_{\mathrm{start}}}\right)^{1/n}-1,
+$$
+
+where $n$ is the number of annual intervals. For the year-specific series beginning in 1999, a year with zero publications is mathematically allowed. In particular, 2000 has
+
+$$
+\left(\frac{0}{2}\right)^{1/(2000-1999)}-1=-1=-100\%.
+$$
+
+```{python}
+cagr_df = annual_publications.copy()
+first_year = int(cagr_df["Year"].min())
+last_year = int(cagr_df["Year"].max())
+first_count = int(cagr_df.loc[cagr_df["Year"] == first_year, "Publications"].iloc[0])
+last_count = int(cagr_df.loc[cagr_df["Year"] == last_year, "Publications"].iloc[0])
+n_intervals = last_year - first_year
+
+overall_cagr = (
+    (last_count / first_count) ** (1 / n_intervals) - 1
+    if first_count > 0 and n_intervals > 0
+    else np.nan
+)
+
+cagr_rows = []
+for _, row in cagr_df.iterrows():
+    year = int(row["Year"])
+    count = int(row["Publications"])
+    intervals = year - first_year
+
+    # Zero publications are valid in this descriptive series. The previous
+    # implementation incorrectly returned NaN when count == 0; the formula
+    # yields -1.0 (-100%) for a positive baseline and at least one interval.
+    if intervals <= 0 or first_count <= 0:
+        value = np.nan
+    else:
+        value = (count / first_count) ** (1 / intervals) - 1
+
+    cagr_rows.append(
+        {
+            "Year": year,
+            "Publications": count,
+            "CAGR": value,
+            "CAGR_%": value * 100 if pd.notna(value) else np.nan,
+        }
+    )
+
+cagr_result = pd.DataFrame(cagr_rows)
+dataframe_to_csv(cagr_result, "table_publication_cagr.csv")
+
+plt.figure(figsize=(11, 5.5))
+plt.plot(cagr_result["Year"], cagr_result["CAGR_%"], marker="o", linewidth=1.5)
+plt.axhline(
+    overall_cagr * 100,
+    linestyle="--",
+    linewidth=1.2,
+    label=f"Overall CAGR = {overall_cagr * 100:.2f}%",
+)
+plt.xlabel("Publication year")
+plt.ylabel("CAGR from first year (%)")
+plt.title("Compound Annual Growth Rate of Publication Output")
+plt.grid(alpha=0.25)
+plt.legend()
+plt_savefig(plt, "fig_publication_cagr.jpg")
+plt.close()
+
+cagr_summary = pd.DataFrame(
+    {
+        "Start_Year": [first_year],
+        "End_Year": [last_year],
+        "Start_Publications": [first_count],
+        "End_Publications": [last_count],
+        "Annual_Intervals": [n_intervals],
+        "Overall_CAGR_%": [round(overall_cagr * 100, 2)],
+    }
+)
+show_interactive_table(cagr_summary)
+show_interactive_table(cagr_result, paging=True, searching=True, info=True)
+```
+
+The overall 1999–2025 CAGR is reported independently from the year-specific series. The zero-publication year 2000 is retained and correctly represented as a $-100\%$ year-specific CAGR relative to 1999.
+
+### Annual and cumulative publication trends
+
+Cumulative publication output through year $t$ is
+
+$$
+CP_t=\sum_{y\le t}P_y.
+$$
+
+```{python}
+publication_trends = annual_publications[["Year", "Publications"]].copy()
+publication_trends["Cumulative_Publications"] = publication_trends[
+    "Publications"
+].cumsum()
+
+dataframe_to_csv(publication_trends, "table_annual_cumulative_publications.csv")
+
+fig, ax1 = plt.subplots(figsize=(12, 6))
+ax1.bar(
+    publication_trends["Year"],
+    publication_trends["Publications"],
+    alpha=0.65,
+)
+ax1.set_xlabel("Publication year")
+ax1.set_ylabel("Annual publications")
+ax1.xaxis.set_major_locator(MaxNLocator(integer=True))
+
+ax2 = ax1.twinx()
+ax2.plot(
+    publication_trends["Year"],
+    publication_trends["Cumulative_Publications"],
+    marker="o",
+    linewidth=1.8,
+)
+ax2.set_ylabel("Cumulative publications")
+
+plt.title("Annual and Cumulative Publication Output")
+fig.tight_layout()
+plt_savefig(plt, "fig_annual_cumulative_publications.jpg")
+plt.close()
+
+show_interactive_table(publication_trends, paging=True, searching=True, info=True)
+```
+
+The table provides the exact annual counts used to construct both the annual and cumulative publication series.
+
+## Citation analysis
+
+### Top-cited publications
+
+Publications are ranked in descending order of available citation count:
+
+$$
+\mathrm{Rank}(p)=\operatorname{rank}_{\downarrow}(C_p),\qquad C_p\neq\mathrm{NaN}.
+$$
+
+Missing citation values are excluded from the ranking rather than treated as zero.
+
+```{python}
+citation_df = corpus_df.copy()
+citation_df["citation_count"] = prepare_citations(citation_df["citation_count"])
+
+ranked_citations = (
+    citation_df.dropna(subset=["citation_count"])
+    .sort_values(
+        ["citation_count", "year", "title"],
+        ascending=[False, True, True],
+    )
+    .reset_index(drop=True)
+)
+ranked_citations.insert(0, "Rank", np.arange(1, len(ranked_citations) + 1))
+
+top_cited_table = ranked_citations[
+    ["Rank", "title", "year", "citation_count", "journal_title"]
+].copy()
+
+dataframe_to_csv(top_cited_table, "table_top_cited_publications.csv")
+show_interactive_table(top_cited_table.head(30), paging=True, searching=True, info=True)
+```
+
+The displayed table contains the highest-ranked publications, while the exported CSV contains the complete citation ranking.
+
+### Year-specific citation indicators
+
+Publication age is defined relative to the 2025 citation-retrieval year:
+
+$$
+A_p=2025-Y_p+1,
+$$
+
+and the publication-age-adjusted citation rate is
+
+$$
+R_p=\frac{C_p}{A_p}.
+$$
+
+For each publication year, uncitedness is calculated **only among publications with available citation metadata**:
+
+$$
+U_y=\frac{\sum_p I(Y_p=y,\ C_p=0)}
+{\sum_p I(Y_p=y,\ C_p\ \text{available})}\times100.
+$$
+
+```{python}
+year_citation_df = corpus_df.copy()
+year_citation_df["year"] = prepare_year(year_citation_df["year"])
+year_citation_df["citation_count"] = prepare_citations(
+    year_citation_df["citation_count"]
+)
+year_citation_df = year_citation_df.dropna(subset=["year"]).copy()
+year_citation_df["year"] = year_citation_df["year"].astype(int)
+year_citation_df["Publication_Age"] = LAST_ELIGIBLE_YEAR - year_citation_df["year"] + 1
+year_citation_df["Citations_per_Publication_Year"] = (
+    year_citation_df["citation_count"] / year_citation_df["Publication_Age"]
+)
+
+
+def summarize_year_citations(group: pd.DataFrame) -> pd.Series:
+    """Summarize citation indicators without converting missing values to zero."""
+    citations = group["citation_count"].dropna()
+    rates = group.loc[
+        group["citation_count"].notna(),
+        "Citations_per_Publication_Year",
+    ]
+    n_available = len(citations)
+    uncited_n = int((citations == 0).sum())
+
+    return pd.Series(
+        {
+            "Publications": len(group),
+            "Citation_Data_Available": n_available,
+            "Citation_Data_Missing": int(group["citation_count"].isna().sum()),
+            "Total_Citations": citations.sum(min_count=1),
+            "Median_Citations": citations.median() if n_available else np.nan,
+            "Citation_Q1": citations.quantile(0.25) if n_available else np.nan,
+            "Citation_Q3": citations.quantile(0.75) if n_available else np.nan,
+            "Median_Citations_per_Publication_Year": (
+                rates.median() if len(rates) else np.nan
+            ),
+            "Rate_Q1": rates.quantile(0.25) if len(rates) else np.nan,
+            "Rate_Q3": rates.quantile(0.75) if len(rates) else np.nan,
+            "Uncited_n": uncited_n,
+            "Uncited_%_of_Available": (
+                uncited_n / n_available * 100 if n_available else np.nan
+            ),
+        }
+    )
+
+
+year_citation_rows = []
+for publication_year, group in year_citation_df.groupby("year", sort=False):
+    row = summarize_year_citations(group).to_dict()
+    row["Publication_Year"] = int(publication_year)
+    year_citation_rows.append(row)
+
+year_citation_summary = (
+    pd.DataFrame(year_citation_rows)
+    .sort_values("Publication_Year", ascending=False)
+    .reset_index(drop=True)
+)
+
+year_citation_summary["Median_Citations_IQR"] = year_citation_summary.apply(
+    lambda row: (
+        f"{row['Median_Citations']:.1f} "
+        f"({row['Citation_Q1']:.1f}-{row['Citation_Q3']:.1f})"
+        if pd.notna(row["Median_Citations"])
+        else "NA"
+    ),
+    axis=1,
+)
+year_citation_summary["Median_Rate_IQR"] = year_citation_summary.apply(
+    lambda row: (
+        f"{row['Median_Citations_per_Publication_Year']:.2f} "
+        f"({row['Rate_Q1']:.2f}-{row['Rate_Q3']:.2f})"
+        if pd.notna(row["Median_Citations_per_Publication_Year"])
+        else "NA"
+    ),
+    axis=1,
+)
+year_citation_summary["Uncited_n_%"] = year_citation_summary.apply(
+    lambda row: (
+        f"{int(row['Uncited_n'])} ({row['Uncited_%_of_Available']:.1f}%)"
+        if pd.notna(row["Uncited_%_of_Available"])
+        else "NA"
+    ),
+    axis=1,
+)
+
+dataframe_to_csv(year_citation_summary, "table_year_specific_citations.csv")
+
+citation_display_columns = [
+    "Publication_Year",
+    "Publications",
+    "Citation_Data_Available",
+    "Citation_Data_Missing",
+    "Total_Citations",
+    "Median_Citations_IQR",
+    "Median_Rate_IQR",
+    "Uncited_n_%",
+]
+show_interactive_table(
+    year_citation_summary[citation_display_columns],
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+The table makes citation availability visible by year. A missing citation value is not included in either the median or the verified uncited denominator.
+
+### Publication-citation dynamics over time
+
+For publication year $y$,
+
+$$
+P_y=\sum_p I(Y_p=y),
+\qquad
+C_y=\sum_{p:Y_p=y,\ C_p\text{ available}}C_p.
+$$
+
+```{python}
+publication_citation_dynamics = (
+    year_citation_df.groupby("year")
+    .agg(
+        Publications=("year", "size"),
+        Citation_Data_Available=("citation_count", "count"),
+        Total_Citations=("citation_count", lambda values: values.sum(min_count=1)),
+    )
+    .reset_index()
+    .rename(columns={"year": "Year"})
+    .sort_values("Year")
+)
+
+dataframe_to_csv(
+    publication_citation_dynamics,
+    "table_publication_citation_dynamics.csv",
+)
+
+fig, ax1 = plt.subplots(figsize=(12, 6))
+bars = ax1.bar(
+    publication_citation_dynamics["Year"],
+    publication_citation_dynamics["Publications"],
+    alpha=0.65,
+)
+ax1.set_xlabel("Publication year")
+ax1.set_ylabel("Publications")
+
+ax2 = ax1.twinx()
+line = ax2.plot(
+    publication_citation_dynamics["Year"],
+    publication_citation_dynamics["Total_Citations"],
+    marker="o",
+    linewidth=1.8,
+)
+ax2.set_ylabel("Total available citations")
+ax1.legend([bars, line[0]], ["Publications", "Total citations"], loc="upper left")
+plt.title("Annual Publication Output and Citation Counts")
+fig.tight_layout()
+plt_savefig(plt, "fig_publication_citation_dynamics.jpg")
+plt.close()
+
+show_interactive_table(
+    publication_citation_dynamics,
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+The citation totals are cohort totals and therefore are not age-adjusted impact measures.
+
+### Publication-age-adjusted citation impact
+
+The same definition is used consistently throughout the notebook:
+
+$$
+R_p=\frac{C_p}{2025-Y_p+1}.
+$$
+
+```{python}
+normalized_citation_df = year_citation_df.dropna(subset=["citation_count"]).copy()
+normalized_citation_summary = (
+    normalized_citation_df.groupby("year")
+    .agg(
+        Publications_with_Citation_Data=("citation_count", "size"),
+        Mean_Citations_per_Publication_Year=(
+            "Citations_per_Publication_Year",
+            "mean",
+        ),
+        Median_Citations_per_Publication_Year=(
+            "Citations_per_Publication_Year",
+            "median",
+        ),
+        Q1_Citations_per_Publication_Year=(
+            "Citations_per_Publication_Year",
+            lambda values: values.quantile(0.25),
+        ),
+        Q3_Citations_per_Publication_Year=(
+            "Citations_per_Publication_Year",
+            lambda values: values.quantile(0.75),
+        ),
+    )
+    .reset_index()
+    .rename(columns={"year": "Year"})
+    .sort_values("Year")
+)
+
+dataframe_to_csv(
+    normalized_citation_summary,
+    "table_normalized_citation_impact.csv",
+)
+
+plt.figure(figsize=(12, 6))
+plt.plot(
+    normalized_citation_summary["Year"],
+    normalized_citation_summary["Mean_Citations_per_Publication_Year"],
+    marker="o",
+    label="Mean",
+)
+plt.plot(
+    normalized_citation_summary["Year"],
+    normalized_citation_summary["Median_Citations_per_Publication_Year"],
+    marker="s",
+    label="Median",
+)
+plt.xlabel("Publication year")
+plt.ylabel("Citations per publication-year")
+plt.title("Publication-Age-Adjusted Citation Impact")
+plt.grid(alpha=0.25)
+plt.legend()
+plt_savefig(plt, "fig_normalized_citation_impact.jpg")
+plt.close()
+
+show_interactive_table(
+    normalized_citation_summary.round(3),
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+The number of publications contributing citation data is displayed alongside each annual estimate.
+
+## Geographic analysis
+
+### Leading contributing countries
+
+With full counting, the publication count for country $c$ is
+
+$$
+P_c=\sum_p I(c\in C_p),
+$$
+
+where $C_p$ is the set of unique affiliation countries represented in publication $p$. Two percentages are reported separately:
+
+$$
+\mathrm{Publication\ prevalence}_c=\frac{P_c}{N}\times100,
+$$
+
+and
+
+$$
+\mathrm{Share\ of\ country\text{-}publication\ counts}_c
+=\frac{P_c}{\sum_jP_j}\times100.
+$$
+
+```{python}
+country_long = prepare_publication_country_table(corpus_df)
+country_long["citation_count"] = prepare_citations(country_long["citation_count"])
+
+country_stats = (
+    country_long.groupby("Country", as_index=False)
+    .agg(
+        Publications=("publication_id", "nunique"),
+        Citation_Data_Available=("citation_count", "count"),
+        Total_Citations=("citation_count", lambda values: values.sum(min_count=1)),
+        Mean_Citations=("citation_count", "mean"),
+    )
+    .sort_values(
+        ["Publications", "Total_Citations"],
+        ascending=[False, False],
+    )
+    .reset_index(drop=True)
+)
+country_stats.insert(0, "Rank", np.arange(1, len(country_stats) + 1))
+country_stats["Publication_Prevalence_%"] = (
+    country_stats["Publications"] / len(corpus_df) * 100
+).round(2)
+country_stats["Share_of_Country_Publication_Counts_%"] = (
+    country_stats["Publications"] / country_stats["Publications"].sum() * 100
+).round(2)
+country_stats["Mean_Citations"] = country_stats["Mean_Citations"].round(2)
+
+dataframe_to_csv(country_stats, "table_country_contributions.csv")
+show_interactive_table(
+    country_stats,
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+Each country is counted at most once per publication. Full-counted country totals are non-additive across countries.
+
+### Global distribution of publications and citation impact
+
+Mean citation impact for country $c$ is
+
+$$
+\overline{C}_c=
+\frac{\sum_{p:c\in C_p,\ C_p\text{ available}}C_p}
+{N_{c,\mathrm{citation\ available}}}.
+$$
+
+```{python}
+country_map_df = (
+    country_long.dropna(subset=["ISO3"])
+    .groupby(["Country", "ISO3"], as_index=False)
+    .agg(
+        Publications=("publication_id", "nunique"),
+        Citation_Data_Available=("citation_count", "count"),
+        Total_Citations=("citation_count", lambda values: values.sum(min_count=1)),
+        Mean_Citations=("citation_count", "mean"),
+    )
+)
+country_map_df["Mean_Citations"] = country_map_df["Mean_Citations"].round(2)
+
+dataframe_to_csv(country_map_df, "table_country_map_metrics.csv")
+
+fig_publications = px.choropleth(
+    country_map_df,
+    locations="ISO3",
+    color="Publications",
+    hover_name="Country",
+    hover_data={
+        "ISO3": False,
+        "Publications": True,
+        "Citation_Data_Available": True,
+        "Mean_Citations": True,
+    },
+    title="Global Distribution of Publications",
+)
+fig_publications.update_geos(showframe=False, showcoastlines=True)
+fig_publications.update_layout(margin=dict(l=0, r=0, t=50, b=0))
+save_plotly_html(fig_publications, "fig_world_publications.html")
+try_save_plotly_png(fig_publications, "fig_world_publications.jpg")
+fig_publications.show()
+
+fig_citations = px.choropleth(
+    country_map_df.dropna(subset=["Mean_Citations"]),
+    locations="ISO3",
+    color="Mean_Citations",
+    hover_name="Country",
+    hover_data={"ISO3": False, "Publications": True, "Mean_Citations": True},
+    title="Mean Citation Count by Contributing Country",
+)
+fig_citations.update_geos(showframe=False, showcoastlines=True)
+fig_citations.update_layout(margin=dict(l=0, r=0, t=50, b=0))
+save_plotly_html(fig_citations, "fig_world_mean_citations.html")
+try_save_plotly_png(fig_citations, "fig_world_mean_citations.jpg")
+fig_citations.show()
+
+show_interactive_table(
+    country_map_df.sort_values("Publications", ascending=False),
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+Countries without available citation observations are not assigned an artificial citation value.
+
+### Cartogram input for SCImago Graphica
+
+The cartogram size variable is the same full-counted country publication total:
+
+$$
+P_c=\sum_p I(c\in C_p).
+$$
+
+```{python}
+cartogram_df = country_map_df.copy()
+cartogram_df["Citation_Data_Missing"] = (
+    cartogram_df["Publications"] - cartogram_df["Citation_Data_Available"]
+)
+cartogram_df["Citation_Coverage_%"] = (
+    cartogram_df["Citation_Data_Available"] / cartogram_df["Publications"] * 100
+).round(2)
+cartogram_df = cartogram_df.sort_values("Publications", ascending=False).reset_index(
+    drop=True
+)
+cartogram_df.insert(0, "Rank", np.arange(1, len(cartogram_df) + 1))
+
+dataframe_to_csv(cartogram_df, "table_country_cartogram_input.csv")
+show_interactive_table(cartogram_df, paging=True, searching=True, info=True)
+```
+
+`table_country_cartogram_input.csv` is the reproducible input for SCImago Graphica; `Publications` is the size variable.
+
+## Collaboration analysis
+
+### International collaboration rate (ICR) over time
+
+A publication is internationally collaborative when at least two unique affiliation countries are represented. For a set of publications $S$,
+
+$$
+\mathrm{ICR}(S)=
+\frac{\sum_{p\in S}I(|C_p|\ge2)}{|S|}\times100.
+$$
+
+The overall ICR is calculated directly from all publications and is **not** the unweighted mean of annual ICR values.
+
+```{python}
+collaboration_df = add_publication_id(corpus_df)
+collaboration_df["year"] = prepare_year(collaboration_df["year"])
+
+# Use the same normalized publication-country table as all other country analyses.
+collaboration_country_long = prepare_publication_country_table(corpus_df)
+publication_country_counts = (
+    collaboration_country_long.groupby("publication_id")["Country"].nunique()
+)
+collaboration_df["Country_Count"] = (
+    collaboration_df["publication_id"]
+    .map(publication_country_counts)
+    .fillna(0)
+    .astype(int)
+)
+collaboration_df["International"] = collaboration_df["Country_Count"] >= 2
+
+overall_icr = collaboration_df["International"].mean() * 100
+
+annual_icr = (
+    collaboration_df.dropna(subset=["year"])
+    .assign(year=lambda data: data["year"].astype(int))
+    .groupby("year")
+    .agg(
+        Publications=("publication_id", "nunique"),
+        International_Publications=("International", "sum"),
+    )
+    .reset_index()
+    .rename(columns={"year": "Year"})
+)
+annual_icr["ICR_%"] = (
+    annual_icr["International_Publications"] / annual_icr["Publications"] * 100
+).round(2)
+
+dataframe_to_csv(annual_icr, "table_international_collaboration_rate.csv")
+
+plt.figure(figsize=(11, 5.5))
+plt.plot(annual_icr["Year"], annual_icr["ICR_%"], marker="o", linewidth=1.5)
+plt.axhline(
+    overall_icr,
+    linestyle="--",
+    linewidth=1.2,
+    label=f"Overall ICR = {overall_icr:.1f}%",
+)
+plt.xlabel("Publication year")
+plt.ylabel("International collaboration rate (%)")
+plt.title("International Collaboration Rate Over Time")
+plt.grid(alpha=0.25)
+plt.legend()
+plt_savefig(plt, "fig_international_collaboration_rate.jpg")
+plt.close()
+
+icr_summary = pd.DataFrame(
+    {
+        "Publications": [len(collaboration_df)],
+        "International_Publications": [int(collaboration_df["International"].sum())],
+        "Overall_ICR_%": [round(overall_icr, 2)],
+    }
+)
+show_interactive_table(icr_summary)
+show_interactive_table(annual_icr, paging=True, searching=True, info=True)
+```
+
+The overall rate is corpus-weighted by construction. Annual values are reported only to describe temporal variation.
+
+### Country collaboration network
+
+For countries $i$ and $j$, the raw collaboration edge weight is
+
+$$
+w_{ij}=\sum_p I(i\in C_p)I(j\in C_p),\qquad i\ne j.
+$$
+
+Every observed country pair is retained in the Python export ($w_{ij}\ge1$). The exported network contains raw publication-level full-counting weights; VOSviewer normalization and clustering are separate visualization steps.
+
+```{python}
+country_network_long = prepare_publication_country_table(corpus_df).dropna(
+    subset=["ISO3"]
+).copy()
+
+publication_countries = country_network_long.groupby("publication_id")["Country"].apply(
+    lambda values: sorted(set(values))
+)
+
+edge_counter = Counter()
+for countries in publication_countries:
+    for source, target in combinations(countries, 2):
+        edge_counter[(source, target)] += 1
+
+country_edges = pd.DataFrame(
+    [
+        {"Source": source, "Target": target, "Weight": weight}
+        for (source, target), weight in edge_counter.items()
+        if weight >= 1
+    ]
+)
+if not country_edges.empty:
+    country_edges = country_edges.sort_values(
+        ["Weight", "Source", "Target"],
+        ascending=[False, True, True],
+    ).reset_index(drop=True)
+
+country_nodes = (
+    country_network_long.groupby("Country", as_index=False)
+    .agg(
+        Publications=("publication_id", "nunique"),
+        ISO3=("ISO3", "first"),
+    )
+    .sort_values("Publications", ascending=False)
+    .reset_index(drop=True)
+)
+
+country_graph = nx.Graph()
+for row in country_nodes.itertuples(index=False):
+    country_graph.add_node(
+        row.Country,
+        Publications=int(row.Publications),
+        ISO3=row.ISO3,
+    )
+for row in country_edges.itertuples(index=False):
+    country_graph.add_edge(row.Source, row.Target, weight=int(row.Weight))
+
+country_nodes["Degree"] = (
+    country_nodes["Country"].map(dict(country_graph.degree())).fillna(0).astype(int)
+)
+country_nodes["Weighted_Degree"] = (
+    country_nodes["Country"]
+    .map(dict(country_graph.degree(weight="weight")))
+    .fillna(0)
+    .astype(int)
+)
+
+dataframe_to_csv(country_nodes, "network_country_nodes.csv")
+dataframe_to_csv(country_edges, "network_country_edges.csv")
+
+if country_graph.number_of_nodes() > 0:
+    plt.figure(figsize=(12, 9))
+    position = nx.spring_layout(country_graph, seed=42, weight="weight")
+    node_sizes = [
+        250 + 25 * country_graph.nodes[node]["Publications"]
+        for node in country_graph.nodes
+    ]
+    edge_widths = [
+        0.5 + 0.35 * country_graph[source][target]["weight"]
+        for source, target in country_graph.edges
+    ]
+    nx.draw_networkx_nodes(country_graph, position, node_size=node_sizes, alpha=0.75)
+    nx.draw_networkx_edges(country_graph, position, width=edge_widths, alpha=0.35)
+    nx.draw_networkx_labels(country_graph, position, font_size=7)
+    plt.title("Country Collaboration Network: Raw Full-Counting Weights")
+    plt.axis("off")
+    plt_savefig(plt, "fig_country_collaboration_network_preview.jpg")
+    plt.close()
+
+country_network_summary = pd.DataFrame(
+    {
+        "Network_Metric": ["Nodes", "Edges", "Isolated nodes"],
+        "Value": [
+            country_graph.number_of_nodes(),
+            country_graph.number_of_edges(),
+            sum(degree == 0 for _, degree in country_graph.degree()),
+        ],
+    }
+)
+show_interactive_table(country_network_summary)
+show_interactive_table(country_nodes, paging=True, searching=True, info=True)
+show_interactive_table(country_edges, paging=True, searching=True, info=True)
+```
+
+The node and edge tables are the raw network inputs. Any VOSviewer association-strength normalization, clustering resolution, or cluster merging should be reported separately from these Python counts.
+
+## Author and journal analysis
+
+### Author contribution and citation profile
+
+For author $a$,
+
+$$
+P_a=\sum_p I(a\in A_p),
+\qquad
+C_a=\sum_{p:a\in A_p,\ C_p\text{ available}}C_p.
+$$
+
+Mean citations are calculated only across the author's publications with available citation metadata.
+
+```{python}
+author_df = add_publication_id(corpus_df)
+author_df["authors"] = author_df["authors"].apply(clean_unique_strings)
+author_df["citation_count"] = prepare_citations(author_df["citation_count"])
+
+author_long = author_df[["publication_id", "authors", "citation_count"]].explode(
+    "authors"
+)
+author_long = author_long.dropna(subset=["authors"]).copy()
+author_long["authors"] = author_long["authors"].astype(str).str.strip()
+author_long = author_long[author_long["authors"].ne("")].drop_duplicates(
+    ["publication_id", "authors"]
+)
+
+author_stats = (
+    author_long.groupby("authors", as_index=False)
+    .agg(
+        Publications=("publication_id", "nunique"),
+        Citation_Data_Available=("citation_count", "count"),
+        Total_Citations=("citation_count", lambda values: values.sum(min_count=1)),
+        Mean_Citations=("citation_count", "mean"),
+    )
+    .rename(columns={"authors": "Author"})
+)
+author_stats["Publication_Prevalence_%"] = (
+    author_stats["Publications"] / len(corpus_df) * 100
+).round(2)
+author_stats["Mean_Citations"] = author_stats["Mean_Citations"].round(2)
+author_stats = author_stats.sort_values(
+    ["Total_Citations", "Publications"],
+    ascending=[False, False],
+    na_position="last",
+).reset_index(drop=True)
+author_stats.insert(0, "Rank", np.arange(1, len(author_stats) + 1))
+
+dataframe_to_csv(author_stats, "table_author_contribution_citation_profile.csv")
+show_interactive_table(author_stats.head(30), paging=True, searching=True, info=True)
+```
+
+The ranking is descriptive and reports citation availability alongside publication output and citation totals.
+
+### Lotka-style author productivity distribution
+
+The generalized Lotka relationship is
+
+$$
+A_n=A_1n^{-\alpha},
+$$
+
+where $A_n$ is the number of authors with exactly $n$ publications. A log-log linear fit estimates $\alpha$ descriptively:
+
+$$
+\log(A_n)=\log(A_1)-\alpha\log(n).
+$$
+
+The fitted curve and goodness-of-fit statistics characterize the empirical productivity distribution; they are not treated as proof of a universal bibliometric law.
+
+```{python}
+author_productivity = (
+    author_long.groupby("authors")
+    .agg(Publications=("publication_id", "nunique"))
+    .reset_index()
+    .rename(columns={"authors": "Author"})
+)
+
+lotka_distribution = (
+    author_productivity["Publications"]
+    .value_counts()
+    .sort_index()
+    .rename_axis("Papers_per_Author")
+    .reset_index(name="Authors")
+)
+lotka_distribution["Author_Share_%"] = (
+    lotka_distribution["Authors"] / lotka_distribution["Authors"].sum() * 100
+).round(2)
+
+fit_df = lotka_distribution[
+    (lotka_distribution["Papers_per_Author"] > 0)
+    & (lotka_distribution["Authors"] > 0)
+].copy()
+x_log = np.log(fit_df["Papers_per_Author"].to_numpy(dtype=float))
+y_log = np.log(fit_df["Authors"].to_numpy(dtype=float))
+
+slope, intercept = np.polyfit(x_log, y_log, 1)
+lotka_alpha = -float(slope)
+lotka_a1 = float(np.exp(intercept))
+
+raw_fitted_authors = lotka_a1 * (
+    lotka_distribution["Papers_per_Author"].astype(float) ** (-lotka_alpha)
+)
+lotka_distribution["Fitted_Authors"] = (
+    raw_fitted_authors
+    * lotka_distribution["Authors"].sum()
+    / raw_fitted_authors.sum()
+)
+
+predicted_log = intercept + slope * x_log
+lotka_r2 = float(r2_score(y_log, predicted_log))
+observed = lotka_distribution["Authors"].to_numpy(dtype=float)
+expected = lotka_distribution["Fitted_Authors"].to_numpy(dtype=float)
+lotka_rmse = float(np.sqrt(np.mean((observed - expected) ** 2)))
+lotka_mae = float(np.mean(np.abs(observed - expected)))
+
+positive_expected = expected > 0
+lotka_chi2 = float(
+    np.sum(
+        (observed[positive_expected] - expected[positive_expected]) ** 2
+        / expected[positive_expected]
+    )
+)
+lotka_chi2_df = max(int(positive_expected.sum()) - 3, 1)
+lotka_chi2_p = float(chi2_distribution.sf(lotka_chi2, lotka_chi2_df))
+
+lotka_fit_summary = pd.DataFrame(
+    {
+        "Metric": [
+            "Estimated alpha",
+            "Estimated A1",
+            "R2 log-log",
+            "RMSE",
+            "MAE",
+            "Chi-square",
+            "Chi-square df",
+            "Chi-square p",
+        ],
+        "Value": [
+            lotka_alpha,
+            lotka_a1,
+            lotka_r2,
+            lotka_rmse,
+            lotka_mae,
+            lotka_chi2,
+            lotka_chi2_df,
+            lotka_chi2_p,
+        ],
+    }
+)
+
+dataframe_to_csv(lotka_distribution, "table_lotka_author_productivity.csv")
+dataframe_to_csv(lotka_fit_summary, "table_lotka_fit_summary.csv")
+
+plt.figure(figsize=(8, 6))
+plt.scatter(
+    lotka_distribution["Papers_per_Author"],
+    lotka_distribution["Authors"],
+    label="Observed",
+)
+plt.plot(
+    lotka_distribution["Papers_per_Author"],
+    lotka_distribution["Fitted_Authors"],
+    label=f"Fitted power law (alpha={lotka_alpha:.2f})",
+)
+plt.xscale("log")
+plt.yscale("log")
+plt.xlabel("Publications per author")
+plt.ylabel("Number of authors")
+plt.title("Author Productivity Distribution: Lotka-Style Fit")
+plt.grid(alpha=0.25)
+plt.legend()
+plt_savefig(plt, "fig_lotka_author_productivity.jpg")
+plt.close()
+
+show_interactive_table(lotka_fit_summary.round(4))
+show_interactive_table(lotka_distribution, paging=True, searching=True, info=True)
+```
+
+The observed single-publication author share and fitted parameters should be reported numerically and descriptively rather than summarized as a categorical claim that the corpus “follows Lotka's Law.”
+
+### Journal citation profile and productivity
+
+For journal $j$,
+
+$$
+P_j=\sum_p I(p\text{ published in }j),
+$$
+
+and mean citation count among citation-known publications is
+
+$$
+\overline{C}_j=
+\frac{\sum_{p\in j,\ C_p\text{ available}}C_p}
+{N_{j,\mathrm{citation\ available}}}.
+$$
+
+```{python}
+journal_df = add_publication_id(corpus_df)
+journal_df["citation_count"] = prepare_citations(journal_df["citation_count"])
+journal_df["journal_title"] = journal_df["journal_title"].astype("string").str.strip()
+journal_df = journal_df[
+    journal_df["journal_title"].notna() & journal_df["journal_title"].ne("")
+].copy()
+
+journal_stats = (
+    journal_df.groupby("journal_title", as_index=False)
+    .agg(
+        Publications=("publication_id", "nunique"),
+        Citation_Data_Available=("citation_count", "count"),
+        Total_Citations=("citation_count", lambda values: values.sum(min_count=1)),
+        Mean_Citations=("citation_count", "mean"),
+    )
+    .rename(columns={"journal_title": "Journal"})
+)
+journal_stats["Mean_Citations"] = journal_stats["Mean_Citations"].round(2)
+
+journals_by_output = journal_stats.sort_values(
+    ["Publications", "Total_Citations"],
+    ascending=[False, False],
+    na_position="last",
+).reset_index(drop=True)
+journals_by_output.insert(0, "Rank", np.arange(1, len(journals_by_output) + 1))
+
+journals_by_mean_citations = journal_stats.sort_values(
+    ["Mean_Citations", "Publications"],
+    ascending=[False, False],
+    na_position="last",
+).reset_index(drop=True)
+journals_by_mean_citations.insert(
+    0,
+    "Rank",
+    np.arange(1, len(journals_by_mean_citations) + 1),
+)
+
+dataframe_to_csv(journals_by_output, "table_journal_productivity.csv")
+dataframe_to_csv(journals_by_mean_citations, "table_journal_citation_profile.csv")
+
+show_interactive_table(journals_by_output.head(30), paging=True, searching=True, info=True)
+show_interactive_table(
+    journals_by_mean_citations.head(30),
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+The two rankings are kept separate so that publication volume is not conflated with citation performance.
+
+### Journal productivity versus citation impact
+
+The scatterplot uses
+
+$$
+x_j=P_j,
+\qquad
+y_j=\overline{C}_j,
+\qquad
+s_j\propto C_j.
+$$
+
+```{python}
+journal_scatter = journal_stats[
+    (journal_stats["Publications"] >= 2)
+    & journal_stats["Mean_Citations"].notna()
+].copy()
+
+if not journal_scatter.empty:
+    positive_total = journal_scatter["Total_Citations"].fillna(0).clip(lower=0)
+    max_total = positive_total.max()
+    marker_sizes = (
+        np.full(len(journal_scatter), 80.0)
+        if max_total <= 0
+        else 80 + 900 * positive_total / max_total
+    )
+
+    plt.figure(figsize=(11, 7))
+    plt.scatter(
+        journal_scatter["Publications"],
+        journal_scatter["Mean_Citations"],
+        s=marker_sizes,
+        alpha=0.6,
+        edgecolors="black",
+        linewidths=0.5,
+    )
+    for row in journal_scatter.nlargest(12, "Total_Citations").itertuples(index=False):
+        plt.annotate(
+            row.Journal,
+            (row.Publications, row.Mean_Citations),
+            xytext=(4, 4),
+            textcoords="offset points",
+            fontsize=8,
+        )
+    plt.xlabel("Publications per journal")
+    plt.ylabel("Mean available citations per publication")
+    plt.title("Journal Productivity and Citation Profile")
+    plt.grid(alpha=0.25)
+    plt_savefig(plt, "fig_journal_productivity_citation_profile.jpg")
+    plt.close()
+
+dataframe_to_csv(
+    journal_scatter,
+    "table_journal_productivity_citation_profile.csv",
+)
+show_interactive_table(
+    journal_scatter.sort_values("Total_Citations", ascending=False),
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+This plot is descriptive; it does not impose a threshold defining “high-impact” or “core” journals.
+
+### Journal quartile distribution
+
+For journal quartile $q$,
+
+$$
+P_q=\sum_p I(Q_p=q),
+\qquad
+C_q=\sum_{p:Q_p=q,\ C_p\text{ available}}C_p.
+$$
+
+```{python}
+quartile_df = corpus_df.copy()
+quartile_df["citation_count"] = prepare_citations(quartile_df["citation_count"])
+quartile_df = quartile_df.dropna(subset=["journal_q"]).copy()
+quartile_df["journal_q"] = quartile_df["journal_q"].astype(str).str.strip()
+
+quartile_summary = (
+    quartile_df.groupby("journal_q", as_index=False)
+    .agg(
+        Publications=("journal_q", "size"),
+        Citation_Data_Available=("citation_count", "count"),
+        Total_Citations=("citation_count", lambda values: values.sum(min_count=1)),
+        Mean_Citations=("citation_count", "mean"),
+    )
+    .rename(columns={"journal_q": "Journal_Quartile"})
+)
+quartile_summary["Mean_Citations"] = quartile_summary["Mean_Citations"].round(2)
+
+dataframe_to_csv(quartile_summary, "table_journal_quartile_distribution.csv")
+
+plt.figure(figsize=(8, 5))
+plt.bar(quartile_summary["Journal_Quartile"], quartile_summary["Publications"])
+plt.xlabel("Journal quartile")
+plt.ylabel("Publications")
+plt.title("Publication Distribution by Journal Quartile")
+plt_savefig(plt, "fig_journal_quartile_distribution.jpg")
+plt.close()
+
+show_interactive_table(quartile_summary)
+```
+
+The table reports publication volume and citation availability by quartile without adding a separate causal or quality interpretation.
+
+### Bradford-style journal concentration
+
+Journals are ranked by publication count and partitioned into three zones containing approximately one third of corpus publications. A descriptive multiplier is
+
+$$
+\hat b=\frac{1}{2}
+\left(\frac{z_2}{z_1}+\frac{z_3}{z_2}\right),
+$$
+
+where $z_1,z_2,z_3$ are the journal counts in the three zones. The partition describes concentration and scattering; it is not a formal goodness-of-fit test of Bradford's law.
+
+```{python}
+bradford_df = (
+    journal_df.groupby("journal_title", as_index=False)
+    .agg(Article_Count=("publication_id", "nunique"))
+    .sort_values(["Article_Count", "journal_title"], ascending=[False, True])
+    .reset_index(drop=True)
+)
+bradford_df["Rank"] = np.arange(1, len(bradford_df) + 1)
+total_journal_articles = bradford_df["Article_Count"].sum()
+bradford_df["Cumulative_Articles"] = bradford_df["Article_Count"].cumsum()
+bradford_df["Cumulative_Article_Share"] = (
+    bradford_df["Cumulative_Articles"] / total_journal_articles
+)
+bradford_df["Bradford_Zone"] = pd.cut(
+    bradford_df["Cumulative_Article_Share"],
+    bins=[0, 1 / 3, 2 / 3, 1],
+    labels=["Zone 1 (Core)", "Zone 2", "Zone 3"],
+    include_lowest=True,
+)
+
+bradford_zone_summary = (
+    bradford_df.groupby("Bradford_Zone", observed=True)
+    .agg(
+        Journals=("journal_title", "nunique"),
+        Articles=("Article_Count", "sum"),
+    )
+    .reset_index()
+)
+bradford_zone_summary["Article_Share_%"] = (
+    bradford_zone_summary["Articles"] / total_journal_articles * 100
+).round(2)
+
+zone_counts = dict(
+    zip(
+        bradford_zone_summary["Bradford_Zone"].astype(str),
+        bradford_zone_summary["Journals"],
+    )
+)
+z1 = int(zone_counts.get("Zone 1 (Core)", 0))
+z2 = int(zone_counts.get("Zone 2", 0))
+z3 = int(zone_counts.get("Zone 3", 0))
+ratios = [
+    z2 / z1 if z1 else np.nan,
+    z3 / z2 if z2 else np.nan,
+]
+bradford_multiplier = float(np.nanmean(ratios))
+
+dataframe_to_csv(bradford_df, "table_bradford_journal_details.csv")
+dataframe_to_csv(bradford_zone_summary, "table_bradford_zone_summary.csv")
+
+plt.figure(figsize=(9, 6))
+plt.plot(bradford_df["Rank"], bradford_df["Cumulative_Articles"], linewidth=1.5)
+plt.xscale("log")
+plt.xlabel("Journal rank (log scale)")
+plt.ylabel("Cumulative publications")
+plt.title("Bradford-Style Journal Concentration Curve")
+plt.grid(alpha=0.25)
+plt_savefig(plt, "fig_bradford_journal_concentration.jpg")
+plt.close()
+
+bradford_metric_summary = pd.DataFrame(
+    {
+        "Zone_1_Journals": [z1],
+        "Zone_2_Journals": [z2],
+        "Zone_3_Journals": [z3],
+        "Descriptive_Bradford_Multiplier": [round(bradford_multiplier, 3)],
+    }
+)
+show_interactive_table(bradford_zone_summary)
+show_interactive_table(bradford_metric_summary)
+show_interactive_table(bradford_df, paging=True, searching=True, info=True)
+```
+
+The zone counts are reported as a descriptive concentration pattern. The manuscript wording should describe the observed distribution rather than state that Bradford's law has been formally proven.
+
+## Thematic analysis
+
+### Thematic category distribution
+
+Because thematic categories are non-mutually exclusive, two denominators are reported. Publication-level prevalence is
+
+$$
+\mathrm{Prevalence}_i=\frac{N_i}{N}\times100,
+$$
+
+where $N_i$ is the number of unique publications assigned to category $i$ and $N$ is the complete corpus size. Assignment share is
+
+$$
+\mathrm{Assignment\ share}_i=\frac{N_i}{\sum_jN_j}\times100.
+$$
+
+Publication prevalence can sum to more than 100%, whereas assignment shares sum to 100%.
+
+```{python}
+theme_df = add_publication_id(corpus_df)
+theme_df["Themes"] = theme_df[THEMATIC_COLUMN].apply(
+    lambda value: prepare_themes(value, include_other=True)
+)
+
+theme_long = theme_df[["publication_id", "Themes"]].explode("Themes").dropna(
+    subset=["Themes"]
+)
+theme_long = theme_long.drop_duplicates(["publication_id", "Themes"])
+
+theme_distribution = (
+    theme_long.groupby("Themes", as_index=False)
+    .agg(Publications=("publication_id", "nunique"))
+    .rename(columns={"Themes": "Category"})
+)
+
+total_assignments = int(theme_distribution["Publications"].sum())
+theme_distribution["Publication_Prevalence_%"] = (
+    theme_distribution["Publications"] / len(theme_df) * 100
+).round(2)
+theme_distribution["Assignment_Share_%"] = (
+    theme_distribution["Publications"] / total_assignments * 100
+).round(2)
+
+category_order = SUBSTANTIVE_THEMES + [OTHER_THEME]
+theme_distribution["Category"] = pd.Categorical(
+    theme_distribution["Category"],
+    categories=category_order,
+    ordered=True,
+)
+theme_distribution = theme_distribution.sort_values("Category").reset_index(drop=True)
+theme_distribution["Category"] = theme_distribution["Category"].astype(str)
+
+dataframe_to_csv(theme_distribution, "table_thematic_category_distribution.csv")
+
+plot_theme_distribution = theme_distribution.sort_values("Publications")
+plt.figure(figsize=(10, 6))
+plt.barh(plot_theme_distribution["Category"], plot_theme_distribution["Publications"])
+plt.xlabel("Publications")
+plt.ylabel("Thematic category")
+plt.title("Distribution of Thematic Categories")
+plt_savefig(plt, "fig_thematic_category_distribution.jpg")
+plt.close()
+
+show_interactive_table(theme_distribution)
+```
+
+The table reports publication counts, corpus prevalence, and assignment share together, avoiding a second duplicate thematic-distribution calculation.
+
+### Cross-national thematic distribution
+
+For country $c$ and category $i$,
+
+$$
+T_{ci}=\frac{N_{ci}}{P_c}\times100,
+$$
+
+where $N_{ci}$ is the number of publications attributed to country $c$ that contain category $i$, and $P_c$ is the full-counted publication total for that country. Because categories overlap, percentages across categories need not sum to 100%.
+
+```{python}
+country_theme_base = add_publication_id(corpus_df)
+country_theme_base["Themes"] = country_theme_base[THEMATIC_COLUMN].apply(
+    lambda value: prepare_themes(value, include_other=False)
+)
+country_theme_base["affiliation_country"] = country_theme_base[
+    "affiliation_country"
+].apply(clean_unique_strings)
+
+country_theme_country = country_theme_base[
+    ["publication_id", "affiliation_country"]
+].explode("affiliation_country").dropna()
+normalized_country = country_theme_country["affiliation_country"].apply(normalize_country)
+country_theme_country[["Country", "ISO3"]] = pd.DataFrame(
+    normalized_country.tolist(),
+    index=country_theme_country.index,
+)
+country_theme_country = country_theme_country.dropna(subset=["Country"]).drop_duplicates(
+    ["publication_id", "Country"]
+)
+
+country_theme_long = country_theme_base[["publication_id", "Themes"]].explode(
+    "Themes"
+).dropna()
+country_theme_long = country_theme_long.drop_duplicates(["publication_id", "Themes"])
+
+country_theme_links = country_theme_country.merge(
+    country_theme_long,
+    on="publication_id",
+    how="inner",
+)
+country_publication_denominator = (
+    country_theme_country.groupby("Country")["publication_id"]
+    .nunique()
+    .rename("Country_Publications")
+)
+
+country_theme_summary = (
+    country_theme_links.groupby(["Country", "Themes"])["publication_id"]
+    .nunique()
+    .rename("Theme_Publications")
+    .reset_index()
+    .merge(country_publication_denominator, on="Country", how="left")
+)
+country_theme_summary["Theme_Prevalence_%"] = (
+    country_theme_summary["Theme_Publications"]
+    / country_theme_summary["Country_Publications"]
+    * 100
+).round(2)
+
+top15_country_names = (
+    country_publication_denominator.sort_values(ascending=False).head(15).index.tolist()
+)
+country_theme_top15 = country_theme_summary[
+    country_theme_summary["Country"].isin(top15_country_names)
+].copy()
+
+heatmap_df = (
+    country_theme_top15.pivot(
+        index="Country",
+        columns="Themes",
+        values="Theme_Prevalence_%",
+    )
+    .reindex(index=top15_country_names, columns=SUBSTANTIVE_THEMES)
+    .fillna(0)
+)
+
+dataframe_to_csv(country_theme_summary, "table_country_thematic_prevalence.csv")
+
+plt.figure(figsize=(12, 7))
+plt.imshow(heatmap_df.to_numpy(), aspect="auto")
+plt.colorbar(label="Theme prevalence within country (%)")
+plt.xticks(
+    range(len(heatmap_df.columns)),
+    heatmap_df.columns,
+    rotation=45,
+    ha="right",
+)
+plt.yticks(range(len(heatmap_df.index)), heatmap_df.index)
+plt.title("Thematic Prevalence in the 15 Highest-Output Countries")
+plt.tight_layout()
+plt_savefig(plt, "fig_country_thematic_prevalence.jpg")
+plt.close()
+
+show_interactive_table(
+    country_theme_top15.sort_values(
+        ["Country", "Theme_Prevalence_%"],
+        ascending=[True, False],
+    ),
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+The heatmap uses within-country publication denominators and is therefore not a stacked composition.
+
+### Annual thematic diversity: publication-level fractional Shannon index
+
+The Shannon diversity analysis uses the seven substantive categories and excludes the residual `Other` category. Each publication contributes a total thematic weight of 1. If publication $p$ has $k_p$ substantive categories, its contribution to each assigned category is
+
+$$
+w_{pi}=\frac{I(i\in T_p)}{k_p}.
+$$
+
+The annual weight and category proportion are
+
+$$
+W_{iy}=\sum_{p:Y_p=y}w_{pi},
+\qquad
+p_{iy}=\frac{W_{iy}}{\sum_jW_{jy}},
+$$
+
+and Shannon diversity is
+
+$$
+H_y=-\sum_{i=1}^{7}p_{iy}\ln(p_{iy}).
+$$
+
+A publication-level bootstrap resamples publications with replacement within each year and recalculates the complete fractional-weighting procedure. The 2.5th and 97.5th percentiles form the descriptive 95% bootstrap interval.
+
+```{python}
+N_BOOTSTRAP = 2000
+RANDOM_SEED = 42
+rng = np.random.default_rng(RANDOM_SEED)
+
+shannon_base = add_publication_id(corpus_df)
+shannon_base["year"] = prepare_year(shannon_base["year"])
+shannon_base = shannon_base.dropna(subset=["year"]).copy()
+shannon_base["year"] = shannon_base["year"].astype(int)
+shannon_base["Themes"] = shannon_base[THEMATIC_COLUMN].apply(
+    lambda value: prepare_themes(value, include_other=False)
+)
+
+
+def fractional_theme_weights(theme_lists: list[list[str]]) -> pd.Series:
+    """Sum publication-level fractional thematic weights across seven themes."""
+    weights = pd.Series(0.0, index=SUBSTANTIVE_THEMES, dtype=float)
+    for themes in theme_lists:
+        unique_themes = [
+            theme
+            for theme in dict.fromkeys(themes)
+            if theme in SUBSTANTIVE_THEMES
+        ]
+        if not unique_themes:
+            continue
+        contribution = 1.0 / len(unique_themes)
+        for theme in unique_themes:
+            weights.loc[theme] += contribution
+    return weights
+
+
+def shannon_from_theme_lists(theme_lists: list[list[str]]) -> float:
+    """Calculate Shannon diversity after publication-level fractional allocation."""
+    weights = fractional_theme_weights(theme_lists)
+    total_weight = weights.sum()
+    if total_weight <= 0:
+        return np.nan
+    probabilities = weights[weights > 0] / total_weight
+    return float(-(probabilities * np.log(probabilities)).sum())
+
+
+def bootstrap_shannon(
+    theme_lists: list[list[str]],
+    n_bootstrap: int = N_BOOTSTRAP,
+) -> tuple[float, float]:
+    """Return percentile bootstrap limits using publication-level resampling."""
+    if not theme_lists:
+        return np.nan, np.nan
+
+    values = []
+    n_publications = len(theme_lists)
+    for _ in range(n_bootstrap):
+        sampled_indices = rng.integers(0, n_publications, size=n_publications)
+        sampled_lists = [theme_lists[index] for index in sampled_indices]
+        values.append(shannon_from_theme_lists(sampled_lists))
+
+    values = np.asarray(values, dtype=float)
+    values = values[np.isfinite(values)]
+    if len(values) == 0:
+        return np.nan, np.nan
+    return float(np.quantile(values, 0.025)), float(np.quantile(values, 0.975))
+
+
+annual_shannon_rows = []
+for year, group in shannon_base.groupby("year"):
+    all_theme_lists = group["Themes"].tolist()
+    contributing_lists = [themes for themes in all_theme_lists if len(themes) > 0]
+    shannon_value = shannon_from_theme_lists(contributing_lists)
+    ci_low, ci_high = bootstrap_shannon(contributing_lists)
+    raw_assignments = sum(len(themes) for themes in all_theme_lists)
+    fractional_weights = fractional_theme_weights(contributing_lists)
+
+    annual_shannon_rows.append(
+        {
+            "Year": int(year),
+            "Publications": len(group),
+            "Publications_with_Substantive_Themes": len(contributing_lists),
+            "Raw_Substantive_Theme_Assignments": raw_assignments,
+            "Fractional_Weight_Total": fractional_weights.sum(),
+            "Shannon_Index": shannon_value,
+            "CI_95_Lower": ci_low,
+            "CI_95_Upper": ci_high,
+        }
+    )
+
+annual_shannon = pd.DataFrame(annual_shannon_rows).sort_values("Year").reset_index(
+    drop=True
+)
+annual_shannon["Shannon_Index"] = annual_shannon["Shannon_Index"].round(3)
+annual_shannon["CI_95_Lower"] = annual_shannon["CI_95_Lower"].round(3)
+annual_shannon["CI_95_Upper"] = annual_shannon["CI_95_Upper"].round(3)
+
+dataframe_to_csv(annual_shannon, "table_annual_thematic_diversity_shannon.csv")
+
+plt.figure(figsize=(12, 6))
+plt.plot(
+    annual_shannon["Year"],
+    annual_shannon["Shannon_Index"],
+    marker="o",
+    linewidth=1.5,
+)
+plt.fill_between(
+    annual_shannon["Year"],
+    annual_shannon["CI_95_Lower"],
+    annual_shannon["CI_95_Upper"],
+    alpha=0.2,
+)
+plt.xlabel("Publication year")
+plt.ylabel("Shannon index")
+plt.title("Annual Thematic Diversity with Publication-Level Fractional Weighting")
+plt.grid(alpha=0.25)
+plt_savefig(plt, "fig_annual_thematic_diversity_shannon.jpg")
+plt.close()
+
+show_interactive_table(annual_shannon, paging=True, searching=True, info=True)
+```
+
+The fractional procedure ensures that an article with multiple substantive categories does not contribute more total weight than a single-category article.
+
+### Overall thematic diversity
+
+The complete corpus uses the same fractional weighting rule:
+
+$$
+H_{\mathrm{overall}}=-\sum_{i=1}^{7}p_i\ln(p_i).
+$$
+
+```{python}
+overall_theme_lists = [
+    themes for themes in shannon_base["Themes"].tolist() if len(themes) > 0
+]
+overall_theme_weights = fractional_theme_weights(overall_theme_lists)
+overall_shannon = shannon_from_theme_lists(overall_theme_lists)
+overall_probabilities = overall_theme_weights / overall_theme_weights.sum()
+
+overall_shannon_table = pd.DataFrame(
+    {
+        "Category": SUBSTANTIVE_THEMES,
+        "Fractional_Weight": [
+            overall_theme_weights[theme] for theme in SUBSTANTIVE_THEMES
+        ],
+        "Fractional_Proportion": [
+            overall_probabilities[theme] for theme in SUBSTANTIVE_THEMES
+        ],
+    }
+)
+overall_shannon_table["Overall_Shannon_Index"] = overall_shannon
+
+dataframe_to_csv(
+    overall_shannon_table,
+    "table_overall_thematic_diversity_shannon.csv",
+)
+show_interactive_table(overall_shannon_table.round(4))
+```
+
+The fractional weights sum to the number of publications containing at least one substantive category.
+
+### Thematic evolution Sankey diagram
+
+For period $r$ and category $i$,
+
+$$
+N_{ir}=\sum_{p:Y_p\in r}I(i\in T_p).
+$$
+
+For visual continuity across adjacent periods, link width is defined descriptively as
+
+$$
+f_{i,r\rightarrow r+1}=\min(N_{ir},N_{i,r+1}).
+$$
+
+This is a visualization device and is not a publication-level transition probability.
+
+```{python}
+THEMATIC_PERIODS = [
+    ("2002-2007", 2002, 2007),
+    ("2008-2013", 2008, 2013),
+    ("2014-2019", 2014, 2019),
+    ("2020-2025", 2020, 2025),
+]
+TOP_N_SANKEY_CATEGORIES = 3
+
+sankey_df = add_publication_id(corpus_df)
+sankey_df["year"] = prepare_year(sankey_df["year"])
+sankey_df = sankey_df.dropna(subset=["year"]).copy()
+sankey_df["year"] = sankey_df["year"].astype(int)
+sankey_df["Themes"] = sankey_df[THEMATIC_COLUMN].apply(
+    lambda value: prepare_themes(value, include_other=True)
+)
+
+
+def assign_thematic_period(year: int) -> str | None:
+    for label, start, end in THEMATIC_PERIODS:
+        if start <= year <= end:
+            return label
+    return None
+
+
+sankey_df["Period"] = sankey_df["year"].apply(assign_thematic_period)
+sankey_long = sankey_df[["publication_id", "Period", "Themes"]].explode(
+    "Themes"
+).dropna()
+sankey_long = sankey_long.drop_duplicates(["publication_id", "Period", "Themes"])
+
+period_category_counts = (
+    sankey_long.groupby(["Period", "Themes"])["publication_id"]
+    .nunique()
+    .rename("Publications")
+    .reset_index()
+)
+
+global_sankey_counts = (
+    sankey_long.groupby("Themes")["publication_id"].nunique().sort_values(ascending=False)
+)
+top_sankey_categories = global_sankey_counts.head(
+    TOP_N_SANKEY_CATEGORIES
+).index.tolist()
+period_category_counts["Display_Category"] = period_category_counts["Themes"].where(
+    period_category_counts["Themes"].isin(top_sankey_categories),
+    "Other categories",
+)
+period_display_counts = period_category_counts.groupby(
+    ["Period", "Display_Category"],
+    as_index=False,
+)["Publications"].sum()
+
+period_order = [label for label, _, _ in THEMATIC_PERIODS]
+node_records = []
+for period in period_order:
+    for category in top_sankey_categories + ["Other categories"]:
+        count_series = period_display_counts.loc[
+            (period_display_counts["Period"] == period)
+            & (period_display_counts["Display_Category"] == category),
+            "Publications",
+        ]
+        count = int(count_series.iloc[0]) if not count_series.empty else 0
+        node_records.append(
+            {"Period": period, "Category": category, "Publications": count}
+        )
+
+node_df = pd.DataFrame(node_records)
+node_df["Node_Label"] = node_df.apply(
+    lambda row: f"{row['Period']} | {row['Category']} ({row['Publications']})",
+    axis=1,
+)
+node_index = {
+    (row.Period, row.Category): index
+    for index, row in node_df.iterrows()
+}
+
+source, target, value = [], [], []
+for left_period, right_period in zip(period_order[:-1], period_order[1:]):
+    for category in top_sankey_categories + ["Other categories"]:
+        left_count = int(
+            node_df.loc[
+                (node_df["Period"] == left_period)
+                & (node_df["Category"] == category),
+                "Publications",
+            ].iloc[0]
+        )
+        right_count = int(
+            node_df.loc[
+                (node_df["Period"] == right_period)
+                & (node_df["Category"] == category),
+                "Publications",
+            ].iloc[0]
+        )
+        flow = min(left_count, right_count)
+        if flow > 0:
+            source.append(node_index[(left_period, category)])
+            target.append(node_index[(right_period, category)])
+            value.append(flow)
+
+sankey_figure = go.Figure(
+    data=[
+        go.Sankey(
+            arrangement="snap",
+            node=dict(
+                label=node_df["Node_Label"].tolist(),
+                pad=15,
+                thickness=18,
+            ),
+            link=dict(source=source, target=target, value=value),
+        )
+    ]
+)
+sankey_figure.update_layout(
+    title="Thematic Continuity Across Time Periods",
+    font_size=10,
+)
+
+dataframe_to_csv(
+    period_category_counts,
+    "table_thematic_evolution_period_counts.csv",
+)
+save_plotly_html(sankey_figure, "fig_thematic_evolution_sankey.html")
+try_save_plotly_png(sankey_figure, "fig_thematic_evolution_sankey.jpg")
+sankey_figure.show()
+
+show_interactive_table(
+    period_category_counts,
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+The node labels report observed period-specific category counts. Link widths are descriptive continuity values only.
+
+### Thematic strategic diagram
+
+The strategic diagram uses all seven substantive human-assigned thematic categories and excludes `Other`. No minimum category-frequency threshold or co-occurrence threshold is applied. For categories $i$ and $j$,
+
+$$
+w_{ij}=\sum_p I(i\in T_p)I(j\in T_p).
+$$
+
+Category centrality is weighted degree,
+
+$$
+C_i=\sum_{j\in N(i)}w_{ij},
+$$
+
+and category density is mean observed edge weight,
+
+$$
+D_i=\frac{C_i}{|N(i)|},
+$$
+
+for non-isolated categories. Isolates are assigned $C_i=D_i=0$. No additional normalization is applied. Median boundaries are calculated across all seven categories, including isolates; equality with a median is assigned to the higher side of that dimension. Bubble area is proportional to $\ln(1+N_i)$.
+
+```{python}
+strategic_df = add_publication_id(corpus_df)
+strategic_df["Themes"] = strategic_df[THEMATIC_COLUMN].apply(
+    lambda value: prepare_themes(value, include_other=False)
+)
+
+strategic_long = strategic_df[["publication_id", "Themes"]].explode(
+    "Themes"
+).dropna()
+strategic_long = strategic_long.drop_duplicates(["publication_id", "Themes"])
+
+category_frequency = (
+    strategic_long.groupby("Themes")["publication_id"]
+    .nunique()
+    .reindex(SUBSTANTIVE_THEMES, fill_value=0)
+)
+
+cooccurrence_counter = Counter()
+for themes in strategic_df["Themes"]:
+    unique_themes = sorted(set(theme for theme in themes if theme in SUBSTANTIVE_THEMES))
+    for theme_a, theme_b in combinations(unique_themes, 2):
+        cooccurrence_counter[(theme_a, theme_b)] += 1
+
+strategic_graph = nx.Graph()
+for theme in SUBSTANTIVE_THEMES:
+    strategic_graph.add_node(theme, Frequency=int(category_frequency.loc[theme]))
+for (theme_a, theme_b), weight in cooccurrence_counter.items():
+    if weight > 0:
+        strategic_graph.add_edge(theme_a, theme_b, weight=int(weight))
+
+strategic_rows = []
+for theme in SUBSTANTIVE_THEMES:
+    neighbors = list(strategic_graph.neighbors(theme))
+    weighted_degree = float(strategic_graph.degree(theme, weight="weight"))
+    n_neighbors = len(neighbors)
+    density = weighted_degree / n_neighbors if n_neighbors > 0 else 0.0
+    strategic_rows.append(
+        {
+            "Category": theme,
+            "Frequency": int(category_frequency.loc[theme]),
+            "Num_Neighbors": n_neighbors,
+            "Centrality": weighted_degree,
+            "Density": density,
+            "Is_Isolate": n_neighbors == 0,
+        }
+    )
+
+strategic_metrics = pd.DataFrame(strategic_rows)
+median_centrality = float(strategic_metrics["Centrality"].median())
+median_density = float(strategic_metrics["Density"].median())
+
+
+def strategic_quadrant(row) -> str:
+    high_centrality = row["Centrality"] >= median_centrality
+    high_density = row["Density"] >= median_density
+    if high_centrality and high_density:
+        return "High centrality / high density"
+    if high_centrality and not high_density:
+        return "High centrality / low density"
+    if not high_centrality and high_density:
+        return "Low centrality / high density"
+    return "Weakly connected themes"
+
+
+strategic_metrics["Quadrant"] = strategic_metrics.apply(
+    strategic_quadrant,
+    axis=1,
+)
+strategic_metrics["Bubble_Area"] = 450 * np.log1p(strategic_metrics["Frequency"])
+
+strategic_edges = pd.DataFrame(
+    [
+        {"Source": source, "Target": target, "Weight": data["weight"]}
+        for source, target, data in strategic_graph.edges(data=True)
+    ]
+)
+if not strategic_edges.empty:
+    strategic_edges = strategic_edges.sort_values("Weight", ascending=False)
+
+dataframe_to_csv(strategic_metrics, "table_thematic_strategic_metrics.csv")
+dataframe_to_csv(strategic_edges, "network_thematic_category_edges.csv")
+
+plt.figure(figsize=(11, 8))
+plt.scatter(
+    strategic_metrics["Centrality"],
+    strategic_metrics["Density"],
+    s=strategic_metrics["Bubble_Area"],
+    alpha=0.6,
+    edgecolors="black",
+    linewidths=0.8,
+)
+plt.axvline(median_centrality, linestyle="--", linewidth=1)
+plt.axhline(median_density, linestyle="--", linewidth=1)
+for row in strategic_metrics.itertuples(index=False):
+    plt.annotate(
+        row.Category,
+        (row.Centrality, row.Density),
+        xytext=(5, 5),
+        textcoords="offset points",
+        fontsize=9,
+    )
+plt.xlabel("Centrality: total co-occurrence strength")
+plt.ylabel("Density: mean co-occurrence strength across observed neighbors")
+plt.title("Strategic Diagram of Human-Assigned Thematic Categories")
+plt.grid(alpha=0.2)
+plt_savefig(plt, "fig_thematic_strategic_diagram.jpg")
+plt.close()
+
+strategic_reference = pd.DataFrame(
+    {
+        "Reference": ["Median centrality", "Median density"],
+        "Value": [median_centrality, median_density],
+    }
+)
+show_interactive_table(strategic_reference)
+show_interactive_table(strategic_metrics)
+show_interactive_table(strategic_edges, paging=True, searching=True, info=True)
+```
+
+The table reports the exact raw centrality, density, prevalence, isolate status, and median-based quadrant assignment. The lower-left region is described only as `Weakly connected themes`; no emerging/declining interpretation is assigned.
+
+### Temporal trends of high-frequency keywords
+
+For keyword $k$ and year $y$, annual document frequency is
+
+$$
+DF_{ky}=\sum_{p:Y_p=y}I(k\in K_p).
+$$
+
+Keywords are normalized before counting, and each keyword contributes at most once per publication.
+
+```{python}
+keyword_time_df = add_publication_id(corpus_df)
+keyword_time_df["year"] = prepare_year(keyword_time_df["year"])
+keyword_time_df = keyword_time_df.dropna(subset=["year"]).copy()
+keyword_time_df["year"] = keyword_time_df["year"].astype(int)
+keyword_time_df["Clean_Keywords"] = keyword_time_df["keywords"].apply(
+    normalize_keywords
+)
+
+keyword_time_long = keyword_time_df[
+    ["publication_id", "year", "Clean_Keywords"]
+].explode("Clean_Keywords").dropna()
+keyword_time_long = keyword_time_long.drop_duplicates(
+    ["publication_id", "year", "Clean_Keywords"]
+)
+
+global_keyword_df = (
+    keyword_time_long.groupby("Clean_Keywords")["publication_id"]
+    .nunique()
+    .sort_values(ascending=False)
+)
+TOP_N_KEYWORDS = 12
+top_keyword_names = global_keyword_df.head(TOP_N_KEYWORDS).index.tolist()
+
+keyword_year_counts = (
+    keyword_time_long[
+        keyword_time_long["Clean_Keywords"].isin(top_keyword_names)
+    ]
+    .groupby(["year", "Clean_Keywords"])["publication_id"]
+    .nunique()
+    .rename("Document_Frequency")
+    .reset_index()
+    .rename(columns={"year": "Year", "Clean_Keywords": "Keyword"})
+)
+
+dataframe_to_csv(
+    keyword_year_counts,
+    "table_temporal_high_frequency_keywords.csv",
+)
+
+plt.figure(figsize=(12, 7))
+for keyword in top_keyword_names:
+    rows = keyword_year_counts[keyword_year_counts["Keyword"] == keyword]
+    plt.scatter(
+        rows["Year"],
+        [keyword] * len(rows),
+        s=25 + 22 * rows["Document_Frequency"],
+        alpha=0.65,
+    )
+plt.xlabel("Publication year")
+plt.ylabel("Keyword")
+plt.title("Temporal Trends of High-Frequency Keywords")
+plt.grid(axis="x", alpha=0.2)
+plt_savefig(plt, "fig_temporal_high_frequency_keywords.jpg")
+plt.close()
+
+show_interactive_table(
+    keyword_year_counts,
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+Bubble size represents annual publication-level document frequency. The plot is descriptive and does not imply statistical significance of temporal changes.
+
+### Keywords with the strongest positive temporal trends
+
+To adjust for annual publication volume, keyword frequency is normalized as
+
+$$
+f_{ky}=\frac{DF_{ky}}{P_y}.
+$$
+
+For keywords occurring in at least five publications overall, a simple linear trend is fitted over observed publication years:
+
+$$
+f_{ky}=\beta_{0k}+\beta_{1k}y+\varepsilon_{ky}.
+$$
+
+The slope $\beta_{1k}$ ranks positive temporal trends. Regression statistics are reported descriptively.
+
+```{python}
+MIN_KEYWORD_DOCUMENT_FREQUENCY = 5
+TOP_N_GROWING_KEYWORDS = 30
+
+year_denominator = keyword_time_df.groupby("year")["publication_id"].nunique()
+all_keyword_counts = (
+    keyword_time_long.groupby(["year", "Clean_Keywords"])["publication_id"]
+    .nunique()
+    .rename("Document_Frequency")
+    .reset_index()
+)
+eligible_keywords = global_keyword_df[
+    global_keyword_df >= MIN_KEYWORD_DOCUMENT_FREQUENCY
+].index.tolist()
+
+trend_rows = []
+observed_years = np.asarray(sorted(year_denominator.index), dtype=int)
+for keyword in eligible_keywords:
+    counts = (
+        all_keyword_counts[
+            all_keyword_counts["Clean_Keywords"] == keyword
+        ]
+        .set_index("year")["Document_Frequency"]
+        .reindex(observed_years, fill_value=0)
+    )
+    denominators = year_denominator.reindex(observed_years)
+    normalized = counts.div(denominators)
+    regression = linregress(observed_years, normalized.to_numpy(dtype=float))
+    trend_rows.append(
+        {
+            "Keyword": keyword,
+            "Total_Document_Frequency": int(global_keyword_df.loc[keyword]),
+            "Slope": regression.slope,
+            "Intercept": regression.intercept,
+            "R_squared": regression.rvalue**2,
+            "P_value": regression.pvalue,
+            "Std_Error": regression.stderr,
+        }
+    )
+
+keyword_trends = pd.DataFrame(trend_rows).sort_values(
+    "Slope",
+    ascending=False,
+).reset_index(drop=True)
+top_growing_keywords = keyword_trends[keyword_trends["Slope"] > 0].head(
+    TOP_N_GROWING_KEYWORDS
+).copy()
+
+dataframe_to_csv(keyword_trends, "table_keyword_temporal_trends.csv")
+
+plt.figure(figsize=(10, 8))
+plot_trends = top_growing_keywords.sort_values("Slope")
+plt.barh(plot_trends["Keyword"], plot_trends["Slope"])
+plt.xlabel("Slope of normalized annual document frequency")
+plt.ylabel("Keyword")
+plt.title("Keywords with the Strongest Positive Temporal Trends")
+plt_savefig(plt, "fig_top_growing_keywords.jpg")
+plt.close()
+
+show_interactive_table(
+    top_growing_keywords.round(6),
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+The slope is a descriptive measure of change in publication-normalized keyword frequency. The regression statistics are retained for transparent reporting rather than for a binary significance rule.
+
+### Decomposition of thematic diversity: richness and evenness
+
+For each year, thematic richness is
+
+$$
+R_y=|\{i:W_{iy}>0\}|.
+$$
+
+Pielou-style evenness is
+
+$$
+J_y=\frac{H_y}{\ln(R_y)}
+$$
+
+when $R_y>1$; it is set to zero when only one category is represented.
+
+```{python}
+diversity_decomposition_rows = []
+for year, group in shannon_base.groupby("year"):
+    theme_lists = [themes for themes in group["Themes"].tolist() if len(themes) > 0]
+    weights = fractional_theme_weights(theme_lists)
+    richness = int((weights > 0).sum())
+    shannon_value = shannon_from_theme_lists(theme_lists)
+    evenness = (
+        shannon_value / math.log(richness)
+        if richness > 1 and pd.notna(shannon_value)
+        else 0.0
+    )
+    diversity_decomposition_rows.append(
+        {
+            "Year": int(year),
+            "Publications_with_Substantive_Themes": len(theme_lists),
+            "Richness": richness,
+            "Shannon_Index": shannon_value,
+            "Evenness": evenness,
+        }
+    )
+
+diversity_decomposition = pd.DataFrame(
+    diversity_decomposition_rows
+).sort_values("Year")
+dataframe_to_csv(
+    diversity_decomposition,
+    "table_thematic_richness_evenness.csv",
+)
+
+fig, ax1 = plt.subplots(figsize=(12, 6))
+ax1.plot(
+    diversity_decomposition["Year"],
+    diversity_decomposition["Richness"],
+    marker="o",
+    label="Richness",
+)
+ax1.set_xlabel("Publication year")
+ax1.set_ylabel("Richness")
+
+ax2 = ax1.twinx()
+ax2.plot(
+    diversity_decomposition["Year"],
+    diversity_decomposition["Evenness"],
+    marker="s",
+    label="Evenness",
+)
+ax2.set_ylabel("Evenness")
+lines = ax1.get_lines() + ax2.get_lines()
+ax1.legend(lines, [line.get_label() for line in lines], loc="upper left")
+plt.title("Thematic Richness and Evenness Over Time")
+fig.tight_layout()
+plt_savefig(plt, "fig_thematic_richness_evenness.jpg")
+plt.close()
+
+show_interactive_table(
+    diversity_decomposition.round(4),
+    paging=True,
+    searching=True,
+    info=True,
+)
+```
+
+Richness and evenness use the same seven-category fractional representation as the Shannon analysis.
+
+## Network and thematic structures
+
+### Keyword co-occurrence network
+
+Keywords are lowercased, synonymous and orthographic variants are harmonized, non-informative terms are removed, and duplicates within a publication are counted once. A keyword is eligible when
+
+$$
+DF_k=\sum_p I(k\in K_p)\ge5.
+$$
+
+For eligible keywords $i$ and $j$,
+
+$$
+w_{ij}=\sum_p I(i\in K_p)I(j\in K_p).
+$$
+
+Edges with $w_{ij}\ge2$ are retained for the final network. These are raw document-level counts; VOSviewer association-strength normalization and clustering are applied after import.
+
+```{python}
+MIN_KEYWORD_DOCUMENT_FREQUENCY = 5
+MIN_KEYWORD_EDGE_WEIGHT = 2
+
+keyword_network_df = add_publication_id(corpus_df)
+keyword_network_df["Raw_Keywords"] = keyword_network_df["keywords"].apply(
+    clean_unique_strings
+)
+keyword_network_df["Clean_Keywords"] = keyword_network_df["keywords"].apply(
+    normalize_keywords
+)
+
+keyword_document_frequency = Counter()
+for keywords in keyword_network_df["Clean_Keywords"]:
+    keyword_document_frequency.update(set(keywords))
+
+eligible_network_keywords = {
+    keyword
+    for keyword, frequency in keyword_document_frequency.items()
+    if frequency >= MIN_KEYWORD_DOCUMENT_FREQUENCY
+}
+
+keyword_edge_counter = Counter()
+for keywords in keyword_network_df["Clean_Keywords"]:
+    retained = sorted(set(keywords).intersection(eligible_network_keywords))
+    for keyword_a, keyword_b in combinations(retained, 2):
+        keyword_edge_counter[(keyword_a, keyword_b)] += 1
+
+keyword_edges_all = pd.DataFrame(
+    [
+        {"Source": source, "Target": target, "Weight": weight}
+        for (source, target), weight in keyword_edge_counter.items()
+    ]
+)
+if keyword_edges_all.empty:
+    keyword_edges = pd.DataFrame(columns=["Source", "Target", "Weight"])
+else:
+    keyword_edges = keyword_edges_all[
+        keyword_edges_all["Weight"] >= MIN_KEYWORD_EDGE_WEIGHT
+    ].sort_values(
+        ["Weight", "Source", "Target"],
+        ascending=[False, True, True],
+    )
+
+keyword_graph = nx.Graph()
+for row in keyword_edges.itertuples(index=False):
+    keyword_graph.add_edge(row.Source, row.Target, weight=int(row.Weight))
+
+keyword_nodes = pd.DataFrame({"Keyword": sorted(keyword_graph.nodes())})
+keyword_nodes["Document_Frequency"] = keyword_nodes["Keyword"].map(
+    keyword_document_frequency
+).astype(int)
+keyword_nodes["Degree"] = keyword_nodes["Keyword"].map(
+    dict(keyword_graph.degree())
+).astype(int)
+keyword_nodes["Weighted_Degree"] = keyword_nodes["Keyword"].map(
+    dict(keyword_graph.degree(weight="weight"))
+).astype(int)
+keyword_nodes = keyword_nodes.sort_values(
+    ["Document_Frequency", "Weighted_Degree"],
+    ascending=[False, False],
+).reset_index(drop=True)
+
+network_keyword_order = keyword_nodes["Keyword"].tolist()
+keyword_matrix = pd.DataFrame(
+    0,
+    index=network_keyword_order,
+    columns=network_keyword_order,
+    dtype=int,
+)
+for keyword in network_keyword_order:
+    keyword_matrix.loc[keyword, keyword] = int(keyword_document_frequency[keyword])
+for row in keyword_edges.itertuples(index=False):
+    keyword_matrix.loc[row.Source, row.Target] = int(row.Weight)
+    keyword_matrix.loc[row.Target, row.Source] = int(row.Weight)
+
+raw_keyword_forms = sorted(
+    {
+        keyword
+        for values in keyword_network_df["Raw_Keywords"]
+        for keyword in values
+    }
+)
+clean_keyword_forms = sorted(keyword_document_frequency)
+keyword_cleaning_summary = pd.DataFrame(
+    {
+        "Metric": [
+            "Unique raw keyword forms",
+            "Unique cleaned keyword forms",
+            "Keywords with document frequency >= 5",
+            "Connected keywords after edge threshold >= 2",
+            "Observed eligible keyword pairs",
+            "Retained network edges",
+        ],
+        "Value": [
+            len(raw_keyword_forms),
+            len(clean_keyword_forms),
+            len(eligible_network_keywords),
+            keyword_graph.number_of_nodes(),
+            len(keyword_edge_counter),
+            keyword_graph.number_of_edges(),
+        ],
+    }
+)
+
+dataframe_to_csv(
+    pd.DataFrame({"Raw_Keyword": raw_keyword_forms}),
+    "table_raw_keywords_before_harmonization.csv",
+)
+cleaned_keyword_frequency = pd.DataFrame(
+    {
+        "Keyword": clean_keyword_forms,
+        "Document_Frequency": [
+            keyword_document_frequency[keyword]
+            for keyword in clean_keyword_forms
+        ],
+    }
+).sort_values("Document_Frequency", ascending=False)
+dataframe_to_csv(
+    cleaned_keyword_frequency,
+    "table_cleaned_keyword_document_frequency.csv",
+)
+dataframe_to_csv(keyword_cleaning_summary, "table_keyword_network_summary.csv")
+dataframe_to_csv(keyword_nodes, "network_keyword_nodes.csv")
+dataframe_to_csv(keyword_edges, "network_keyword_edges.csv")
+dataframe_to_csv(
+    keyword_matrix.reset_index().rename(columns={"index": "Keyword"}),
+    "network_keyword_cooccurrence_matrix.csv",
+)
+
+layout = (
+    nx.spring_layout(keyword_graph, seed=42, weight="weight")
+    if keyword_graph.number_of_nodes()
+    else {}
+)
+vosviewer_json = {
+    "network": {
+        "items": [
+            {
+                "id": node,
+                "label": node,
+                "x": round(float(layout[node][0]), 6),
+                "y": round(float(layout[node][1]), 6),
+                "weight": int(keyword_document_frequency[node]),
+            }
+            for node in keyword_graph.nodes()
+        ],
+        "links": [
+            {
+                "source_id": source,
+                "target_id": target,
+                "strength": int(data["weight"]),
+            }
+            for source, target, data in keyword_graph.edges(data=True)
+        ],
+    }
+}
+if SAVE_MODE:
+    with open(
+        OUTPUT_DIR / "network_keyword_vosviewer.json",
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(vosviewer_json, file, indent=2, ensure_ascii=False)
+
+if keyword_graph.number_of_nodes() > 0:
+    plt.figure(figsize=(13, 10))
+    node_sizes = [
+        80 + 30 * keyword_document_frequency[node]
+        for node in keyword_graph.nodes()
+    ]
+    edge_widths = [
+        0.4 + 0.25 * keyword_graph[source][target]["weight"]
+        for source, target in keyword_graph.edges()
+    ]
+    nx.draw_networkx_nodes(keyword_graph, layout, node_size=node_sizes, alpha=0.7)
+    nx.draw_networkx_edges(keyword_graph, layout, width=edge_widths, alpha=0.25)
+    label_nodes = keyword_nodes.head(35)["Keyword"].tolist()
+    nx.draw_networkx_labels(
+        keyword_graph,
+        layout,
+        labels={node: node for node in label_nodes},
+        font_size=7,
+    )
+    plt.title("Keyword Co-occurrence Network: Raw Publication-Level Weights")
+    plt.axis("off")
+    plt_savefig(plt, "fig_keyword_cooccurrence_network_preview.jpg")
+    plt.close()
+
+show_interactive_table(keyword_cleaning_summary)
+show_interactive_table(keyword_nodes, paging=True, searching=True, info=True)
+show_interactive_table(keyword_edges, paging=True, searching=True, info=True)
+```
+
+The summary records every filtering stage. Node and edge exports contain raw counts; normalization and clustering remain VOSviewer operations.
+
+### Thematic co-occurrence heatmap
+
+For substantive categories $i$ and $j$, the off-diagonal cells contain co-occurrence counts and diagonal cells contain publication frequencies:
+
+$$
+M_{ij}=\begin{cases}
+N_i,& i=j,\\
+w_{ij},& i\ne j.
+\end{cases}
+$$
+
+```{python}
+thematic_matrix = pd.DataFrame(
+    0,
+    index=SUBSTANTIVE_THEMES,
+    columns=SUBSTANTIVE_THEMES,
+    dtype=int,
+)
+for theme in SUBSTANTIVE_THEMES:
+    thematic_matrix.loc[theme, theme] = int(category_frequency.loc[theme])
+for (theme_a, theme_b), weight in cooccurrence_counter.items():
+    thematic_matrix.loc[theme_a, theme_b] = int(weight)
+    thematic_matrix.loc[theme_b, theme_a] = int(weight)
+
+thematic_matrix_export = thematic_matrix.reset_index().rename(
+    columns={"index": "Category"}
+)
+dataframe_to_csv(
+    thematic_matrix_export,
+    "table_thematic_cooccurrence_matrix.csv",
+)
+
+plt.figure(figsize=(10, 8))
+plt.imshow(thematic_matrix.to_numpy(), aspect="auto")
+plt.colorbar(label="Publication count")
+plt.xticks(
+    range(len(SUBSTANTIVE_THEMES)),
+    SUBSTANTIVE_THEMES,
+    rotation=45,
+    ha="right",
+)
+plt.yticks(range(len(SUBSTANTIVE_THEMES)), SUBSTANTIVE_THEMES)
+for row_index in range(len(SUBSTANTIVE_THEMES)):
+    for column_index in range(len(SUBSTANTIVE_THEMES)):
+        plt.text(
+            column_index,
+            row_index,
+            str(thematic_matrix.iloc[row_index, column_index]),
+            ha="center",
+            va="center",
+            fontsize=8,
+            color="white",
+            fontweight="bold",
+        )
+plt.title("Publication-Level Thematic Co-occurrence Matrix")
+plt.tight_layout()
+plt_savefig(plt, "fig_thematic_cooccurrence_heatmap.jpg")
+plt.close()
+
+show_interactive_table(thematic_matrix_export)
+```
+
+The same publication-level thematic representation is used here and in the strategic diagram.
+
+### Three-field plot: authors, keywords, and journals
+
+For author $a$, keyword $k$, and journal $j$,
+
+$$
+w_{ak}=\sum_p I(a\in A_p)I(k\in K_p),
+$$
+
+and
+
+$$
+w_{kj}=\sum_p I(k\in K_p)I(j=J_p).
+$$
+
+Global entity frequencies are calculated before complete-case filtering. Cross-field links are then constructed only from publications containing author, keyword, and journal information. Links with at least two supporting publications are displayed.
+
+```{python}
+TOP_N_AUTHORS_THREE_FIELD = 5
+TOP_N_KEYWORDS_THREE_FIELD = 10
+TOP_N_JOURNALS_THREE_FIELD = 7
+MIN_THREE_FIELD_EDGE_WEIGHT = 2
+MAX_THREE_FIELD_LABEL_LENGTH = 40
+
+three_field_df = add_publication_id(corpus_df)
+three_field_df["Authors"] = three_field_df["authors"].apply(clean_unique_strings)
+three_field_df["Keywords"] = three_field_df["keywords"].apply(normalize_keywords)
+three_field_df["Journal"] = three_field_df["journal_title"].astype("string").str.strip()
+three_field_df.loc[three_field_df["Journal"].eq(""), "Journal"] = pd.NA
+
+author_frequency = Counter()
+keyword_frequency = Counter()
+journal_frequency = Counter()
+for row in three_field_df.itertuples(index=False):
+    author_frequency.update(set(row.Authors))
+    keyword_frequency.update(set(row.Keywords))
+    if pd.notna(row.Journal):
+        journal_frequency.update([str(row.Journal)])
+
+top_authors_three_field = [
+    entity
+    for entity, _ in author_frequency.most_common(TOP_N_AUTHORS_THREE_FIELD)
+]
+top_keywords_three_field = [
+    entity
+    for entity, _ in keyword_frequency.most_common(TOP_N_KEYWORDS_THREE_FIELD)
+]
+top_journals_three_field = [
+    entity
+    for entity, _ in journal_frequency.most_common(TOP_N_JOURNALS_THREE_FIELD)
+]
+
+complete_three_field = three_field_df[
+    three_field_df["Authors"].apply(bool)
+    & three_field_df["Keywords"].apply(bool)
+    & three_field_df["Journal"].notna()
+].copy()
+
+author_keyword_counter = Counter()
+keyword_journal_counter = Counter()
+for row in complete_three_field.itertuples(index=False):
+    selected_authors = set(row.Authors).intersection(top_authors_three_field)
+    selected_keywords = set(row.Keywords).intersection(top_keywords_three_field)
+    selected_journal = (
+        str(row.Journal)
+        if row.Journal in top_journals_three_field
+        else None
+    )
+
+    for author in selected_authors:
+        for keyword in selected_keywords:
+            author_keyword_counter[(author, keyword)] += 1
+
+    if selected_journal is not None:
+        for keyword in selected_keywords:
+            keyword_journal_counter[(keyword, selected_journal)] += 1
+
+author_keyword_edges = pd.DataFrame(
+    [
+        {"Author": author, "Keyword": keyword, "Weight": weight}
+        for (author, keyword), weight in author_keyword_counter.items()
+        if weight >= MIN_THREE_FIELD_EDGE_WEIGHT
+    ]
+)
+keyword_journal_edges = pd.DataFrame(
+    [
+        {"Keyword": keyword, "Journal": journal, "Weight": weight}
+        for (keyword, journal), weight in keyword_journal_counter.items()
+        if weight >= MIN_THREE_FIELD_EDGE_WEIGHT
+    ]
+)
+
+connected_author_keywords = (
+    set(author_keyword_edges["Keyword"])
+    if not author_keyword_edges.empty
+    else set()
+)
+connected_journal_keywords = (
+    set(keyword_journal_edges["Keyword"])
+    if not keyword_journal_edges.empty
+    else set()
+)
+connected_keywords = connected_author_keywords.intersection(
+    connected_journal_keywords
+)
+
+author_keyword_edges = author_keyword_edges[
+    author_keyword_edges["Keyword"].isin(connected_keywords)
+].copy()
+keyword_journal_edges = keyword_journal_edges[
+    keyword_journal_edges["Keyword"].isin(connected_keywords)
+].copy()
+
+connected_authors = (
+    sorted(author_keyword_edges["Author"].unique())
+    if not author_keyword_edges.empty
+    else []
+)
+connected_keywords = sorted(connected_keywords)
+connected_journals = (
+    sorted(keyword_journal_edges["Journal"].unique())
+    if not keyword_journal_edges.empty
+    else []
+)
+
+three_field_rankings = pd.concat(
+    [
+        pd.DataFrame(
+            {
+                "Field": "Author",
+                "Entity": top_authors_three_field,
+                "Global_Document_Frequency": [
+                    author_frequency[value] for value in top_authors_three_field
+                ],
+            }
+        ),
+        pd.DataFrame(
+            {
+                "Field": "Keyword",
+                "Entity": top_keywords_three_field,
+                "Global_Document_Frequency": [
+                    keyword_frequency[value] for value in top_keywords_three_field
+                ],
+            }
+        ),
+        pd.DataFrame(
+            {
+                "Field": "Journal",
+                "Entity": top_journals_three_field,
+                "Global_Document_Frequency": [
+                    journal_frequency[value] for value in top_journals_three_field
+                ],
+            }
+        ),
+    ],
+    ignore_index=True,
+)
+
+dataframe_to_csv(
+    three_field_rankings,
+    "table_three_field_global_rankings.csv",
+)
+dataframe_to_csv(
+    author_keyword_edges,
+    "network_three_field_author_keyword_edges.csv",
+)
+dataframe_to_csv(
+    keyword_journal_edges,
+    "network_three_field_keyword_journal_edges.csv",
+)
+
+author_ids = {value: f"author::{value}" for value in connected_authors}
+keyword_ids = {value: f"keyword::{value}" for value in connected_keywords}
+journal_ids = {value: f"journal::{value}" for value in connected_journals}
+all_ids = (
+    list(author_ids.values())
+    + list(keyword_ids.values())
+    + list(journal_ids.values())
+)
+node_index = {node_id: index for index, node_id in enumerate(all_ids)}
+
+
+def short_label(value: str) -> str:
+    if len(value) <= MAX_THREE_FIELD_LABEL_LENGTH:
+        return value
+    return value[: MAX_THREE_FIELD_LABEL_LENGTH - 1] + "…"
+
+
+node_labels = (
+    [short_label(value) for value in connected_authors]
+    + [short_label(value) for value in connected_keywords]
+    + [short_label(value) for value in connected_journals]
+)
+
+sources, targets, values = [], [], []
+for row in author_keyword_edges.itertuples(index=False):
+    sources.append(node_index[author_ids[row.Author]])
+    targets.append(node_index[keyword_ids[row.Keyword]])
+    values.append(int(row.Weight))
+for row in keyword_journal_edges.itertuples(index=False):
+    sources.append(node_index[keyword_ids[row.Keyword]])
+    targets.append(node_index[journal_ids[row.Journal]])
+    values.append(int(row.Weight))
+
+three_field_figure = go.Figure(
+    data=[
+        go.Sankey(
+            arrangement="snap",
+            node=dict(label=node_labels, pad=18, thickness=18),
+            link=dict(source=sources, target=targets, value=values),
+        )
+    ]
+)
+three_field_figure.update_layout(
+    title="Three-Field Plot: Authors – Keywords – Journals",
+    font_size=10,
+)
+save_plotly_html(
+    three_field_figure,
+    "fig_three_field_authors_keywords_journals.html",
+)
+try_save_plotly_png(
+    three_field_figure,
+    "fig_three_field_authors_keywords_journals.jpg",
+)
+three_field_figure.show()
+
+three_field_summary = pd.DataFrame(
+    {
+        "Metric": [
+            "Complete-case publications",
+            "Connected authors",
+            "Connected keywords",
+            "Connected journals",
+            "Author-keyword edges",
+            "Keyword-journal edges",
+        ],
+        "Value": [
+            len(complete_three_field),
+            len(connected_authors),
+            len(connected_keywords),
+            len(connected_journals),
+            len(author_keyword_edges),
+            len(keyword_journal_edges),
+        ],
+    }
+)
+show_interactive_table(three_field_summary)
+show_interactive_table(three_field_rankings, paging=True, searching=True, info=True)
+show_interactive_table(author_keyword_edges, paging=True, searching=True, info=True)
+show_interactive_table(keyword_journal_edges, paging=True, searching=True, info=True)
+```
+
+The top entities are selected globally before complete-case filtering, whereas the plotted cross-field links require complete author, keyword, and journal information.
+
+## Output naming and reproducibility notes
+
+All exported outputs use consistent prefixes:
+
+- `table_*.csv` for analytical tables;
+- `fig_*.jpg` for static figures;
+- `fig_*.html` for standalone interactive Plotly figures;
+- `network_*.csv` or `network_*.json` for network nodes, edges, matrices, and VOSviewer-compatible structures.
+
+Matplotlib figures are saved through the project `plt_savefig()` helper and tabular files through `dataframe_to_csv()`. Plotly HTML outputs explicitly embed Plotly JavaScript. The Quarto YAML uses both `embed-resources: true` and `self-contained-math: true`, so CSS, scripts, figures, and MathJax are included in the standalone report as far as supported by the renderer. ITables is initialized in offline mode and its resources are included in the notebook output.

@@ -26,6 +26,44 @@ def plt_savefig(plt,file_name, html_print = True, plt_show = True):
         plt.show()
 
 
+
+
+
+def plt_savefig(
+    plt,
+    file_name,
+    dpi=300,
+    html_print=True,
+    plt_show=True
+):
+    plt.tight_layout()
+
+    if SAVE_MODE:
+        of = OUTPUT_DIR / file_name
+
+        plt.savefig(
+            of,
+            dpi=dpi,
+            bbox_inches="tight",
+            facecolor="white"
+        )
+
+        if html_print:
+            link = (
+                f'<p>✅ picture saved: '
+                f'<a href="{of}" target="_blank">'
+                f'{os.path.basename(of)}</a></p>'
+            )
+            display(HTML(link))
+        else:
+            print(
+                f"✅ `{os.path.basename(of)}` saved "
+                f"with {dpi} dpi."
+            )
+
+    if plt_show:
+        plt.show()
+
 def dataframe_to_markdown(df: pd.DataFrame,
                         print_this = True,
                         table_name = "",

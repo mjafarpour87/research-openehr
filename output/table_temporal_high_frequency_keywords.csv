@@ -1,0 +1,197 @@
+Year,Keyword,Document_Frequency
+1999,health care,1
+2001,information system,1
+2002,ehealth,1
+2002,ehr,2
+2002,health,1
+2002,health care,1
+2002,interoperability,2
+2002,medical computing,1
+2002,records management,2
+2003,ehr,1
+2003,health,1
+2003,information system,1
+2004,ehr,1
+2004,health care,1
+2006,ehr,1
+2006,information system,2
+2006,interoperability,1
+2006,semantic interoperability,1
+2006,semantics,1
+2008,ehealth,1
+2008,ehr,2
+2008,health,1
+2008,information system,1
+2008,interoperability,1
+2008,medical computing,1
+2009,archetype,8
+2009,ehealth,1
+2009,ehr,8
+2009,health,3
+2009,information system,1
+2009,records management,4
+2009,semantic interoperability,4
+2010,archetype,11
+2010,ehealth,1
+2010,ehr,16
+2010,health,3
+2010,health care,4
+2010,information system,3
+2010,interoperability,6
+2010,iso 13606,1
+2010,medical computing,2
+2010,records management,4
+2010,semantic interoperability,9
+2010,semantics,3
+2011,archetype,7
+2011,ehr,5
+2011,health,2
+2011,health care,3
+2011,information system,2
+2011,interoperability,5
+2011,iso 13606,2
+2011,medical computing,2
+2011,records management,2
+2011,semantic interoperability,4
+2011,semantics,4
+2012,archetype,10
+2012,ehealth,3
+2012,ehr,20
+2012,health,3
+2012,health care,7
+2012,information system,3
+2012,interoperability,5
+2012,iso 13606,8
+2012,medical computing,1
+2012,records management,2
+2012,semantic interoperability,7
+2012,semantics,6
+2013,archetype,13
+2013,ehr,13
+2013,health care,10
+2013,information system,7
+2013,interoperability,8
+2013,iso 13606,1
+2013,medical computing,4
+2013,records management,3
+2013,semantic interoperability,5
+2013,semantics,7
+2014,archetype,12
+2014,ehealth,1
+2014,ehr,19
+2014,health,5
+2014,health care,4
+2014,information system,4
+2014,interoperability,11
+2014,iso 13606,2
+2014,medical computing,7
+2014,records management,2
+2014,semantic interoperability,7
+2014,semantics,11
+2015,archetype,14
+2015,ehealth,2
+2015,ehr,12
+2015,health,1
+2015,health care,1
+2015,information system,2
+2015,interoperability,7
+2015,iso 13606,2
+2015,semantic interoperability,6
+2015,semantics,5
+2016,archetype,8
+2016,ehealth,1
+2016,ehr,10
+2016,health,1
+2016,health care,1
+2016,information system,1
+2016,interoperability,3
+2016,medical computing,1
+2016,semantic interoperability,5
+2016,semantics,2
+2017,archetype,10
+2017,ehealth,3
+2017,ehr,20
+2017,health,5
+2017,health care,4
+2017,information system,2
+2017,interoperability,8
+2017,iso 13606,3
+2017,medical computing,2
+2017,records management,2
+2017,semantic interoperability,3
+2017,semantics,3
+2018,archetype,10
+2018,ehr,11
+2018,health,2
+2018,interoperability,3
+2018,iso 13606,1
+2018,medical computing,2
+2018,semantic interoperability,2
+2018,semantics,1
+2019,archetype,8
+2019,ehealth,5
+2019,ehr,18
+2019,health care,2
+2019,information system,1
+2019,interoperability,4
+2019,iso 13606,1
+2019,medical computing,2
+2019,records management,1
+2019,semantic interoperability,5
+2019,semantics,2
+2020,archetype,4
+2020,ehealth,3
+2020,ehr,8
+2020,information system,2
+2020,interoperability,6
+2020,iso 13606,1
+2020,medical computing,1
+2020,semantic interoperability,4
+2020,semantics,3
+2021,archetype,4
+2021,ehr,8
+2021,health care,1
+2021,interoperability,6
+2021,iso 13606,1
+2021,records management,1
+2021,semantic interoperability,5
+2021,semantics,3
+2022,archetype,4
+2022,ehealth,1
+2022,ehr,9
+2022,health,1
+2022,health care,3
+2022,information system,1
+2022,interoperability,12
+2022,iso 13606,1
+2022,medical computing,1
+2022,records management,2
+2022,semantic interoperability,2
+2022,semantics,3
+2023,ehealth,3
+2023,ehr,6
+2023,health care,3
+2023,information system,2
+2023,interoperability,6
+2023,iso 13606,2
+2023,medical computing,3
+2023,records management,2
+2023,semantic interoperability,2
+2023,semantics,2
+2024,archetype,2
+2024,ehealth,2
+2024,ehr,8
+2024,interoperability,5
+2024,iso 13606,1
+2024,medical computing,1
+2024,records management,2
+2024,semantic interoperability,1
+2024,semantics,2
+2025,archetype,1
+2025,ehealth,4
+2025,ehr,10
+2025,information system,2
+2025,interoperability,6
+2025,iso 13606,1
+2025,medical computing,4
+2025,records management,1

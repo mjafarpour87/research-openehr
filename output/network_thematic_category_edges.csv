@@ -1,0 +1,15 @@
+Source,Target,Weight
+Technical integration,Evaluation & impact,26
+Technical integration,Semantic interoperability,18
+Technical integration,Clinical adoption - use,9
+Semantic interoperability,Evaluation & impact,8
+Technical integration,Comparative assessments,5
+Semantic interoperability,Comparative assessments,4
+Evaluation & impact,Clinical adoption - use,4
+Evaluation & impact,Comparative assessments,4
+Technical integration,Education - training - human factors,3
+Semantic interoperability,Clinical adoption - use,3
+Semantic interoperability,Education - training - human factors,1
+Evaluation & impact,Education - training - human factors,1
+Comparative assessments,Education - training - human factors,1
+Clinical adoption - use,Education - training - human factors,1

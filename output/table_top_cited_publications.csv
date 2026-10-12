@@ -1,0 +1,523 @@
+Rank,title,year,citation_count,journal_title
+1,Analyzing the performance of a blockchain-based personal health record implementation.,2019,169.0,Journal of Biomedical Informatics
+2,Towards semantic interoperability for electronic health records.,2007,168.0,Methods of Information in Medicine
+3,Electronic health record standards.,2006,139.0,Yearbook of medical informatics
+4,"IoMT Platform for Pervasive Healthcare Data Aggregation, Processing, and Sharing Based on OneM2M and OpenEHR.",2019,104.0,Sensors
+5,An approach for the semantic interoperability of ISO EN 13606 and OpenEHR archetypes.,2010,100.0,Journal of Biomedical Informatics
+6,Detailed clinical models: a review.,2010,100.0,Healthcare Informatics Research
+7,Integrating reasoning and clinical archetypes using OWL ontologies and SWRL rules.,2011,100.0,Journal of Biomedical Informatics
+8,Semantic interoperability in standardized electronic health record databases,2012,87.0,Journal of Data and Information Quality
+9,An interoperable clinical decision-support system for early detection of SIRS in pediatric intensive care using openEHR.,2018,74.0,Artificial Intelligence in Medicine
+10,Clinical data interoperability based on archetype transformation.,2011,71.0,Journal of Biomedical Informatics
+11,Toward a Model for Personal Health Record Interoperability.,2019,70.0,IEEE Journal of Biomedical and Health Informatics
+12,Evaluating Model-Driven Development for large-scale EHRs through the openEHR approach.,2016,64.0,International Journal of Medical Informatics
+13,Archetype-based conversion of EHR content models: pilot experience with a regional EHR system.,2009,61.0,BMC Medical Informatics and Decision Making
+14,Interoperable Internet of Medical Things platform for e-Health applications,2020,58.0,International Journal of Distributed Sensor Networks
+15,Integration of tools for binding archetypes to SNOMED CT.,2008,57.0,BMC Medical Informatics and Decision Making
+16,Applying the archetype approach to the database of a biobank information management system.,2011,54.0,International Journal of Medical Informatics
+17,A model-driven approach for representing clinical archetypes for Semantic Web environments.,2009,53.0,Journal of Biomedical Informatics
+18,Role of OpenEHR as an open source solution for the regional modelling of patient data in obstetrics.,2015,53.0,Journal of Biomedical Informatics
+19,Expressing clinical data sets with openEHR archetypes: a solid basis for ubiquitous computing.,2007,48.0,International Journal of Medical Informatics
+20,A multi-site content analysis of social history information in clinical notes.,2011,48.0,AMIA ... Annual Symposium proceedings / AMIA Symposium. AMIA Symposium
+21,Automated population of an i2b2 clinical data warehouse from an openEHR-based data repository.,2016,47.0,Journal of Biomedical Informatics
+22,Archetype-based data warehouse environment to enable the reuse of electronic health record data.,2015,46.0,International Journal of Medical Informatics
+23,Archetype-based electronic health records: a literature review and evaluation of their applicability to health data interoperability and access.,2009,45.0,Health Information Management Journal
+24,Towards a comprehensive electronic patient record to support an innovative individual care concept for premature infants using the openEHR approach.,2009,45.0,International Journal of Medical Informatics
+25,Archetype-Based Knowledge Management for Semantic Interoperability of Electronic Health Records,2009,44.0,Medical Informatics in A United and Healthy Europe
+26,The ISO/EN 13606 Standard for the Interoperable Exchange of Electronic Health Records,2011,44.0,Journal of Healthcare Engineering
+27,Improving the Use of Big Data Analytics within Electronic Health Records: A Case Study based OpenEHR,2018,44.0,Procedia Computer Science
+28,Archetype relational mapping - a practical openEHR persistence solution.,2015,43.0,BMC Medical Informatics and Decision Making
+29,An openEHR based approach to improve the semantic interoperability of clinical data registry.,2018,42.0,BMC Medical Informatics and Decision Making
+30,Modeling EHR with the openEHR approach: an exploratory study in China.,2018,42.0,BMC Medical Informatics and Decision Making
+31,Nursing constraint models for electronic health records: a vision for domain knowledge governance.,2005,41.0,International Journal of Medical Informatics
+32,The EHR-ARCHE project: satisfying clinical information needs in a Shared Electronic Health Record system based on IHE XDS and Archetypes.,2013,41.0,International Journal of Medical Informatics
+33,Infrastructuring in Healthcare through the OpenEHR Architecture,2017,41.0,Computer Supported Cooperative Work
+34,Using the ResearchEHR platform to facilitate the practical application of the EHR standards.,2012,39.0,Journal of Biomedical Informatics
+35,Extraction of standardized archetyped data from Electronic Health Record systems based on the Entity-Attribute-Value Model.,2010,37.0,International Journal of Medical Informatics
+36,Comparison of Open-Source Electronic Health Record Systems Based on Functional and User Performance Criteria.,2019,37.0,Healthcare Informatics Research
+37,Advanced and secure architectural EHR approaches.,2006,36.0,International Journal of Medical Informatics
+38,Obtaining EHR-derived datasets for COVID-19 research within a short time: a flexible methodology based on Detailed Clinical Models.,2021,36.0,Journal of Biomedical Informatics
+39,Semantic similarity-based alignment between clinical archetypes and SNOMED CT: an application to observations.,2012,35.0,International Journal of Medical Informatics
+40,The openEHR Java reference implementation project.,2007,34.0,Studies in Health Technology and Informatics
+41,Applying representational state transfer (REST) architecture to archetype-based electronic health record systems.,2013,34.0,BMC Medical Informatics and Decision Making
+42,Survey of openEHR storage implementations,2013,34.0,Proceedings of CBMS 2013 - 26th IEEE International Symposium on Computer-Based Medical Systems
+43,A methodology based on openEHR archetypes and software agents for developing e-health applications reusing legacy systems.,2016,34.0,Computer Methods and Programs in Biomedicine
+44,Comparing the Performance of NoSQL Approaches for Managing Archetype-Based Electronic Health Record Data.,2016,33.0,PLoS ONE
+45,Experimental Characterization of Mobile IoT Application Latency,2017,33.0,IEEE Internet of Things Journal
+46,"Harvesting metadata in clinical care: a crosswalk between FHIR, OMOP, CDISC and openEHR metadata.",2022,33.0,Scientific data
+47,"Contribution of Clinical Archetypes, and the Challenges, towards Achieving Semantic Interoperability for EHRs.",2013,32.0,Healthcare Informatics Research
+48,Development of an openEHR Template for COVID-19 Based on Clinical Guidelines.,2020,32.0,Journal of Medical Internet Research
+49,Open data models for smart health interconnected applications: the example of openEHR.,2016,31.0,BMC Medical Informatics and Decision Making
+50,Proof-of-concept design and development of an EN13606-based electronic health care record service.,2007,30.0,Journal of the American Medical Informatics Association : JAMIA
+51,Building a Logical EHR architecture based on ISO 13606 standard and Semantic Web Technologies,2010,29.0,"Medinfo 2010, Pts I and Ii"
+52,Data integration for clinical decision support based on openEHR archetypes and HL7 virtual medical record,2013,29.0,Lecture Notes in Computer Science
+53,OntoCR: A CEN/ISO-13606 clinical repository based on ontologies.,2016,29.0,Journal of Biomedical Informatics
+54,Integration of Hospital Information and Clinical Decision Support Systems to Enable the Reuse of Electronic Health Record Data.,2017,29.0,Methods of Information in Medicine
+55,Developing an electronic health record (EHR) for methadone treatment recording and decision support.,2011,28.0,BMC Medical Informatics and Decision Making
+56,Semantic interoperability: HL7 version 3 compared to advanced architecture standards,2006,26.0,Methods of Information in Medicine
+57,Visualization of medical data based on EHR standards.,2013,26.0,Methods of Information in Medicine
+58,Evaluation of software maintain ability with open EHR - a comparison of architectures.,2014,26.0,International Journal of Medical Informatics
+59,"Development, implementation and evaluation of an information model for archetype based user responsive medical data visualization.",2015,26.0,Journal of Biomedical Informatics
+60,Archetype modeling methodology.,2018,26.0,Journal of Biomedical Informatics
+61,OpenEHR and General Data Protection Regulation: Evaluation of Principles and Requirements.,2019,26.0,JMIR Medical Informatics
+62,An OpenEHR Adoption in a Portuguese Healthcare Facility,2020,26.0,Procedia Computer Science
+63,A method for interoperable knowledge-based data quality assessment.,2021,26.0,BMC Medical Informatics and Decision Making
+64,Seamless integration of ISO/IEEE11073 personal health devices and ISO/EN13606 electronic health records into an end-to-end interoperable solution.,2010,25.0,Telemedicine Journal and e-Health
+65,OWL-based reasoning methods for validating archetypes.,2013,25.0,Journal of Biomedical Informatics
+66,Understanding requirements of clinical data standards for developing interoperable knowledge-based DSS: A case study,2015,25.0,Computer Standards & Interfaces
+67,Representing a Chemotherapy Guideline Using openEHR and Rules,2009,24.0,Medical Informatics in A United and Healthy Europe
+68,Towards plug-and-play integration of archetypes into legacy electronic health record systems: the ArchiMed experience.,2013,24.0,BMC Medical Informatics and Decision Making
+69,Transformation of standardized clinical models based on OWL technologies: from CEM to OpenEHR archetypes.,2015,24.0,Journal of the American Medical Informatics Association : JAMIA
+70,openEHR Archetype Use and Reuse Within Multilingual Clinical Data Sets: Case Study.,2020,24.0,Journal of Medical Internet Research
+71,ORBDA: An openEHR benchmark dataset for performance assessment of electronic health record servers.,2018,23.0,PLoS ONE
+72,Designing an openEHR-Based Pipeline for Extracting and Standardizing Unstructured Clinical Data Using Natural Language Processing.,2020,23.0,Methods of Information in Medicine
+73,EHR query language (EQL)--a query language for archetype-based health records.,2007,22.0,Studies in Health Technology and Informatics
+74,An ambient assisted living system for telemedicine with detection of symptoms,2009,22.0,Lecture Notes in Computer Science
+75,Modeling shared care plans using CONTsys and openEHR to support shared homecare of the elderly.,2011,22.0,Journal of the American Medical Informatics Association : JAMIA
+76,Service for the Pseudonymization of Electronic Healthcare Records Based on ISO/EN 13606 for the Secondary Use of Information.,2015,22.0,IEEE Journal of Biomedical and Health Informatics
+77,The Evaluation of SEPAS National Project Based on Electronic Health Record System (EHRS) Coordinates in Iran.,2015,22.0,Acta Informatica Medica
+78,Retrospective checking of compliance with practice guidelines for acute stroke care: a novel experiment using openEHR's Guideline Definition Language.,2014,21.0,BMC Medical Informatics and Decision Making
+79,OpenEHR modeling for genomics in clinical practice.,2018,21.0,International Journal of Medical Informatics
+80,Discovering Clinical Information Models Online to Promote Interoperability of Electronic Health Records: A Feasibility Study of OpenEHR.,2019,21.0,Journal of Medical Internet Research
+81,"Can OpenEHR, ISO 13606, and HL7 FHIR Work Together? An Agnostic Approach for the Selection and Application of Electronic Health Record Standards to the Next-Generation Health Data Spaces.",2023,21.0,Journal of Medical Internet Research
+82,Executing Complexity-Increasing Queries in Relational (MySQL) and NoSQL (MongoDB and EXist) Size-Growing ISO/EN 13606 Standardized EHR Databases.,2018,20.0,Journal of Visualized Experiments
+83,From OpenEHR to FHIR and OMOP Data Model for Microbiology Findings.,2021,20.0,Studies in Health Technology and Informatics
+84,ETL Processes for Integrating Healthcare Data - Tools and Architecture Patterns.,2022,20.0,Studies in Health Technology and Informatics
+85,Facilitating Secondary Use of Medical Data by Using openEHR Archetypes,2010,19.0,"Medinfo 2010, Pts I and Ii"
+86,Model Driven Development of Clinical Information Sytems using openEHR,2011,19.0,User Centred Networked Health Care
+87,Developing a NFC based patient identification and ward round system for mobile devices using the android platform,2013,19.0,"IEEE EMBS Special Topic Conference on Point-of-Care (POC) Healthcare Technologies: Synergy Towards Better Global Healthcare, PHT 2013"
+88,SNOMED CT module-driven clinical archetype management.,2013,19.0,Journal of Biomedical Informatics
+89,Ontology content patterns as bridge for the semantic representation of clinical information.,2014,19.0,Applied Clinical Informatics
+90,"Special Topic Interoperability and EHR: Combining openEHR, SNOMED, IHE, and Continua as approaches to interoperability on national eHealth.",2017,19.0,Applied Clinical Informatics
+91,Integrating an openEHR-based personalized virtual model for the ageing population within HBase.,2019,19.0,BMC Medical Informatics and Decision Making
+92,Open IoT Architecture for Continuous Patient Monitoring in Emergency Wards,2019,19.0,Electronics (Switzerland)
+93,An Extended Semantic Interoperability Model for Distributed Electronic Health Record Based on Fuzzy Ontology Semantics,2021,19.0,Electronics (Switzerland)
+94,Electronic health records in complementary and alternative medicine.,2008,18.0,International Journal of Medical Informatics
+95,International developments in openEHR archetypes and templates.,2008,18.0,Health Information Management Journal
+96,Applying a User Centered Design Methodology in a Clinical Context,2010,18.0,"Medinfo 2010, Pts I and Ii"
+97,Towards the interoperability of computerised guidelines and electronic health records: An experiment with openEHR archetypes and a chronic heart failure guideline,2011,18.0,Lecture Notes in Computer Science
+98,Dealing with the archetypes development process for a regional EHR system.,2012,18.0,Applied Clinical Informatics
+99,Validating archetypes for the Multiple Sclerosis Functional Composite.,2014,18.0,BMC Medical Informatics and Decision Making
+100,An Electronic Healthcare Record Server Implemented in PostgreSQL.,2015,18.0,Journal of Healthcare Engineering
+101,Combining Archetypes with Fast Health Interoperability Resources in Future-proof Health Information Systems,2015,18.0,Digital Healthcare Empowering Europeans
+102,Successful Integration of EN/ISO 13606-Standardized Extracts From a Patient Mobile App Into an Electronic Health Record: Description of a Methodology.,2022,18.0,JMIR Medical Informatics
+103,Towards automatically generating graphical user interfaces from openEHR archetypes.,2006,17.0,Studies in Health Technology and Informatics
+104,Can openEHR Archetypes Be Used in a National Context? The Danish Archetype Proof-of-Concept Project,2009,17.0,Medical Informatics in A United and Healthy Europe
+105,Semantic validation of standard-based electronic health record documents with W3C XML schema.,2010,17.0,Methods of Information in Medicine
+106,OpenEHR modeling: improving clinical records during the COVID-19 pandemic.,2021,17.0,Health and Technology
+107,OpenEHR-based pervasive health information system for primary care: First Brazilian Experience for Public Care,2013,16.0,2013 Ieee 26th International Symposium on Computer-based Medical Systems (cbms)
+108,Analysis of the process of representing clinical statements for decision-support applications: a comparison of openEHR archetypes and HL7 virtual medical record.,2016,16.0,Journal of Medical Systems
+109,Examining database persistence of ISO/EN 13606 standardized electronic health record extracts: relational vs. NoSQL approaches.,2017,16.0,BMC Medical Informatics and Decision Making
+110,Clinical Knowledge Governance Framework for Nationwide Data Infrastructure Projects,2018,16.0,Health Informatics Meets Ehealth: Biomedical Meets Ehealth - From Sensors to Decisions
+111,New Approach to an openEHR Introduction in a Portuguese Healthcare Facility,2018,16.0,"Trends and Advances in Information Systems and Technologies, Vol 3"
+112,The Contribution of Conceptual Independence to IT Infrastructure Flexibility: The Case of openEHR,2020,16.0,Health Policy and Technology
+113,"Open Source Digital Health Software for Resilient, Accessible and Equitable Healthcare Systems.",2022,16.0,Yearbook of medical informatics
+114,Modeling healthcare authorization and claim submissions using the openEHR dual-model approach.,2011,15.0,BMC Medical Informatics and Decision Making
+115,Personalized-detailed clinical model for data interoperability among clinical standards.,2013,15.0,Telemedicine Journal and e-Health
+116,Evaluation Study for an ISO 13606 Archetype Based Medical Data Visualization Method.,2015,15.0,Journal of Medical Systems
+117,Management of a Pandemic Based on an openEHR approach.,2020,15.0,Procedia Computer Science
+118,Using Knowledge Graph Structures for Semantic Interoperability in Electronic Health Records Data Exchanges,2022,15.0,Information (Switzerland)
+119,Representing clinical information using SNOMED clinical terms with different structural information models,2008,14.0,CEUR Workshop Proceedings
+120,Assessment of software maintainability of openEHR based health information systems - A case study in endoscopy,2012,14.0,Electronic Journal of Health Informatics
+121,Integrating data and network standards into an interoperable e-Health solution,2014,14.0,"2014 IEEE 16th International Conference on e-Health Networking, Applications and Services, Healthcom 2014"
+122,An exploratory study using an openEHR 2-level modeling approach to represent common data elements.,2016,14.0,Journal of the American Medical Informatics Association : JAMIA
+123,Graph databases for openEHR clinical repositories,2019,14.0,International Journal of Computational Science and Engineering
+124,An Archetype Query Language interpreter into MongoDB: Managing NoSQL standardized Electronic Health Record extracts systems.,2020,14.0,Journal of Biomedical Informatics
+125,OpenEHR and Business Intelligence in healthcare: An overview,2023,14.0,Procedia Computer Science
+126,Implementing security in a distributed web-based EHCR.,2007,13.0,International Journal of Medical Informatics
+127,Collaborative development of clinical templates as a national resource.,2009,13.0,International Journal of Medical Informatics
+128,Quality and Certification of Electronic Health Records: An overview of current approaches from the US and Europe.,2010,13.0,Applied Clinical Informatics
+129,Review of semantically interoperable electronic health records for ubiquitous healthcare.,2010,13.0,Healthcare Informatics Research
+130,Integrating semantic dimension into openEHR archetypes for the management of cerebral palsy electronic medical records.,2016,13.0,Journal of Biomedical Informatics
+131,OpenEHR Based Systems and the General Data Protection Regulation (GDPR),2018,13.0,Building Continents of Knowledge in Oceans of Data: the Future of Co-created Ehealth
+132,Prediction of COVID-19 diagnosis based on openEHR artefacts.,2022,13.0,Scientific Reports
+133,An Ontology-Based Approach for Consolidating Patient Data Standardized With European Norm/International Organization for Standardization 13606 (EN/ISO 13606) Into Joint Observational Medical Outcomes Partnership (OMOP) Repositories: Description of a Methodology.,2023,13.0,JMIR Medical Informatics
+134,Implementation of an end-to-end standard-based patient monitoring solution,2008,12.0,IET Communications
+135,An architecture for ambient assisted living and health environments,2009,12.0,Lecture Notes in Computer Science
+136,An openEHR-Based Clinical Decision Support System: A Case Study,2009,12.0,Medical Informatics in A United and Healthy Europe
+137,"Generic screen representations for future-proof systems, is it possible? There is more to a GUI than meets the eye.",2009,12.0,Computer Methods and Programs in Biomedicine
+138,Achieving interoperability among healthcare standards: Building semantic mappings at models level,2012,12.0,"Proceedings of the 6th International Conference on Ubiquitous Information Management and Communication, ICUIMC'12"
+139,Healthcare standards based sensory data exchange for Home Healthcare Monitoring System.,2012,12.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+140,Semantic integration of patient data and quality indicators based on openEHR archetypes,2013,12.0,Lecture Notes in Computer Science
+141,Standardized access control mechanisms for protecting ISO 13606-based electronic health record systems,2014,12.0,"2014 IEEE-EMBS International Conference on Biomedical and Health Informatics, BHI 2014"
+142,Automatic generation of computable implementation guides from clinical information models.,2015,12.0,Journal of Biomedical Informatics
+143,Proposed model for a Romanian register of chronic diseases in children.,2016,12.0,Computer Methods and Programs in Biomedicine
+144,Performance of an openEHR based hospital information system.,2022,12.0,International Journal of Medical Informatics
+145,Linking guidelines to Electronic Health Record design for improved chronic disease management.,2003,11.0,AMIA ... Annual Symposium proceedings / AMIA Symposium. AMIA Symposium
+146,Demographic management in a federated healthcare environment.,2006,11.0,International Journal of Medical Informatics
+147,"An investigation of semantic links to Archetypes in an external clinical terminology through the construction of terminological ""Shadows""",2010,11.0,"Proceedings of the IADIS International Conference e-Health 2010, EH, Part of the IADIS Multi Conference on Computer Science and Information Systems 2010, MCCSIS 2010"
+148,Associating clinical archetypes through UMLS Metathesaurus term clusters.,2012,11.0,Journal of Medical Systems
+149,Genetic Testing Information Standardization in HL7 CDA and ISO13606,2013,11.0,"Medinfo 2013: Proceedings of the 14th World Congress on Medical and Health Informatics, Pts 1 and 2"
+150,Structuring Legacy Pathology Reports by openEHR Archetypes to Enable Semantic Querying.,2017,11.0,Methods of Information in Medicine
+151,Nutrigenomic Information in the openEHR Data Set.,2018,11.0,Applied Clinical Informatics
+152,Comparison of OpenEHR and HL7 FHIR Standards,2023,11.0,International Journal of Electronics and Telecommunications
+153,A Migration to an openEHR-Based Clinical Application,2009,10.0,Medical Informatics in A United and Healthy Europe
+154,Local EHR management based on openEHR and EN13606.,2011,10.0,Journal of Medical Systems
+155,SPLiCE: A Software Product Line for healthCarE,2012,10.0,IHI'12 - Proceedings of the 2nd ACM SIGHIT International Health Informatics Symposium
+156,Standard Based Multiclient Medical Data Visualization,2012,10.0,Quality of Life Through Quality of Information
+157,Using Archetypes for Defining CDA Templates,2012,10.0,Quality of Life Through Quality of Information
+158,Developing large-scale Electronic Patient Records conforming to the openEHR architecture,2014,10.0,Centeris 2014 - Conference on Enterprise Information Systems / Projman 2014 - International Conference on Project Management / Hcist 2014 - International Conference on Health and Social Care Information Systems and Technologies
+159,Business Archetypes and Archetype Patterns from the HL7 RIM and openEHR RM Perspectives: Towards Interoperability and Evolution of Healthcare Models and Software Systems,2015,10.0,Procedia Computer Science
+160,Standard Information Models for Representing Adverse Sensitivity Information in Clinical Documents.,2016,10.0,Methods of Information in Medicine
+161,The emergence of openness in open-source projects: the case of openEHR,2017,10.0,Journal of Information Technology
+162,An Interoperable System toward Cardiac Risk Stratification from ECG Monitoring.,2018,10.0,International Journal of Environmental Research and Public Health
+163,"GIRLS, a Gateway for Interoperability of electronic health Record in Low-cost System : ∗ Interoperability beetween FHIR and OpenEHR Standards",2019,10.0,"2019 IEEE International Conference on E-Health Networking, Application and Services, HealthCom 2019"
+164,A Patient-Screening Tool for Clinical Research Based on Electronic Health Records Using OpenEHR: Development Study.,2021,10.0,JMIR Medical Informatics
+165,Application of openEHR archetypes to automate data quality rules for electronic health records: a case study.,2021,10.0,BMC Medical Informatics and Decision Making
+166,Steps towards an Healthcare Information Model based on openEHR,2021,10.0,Procedia Computer Science
+167,Verifying the Feasibility of Implementing Semantic Interoperability in Different Countries Based on the OpenEHR Approach: Comparative Study of Acute Coronary Syndrome Registries.,2021,10.0,JMIR Medical Informatics
+168,openEHR Is FAIR-Enabling by Design.,2021,10.0,Studies in Health Technology and Informatics
+169,Business Process Model and Notation and openEHR Task Planning for Clinical Pathway Standards in Infections: Critical Analysis.,2022,10.0,Journal of Medical Internet Research
+170,Eos and OMOCL: Towards a seamless integration of openEHR records into the OMOP Common Data Model.,2023,10.0,Journal of Biomedical Informatics
+171,Can openEHR Archetypes Empower Multi-Centre Clinical Research?,2005,9.0,Studies in Health Technology and Informatics
+172,Ubiquitous information for ubiquitous computing: expressing clinical data sets with openEHR archetypes.,2006,9.0,Studies in Health Technology and Informatics
+173,Graphical overview and navigation of electronic health records in a prototyping environment using Google Earth and openEHR archetypes.,2007,9.0,Studies in Health Technology and Informatics
+174,A data types profile suitable for use with ISO EN 13606.,2012,9.0,Journal of Medical Systems
+175,A generative tool for building health applications driven by ISO 13606 archetypes.,2012,9.0,Journal of Medical Systems
+176,Improving expressiveness of agents using openEHR to retrieve multi-institutional health data: Feeding local repositories through HL7 based providers,2012,9.0,"Iberian Conference on Information Systems and Technologies, CISTI"
+177,A novel architecture for message exchange in Pervasive Healthcare based on the use of Intelligent Agents,2013,9.0,"Proceedings of IEEE/ACS International Conference on Computer Systems and Applications, AICCSA"
+178,Evaluation of ISO EN 13606 as a result of its implementation in XML.,2013,9.0,Health Informatics Journal
+179,Quasi-relational query language interface for persistent standardized EHRs: Using NoSQL databases,2013,9.0,Lecture Notes in Computer Science
+180,Development of an open metadata schema for prospective clinical research (openPCR) in China.,2014,9.0,Methods of Information in Medicine
+181,"On the seamless, harmonized use of ISO/IEEE11073 and openEHR.",2014,9.0,IEEE Journal of Biomedical and Health Informatics
+182,Towards a semantic interoperability environment,2014,9.0,"2014 IEEE 16th International Conference on e-Health Networking, Applications and Services, Healthcom 2014"
+183,Formalize clinical processes into electronic health information systems: Modelling a screening service for diabetic retinopathy.,2015,9.0,Journal of Biomedical Informatics
+184,Comparison and transformation between CDISC ODM and EN13606 EHR standards in connecting EHR data with clinical trial research data.,2018,9.0,Digital Health
+185,An openEHR Approach to Detailed Clinical Model Development: Tobacco Smoking Summary Archetype as a Case Study.,2019,9.0,Applied Clinical Informatics
+186,Transformation of microbiology data into a standardised data representation using OpenEHR.,2021,9.0,Scientific Reports
+187,Comparing different approaches to two-level modelling of electronic health records.,2005,8.0,Studies in Health Technology and Informatics
+188,Facilitating the openEHR approach - organizational structures for defining high-quality archetypes.,2008,8.0,Studies in Health Technology and Informatics
+189,Engaging Clinicians in Clinical Content: Herding Cats or Piece of Cake?,2009,8.0,Medical Informatics in A United and Healthy Europe
+190,Early Experiences from a Guideline-based Computerized Clinical Decision Support for Stroke Prevention in Atrial Fibrillation,2013,8.0,"Medinfo 2013: Proceedings of the 14th World Congress on Medical and Health Informatics, Pts 1 and 2"
+191,Exporting data from an openEHR repository to standard formats,2014,8.0,Centeris 2014 - Conference on Enterprise Information Systems / Projman 2014 - International Conference on Project Management / Hcist 2014 - International Conference on Health and Social Care Information Systems and Technologies
+192,A proposal to incorporate digital auscultation and its processing into an existing electronic health record,2015,8.0,"HEALTHINF 2015 - 8th International Conference on Health Informatics, Proceedings; Part of 8th International Joint Conference on Biomedical Engineering Systems and Technologies, BIOSTEC 2015"
+193,"Cognitive Maps to Visualise Clinical Cases in Handovers. Design, Implementation, Usability, and Attractiveness Testing.",2015,8.0,Methods of Information in Medicine
+194,"Representation of Drug Use in Biomedical Standards, Clinical Text, and Research Measures.",2015,8.0,AMIA ... Annual Symposium proceedings / AMIA Symposium. AMIA Symposium
+195,An Implementation of Clinical Data Repository with openEHR Approach: From Data Modeling to Architecture,2016,8.0,"Digital Health Innovation for Consumers, Clinicians, Connectivity and Community"
+196,Applying openEHR's Guideline Definition Language to the SITS international stroke treatment registry: a European retrospective observational study.,2017,8.0,BMC Medical Informatics and Decision Making
+197,Integration through mapping - An OpenEHR based approach for research oriented integration of health information systems,2018,8.0,"Iberian Conference on Information Systems and Technologies, CISTI"
+198,Modeling of ETL-Processes and Processed Information in Clinical Data Warehousing,2018,8.0,Health Informatics Meets Ehealth: Biomedical Meets Ehealth - From Sensors to Decisions
+199,A migration methodology from legacy to new electronic health record based OpenEHR,2019,8.0,International Journal of E-Health and Medical Communications
+200,A Tool for Generating Health Applications Using Archetypes,2020,8.0,Ieee Software
+201,Stroke screening data modeling based on openEHR and NINDS Stroke CDE,2020,8.0,2020 Ieee International Conference on Bioinformatics and Biomedicine
+202,Tracing the Progression of Sepsis in Critically Ill Children: Clinical Decision Support for Detection of Hematologic Dysfunction.,2022,8.0,Applied Clinical Informatics
+203,TransformEHRs: a flexible methodology for building transparent ETL processes for EHR reuse.,2022,8.0,Methods of Information in Medicine
+204,A Semantic Web-based System for Managing Clinical Archetypes.,2008,7.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+205,Design of an Electronic Healthcare Record Server Based on Part 1 of ISO EN 13606,2011,7.0,Journal of Healthcare Engineering
+206,Developing a hospital information system ecosystem for creating new clinical collaboration methodologies,2012,7.0,"Proceedings - IEEE-EMBS International Conference on Biomedical and Health Informatics: Global Grand Challenge of Health Informatics, BHI 2012"
+207,Meta-architecture for the interoperability and knowledge management of archetype-based clinical decision support systems,2014,7.0,"2014 IEEE-EMBS International Conference on Biomedical and Health Informatics, BHI 2014"
+208,Mobile platform for treatment of stroke: A case study of tele-assistance.,2016,7.0,Health Informatics Journal
+209,A Standardized and Data Quality Assessed Maternal-Child Care Integrated Data Repository for Research and Monitoring of Best Practices: A Pilot Project in Spain,2017,7.0,Studies in Health Technology and Informatics
+210,Domain Modeling and Application Development of an Archetype- and XML-based EHRS. Practical Experiences and Lessons Learnt.,2017,7.0,Applied Clinical Informatics
+211,Semantic Framework for Electronic Health Records,2017,7.0,2017 11th Ieee International Conference on Semantic Computing (icsc)
+212,Web services of transformation data based on OpenEHR into Health Level Seven (HL7) standards,2017,7.0,"Proceedings of the 2nd International Conference on Informatics and Computing, ICIC 2017"
+213,Storage Efficient Implementation of Standardized Electronic Health Records Data,2020,7.0,2020 Ieee International Conference on Bioinformatics and Biomedicine
+214,Security and Immutability of Open Data in Healthcare,2023,7.0,Procedia Computer Science
+215,Using semantic technologies to promote interoperability between electronic healthcare records' information models.,2006,6.0,Conference proceedings : ... Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual Conference
+216,Implementation experience of a patient monitoring solution based on end-to-end standards.,2007,6.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+217,Improvement of Cross-Sector Communication in the Integrated Health Environment,2010,6.0,Seamless Care - Safe Care: the Challenges of Interoperability and Patient Safety in Health Care
+218,Interoperable and standard e-Health solution over Bluetooth.,2010,6.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+219,Standardized and Flexible Health Data Management with an Archetype Driven EHR System (EHRflex),2010,6.0,Seamless Care - Safe Care: the Challenges of Interoperability and Patient Safety in Health Care
+220,Sustainable clinical knowledge management: An archetype development life cycle,2010,6.0,Studies in Health Technology and Informatics
+221,A model of OpenEHR-based electronic medical record in Indonesia,2013,6.0,Journal of Theoretical and Applied Information Technology
+222,Towards automatic patient eligibility assessment: From free-text criteria to queries,2013,6.0,Lecture Notes in Computer Science
+223,"ccML, a new mark-up language to improve ISO/EN 13606-based electronic health record extracts practical edition.",2013,6.0,Journal of the American Medical Informatics Association : JAMIA
+224,Applying an Archetype-Based Approach to Electroencephalography/Event-Related Potential Experiments in the EEGBase Resource.,2017,6.0,Frontiers in Neuroinformatics
+225,Health Information Exchange for Continuity of Maternal and Neonatal Care Supporting: A Proof-of-Concept Based on ISO Standard.,2017,6.0,Applied Clinical Informatics
+226,Messaging standard requirements for electronic health records in Islamic Republic of Iran: a Delphi study.,2017,6.0,Eastern Mediterranean Health Journal
+227,"Semantic interoperability in electronic health record databases: Standards, architecture and e-health systems",2017,6.0,Lecture Notes in Computer Science
+228,Achieving Interoperability Between Arden-Syntax-Based Clinical Decision Support and openEHR-Based Data Systems,2018,6.0,Health Informatics Meets Ehealth: Biomedical Meets Ehealth - From Sensors to Decisions
+229,openEHR modeling applied to eating disorders in clinical practice openEHR-archetypes in eating disorders,2018,6.0,2018 31st Ieee International Symposium on Computer-based Medical Systems (cbms 2018)
+230,A Report on Archetype Modelling in a Nationwide Data Infrastructure Project,2019,6.0,Ict for Health Science Research
+231,Can openEHR Represent the Clinical Concepts of an Obstetric-Specific EHR - ObsCare Software?,2019,6.0,Studies in Health Technology and Informatics
+232,Clinical Information Model Based Data Quality Checks:Theory and Example,2019,6.0,Ict for Health Science Research
+233,Representing Rules for Clinical Data Quality Assessment Based on OpenEHR Guideline Definition Language.,2019,6.0,Studies in Health Technology and Informatics
+234,Using openEHR in XDS.b Environments - Opportunities and Challenges.,2020,6.0,Studies in Health Technology and Informatics
+235,Cloud architecture for electronic health record systems interoperability.,2022,6.0,Technology and Health Care
+236,openEHR-to-FHIR: Converting openEHR Compositions to Fast Healthcare Interoperability Resources (FHIR) for the German Corona Consensus Dataset (GECCO).,2022,6.0,Studies in Health Technology and Informatics
+237,Enhancing Data Science Interoperability: An Innovative System for Managing OpenEHR Structures,2023,6.0,Communications in Computer and Information Science
+238,The interaction of structured data using openEHR and large Language models for clinical decision support in prostate cancer.,2025,6.0,World Journal of Urology
+239,Combining OpenEHR archetype definitions with SWRL rules - a translation approach,2008,5.0,Lecture Notes in Computer Science
+240,The design of an EHR for clinical decision support,2010,5.0,"Proceedings - 2010 3rd International Conference on Biomedical Engineering and Informatics, BMEI 2010"
+241,A timed model for healthcare workflows based on CSP,2012,5.0,"2012 4th International Workshop on Software Engineering in Health Care, SEHC 2012 - Proceedings"
+242,Exploitation of ontologies for the management of clinical archetypes in ArchMS,2012,5.0,CEUR Workshop Proceedings
+243,Archetype Model-Driven Development Framework for EHR Web System.,2013,5.0,Healthcare Informatics Research
+244,Interoperability in Ambient Assisted Living using OpenEHR,2013,5.0,"2013 IEEE 15th International Conference on e-Health Networking, Applications and Services, Healthcom 2013"
+245,"Building a Common Ground on the Clinical Case: Design, Implementation and Evaluation of an Information Model for a Handover EHR",2014,5.0,Nursing Informatics 2014: East Meets West Esmart+
+246,Mapping a Nursing Terminology Subset to openEHR Archetypes. A Case Study of the International Classification for Nursing Practice.,2015,5.0,Methods of Information in Medicine
+247,Multidisciplinary Modelling of Symptoms and Signs with Archetypes and SNOMED-CT for Clinical Decision Support,2015,5.0,Digital Healthcare Empowering Europeans
+248,Automated Transformation of openEHR Data Instances to OWL,2016,5.0,Health Informatics Meets Ehealth
+249,Implementation of a Web Portal for Diabetes Patients Using Open Source Data Visualization Libraries,2016,5.0,Phealth 2016
+250,"An ontology-aware integration of clinical models, terminologies and guidelines: an exploratory study of the Scale for the Assessment and Rating of Ataxia (SARA).",2017,5.0,BMC Medical Informatics and Decision Making
+251,Privacy-ensuring electronic health records in the cloud,2017,5.0,Concurrency Computation Practice and Experience
+252,MARCIA: Applied Clinical Record Management,2018,5.0,"2018 Ieee 20th International Conference on E-health Networking, Applications and Services (healthcom)"
+253,MARCIA: Applied clinical record management : c health record applied with EHRServer,2018,5.0,"2018 IEEE 20th International Conference on e-Health Networking, Applications and Services, Healthcom 2018"
+254,FAIRness of openEHR archetypes and templates,2019,5.0,CEUR Workshop Proceedings
+255,A Computer-Interpretable Guideline for COVID-19: Rapid Development and Dissemination.,2020,5.0,JMIR Medical Informatics
+256,Cross-Border Exchange of Clinical Data Using Archetype Concepts Compatible with the International Patient Summary.,2020,5.0,Studies in Health Technology and Informatics
+257,Defining a Standardized Information Model for Multi-Source Representation of Breast Cancer Data.,2020,5.0,Studies in Health Technology and Informatics
+258,How to Improve the Reuse of Clinical Data - OpenEHR and OMOP CDM,2020,5.0,Journal of Physics: Conference Series
+259,Nutrition Information in Oncology - Extending the Electronic Patient-Record Data Set.,2020,5.0,Journal of Medical Systems
+260,The openEHR Genomics Project.,2020,5.0,Studies in Health Technology and Informatics
+261,Translating openEHR Models to FHIR.,2020,5.0,Studies in Health Technology and Informatics
+262,An openEHR Virtual Patient Template for Pancreatic Cancer.,2021,5.0,Studies in Health Technology and Informatics
+263,Cloud based interoperability in healthcare,2021,5.0,Advances in Intelligent Systems and Computing
+264,Using NLP in openEHR archetypes retrieval to promote interoperability: a feasibility study in China.,2021,5.0,BMC Medical Informatics and Decision Making
+265,A configurable method for clinical quality measurement through electronic health records based on openEHR and CQL.,2022,5.0,BMC Medical Informatics and Decision Making
+266,OpenEHR Implementation Guide: Towards Standard Low-Code Healthcare Systems.,2022,5.0,Studies in Health Technology and Informatics
+267,Permissioned Blockchain Approach using Open Data in Healthcare,2022,5.0,Procedia Computer Science
+268,"Structured, Harmonized, and Interoperable Integration of Clinical Routine Data to Compute Heart Failure Risk Scores.",2022,5.0,Life
+269,A Java-based electronic healthcare record software for beta-thalassaemia.,2001,4.0,Journal of Medical Internet Research
+270,Designing guideline-based workflow-enabled electronic health records,2004,4.0,Proceedings of the Hawaii International Conference on System Sciences
+271,An archetype-based testing framework.,2008,4.0,Studies in Health Technology and Informatics
+272,Standardization of discharge reports with the ISO 13606 norm.,2008,4.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+273,OpenEHR-Based Representation of Guideline Compliance Data through the Example of Stroke Clinical Practice Guidelines,2012,4.0,Quality of Life Through Quality of Information
+274,Clinical knowledge governance: The international perspective,2013,4.0,Health Information Governance in a Digital Environment
+275,Using a single content model for eHealth interoperability and secondary use,2013,4.0,Health Information Governance in a Digital Environment
+276,OpenEHR aware multi agent system for inter-institutional health data integration,2014,4.0,"Iberian Conference on Information Systems and Technologies, CISTI"
+277,YourEHRM: Standard-based management of your personal healthcare information,2014,4.0,"2014 IEEE-EMBS International Conference on Biomedical and Health Informatics, BHI 2014"
+278,Application of ISO 13606 Archetypes for an Integration of Hospital and Laboratory Information Systems,2015,4.0,"Information and Software Technologies, Icist 2015"
+279,Case Study: Applying OpenEHR Archetypes to a Clinical Data Repository in a Chinese Hospital,2015,4.0,Medinfo 2015: Ehealth-enabled Health
+280,Building Chronic Kidney Disease Clinical Practice Guidelines Using the openEHR Guideline Definition Language.,2016,4.0,Methods of Information in Medicine
+281,Querying Archetype-Based Electronic Health Records Using Hadoop and Dewey Encoding of openEHR Models,2017,4.0,Studies in Health Technology and Informatics
+282,Relevant lifelong nutrition information for the prevention and treatment of childhood obesity - Design and creation of new openEHR archetype set,2017,4.0,2017 Ieee 30th International Symposium on Computer-based Medical Systems (cbms)
+283,Toward smart health care: Building a national health information infrastructure(EESZT) in Hungary,2017,4.0,2017 IEEE 30th Neumann Colloquium (NC)
+284,"Configuration of Input Forms in EHR Systems Using Spreadsheets, openEHR Archetypes and Templates.",2019,4.0,Studies in Health Technology and Informatics
+285,Query Translation Between AQL and CQL.,2019,4.0,Studies in Health Technology and Informatics
+286,Using openEHR Archetypes for Automated Extraction of Numerical Information from Clinical Narratives.,2019,4.0,Studies in Health Technology and Informatics
+287,OpenEHR meets interoperability and knowledge engineering,2020,4.0,International Journal of Reliable and Quality E-Healthcare
+288,Representation of Diagnosis and Nursing Interventions in OpenEHR Archetypes.,2021,4.0,Applied Clinical Informatics
+289,openEHR Mapper - A Tool to Fuse Clinical and Genomic Data Using the openEHR Standard.,2021,4.0,Studies in Health Technology and Informatics
+290,Handling Time Constraints in Infection Clinical Pathways Using openEHR TP.,2022,4.0,Studies in Health Technology and Informatics
+291,OpenEHR based bariatric surgery follow-up,2022,4.0,Procedia Computer Science
+292,Rule-based Clinical Decision Support System using the OpenEHR Standard,2022,4.0,Procedia Computer Science
+293,Tracing COVID-19 Infection Chains Within Healthcare Institutions - Another Brick in the Wall Against SARS-CoV-2.,2022,4.0,Studies in Health Technology and Informatics
+294,The Role of Blockchain Technology in Ensuring Security and Immutability of Open Data in Healthcare,2023,4.0,"Blockchain and Applications, 5th International Congress"
+295,Cross-Standard Health Data Harmonization using Semantics of Data Elements.,2024,4.0,Scientific data
+296,Large-Scale Standardized Image Integration for Secondary Use Research Projects.,2024,4.0,Studies in Health Technology and Informatics
+297,"Unlocking Healthcare Data Potential: A Comprehensive Integration Approach with GraphQL, openEHR, Redis, and Pervasive Business Intelligence",2024,4.0,Technologies
+298,Comparing concepts for electronic health record architectures,2002,3.0,Studies in Health Technology and Informatics
+299,An ontological infrastructure for the semantic integration of clinical archetypes,2006,3.0,Lecture Notes in Computer Science
+300,A feasibility study on clinical templates for the National Health Service in Scotland.,2007,3.0,Studies in Health Technology and Informatics
+301,Identity Management to Support Access Control in E-Health Systems,2008,3.0,IFMBE Proceedings
+302,Semantic upgrade and normalization of existing EHR extracts.,2008,3.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+303,Comparing the Apgar Score Representation in HL7 and OpenEHR Formalisms,2009,3.0,Medical Informatics in A United and Healthy Europe
+304,Medical information system based on electronic healthcare records,2010,3.0,"2010 IEEE International Conference on Automation, Quality and Testing, Robotics, AQTR 2010 - Proceedings"
+305,Integration of DICOM and openEHR Standards,2011,3.0,Medical Imaging 2011: Advanced Pacs-based Imaging Informatics and Therapeutic Applications
+306,ON THE USE OF openEHR IN A PORTABLE PHR,2011,3.0,Healthinf 2011: Proceedings of the International Conference on Health Informatics
+307,An EHR prototype using structured ISO/EN 13606 documents to respond to identified clinical information needs of diabetes specialists: a controlled study on feasibility and impact.,2012,3.0,AMIA ... Annual Symposium proceedings / AMIA Symposium. AMIA Symposium
+308,Information interchange services for electronic health record databases,2012,3.0,International Journal of Computational Science and Engineering
+309,Ruby implementation of the OpenEHR specifications,2012,3.0,Journal of Advanced Computational Intelligence and Intelligent Informatics
+310,The integration of e-health into the clinical workflow - Electronic health record and standardization efforts,2012,3.0,Lecture Notes in Computer Science
+311,A novel approach to developing applications in the pervasive healthcare environment through the use of archetypes,2013,3.0,Lecture Notes in Computer Science
+312,A study of semantic proximity between archetype terms based on SNOMED CT relationships,2013,3.0,Lecture Notes in Computer Science
+313,An Automated Routine Childhood Immunization Approach using openEHR,2013,3.0,"Medinfo 2013: Proceedings of the 14th World Congress on Medical and Health Informatics, Pts 1 and 2"
+314,Enhancing access to standardized clinical application for mobile interfaces,2013,3.0,Lecture Notes in Computer Science
+315,Towards a reusable architecture for message exchange in pervasive healthcare,2013,3.0,ICEIS 2013 - Proceedings of the 15th International Conference on Enterprise Information Systems
+316,Validating EHR Documents: Automatic Schematron Generation using Archetypes,2014,3.0,Ehealth2014 - Health Informatics Meets Ehealth: Outcomes Research: the Benefit of Health-it
+317,National governance of archetypes in Norway,2015,3.0,Medinfo 2015: Ehealth-enabled Health
+318,Semantic Interoperable Electronic Patient Records: The Unfolding of Consensus based Archetypes,2015,3.0,Digital Healthcare Empowering Europeans
+319,Crypt-EHRServer: Protecting Confidentiality with Attribute-Based Encryption and Encrypted Query Processing,2017,3.0,"2017 14th International Symposium on Pervasive Systems, Algorithms and Networks & 2017 11th International Conference on Frontier of Computer Science and Technology & 2017 Third International Symposium of Creative Computing (ispan-fcst-iscc)"
+320,Peer Review of Clinical Information Models: A Web 2.0 Crowdsourced Approach,2017,3.0,Medinfo 2017: Precision Healthcare Through Informatics
+321,A modeling approach based on multi-perspective declarative process mining for clinical activity,2019,3.0,"Proceedings - 2019 IEEE International Conference on Bioinformatics and Biomedicine, BIBM 2019"
+322,Clinical Workflows based on OpenEHR using BPM,2019,3.0,Ict4awe 2019: Proceedings of the 5th International Conference on Information and Communication Technologies for Ageing Well and E-health
+323,Extending CQL with openEHR to Express Clinical Quality Indicators.,2019,3.0,Studies in Health Technology and Informatics
+324,Evaluation of openEHR Repositories Regarding Standard Compliance.,2020,3.0,Studies in Health Technology and Informatics
+325,Making EHRs Reusable: A Common Framework of Data Operations.,2021,3.0,Studies in Health Technology and Informatics
+326,Blockchain-Enabled System for Interoperable Healthcare,2022,3.0,"Big-data-analytics in Astronomy, Science, and Engineering, Bda 2021"
+327,OpenEHR modelling applied to Complementary Diagnostics Requests,2022,3.0,Procedia Computer Science
+328,A Data Acquisition and Consolidation System based on openEHR applied to Physical Medicine and Rehabilitation,2023,3.0,Procedia Computer Science
+329,Leveraging Electronic Healthcare Records Based on ISO/EN 13606 for Enhanced Telemedicine in Rural Colombia,2023,3.0,"1st IEEE Colombian Caribbean Conference, C3 2023"
+330,OpenEHR logic module: a tool for creating decision rules,2024,3.0,Procedia Computer Science
+331,An Ontology Alignment based on Machine learning for Integration of Patient Health Data,2025,3.0,International Journal of Computing and Digital Systems
+332,Architecture of secure portable and interoperable electronic health records,2002,2.0,Lecture Notes in Computer Science
+333,A review of the openEHR implementation in Indonesian National Health Information System: Integrated health post,2009,2.0,IFMBE Proceedings
+334,OWL-based reasoning methods for validating archetyped clinical knowledge,2010,2.0,CEUR Workshop Proceedings
+335,Romanian health informatics legislation compatibility with ISO/EN 13606 and openEHR,2010,2.0,"2010 IEEE International Conference on Automation, Quality and Testing, Robotics, AQTR 2010 - Proceedings"
+336,A web-based system supporting the certification of the outpatient and emergency departments and providing for post-discharge continuity of medical care software,2011,2.0,IFMBE Proceedings
+337,Using a Logical Information Model-Driven Design Process in Healthcare,2011,2.0,User Centred Networked Health Care
+338,Architectural approach for semantic EHR systems development based on detailed clinical models,2012,2.0,Studies in Health Technology and Informatics
+339,Creating openEHR content to different moments of care: Obstetrics emergency scenario,2013,2.0,Proceedings of CBMS 2013 - 26th IEEE International Symposium on Computer-Based Medical Systems
+340,On the integration of clinical archetypes with ontologies and rules,2013,2.0,"Interoperability in Healthcare Information Systems: Standards, Management, and Technology"
+341,Advanced medical expert support tool (A-MEST): EHR-based integration of multiple risk assessment solutions for congestive heart failure patients,2014,2.0,IFMBE Proceedings
+342,Archetype-based solution to tele-monitor patients with chronic diseases,2014,2.0,IFMBE Proceedings
+343,Arranging ISO 13606 Archetypes into a Knowledge Base,2014,2.0,E-health - for Continuity of Care
+344,Integrating an Electronic Health Record Graphical User Interface into Nanoelectronic-Based Biosensor Technology,2014,2.0,IFMBE Proceedings
+345,Archetype based patient data modeling to support treatment of pituitary adenomas,2015,2.0,Medinfo 2015: Ehealth-enabled Health
+346,Using a generalised identity reference model with archetypes to support interoperability of demographics information in electronic health record systems.,2015,2.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+347,A Scalable Data Access Layer to Manage Structured Heterogeneous Biomedical Data.,2016,2.0,PLoS ONE
+348,Hygehos Ontology for Electronic Health Records,2016,2.0,Innovation in Medicine and Healthcare 2016
+349,A Tool for Analyzing Clinical Datasets as Blackbox,2017,2.0,"Software Engineering in Health Care, Sehc 2014"
+350,AsthmaCheck: Multi-Level Modeling Based Health Information System,2017,2.0,Data Management and Analytics for Medicine and Healthcare
+351,Introducing a Method for Transformation of Paper-Based Research Data into Concept-Based Representation with openEHR,2017,2.0,Studies in Health Technology and Informatics
+352,Automatic conversion of electronic medical record text for openEHR based on semantic analysis,2019,2.0,"Proceedings - 10th International Conference on Information Technology in Medicine and Education, ITME 2019"
+353,Mining and representing unstructured nicotine use data in a structured format for secondary use,2019,2.0,Proceedings of the 52nd Annual Hawaii International Conference on System Sciences
+354,Query Translation Between openEHR and i2b2,2019,2.0,Ict for Health Science Research
+355,Relational-like Query Language for Archetypes in Standardized Electronic Health Records Databases,2019,2.0,Proceedings of the 6th Acm Ikdd Cods and 24th Comad
+356,Primary use case implementation of international patient summary on openehr platform,2020,2.0,"Proceedings of the 12th IADIS International Conference e-Health 2020, EH 2020 - Part of the 14th Multi Conference on Computer Science and Information Systems, MCCSIS 2020"
+357,An Affordable and Standard Digital Healthcare Management as a Service (HaaS) for Small Clinics in Developing Countries,2022,2.0,Applied Human Factors and Ergonomics International
+358,"Norway, Sweden, and Finland as forerunners in open ecosystems and openEHR",2022,2.0,Roadmap to Successful Digital Health Ecosystems: A Global Perspective
+359,Toward an Adaptive Software Architecture for Archetype-Based Health-Care Applications,2022,2.0,IEEE Software
+360,Aligning Semantic Interoperability Frameworks with the FOXS Stack for FAIR Health Data.,2023,2.0,Methods of Information in Medicine
+361,Comparison of openEHR open-source servers,2024,2.0,International Journal of Electronics and Telecommunications
+362,Standardizing Corneal Transplantation Records Using openEHR: Case Study.,2024,2.0,JMIR Medical Informatics
+363,The reuse of electronic health records information models in the oncology domain: Studies with the bioframe framework.,2024,2.0,Journal of Biomedical Informatics
+364,An openEHR based infection control system to support monitoring of nosocomial bacterial clusters and contacts.,2025,2.0,npj Digital Medicine
+365,Transforming transfusion medicine: Banc de Sang i Teixits digital evolution for a safer and more efficient future,2025,2.0,Vox Sanguinis
+366,Using OpenEHR in SICTI an electronic health record system for critical medicine,2007,1.0,Journal of Physics: Conference Series
+367,Integration proposal through standard-based design of an end-to-end platform for p-Health environments.,2009,1.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+368,Towards ISO 13606 and openEHR Archetype-Based Semantic Interoperability,2009,1.0,Medical Informatics in A United and Healthy Europe
+369,CEN EN13606 Normalisation Framework Implementation Experiences,2010,1.0,Seamless Care - Safe Care: the Challenges of Interoperability and Patient Safety in Health Care
+370,Developing an EHR for methadone treatment recording and decision support,2010,1.0,"ICCASM 2010 - 2010 International Conference on Computer Application and System Modeling, Proceedings"
+371,Electronic health record: Comparative analysis of HL7 and open EHR approaches,2010,1.0,"Pan American Health Care Exchanges, PAHCE 2010"
+372,Semantic description of health record data for procedural interoperability,2010,1.0,"Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering"
+373,The use of standard content specifications in a national health interoperability framework,2010,1.0,Electronic Journal of Health Informatics
+374,A realism-based analysis of the OpenEHR entry model,2011,1.0,"International Conference on Information and Knowledge Management, Proceedings"
+375,Automated mapping of observation archetypes to SNOMED CT concepts,2011,1.0,Lecture Notes in Computer Science
+376,Patient Summary and Medicines Reconciliation: Application of the ISO/CEN EN 13606 Standard in Clinical Practice,2011,1.0,"Patient Safety Informatics: Adverse Drug Events, Human Factors and It Tools for Patient Medication Safety"
+377,Supporting openEHR Java Desktop Application Developers,2011,1.0,User Centred Networked Health Care
+378,An openehr repository based on a native XML database,2012,1.0,HEALTHINF 2012 - Proceedings of the International Conference on Health Informatics
+379,"Electronic Nursing Documentation in a Paediatrics Hospital: Impact on Quality of Care by using OpenEHR, IHE and HL7",2012,1.0,Quality of Life Through Quality of Information
+380,Electronic healthcare record according to general clinical observation file,2012,1.0,"2012 IEEE International Conference on Automation, Quality and Testing, Robotics, AQTR 2012 - Proceedings"
+381,Message generation facilities for interoperability in pervasive healthcare environments,2013,1.0,"19th Americas Conference on Information Systems, AMCIS 2013 - Hyperconnected World: Anything, Anywhere, Anytime"
+382,Searching for Document Contents in an IHE-XDS EHR Architecture via Archetype-Based Indexing Of Document Types,2013,1.0,"Medinfo 2013: Proceedings of the 14th World Congress on Medical and Health Informatics, Pts 1 and 2"
+383,Development of a visual editor for the definition of HL7 CDA archetypes,2014,1.0,IFMBE Proceedings
+384,Integrating the EN/ISO 13606 standards into an EN/ISO 12967 based architecture,2014,1.0,IFMBE Proceedings
+385,Plug-and-play Integration of dual-model based Knowledge Artefacts into an Open Source EHR System,2014,1.0,E-health - for Continuity of Care
+386,PyEHR: A scalable clinical data management toolkit for biomedical research projects,2014,1.0,"2014 IEEE 16th International Conference on e-Health Networking, Applications and Services, Healthcom 2014"
+387,Archetypes development in electrophysiology domain: Electroencephalography as a personal EHR system module,2015,1.0,"HEALTHINF 2015 - 8th International Conference on Health Informatics, Proceedings; Part of 8th International Joint Conference on Biomedical Engineering Systems and Technologies, BIOSTEC 2015"
+388,How to organize for a large-scale openEHR-based Electronic Patient Record,2015,1.0,Digital Healthcare Empowering Europeans
+389,Modelling domain knowledge of speech and language therapy with an OWL ontology and OpenEHR archetypes,2015,1.0,"HEALTHINF 2015 - 8th International Conference on Health Informatics, Proceedings; Part of 8th International Joint Conference on Biomedical Engineering Systems and Technologies, BIOSTEC 2015"
+390,Privacy-preserving Statistical Query and Processing on Distributed OpenEHR Data,2015,1.0,Digital Healthcare Empowering Europeans
+391,Modelling of Operative Report Documents for Data Integration into an openEHR-Based Enterprise Data Warehouse,2016,1.0,Exploring Complexity in Health: An Interdisciplinary Systems Approach
+392,A Survey of Standard Information Models for Clinical Decision Support Systems,2017,1.0,Building Capacity for Health Informatics in the Future
+393,An Architecture for Semantically Interoperable Electronic Health Records,2017,1.0,Medinfo 2017: Precision Healthcare Through Informatics
+394,Decision Support System for Medical Care Quality Assessment Based on Health Records Analysis in Russia,2017,1.0,Information and Software Technologies (icist 2017)
+395,"Establishment of Requirements and Methodology for the Development and Implementation of GreyMatters, a Memory Clinic Information System",2017,1.0,Studies in Health Technology and Informatics
+396,How to Involve the Users in the Large Scale Work with OpenEHR Archetypes in Norway?,2017,1.0,"Recent Advances in Information Systems and Technologies, Vol 1"
+397,Information System of Personalized Patient's Adherence Level Determination,2017,1.0,Phealth 2017
+398,Standards for clinical records in the Hcdsns project,2017,1.0,Profesional de la Informacion
+399,Usability Analysis of Archetyped Interfaces for the Electronic Health Record: a Comparative Study,2017,1.0,Achi 2017: the Tenth International Conference on Advances in Computer-human Interactions
+400,Challenges in Design and Creation of Genetic OpenEHR-Archetype,2018,1.0,Building Continents of Knowledge in Oceans of Data: the Future of Co-created Ehealth
+401,A Graphical Representation Model for Electronic Health Records: A Preliminary Study.,2019,1.0,Studies in Health Technology and Informatics
+402,A Practical Exercise on Re-engineering Clinical Guideline Models Using Different Representation Languages,2019,1.0,"Artificial Intelligence in Medicine: Knowledge Representation and Transparent and Explainable Systems, Aime 2019"
+403,Extracting data from general practitioners' XML reports in Bulgarian healthcare to comply with ISO/EN 13606,2019,1.0,ACM International Conference Proceeding Series
+404,Mapping Medication Metadata from the ABDA Data Model to an OpenEHR Medication Archetype: A Qualitative Analysis.,2019,1.0,Studies in Health Technology and Informatics
+405,Using openEHR's Guideline Definition Language for Representing Percutaneous Coronary Intervention Patient Safety Rules in a Dynamic Checklist System.,2019,1.0,Studies in Health Technology and Informatics
+406,Feasibility of Using EN 13606 Clinical Archetypes for Defining Computable Phenotypes.,2020,1.0,Studies in Health Technology and Informatics
+407,A Meta-model for the Guideline Definition Language,2021,1.0,Proceedings of the 16th International Conference on Software Technologies (icsoft)
+408,Mapping of OpenEHR Archetypes to FHIR Resources in Use Case Oncology.,2021,1.0,Studies in Health Technology and Informatics
+409,Utilising the FOXS Stack for FAIR Architected Data Access.,2021,1.0,Studies in Health Technology and Informatics
+410,openEHR Based Contextual Problem List.,2021,1.0,Studies in Health Technology and Informatics
+411,Modelling clinical knowledge,2022,1.0,Roadmap to Successful Digital Health Ecosystems: A Global Perspective
+412,The road to interoperability: OpenEHR modelling and implementation,2022,1.0,Roadmap to Successful Digital Health Ecosystems: A Global Perspective
+413,Accelerate Clinical Decision Support System Development by Converting Ontology to OpenEHR Archetypes,2023,1.0,"2023 9th International Conference on Big Data and Information Analytics, BigDIA 2023 - Proceedings"
+414,Occupational health assessment summary designed for semantic interoperability.,2023,1.0,International Journal of Medical Informatics
+415,Transforming Medical Data into Ontologies for Improving Semantic Interoperability,2023,1.0,Lecture Notes in Networks and Systems
+416,An In-Depth Exploration of Mapping openEHR and PGHD: A Case Study on Fitbit-Generated Data.,2024,1.0,Studies in Health Technology and Informatics
+417,Development and implementation of a guideline-based decision support system for etiological diagnosis of Sustained Monomorphic Ventricular Tachycardia (SMVT),2024,1.0,European Heart Journal
+418,EXCHANGE OF OCCUPATIONAL HEALTH ASSESSMENT SUMMARIES BASED ON THE EN 13606 STANDARD,2024,1.0,"Annual of Sofia University ""St. Kliment Ohridski"" Faculty of Mathematics and Informatics"
+419,Federated Electronic Health Records Using a Blockchain.,2024,1.0,Studies in Health Technology and Informatics
+420,Implementation of an Atrioventricular Valve Intervention Registry: Comparative Study of REDCap vs. CDR-Based openEHR Registry.,2024,1.0,Studies in Health Technology and Informatics
+421,Querying Healthcare Data in Knowledge-Based Systems,2024,1.0,"Big Data Analytics in Astronomy, Science, and Engineering, Bda 2023"
+422,Structured Queries to AQL: Querying OpenEHR Data Leveraging a FHIR-Based Infrastructure for Federated Feasibility Queries.,2024,1.0,Studies in Health Technology and Informatics
+423,Application of the openEHR reference model for PGHD: A case study on the DH-Convener initiative.,2025,1.0,International Journal of Medical Informatics
+424,Automation of hospital workflows using international standards: A case study with imaging exams.,2025,1.0,Computer Methods and Programs in Biomedicine
+425,Architecture models to facilitate communication of clinical information,1999,0.0,Methods of Information in Medicine
+426,Structuring clinical information in healthcare records,1999,0.0,Studies in Health Technology and Informatics
+427,Integration of distributed healthcare information systems: application of CEN/TC251 ENV13606,2001,0.0,2001 Conference Proceedings of the 23rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+428,Standards supporting interoperability and EHCR communication-A CEN TC251 perspective,2002,0.0,Studies in Health Technology and Informatics
+429,A conceptual model for documentation of clinical information in the EHR,2003,0.0,Studies in Health Technology and Informatics
+430,Integration of distributed healthcare records: publishing legacy data as XML documents compliant with CEN/TC251 ENV13606,2003,0.0,"16th IEEE Symposium Computer-Based Medical Systems, 2003. Proceedings."
+431,Archetypes: the PropeR way.,2004,0.0,Studies in Health Technology and Informatics
+432,Making two-level standards work in legacy communication frameworks.,2005,0.0,Studies in Health Technology and Informatics
+433,The openEHR Foundation.,2005,0.0,Studies in Health Technology and Informatics
+434,EN13606 overview and compatibility with the Romanian Healthcare system,2008,0.0,"2008 Ieee International Conference on Automation, Quality and Testing, Robotics (aqtr 2008), Theta 16th Edition, Vol Iii, Proceedings"
+435,Concept Matching between OpenEHR and SONHO,2009,0.0,Open Source in European Health Care: the Time Is Ripe
+436,HL7 Template Model and EN/ISO 13606 Archetype Object Model - A Comparison,2009,0.0,Medical Informatics in A United and Healthy Europe
+437,Implementation Guidelines for an End-to-End Standard-based Platform for Personal Health,2009,0.0,2009 Fourth International Multi-conference on Computing in the Global Information Technology (iccgi 2009)
+438,TOWARDS INTEROPERABILITY IN e-HEALTH SYSTEMS A Three-Dimensional Approach based on Standards and Semantics,2009,0.0,Healthinf 2009: Proceedings of the International Conference on Health Informatics
+439,Validation of Standardized and Structured EHR Data in the Dual Model Approach,2009,0.0,Medical Informatics in A United and Healthy Europe
+440,Bridging the HL7 Template-13606 Archetype gap with Detailed Clinical Models,2010,0.0,"Medinfo 2010, Pts I and Ii"
+441,Innovation and openness --- Is there room for both,2010,0.0,Health Care and Informatics Review Online
+442,Creating ISO/EN 13606 Archetypes Based on Clinical Information Needs,2011,0.0,E-health Across Borders Without Boundaries: E-salus Trans Confinia Sine Finibus
+443,Generating context-awarness interface for medical applications,2011,0.0,"Proceedings - 4th International Conference on Developments in eSystems Engineering, DeSE 2011"
+444,Supporting technically the continuity of medical care: Status report and perspectives,2011,0.0,"International Telecommunication Union - Proceedings of the 2011 ITU Kaleidoscope Academic Conference: The Fully Networked Human Innovations for Future Networks and Services, K-2011"
+445,The Archetype-Enabled EHR System ZK-ARCHE - Integrating the ISO/EN 13606 Standard and IHE XDS Profile,2011,0.0,User Centred Networked Health Care
+446,The intersection of clinical decision support and electronic health record: A literature review,2011,0.0,"2011 Federated Conference on Computer Science and Information Systems, FedCSIS 2011"
+447,Validation of the openEHR Archetype Library by using OWL Reasoning,2011,0.0,User Centred Networked Health Care
+448,Archetype based search in an IHE XDS Environment,2012,0.0,Quality of Life Through Quality of Information
+449,Revisiting ontological foundations of the OpenEHR entry model,2012,0.0,CEUR Workshop Proceedings
+450,Standardized EHR Interoperability Preliminary Results of a German Pilot Project using the Archetype Methodology,2012,0.0,Quality of Life Through Quality of Information
+451,An Analysis of the Openehr Archetype Semantics Based on a Typed Lambda Theory,2013,0.0,"Medinfo 2013: Proceedings of the 14th World Congress on Medical and Health Informatics, Pts 1 and 2"
+452,An Approach for Message Exchange Using Archetypes,2013,0.0,"Medinfo 2013: Proceedings of the 14th World Congress on Medical and Health Informatics, Pts 1 and 2"
+453,Development and implementation of an openEHR archetype for HIV/AIDS diagnosis,2013,0.0,HEALTHINF 2013 - Proceedings of the International Conference on Health Informatics
+454,Electronic health records interoperability by archetype based contexts,2013,0.0,Studies in Fuzziness and Soft Computing
+455,Isosemantic Rendering of Clinical Information Using Formal Ontologies and RDF,2013,0.0,"Medinfo 2013: Proceedings of the 14th World Congress on Medical and Health Informatics, Pts 1 and 2"
+456,Application of UML connectors for arranging medical archetypes into a knowledge base,2014,0.0,"HEALTHINF 2014 - 7th International Conference on Health Informatics, Proceedings; Part of 7th International Joint Conference on Biomedical Engineering Systems and Technologies, BIOSTEC 2014"
+457,Arranging ISO 13606 Archetypes into a Knowledge Base Using UML Connectors,2014,0.0,Cross-border Challenges in Informatics With A Focus on Disease Surveillance and Utilising Big Data
+458,Contributions to promote the adequacy of an approach based on services to EHR,2014,0.0,"Iberian Conference on Information Systems and Technologies, CISTI"
+459,EHR anonymising system based on the ISO/EN 13606 norm,2014,0.0,IFMBE Proceedings
+460,Orchid: Clinician-led health informatics,2014,0.0,Rheumatology
+461,Public electronic health record platform compliant with the ISO EN13606 standard as support to research groups,2014,0.0,IFMBE Proceedings
+462,Using MDD to the automatic synthesis of graphical user interfaces for health information systems,2014,0.0,CIBSE 2014: Proceedings of the 17th Ibero-American Conference Software Engineering
+463,A Process for the Representation of openEHR ADL Archetypes in OWL Ontologies,2015,0.0,Medinfo 2015: Ehealth-enabled Health
+464,"Design and deployment of eHealth interventions using behavior change techniques, BPMN2 and OpenEHR",2015,0.0,"2015 IEEE 11th International Conference on Wireless and Mobile Computing, Networking and Communications, WiMob 2015"
+465,Development of ISO 13606 archetypes for the standardisation of data registration in the Primary Care environment,2015,0.0,Digital Healthcare Empowering Europeans
+466,"ISO 13606 based system for biomedical parameter storage, querying and alarm detection",2015,0.0,Digital Healthcare Empowering Europeans
+467,Interoperable Archetypes With a Three Folded Terminology Governance,2015,0.0,Medinfo 2015: Ehealth-enabled Health
+468,Modulation of existent obstetrics EHRs to the openEHR specification,2015,0.0,"HEALTHINF 2015 - 8th International Conference on Health Informatics, Proceedings; Part of 8th International Joint Conference on Biomedical Engineering Systems and Technologies, BIOSTEC 2015"
+469,Normalized medical information visualization,2015,0.0,Digital Healthcare Empowering Europeans
+470,The Contextualization of Archetypes: Clinical Template Governance,2015,0.0,"Context Sensitive Health Informatics: Many Places, Many Users, Many Contexts, Many Uses"
+471,Towards the Implementation of an openEHR-based Open Source EHR Platform (a vision paper),2015,0.0,Medinfo 2015: Ehealth-enabled Health
+472,Web application for data exchange and follow-up in Heart Rate Turbulence,2015,0.0,Computing in Cardiology
+473,Epidemiological queries in archetype-based electronic health records using hadoop and dewey encoding of open EHR models,2016,0.0,European Journal of Epidemiology
+474,Evaluation of a Framework to Implement Electronic Health Record Systems Based on the openEHR Standard,2016,0.0,Journal of Physics: Conference Series
+475,Open EHR: Generating and maintaining information models for structured data in renal biopsy reporting,2016,0.0,Virchows Archiv
+476,OpenEHR platform concept for semantic interoperability in project HaMSTR,2016,0.0,Biomedizinische Technik
+477,Developing the First Generally-Available openEHR Archetypes and Templates for Physiotherapy: An Example of Building Clinical Models and Modelling Capacity via Student-Led Academic-Industrial Collaboration,2017,0.0,Medinfo 2017: Precision Healthcare Through Informatics
+478,Evaluating openEHR for storing computable representations of electronic health record phenotyping algorithms,2017,0.0,2017 Ieee 30th International Symposium on Computer-based Medical Systems (cbms)
+479,Exploiting Temporal Constraints of Clinical Guidelines by Applying OpenEHR Archetypes,2017,0.0,Medinfo 2017: Precision Healthcare Through Informatics
+480,Generation of openEHR Test Datasets for Benchmarking,2017,0.0,Medinfo 2017: Precision Healthcare Through Informatics
+481,Mapping HL7 CDA R2 Formatted Mass Screening Data to OpenEHR Archetypes,2017,0.0,Medinfo 2017: Precision Healthcare Through Informatics
+482,Patient's Adherence Level Determination System,2017,0.0,Medinfo 2017: Precision Healthcare Through Informatics
+483,The intellectual information system of medical aid control in the scope of Russian medical insurance,2017,0.0,Journal of Physics: Conference Series
+484,The ‘holy grail’ of interoperability of health information systems: Challenges and implications,2017,0.0,Lecture Notes in Business Information Processing
+485,To OpenEHR is human: A clinician's perspective,2017,0.0,Irish Journal of Medical Science
+486,iT2DM Project: A Framework for Secondary Use of EHR Data for High-Throughput Phenotyping in Diabetes,2017,0.0,Medinfo 2017: Precision Healthcare Through Informatics
+487,A teaching ehr for delivery of small group cases,2018,0.0,FASEB Journal
+488,Process Analysis and Decision Support Tools in Parenteral Nutrition in Children,2018,0.0,Decision Support Systems and Education: Help and Support in Healthcare
+489,Designing Archetype Models for Each Step of Workflow in Medication.,2019,0.0,Studies in Health Technology and Informatics
+490,From ObsCare Software to an OpenEHR Platform: Modelling Obstetric Archetypes,2019,0.0,Ict for Health Science Research
+491,Pharros - A pilot project to create a standards-based computerized decision support system for therapeutic drug monitoring (tdm),2019,0.0,European Journal of Clinical Pharmacology
+492,Clinical Decision Support Using Open Data,2020,0.0,"Trends and Innovations in Information Systems and Technologies, Vol 3"
+493,An OpenEHR Template with the Integrated German LOINC Terms.,2021,0.0,Studies in Health Technology and Informatics
+494,Development of a clinical decision support system for the detection of sirs after surgery for congenital heart disease,2022,0.0,Thoracic and Cardiovascular Surgeon
+495,Evidence-based biomedical information systems: The road ahead,2022,0.0,Roadmap to Successful Digital Health Ecosystems: A Global Perspective
+496,Remote Patient Monitoring for Healthcare: A Big Challenge for Big Data,2022,0.0,"Research Anthology on Big Data Analytics, Architectures, and Applications"
+497,Achieving Interoperable Datasets in Pediatrics: A Data Integration Approach.,2023,0.0,Studies in Health Technology and Informatics
+498,Digital Analysis of Clinical Screening Criteria for a Rare Disease - Behcet's Disease.,2023,0.0,Studies in Health Technology and Informatics
+499,An Open Information Model-Based Repository for Sustainable Re-Use of Heterogeneous Pandemics Research Data.,2024,0.0,Studies in Health Technology and Informatics
+500,Challenges and Lessons Learned in Mapping HL7 v2 Data to openEHR: Insights from UKSH Medical Data Integration Center.,2024,0.0,Studies in Health Technology and Informatics
+501,Development and Implementation of an Integrated Standard e-Prescription Model in Alignment with Iranian National EHR.,2024,0.0,Studies in Health Technology and Informatics
+502,Improving Healthcare Quality with a LHS: From Patient-Generated Health Data to Evidence-Based Recommendations.,2024,0.0,Studies in Health Technology and Informatics
+503,Integration of Oncological Data into openEHR: A Path Towards Improved Cancer Care and Research.,2024,0.0,Studies in Health Technology and Informatics
+504,Semantic Mapping of Named-Entities in openEHR Templates and Ad-hoc Generation of Compositions.,2024,0.0,Studies in Health Technology and Informatics
+505,Standardizing Care for Huntington's Disease: The Development of an openEHR Template for Motor Symptoms,2024,0.0,Procedia Computer Science
+506,The Use of OpenEHR Archetypes in Requirements Elicitation: Best Practices for Engaging Domain Experts in Healthcare Software Development,2024,0.0,IEEE Access
+507,Transforming Healthcare Data: How OpenEHR is Revolutionizing AI-Driven Business Analytics,2024,0.0,Procedia Computer Science
+508,"A Framework for Extracting, and Validating Named-Entities to Integrate Openehr Using the Example of Free Text Molecular Genetic Findings.",2025,0.0,Studies in Health Technology and Informatics
+509,A structured approach for data collection and visualization of the International Childhood Cancer Core Outcomes,2025,0.0,EJC Paediatric Oncology
+510,An Ontology-Based Web Platform for Medical Care on Transatlantic Cruises,2025,0.0,Frontiers in Artificial Intelligence and Applications
+511,An openEHR Approach to Nutritional Risk Screening,2025,0.0,Procedia Computer Science
+512,"Comparison of eHealth Interoperability Standards: HL7 FHIR, OpenEHR, and CDISC",2025,0.0,Lecture Notes in Networks and Systems
+513,Designing a Decision Logic System Using the OpenEHR Decision Language,2025,0.0,"Computational Science and Computational Intelligence, Csci 2024, Pt Vii"
+514,Generating openEHR Archetypes and Templates with Annotated Mindmap Models.,2025,0.0,Annual International Conference of the IEEE Engineering in Medicine and Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International Conference
+515,Implementing Ontology-Driven Care Pathways Using UML Activity Diagrams.,2025,0.0,Studies in Health Technology and Informatics
+516,"Integrating Data Science and AI in Disease Screening: A Scalable, Interoperable Software Architecture Proposal",2025,0.0,Procedia Computer Science
+517,MedEForm: Medical Data Mobile App,2025,0.0,Frontiers in Artificial Intelligence and Applications
+518,New openEHR technology and clinical collaboration in vital steps toward improved patient care and true interoperability: Scotland's first digital ReSPECT emergency care plan.,2025,0.0,BMJ Health and Care Informatics
+519,Open Electronic Health Record Mechanism for Interoperable Cloud Performance and Confidentiality,2025,0.0,"3rd International Conference on Electronics and Renewable Systems, ICEARS 2025 - Proceedings"
+520,QueryViz: Visual Query Interface for Standardized Electronic Health Records,2025,0.0,"2025 17th International Conference on Contemporary Computing, IC3 2025"
+521,"The Netherlands Childhood Cancer Registry, a Quality Registry",2025,0.0,Pediatric Blood and Cancer
+522,Transferring Structured Medical Data from Hospital to Rehabilitation Facilities Using HL7 FHIR and openEHR.,2025,0.0,Studies in Health Technology and Informatics

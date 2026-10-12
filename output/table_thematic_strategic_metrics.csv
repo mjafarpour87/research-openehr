@@ -1,0 +1,8 @@
+Category,Frequency,Num_Neighbors,Centrality,Density,Is_Isolate,Quadrant,Bubble_Area
+Technical integration,318,5,61.0,12.2,False,High centrality / high density,2594.33599625318
+Semantic interoperability,140,5,34.0,6.8,False,High centrality / high density,2226.9419506701756
+Evaluation & impact,77,5,43.0,8.6,False,High centrality / high density,1960.5189720103162
+Comparative assessments,31,4,14.0,3.5,False,Weakly connected themes,1559.581156259877
+Clinical adoption - use,20,4,17.0,4.25,False,High centrality / high density,1370.0350969755405
+Regulatory - governance - ethics,16,0,0.0,0.0,True,Weakly connected themes,1274.9460048252972
+Education - training - human factors,11,5,7.0,1.4,False,Weakly connected themes,1118.2079924046002

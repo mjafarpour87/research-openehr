@@ -1,0 +1,62 @@
+Country,Publications,ISO3,Degree,Weighted_Degree
+Spain,103,ESP,18,24
+Germany,76,DEU,12,18
+Portugal,58,PRT,8,14
+Brazil,44,BRA,11,25
+United Kingdom,37,GBR,16,24
+United States,32,USA,22,39
+China,32,CHN,6,17
+Austria,26,AUT,7,9
+Netherlands,26,NLD,9,25
+Sweden,25,SWE,6,11
+Norway,18,NOR,7,11
+Australia,18,AUS,9,10
+Japan,17,JPN,8,12
+India,14,IND,1,4
+Russia,13,RUS,3,4
+Italy,11,ITA,9,11
+Ireland,9,IRL,2,3
+New Zealand,9,NZL,9,13
+Bulgaria,8,BGR,1,1
+Switzerland,7,CHE,6,11
+South Korea,6,KOR,3,3
+Greece,6,GRC,3,3
+Romania,6,ROU,0,0
+Denmark,5,DNK,2,2
+Slovenia,4,SVN,3,3
+Indonesia,4,IDN,3,3
+Israel,3,ISR,1,2
+Iran,3,IRN,0,0
+Czechia,3,CZE,0,0
+France,3,FRA,6,7
+Canada,3,CAN,0,0
+Taiwan,3,TWN,2,2
+Poland,3,POL,1,1
+Tunisia,2,TUN,1,1
+Morocco,2,MAR,0,0
+Colombia,2,COL,1,1
+Egypt,2,EGY,3,3
+Belgium,1,BEL,1,1
+Argentina,1,ARG,0,0
+Estonia,1,EST,1,1
+Finland,1,FIN,0,0
+Ecuador,1,ECU,1,1
+Bangladesh,1,BGD,1,1
+Chile,1,CHL,2,2
+Croatia,1,HRV,1,1
+Hungary,1,HUN,0,0
+Hong Kong,1,HKG,0,0
+Philippines,1,PHL,6,6
+Pakistan,1,PAK,1,1
+Malaysia,1,MYS,2,2
+Macao,1,MAC,2,2
+Kenya,1,KEN,2,2
+Mexico,1,MEX,2,2
+Peru,1,PER,2,2
+Sri Lanka,1,LKA,0,0
+Serbia,1,SRB,0,0
+Singapore,1,SGP,0,0
+Rwanda,1,RWA,6,6
+South Africa,1,ZAF,0,0
+Uruguay,1,URY,0,0
+Venezuela,1,VEN,1,1

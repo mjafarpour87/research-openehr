@@ -1,0 +1,7 @@
+Metric,Value
+Unique raw keyword forms,2132
+Unique cleaned keyword forms,1673
+Keywords with document frequency >= 5,126
+Connected keywords after edge threshold >= 2,126
+Observed eligible keyword pairs,2195
+Retained network edges,939

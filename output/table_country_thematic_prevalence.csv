@@ -1,0 +1,170 @@
+Country,Themes,Theme_Publications,Country_Publications,Theme_Prevalence_%
+Argentina,Evaluation & impact,1,1,100.0
+Australia,Clinical adoption - use,1,18,5.56
+Australia,Comparative assessments,1,18,5.56
+Australia,Education - training - human factors,1,18,5.56
+Australia,Evaluation & impact,4,18,22.22
+Australia,Regulatory - governance - ethics,2,18,11.11
+Australia,Semantic interoperability,5,18,27.78
+Australia,Technical integration,5,18,27.78
+Austria,Comparative assessments,2,26,7.69
+Austria,Evaluation & impact,4,26,15.38
+Austria,Semantic interoperability,5,26,19.23
+Austria,Technical integration,16,26,61.54
+Bangladesh,Technical integration,1,1,100.0
+Belgium,Semantic interoperability,1,1,100.0
+Belgium,Technical integration,1,1,100.0
+Brazil,Clinical adoption - use,1,44,2.27
+Brazil,Comparative assessments,1,44,2.27
+Brazil,Education - training - human factors,1,44,2.27
+Brazil,Evaluation & impact,8,44,18.18
+Brazil,Regulatory - governance - ethics,1,44,2.27
+Brazil,Semantic interoperability,11,44,25.0
+Brazil,Technical integration,28,44,63.64
+Bulgaria,Semantic interoperability,6,8,75.0
+Bulgaria,Technical integration,4,8,50.0
+Canada,Comparative assessments,1,3,33.33
+Canada,Semantic interoperability,1,3,33.33
+Canada,Technical integration,1,3,33.33
+Chile,Evaluation & impact,1,1,100.0
+China,Clinical adoption - use,1,32,3.12
+China,Comparative assessments,2,32,6.25
+China,Evaluation & impact,3,32,9.38
+China,Semantic interoperability,8,32,25.0
+China,Technical integration,20,32,62.5
+Colombia,Clinical adoption - use,1,2,50.0
+Colombia,Semantic interoperability,1,2,50.0
+Croatia,Technical integration,1,1,100.0
+Czechia,Semantic interoperability,2,3,66.67
+Czechia,Technical integration,2,3,66.67
+Denmark,Comparative assessments,1,5,20.0
+Denmark,Semantic interoperability,1,5,20.0
+Denmark,Technical integration,3,5,60.0
+Ecuador,Semantic interoperability,1,1,100.0
+Egypt,Comparative assessments,1,2,50.0
+Egypt,Semantic interoperability,1,2,50.0
+Estonia,Comparative assessments,1,1,100.0
+Estonia,Semantic interoperability,1,1,100.0
+Finland,Clinical adoption - use,1,1,100.0
+France,Comparative assessments,1,3,33.33
+France,Semantic interoperability,1,3,33.33
+France,Technical integration,1,3,33.33
+Germany,Clinical adoption - use,2,76,2.63
+Germany,Comparative assessments,3,76,3.95
+Germany,Education - training - human factors,1,76,1.32
+Germany,Evaluation & impact,16,76,21.05
+Germany,Regulatory - governance - ethics,3,76,3.95
+Germany,Semantic interoperability,19,76,25.0
+Germany,Technical integration,45,76,59.21
+Greece,Semantic interoperability,1,6,16.67
+Greece,Technical integration,5,6,83.33
+Hong Kong,Technical integration,1,1,100.0
+Hungary,Technical integration,1,1,100.0
+India,Comparative assessments,2,14,14.29
+India,Evaluation & impact,3,14,21.43
+India,Semantic interoperability,5,14,35.71
+India,Technical integration,9,14,64.29
+Indonesia,Technical integration,4,4,100.0
+Iran,Evaluation & impact,1,3,33.33
+Iran,Technical integration,2,3,66.67
+Ireland,Education - training - human factors,1,9,11.11
+Ireland,Evaluation & impact,1,9,11.11
+Ireland,Semantic interoperability,2,9,22.22
+Ireland,Technical integration,7,9,77.78
+Israel,Comparative assessments,3,3,100.0
+Israel,Technical integration,1,3,33.33
+Italy,Evaluation & impact,2,11,18.18
+Italy,Semantic interoperability,2,11,18.18
+Italy,Technical integration,8,11,72.73
+Japan,Clinical adoption - use,1,17,5.88
+Japan,Comparative assessments,2,17,11.76
+Japan,Education - training - human factors,1,17,5.88
+Japan,Evaluation & impact,5,17,29.41
+Japan,Semantic interoperability,9,17,52.94
+Japan,Technical integration,9,17,52.94
+Kenya,Regulatory - governance - ethics,1,1,100.0
+Macao,Regulatory - governance - ethics,1,1,100.0
+Malaysia,Evaluation & impact,1,1,100.0
+Malaysia,Technical integration,1,1,100.0
+Mexico,Comparative assessments,1,1,100.0
+Morocco,Clinical adoption - use,1,2,50.0
+Morocco,Technical integration,2,2,100.0
+Netherlands,Comparative assessments,1,26,3.85
+Netherlands,Evaluation & impact,5,26,19.23
+Netherlands,Semantic interoperability,5,26,19.23
+Netherlands,Technical integration,16,26,61.54
+New Zealand,Comparative assessments,1,9,11.11
+New Zealand,Education - training - human factors,1,9,11.11
+New Zealand,Evaluation & impact,3,9,33.33
+New Zealand,Semantic interoperability,2,9,22.22
+New Zealand,Technical integration,3,9,33.33
+Norway,Clinical adoption - use,3,18,16.67
+Norway,Education - training - human factors,2,18,11.11
+Norway,Evaluation & impact,1,18,5.56
+Norway,Regulatory - governance - ethics,3,18,16.67
+Norway,Semantic interoperability,3,18,16.67
+Norway,Technical integration,8,18,44.44
+Pakistan,Semantic interoperability,1,1,100.0
+Peru,Comparative assessments,1,1,100.0
+Philippines,Evaluation & impact,1,1,100.0
+Poland,Comparative assessments,2,3,66.67
+Poland,Evaluation & impact,1,3,33.33
+Portugal,Clinical adoption - use,2,58,3.45
+Portugal,Comparative assessments,1,58,1.72
+Portugal,Evaluation & impact,6,58,10.34
+Portugal,Regulatory - governance - ethics,3,58,5.17
+Portugal,Semantic interoperability,13,58,22.41
+Portugal,Technical integration,38,58,65.52
+Romania,Regulatory - governance - ethics,1,6,16.67
+Romania,Technical integration,5,6,83.33
+Russia,Clinical adoption - use,1,13,7.69
+Russia,Education - training - human factors,1,13,7.69
+Russia,Evaluation & impact,2,13,15.38
+Russia,Semantic interoperability,1,13,7.69
+Russia,Technical integration,10,13,76.92
+Rwanda,Evaluation & impact,1,1,100.0
+Serbia,Technical integration,1,1,100.0
+Singapore,Technical integration,1,1,100.0
+Slovenia,Clinical adoption - use,1,4,25.0
+Slovenia,Evaluation & impact,1,4,25.0
+Slovenia,Technical integration,3,4,75.0
+South Africa,Semantic interoperability,1,1,100.0
+South Africa,Technical integration,1,1,100.0
+South Korea,Regulatory - governance - ethics,1,6,16.67
+South Korea,Semantic interoperability,4,6,66.67
+South Korea,Technical integration,1,6,16.67
+Spain,Clinical adoption - use,2,103,1.94
+Spain,Comparative assessments,5,103,4.85
+Spain,Education - training - human factors,1,103,0.97
+Spain,Evaluation & impact,9,103,8.74
+Spain,Regulatory - governance - ethics,1,103,0.97
+Spain,Semantic interoperability,39,103,37.86
+Spain,Technical integration,57,103,55.34
+Sri Lanka,Technical integration,1,1,100.0
+Sweden,Education - training - human factors,1,25,4.0
+Sweden,Evaluation & impact,6,25,24.0
+Sweden,Semantic interoperability,5,25,20.0
+Sweden,Technical integration,17,25,68.0
+Switzerland,Evaluation & impact,4,7,57.14
+Switzerland,Semantic interoperability,2,7,28.57
+Switzerland,Technical integration,2,7,28.57
+Taiwan,Evaluation & impact,1,3,33.33
+Taiwan,Technical integration,2,3,66.67
+Tunisia,Semantic interoperability,1,2,50.0
+Tunisia,Technical integration,1,2,50.0
+United Kingdom,Clinical adoption - use,5,37,13.51
+United Kingdom,Comparative assessments,3,37,8.11
+United Kingdom,Education - training - human factors,1,37,2.7
+United Kingdom,Evaluation & impact,6,37,16.22
+United Kingdom,Regulatory - governance - ethics,1,37,2.7
+United Kingdom,Semantic interoperability,9,37,24.32
+United Kingdom,Technical integration,18,37,48.65
+United States,Clinical adoption - use,2,32,6.25
+United States,Comparative assessments,4,32,12.5
+United States,Education - training - human factors,1,32,3.12
+United States,Evaluation & impact,5,32,15.62
+United States,Regulatory - governance - ethics,4,32,12.5
+United States,Semantic interoperability,8,32,25.0
+United States,Technical integration,12,32,37.5
+Uruguay,Technical integration,1,1,100.0
+Venezuela,Clinical adoption - use,1,1,100.0

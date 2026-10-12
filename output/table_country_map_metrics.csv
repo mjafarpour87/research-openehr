@@ -1,0 +1,62 @@
+Country,ISO3,Publications,Citation_Data_Available,Total_Citations,Mean_Citations
+Argentina,ARG,1,1,0.0,0.0
+Australia,AUS,18,17,409.0,24.06
+Austria,AUT,26,24,221.0,9.21
+Bangladesh,BGD,1,1,2.0,2.0
+Belgium,BEL,1,1,5.0,5.0
+Brazil,BRA,44,40,754.0,18.85
+Bulgaria,BGR,8,5,10.0,2.0
+Canada,CAN,3,1,1.0,1.0
+Chile,CHL,1,1,6.0,6.0
+China,CHN,32,30,287.0,9.57
+Colombia,COL,2,2,5.0,2.5
+Croatia,HRV,1,1,0.0,0.0
+Czechia,CZE,3,3,8.0,2.67
+Denmark,DNK,5,5,44.0,8.8
+Ecuador,ECU,1,1,1.0,1.0
+Egypt,EGY,2,2,21.0,10.5
+Estonia,EST,1,1,10.0,10.0
+Finland,FIN,1,1,2.0,2.0
+France,FRA,3,3,42.0,14.0
+Germany,DEU,76,74,1044.0,14.11
+Greece,GRC,6,5,27.0,5.4
+Hong Kong,HKG,1,1,3.0,3.0
+Hungary,HUN,1,1,0.0,0.0
+India,IND,14,14,48.0,3.43
+Indonesia,IDN,4,4,15.0,3.75
+Iran,IRN,3,3,28.0,9.33
+Ireland,IRL,9,8,104.0,13.0
+Israel,ISR,3,3,70.0,23.33
+Italy,ITA,11,11,51.0,4.64
+Japan,JPN,17,17,196.0,11.53
+Kenya,KEN,1,1,5.0,5.0
+Macao,MAC,1,1,2.0,2.0
+Malaysia,MYS,1,1,53.0,53.0
+Mexico,MEX,1,1,1.0,1.0
+Morocco,MAR,2,2,52.0,26.0
+Netherlands,NLD,26,25,307.0,12.28
+New Zealand,NZL,9,9,109.0,12.11
+Norway,NOR,18,18,199.0,11.06
+Pakistan,PAK,1,1,12.0,12.0
+Peru,PER,1,1,1.0,1.0
+Philippines,PHL,1,1,16.0,16.0
+Poland,POL,3,3,25.0,8.33
+Portugal,PRT,58,58,393.0,6.78
+Romania,ROU,6,6,28.0,4.67
+Russia,RUS,13,13,96.0,7.38
+Rwanda,RWA,1,1,16.0,16.0
+Serbia,SRB,1,1,13.0,13.0
+Singapore,SGP,1,1,2.0,2.0
+Slovenia,SVN,4,4,22.0,5.5
+South Africa,ZAF,1,1,2.0,2.0
+South Korea,KOR,6,5,71.0,14.2
+Spain,ESP,103,101,1256.0,12.44
+Sri Lanka,LKA,1,1,4.0,4.0
+Sweden,SWE,25,25,469.0,18.76
+Switzerland,CHE,7,7,74.0,10.57
+Taiwan,TWN,3,3,25.0,8.33
+Tunisia,TUN,2,2,13.0,6.5
+United Kingdom,GBR,37,37,421.0,11.38
+United States,USA,32,32,464.0,14.5
+Uruguay,URY,1,1,0.0,0.0
+Venezuela,VEN,1,1,3.0,3.0
