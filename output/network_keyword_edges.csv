@@ -5,8 +5,8 @@ ehr,semantic interoperability,36
 ehr,semantics,31
 archetype,interoperability,30
 interoperability,semantics,30
-archetype,semantic interoperability,28
 ehr,records management,28
+archetype,semantic interoperability,27
 semantic interoperability,semantics,27
 health care,interoperability,25
 interoperability,medical computing,25
@@ -141,7 +141,6 @@ archetype,en 13606,5
 archetype,knowledge management,5
 archetype,medical informatics,5
 archetype,owl,5
-archetype,pervasive healthcare,5
 archetype,records management,5
 architecture,ehr,5
 article,ehr,5
@@ -196,7 +195,6 @@ interoperability,standards,5
 iso 13606,semantic interoperability,5
 iso 13606,semantics,5
 knowledge representation,semantics,5
-pervasive healthcare,semantic interoperability,5
 semantic interoperability,snomed ct,5
 semantic interoperability,terminology,5
 semantics,standardization,5
@@ -220,6 +218,7 @@ archetype,information use,4
 archetype,medical information system,4
 archetype,models,4
 archetype,nosql database,4
+archetype,pervasive healthcare,4
 archetype,terminology,4
 architecture,interoperability,4
 article,medical informatics,4
@@ -329,6 +328,7 @@ medical informatics,ontology,4
 medical record,medical records system,4
 ontology,owl,4
 ontology,semantic interoperability,4
+pervasive healthcare,semantic interoperability,4
 pervasive healthcare,ubiquitous computing,4
 records management,telemedicine,4
 semantics,terminology,4
@@ -340,7 +340,6 @@ archetype,covid-19,3
 archetype,data warehouse,3
 archetype,health level 7,3
 archetype,health record,3
-archetype,hospital information system,3
 archetype,information modeling,3
 archetype,nutrition,3
 archetype,software design,3
@@ -527,6 +526,7 @@ archetype,digital storage,2
 archetype,electronic data interchange,2
 archetype,graphical user interface,2
 archetype,healthcare system,2
+archetype,hospital information system,2
 archetype,informatics,2
 archetype,information management,2
 archetype,information theory,2

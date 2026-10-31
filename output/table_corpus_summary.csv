@@ -1,19 +1,19 @@
 Indicator,Value
-Publications,544
+Publications,542
 First publication year,1999
 Last publication year,2025
-"Citation data available, n",522
-"Citation data missing, n",22
-"Citation data coverage, %",95.96
-Total citations,5832.0
-Mean citations per publication,11.17
+"Citation data available, n",521
+"Citation data missing, n",21
+"Citation data coverage, %",96.13
+Total citations,5827.0
+Mean citations per publication,11.18
 Median citations,5.0
 Citation IQR (Q1-Q3),1.00-13.00
-"Cited publications, % of corpus",77.94
-"Verified uncited publications, % of corpus",18.01
-"Verified uncited publications, % of citation-known records",18.77
+"Cited publications, % of corpus",78.04
+"Verified uncited publications, % of corpus",18.08
+"Verified uncited publications, % of citation-known records",18.81
 h-index,36
 i10-index,170
-Unique authors,1642
+Unique authors,1639
 Unique keywords,2132
 Unique affiliation countries (raw labels),64

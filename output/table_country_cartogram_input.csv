@@ -2,13 +2,13 @@ Rank,Country,ISO3,Publications,Citation_Data_Available,Total_Citations,Mean_Cita
 1,Spain,ESP,103,101,1256.0,12.44,2,98.06
 2,Germany,DEU,76,74,1044.0,14.11,2,97.37
 3,Portugal,PRT,58,58,393.0,6.78,0,100.0
-4,Brazil,BRA,44,40,754.0,18.85,4,90.91
+4,Brazil,BRA,42,39,749.0,19.21,3,92.86
 5,United Kingdom,GBR,37,37,421.0,11.38,0,100.0
 6,United States,USA,32,32,464.0,14.5,0,100.0
 7,China,CHN,32,30,287.0,9.57,2,93.75
 8,Austria,AUT,26,24,221.0,9.21,2,92.31
-9,Netherlands,NLD,26,25,307.0,12.28,1,96.15
-10,Sweden,SWE,25,25,469.0,18.76,0,100.0
+9,Sweden,SWE,25,25,469.0,18.76,0,100.0
+10,Netherlands,NLD,25,25,307.0,12.28,0,100.0
 11,Norway,NOR,18,18,199.0,11.06,0,100.0
 12,Australia,AUS,18,17,409.0,24.06,1,94.44
 13,Japan,JPN,17,17,196.0,11.53,0,100.0

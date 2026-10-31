@@ -3,8 +3,8 @@ All notable changes to this project will be documented in this file.
 We use [Semantic Versioning](https://semver.org/)
 
 
-## Task
-
+## [v2.0.5] - 2026-10-31
+- Two duplicated find - Update Calculate
 
 ## [v2.0.4] - 2026-10-04
 - Improve Documentation
