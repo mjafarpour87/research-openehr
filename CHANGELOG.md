@@ -2,6 +2,8 @@
 All notable changes to this project will be documented in this file.
 We use [Semantic Versioning](https://semver.org/)
 
+## [v2.0.6]
+- Recalculation of citations based on the reviewer's feedback
 
 ## [v2.0.5] - 2026-10-31
 - Two duplicated find - Update Calculate
