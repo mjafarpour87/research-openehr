@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 We use [Semantic Versioning](https://semver.org/)
 
+## [v2.0.7]
+- Update Cartogram & Co-occurrence VOSviewer Picture
+
 ## [v2.0.6]
 - Recalculation of citations based on the reviewer's feedback
 

@@ -1,0 +1,1089 @@
+﻿{
+	"network": {
+		"items": [
+			{
+				"id": "Spain",
+				"label": "Spain",
+				"x": 0.6623,
+				"y": -0.0826,
+				"cluster": 1,
+				"weights": {
+					"Links": 18.0000,
+					"Total link strength": 24.0000,
+					"User-defined weight": 103.0000
+				}
+			},
+			{
+				"id": "Germany",
+				"label": "Germany",
+				"x": -0.1044,
+				"y": 0.4062,
+				"cluster": 3,
+				"weights": {
+					"Links": 12.0000,
+					"Total link strength": 18.0000,
+					"User-defined weight": 76.0000
+				}
+			},
+			{
+				"id": "Portugal",
+				"label": "Portugal",
+				"x": -0.1934,
+				"y": 0.1764,
+				"cluster": 2,
+				"weights": {
+					"Links": 8.0000,
+					"Total link strength": 14.0000,
+					"User-defined weight": 58.0000
+				}
+			},
+			{
+				"id": "Brazil",
+				"label": "Brazil",
+				"x": -0.3116,
+				"y": 0.2894,
+				"cluster": 2,
+				"weights": {
+					"Links": 11.0000,
+					"Total link strength": 24.0000,
+					"User-defined weight": 42.0000
+				}
+			},
+			{
+				"id": "United Kingdom",
+				"label": "United Kingdom",
+				"x": -0.7219,
+				"y": -0.1547,
+				"cluster": 5,
+				"weights": {
+					"Links": 16.0000,
+					"Total link strength": 24.0000,
+					"User-defined weight": 37.0000
+				}
+			},
+			{
+				"id": "United States",
+				"label": "United States",
+				"x": -0.3612,
+				"y": 0.0236,
+				"cluster": 5,
+				"weights": {
+					"Links": 22.0000,
+					"Total link strength": 39.0000,
+					"User-defined weight": 32.0000
+				}
+			},
+			{
+				"id": "China",
+				"label": "China",
+				"x": -0.2508,
+				"y": -0.1077,
+				"cluster": 2,
+				"weights": {
+					"Links": 6.0000,
+					"Total link strength": 17.0000,
+					"User-defined weight": 32.0000
+				}
+			},
+			{
+				"id": "Austria",
+				"label": "Austria",
+				"x": -0.2880,
+				"y": 0.5009,
+				"cluster": 3,
+				"weights": {
+					"Links": 7.0000,
+					"Total link strength": 9.0000,
+					"User-defined weight": 26.0000
+				}
+			},
+			{
+				"id": "Sweden",
+				"label": "Sweden",
+				"x": -0.2897,
+				"y": 0.3259,
+				"cluster": 2,
+				"weights": {
+					"Links": 6.0000,
+					"Total link strength": 11.0000,
+					"User-defined weight": 25.0000
+				}
+			},
+			{
+				"id": "Netherlands",
+				"label": "Netherlands",
+				"x": -0.3659,
+				"y": 0.1432,
+				"cluster": 2,
+				"weights": {
+					"Links": 9.0000,
+					"Total link strength": 24.0000,
+					"User-defined weight": 25.0000
+				}
+			},
+			{
+				"id": "Norway",
+				"label": "Norway",
+				"x": -0.5883,
+				"y": -0.3291,
+				"cluster": 4,
+				"weights": {
+					"Links": 7.0000,
+					"Total link strength": 11.0000,
+					"User-defined weight": 18.0000
+				}
+			},
+			{
+				"id": "Australia",
+				"label": "Australia",
+				"x": -0.2446,
+				"y": 0.0922,
+				"cluster": 2,
+				"weights": {
+					"Links": 9.0000,
+					"Total link strength": 10.0000,
+					"User-defined weight": 18.0000
+				}
+			},
+			{
+				"id": "Japan",
+				"label": "Japan",
+				"x": -1.1242,
+				"y": -0.5206,
+				"cluster": 4,
+				"weights": {
+					"Links": 8.0000,
+					"Total link strength": 12.0000,
+					"User-defined weight": 17.0000
+				}
+			},
+			{
+				"id": "India",
+				"label": "India",
+				"x": -1.2049,
+				"y": -0.5636,
+				"cluster": 4,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 4.0000,
+					"User-defined weight": 14.0000
+				}
+			},
+			{
+				"id": "Russia",
+				"label": "Russia",
+				"x": 0.2517,
+				"y": 0.5051,
+				"cluster": 3,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 4.0000,
+					"User-defined weight": 13.0000
+				}
+			},
+			{
+				"id": "Italy",
+				"label": "Italy",
+				"x": 0.1893,
+				"y": 0.0525,
+				"cluster": 6,
+				"weights": {
+					"Links": 9.0000,
+					"Total link strength": 11.0000,
+					"User-defined weight": 11.0000
+				}
+			},
+			{
+				"id": "Ireland",
+				"label": "Ireland",
+				"x": 0.0060,
+				"y": -0.1501,
+				"cluster": 2,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 3.0000,
+					"User-defined weight": 9.0000
+				}
+			},
+			{
+				"id": "New Zealand",
+				"label": "New Zealand",
+				"x": -0.6628,
+				"y": -0.2483,
+				"cluster": 4,
+				"weights": {
+					"Links": 9.0000,
+					"Total link strength": 13.0000,
+					"User-defined weight": 9.0000
+				}
+			},
+			{
+				"id": "Switzerland",
+				"label": "Switzerland",
+				"x": -0.2972,
+				"y": 0.4974,
+				"cluster": 3,
+				"weights": {
+					"Links": 6.0000,
+					"Total link strength": 11.0000,
+					"User-defined weight": 7.0000
+				}
+			},
+			{
+				"id": "South Korea",
+				"label": "South Korea",
+				"x": 1.7101,
+				"y": -0.2602,
+				"cluster": 1,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 3.0000,
+					"User-defined weight": 6.0000
+				}
+			},
+			{
+				"id": "Greece",
+				"label": "Greece",
+				"x": 0.2738,
+				"y": 0.0008,
+				"cluster": 6,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 3.0000,
+					"User-defined weight": 6.0000
+				}
+			},
+			{
+				"id": "Denmark",
+				"label": "Denmark",
+				"x": 0.4938,
+				"y": -0.0486,
+				"cluster": 6,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 2.0000,
+					"User-defined weight": 5.0000
+				}
+			},
+			{
+				"id": "Slovenia",
+				"label": "Slovenia",
+				"x": 0.4772,
+				"y": -0.0386,
+				"cluster": 6,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 3.0000,
+					"User-defined weight": 4.0000
+				}
+			},
+			{
+				"id": "Indonesia",
+				"label": "Indonesia",
+				"x": 0.4865,
+				"y": -0.0539,
+				"cluster": 6,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 3.0000,
+					"User-defined weight": 4.0000
+				}
+			},
+			{
+				"id": "Israel",
+				"label": "Israel",
+				"x": 0.7879,
+				"y": -0.1016,
+				"cluster": 1,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 2.0000,
+					"User-defined weight": 3.0000
+				}
+			},
+			{
+				"id": "France",
+				"label": "France",
+				"x": -0.1668,
+				"y": 0.1806,
+				"cluster": 2,
+				"weights": {
+					"Links": 6.0000,
+					"Total link strength": 7.0000,
+					"User-defined weight": 3.0000
+				}
+			},
+			{
+				"id": "Taiwan",
+				"label": "Taiwan",
+				"x": -0.3428,
+				"y": 0.4786,
+				"cluster": 3,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 2.0000,
+					"User-defined weight": 3.0000
+				}
+			},
+			{
+				"id": "Poland",
+				"label": "Poland",
+				"x": 1.7323,
+				"y": -0.2690,
+				"cluster": 1,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 1.0000,
+					"User-defined weight": 3.0000
+				}
+			},
+			{
+				"id": "Tunisia",
+				"label": "Tunisia",
+				"x": 0.2634,
+				"y": 0.5237,
+				"cluster": 3,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 1.0000,
+					"User-defined weight": 2.0000
+				}
+			},
+			{
+				"id": "Egypt",
+				"label": "Egypt",
+				"x": 1.7095,
+				"y": -0.2643,
+				"cluster": 1,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 3.0000,
+					"User-defined weight": 2.0000
+				}
+			},
+			{
+				"id": "Estonia",
+				"label": "Estonia",
+				"x": -0.8649,
+				"y": -0.1868,
+				"cluster": 5,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 1.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Ecuador",
+				"label": "Ecuador",
+				"x": 0.7852,
+				"y": -0.1139,
+				"cluster": 1,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 1.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Bangladesh",
+				"label": "Bangladesh",
+				"x": -1.2022,
+				"y": -0.5680,
+				"cluster": 4,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 1.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Chile",
+				"label": "Chile",
+				"x": -0.3130,
+				"y": 0.5574,
+				"cluster": 3,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 2.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Croatia",
+				"label": "Croatia",
+				"x": -0.5015,
+				"y": 0.0020,
+				"cluster": 5,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 1.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Philippines",
+				"label": "Philippines",
+				"x": -0.8406,
+				"y": -0.3740,
+				"cluster": 4,
+				"weights": {
+					"Links": 6.0000,
+					"Total link strength": 6.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Pakistan",
+				"label": "Pakistan",
+				"x": 1.7332,
+				"y": -0.2634,
+				"cluster": 1,
+				"weights": {
+					"Links": 1.0000,
+					"Total link strength": 1.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Malaysia",
+				"label": "Malaysia",
+				"x": -0.2012,
+				"y": 0.4444,
+				"cluster": 3,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 2.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Macao",
+				"label": "Macao",
+				"x": -0.7349,
+				"y": -0.1055,
+				"cluster": 5,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 2.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Kenya",
+				"label": "Kenya",
+				"x": -0.4423,
+				"y": 0.2537,
+				"cluster": 5,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 2.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Mexico",
+				"label": "Mexico",
+				"x": 0.9501,
+				"y": -0.1395,
+				"cluster": 1,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 2.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Peru",
+				"label": "Peru",
+				"x": 0.9501,
+				"y": -0.1388,
+				"cluster": 1,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 2.0000,
+					"User-defined weight": 1.0000
+				}
+			},
+			{
+				"id": "Rwanda",
+				"label": "Rwanda",
+				"x": -0.8431,
+				"y": -0.3710,
+				"cluster": 4,
+				"weights": {
+					"Links": 6.0000,
+					"Total link strength": 6.0000,
+					"User-defined weight": 1.0000
+				}
+			}
+		],
+		"links": [
+			{
+				"source_id": "Spain",
+				"target_id": "Germany",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Portugal",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "United Kingdom",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "United States",
+				"strength": 3.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Austria",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Norway",
+				"strength": 3.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Russia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Italy",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Ireland",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "South Korea",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Greece",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Slovenia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Indonesia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Israel",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Egypt",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Ecuador",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Mexico",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Spain",
+				"target_id": "Peru",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "Brazil",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "United Kingdom",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "United States",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "Austria",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "Sweden",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "Netherlands",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "Australia",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "Russia",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "Italy",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "Switzerland",
+				"strength": 3.0000
+			},
+			{
+				"source_id": "Germany",
+				"target_id": "Malaysia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Portugal",
+				"target_id": "Brazil",
+				"strength": 3.0000
+			},
+			{
+				"source_id": "Portugal",
+				"target_id": "United Kingdom",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Portugal",
+				"target_id": "United States",
+				"strength": 3.0000
+			},
+			{
+				"source_id": "Portugal",
+				"target_id": "Sweden",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Portugal",
+				"target_id": "Australia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Portugal",
+				"target_id": "Italy",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Portugal",
+				"target_id": "France",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Brazil",
+				"target_id": "United Kingdom",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Brazil",
+				"target_id": "United States",
+				"strength": 3.0000
+			},
+			{
+				"source_id": "Brazil",
+				"target_id": "Sweden",
+				"strength": 4.0000
+			},
+			{
+				"source_id": "Brazil",
+				"target_id": "Netherlands",
+				"strength": 6.0000
+			},
+			{
+				"source_id": "Brazil",
+				"target_id": "Italy",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Brazil",
+				"target_id": "Switzerland",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Brazil",
+				"target_id": "France",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Brazil",
+				"target_id": "Malaysia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Brazil",
+				"target_id": "Kenya",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "United States",
+				"strength": 6.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "China",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "Sweden",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "Netherlands",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "Norway",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "Australia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "Japan",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "New Zealand",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "Estonia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "Philippines",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "Macao",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United Kingdom",
+				"target_id": "Rwanda",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "China",
+				"strength": 3.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Austria",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Netherlands",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Norway",
+				"strength": 3.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Australia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Japan",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Italy",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "New Zealand",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Greece",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Indonesia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "France",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Taiwan",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Croatia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Philippines",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Macao",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Kenya",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "United States",
+				"target_id": "Rwanda",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "China",
+				"target_id": "Netherlands",
+				"strength": 7.0000
+			},
+			{
+				"source_id": "China",
+				"target_id": "Australia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "China",
+				"target_id": "Ireland",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "China",
+				"target_id": "New Zealand",
+				"strength": 3.0000
+			},
+			{
+				"source_id": "Austria",
+				"target_id": "Netherlands",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Austria",
+				"target_id": "Switzerland",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Austria",
+				"target_id": "Taiwan",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Austria",
+				"target_id": "Chile",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Sweden",
+				"target_id": "Switzerland",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Sweden",
+				"target_id": "France",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Netherlands",
+				"target_id": "Australia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Netherlands",
+				"target_id": "New Zealand",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Netherlands",
+				"target_id": "Switzerland",
+				"strength": 2.0000
+			},
+			{
+				"source_id": "Norway",
+				"target_id": "Japan",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Norway",
+				"target_id": "New Zealand",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Norway",
+				"target_id": "Philippines",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Norway",
+				"target_id": "Rwanda",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Australia",
+				"target_id": "Italy",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Australia",
+				"target_id": "New Zealand",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Australia",
+				"target_id": "France",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Japan",
+				"target_id": "India",
+				"strength": 4.0000
+			},
+			{
+				"source_id": "Japan",
+				"target_id": "New Zealand",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Japan",
+				"target_id": "Bangladesh",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Japan",
+				"target_id": "Philippines",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Japan",
+				"target_id": "Rwanda",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Russia",
+				"target_id": "Tunisia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Italy",
+				"target_id": "Greece",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Italy",
+				"target_id": "Slovenia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Italy",
+				"target_id": "France",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "New Zealand",
+				"target_id": "Philippines",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "New Zealand",
+				"target_id": "Rwanda",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Switzerland",
+				"target_id": "Chile",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "South Korea",
+				"target_id": "Egypt",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "South Korea",
+				"target_id": "Pakistan",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Denmark",
+				"target_id": "Slovenia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Denmark",
+				"target_id": "Indonesia",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Poland",
+				"target_id": "Egypt",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Philippines",
+				"target_id": "Rwanda",
+				"strength": 1.0000
+			},
+			{
+				"source_id": "Mexico",
+				"target_id": "Peru",
+				"strength": 1.0000
+			}
+		]
+	}
+}

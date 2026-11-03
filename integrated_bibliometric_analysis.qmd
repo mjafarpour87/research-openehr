@@ -1278,6 +1278,55 @@ country_nodes["Weighted_Degree"] = (
 dataframe_to_csv(country_nodes, "network_country_nodes.csv")
 dataframe_to_csv(country_edges, "network_country_edges.csv")
 
+
+# Export country collaboration network for VOSviewer
+# --------------------------------------------------
+
+country_layout = (
+    nx.spring_layout(country_graph, seed=42, weight="weight")
+    if country_graph.number_of_nodes() > 0
+    else {}
+)
+
+country_vosviewer_json = {
+    "network": {
+        "items": [
+            {
+                "id": row.Country,
+                "label": row.Country,
+                "x": round(float(country_layout[row.Country][0]), 6),
+                "y": round(float(country_layout[row.Country][1]), 6),
+                "weight": int(row.Publications),
+            }
+            for row in country_nodes.itertuples(index=False)
+        ],
+        "links": [
+            {
+                "source_id": source,
+                "target_id": target,
+                "strength": int(data["weight"]),
+            }
+            for source, target, data in country_graph.edges(data=True)
+        ],
+    }
+}
+
+if SAVE_MODE:
+    with open(
+        OUTPUT_DIR / "network_country_vosviewer.json",
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            country_vosviewer_json,
+            file,
+            indent=2,
+            ensure_ascii=False,
+        )
+
+
+
+
 if country_graph.number_of_nodes() > 0:
     plt.figure(figsize=(12, 9))
     position = nx.spring_layout(country_graph, seed=42, weight="weight")
@@ -1489,6 +1538,36 @@ plt.grid(alpha=0.25)
 plt.legend()
 plt_savefig(plt, "fig_lotka_author_productivity.jpg")
 plt.close()
+
+
+# Author productivity distribution (bar chart)
+# ---------------------------------------------
+
+plt.figure(figsize=(10, 6))
+
+plt.bar(
+    lotka_distribution["Papers_per_Author"],
+    lotka_distribution["Authors"],
+    edgecolor="black",
+)
+
+plt.xlabel("Number of papers per author (n)", fontsize=12)
+plt.ylabel("Number of authors (A_n)", fontsize=12)
+plt.title(
+    "Distribution of Author Productivity (Lotka Perspective)",
+    fontsize=14,
+)
+
+plt.xticks(lotka_distribution["Papers_per_Author"])
+plt.grid(axis="y", linestyle="--", alpha=0.4)
+plt.tight_layout()
+
+plt_savefig(
+    plt,
+    "lotkas_law_productivity_distribution.jpg"
+)
+plt.close()
+
 
 show_interactive_table(lotka_fit_summary.round(4))
 show_interactive_table(lotka_distribution, paging=True, searching=True, info=True)
